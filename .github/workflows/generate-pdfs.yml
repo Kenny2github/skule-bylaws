@@ -32,6 +32,7 @@ jobs:
           latexmk_use_xelatex: true
 
       - name: Commit and push PDFs
+        if: ${{ steps.changed-files.outputs.all_changed_files != '' }}
         run: |
           shopt -s globstar
           git config user.name github-actions
