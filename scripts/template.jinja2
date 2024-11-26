@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<title>{{ title }} - {{ subtitle }}</title>
+	<link rel="stylesheet" href="main.css" />
+	<style>
+		@page {
+			@top-center {
+				content: '{{ title }}';
+			}
+			@top-right {
+				content: 'Last Revision: ' '{{ revdate }}';
+			}
+		}
+		@page :first {
+			@bottom-right {
+				content: 'LAST REVISED: ' '{{ revdate }}';
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1 class="cover-heading">
+		{{ title }}
+		<br/>{{ subtitle }}
+		<br/>University of Toronto Engineering Society
+	</h1>
+	<h1 class="contents">Contents</h1>
+	<section class="contents">
+	{% for chapter in chapters %}
+		<span></span> <a href="#{{ loop.index0 }}">{{ chapter.title }}</a> <span></span>
+	{% endfor %}
+	</section>
+	{% for chapter in chapters %}
+		{% set c = loop.index0 %}
+		<h1 id="{{ c }}">{{ chapter.title }}</h1>
+		{% for section in chapter.body %}
+			{% set s = loop.index0 %}
+			<h2 id="{{ c }}-{{ s }}">{{ section.title }}</h2>
+			<ol>
+			{% for subsection in section.body %}
+				{% set ss = loop.index0 %}
+				<li id="{{ c }}-{{ s }}-{{ ss }}">
+					{{ subsection.title }}
+					{% if subsection.body %}
+					<ol>
+					{% for subsubsection in subsection.body %}
+						{% set sss = loop.index0 %}
+						<li id="{{ c }}-{{ s }}-{{ ss }}-{{ sss }}">
+							{{ subsubsection.title }}
+							{% if subsubsection.body %}
+							<ol>
+								{% for subsubsubsection in subsubsection.body %}
+								{% set ssss = loop.index0 %}
+								<li id="{{ c }}-{{ s }}-{{ ss }}-{{ sss }}-{{ ssss }}">
+									{{ subsubsubsection.title }}
+								</li>
+								{% endfor %}
+							</ol>
+							{% endif %}
+						</li>
+					{% endfor %}
+					</ol>
+					{% endif %}
+				</li>
+			{% endfor %}
+			</ol>
+		{% endfor %}
+	{% endfor %}
+	<script type="text/javascript">
+		matchMedia('print').addListener(m => {
+			if (!m.matches) return;
+			const spans = Array.from(document.querySelectorAll('section.contents a + span'));
+			const h1s = Array.from(document.querySelectorAll('h1[id]'));
+			// get inch to px conversion
+			const elem = document.createElement('test');
+			elem.style.fontSize = '1in';
+			document.body.appendChild(elem);
+			const inch = +getComputedStyle(elem).fontSize.slice(0, -2);
+			document.body.removeChild(elem);
+
+			for (let i = 0; i < h1s.length; ++i) {
+				spans[i].innerText = Math.floor(h1s[i].getBoundingClientRect().top / (9 * inch)) + 1;
+			}
+		})
+	</script>
+</body>
