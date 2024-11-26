@@ -102,6 +102,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: html-build
+          path: build
 
       - name: Generate PDFs from HTML
         uses: Kenny2github/html-to-pdf-action@v0.2.1
