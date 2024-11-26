@@ -33,6 +33,7 @@ jobs:
           # start builds in parallel
           pids=()
           for f in **/*.md; do
+            if [[ $f =~ (README|LICENSE).* ]]; then continue; fi
             python scripts/md_to_html.py "$f" "build/$(basename "${f%.md}.html")" &
             pids+=($!)
           done
