@@ -13,7 +13,10 @@ import yaml
 
 FILE_RE = r'(?:(?:bylaw|policy)[\w\s-]*|[\w\s-]*policy)?'
 SPLIT_RE = r'\s*,?\s*(?:chapters?|chaps?\.|chs?\.|sections?|secs?\.|ss?\.|§)\s*'
-SECTION_RE = r'([0-9]+)(?:\.([0-9]+)(?:\.([1-9][0-9]*)(?:\.([a-z])(?:\.([ivxlcdm]+))?)?)?)?'
+CHAPTER_SPLIT_RE = r'\s*,?\s*(?:chapters?|chaps?\.|chs?\.)\s*'
+SECTION_SPLIT_RE = r'\s*,?\s*(?:sections?|secs?\.|ss?\.|§)\s*'
+SECTION_RE = r'([0-9]+)(?:\.([0-9]+)(?:\.([1-9][0-9]*)(?:\.?([a-z])(?:\.([ivxlcdm]+))?)?)?)?'
+SUBSECTION_RE = r'([0-9]+)\.([0-9]+)(?:\.([1-9][0-9]*)(?:\.?([a-z])(?:\.([ivxlcdm]+))?)?)?'
 ROMAN = [
     'i', 'ii', 'iii', 'iv', 'v',
     'vi', 'vii', 'viii', 'ix', 'x',
@@ -53,7 +56,7 @@ def make_crossref(m: re.Match) -> str:
         return m.group(0)
 
 def crossref(s: str) -> str:
-    return re.sub(r'(' + FILE_RE + SPLIT_RE + SECTION_RE + r')',
+    return re.sub(fr'({FILE_RE}{CHAPTER_SPLIT_RE}{SECTION_RE}|{FILE_RE}{SECTION_SPLIT_RE}{SUBSECTION_RE})',
                   make_crossref, s, flags=re.I)
 
 class Section(TypedDict):
