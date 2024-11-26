@@ -105,7 +105,7 @@ jobs:
           path: build
 
       - name: Generate PDFs from HTML
-        uses: Kenny2github/html-to-pdf-action@v0.2.4
+        uses: Kenny2github/html-to-pdf-action@v0.2.5
         with:
           htmlFile: ${{ needs.generate-html.outputs.html }}
           outputFile: ${{ needs.generate-html.outputs.pdf }}
