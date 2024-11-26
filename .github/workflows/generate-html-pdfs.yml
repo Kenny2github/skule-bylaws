@@ -60,7 +60,7 @@ jobs:
           } >> "$GITHUB_OUTPUT"
           {
             echo 'pdf<<EOF'
-            ls -1 build/*.html | sed 's/build\/(.+)\.html/\1.pdf/g'
+            ls -1 build/*.html | sed -r 's/build\/(.+)\.html/\1.pdf/g'
             echo EOF
           } >> "$GITHUB_OUTPUT"
 
