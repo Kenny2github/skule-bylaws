@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '**/*.md'
+      - '.github/workflows/*.yml'
   workflow_dispatch:
 
 permissions:
@@ -112,7 +113,7 @@ jobs:
           mv "${{ matrix.file }}" build/index.html
 
       - name: Generate PDFs from HTML
-        uses: ferdinandkeller/html-to-pdf-action@v2
+        uses: ferdinandkeller/html-to-pdf-action@4b09b14
         with:
           source-path: "./build"
           destination-path: ${{ steps.pdf.outputs.file }}
