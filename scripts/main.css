@@ -159,6 +159,11 @@ section.contents span:nth-child(3n+3) {
 	}
 }
 
+@keyframes targeted {
+	0% {text-decoration: underline;}
+	100% {text-decoration: none;}
+}
+
 /* Non-print styling */
 @media screen {
 	thead, tfoot {
@@ -187,6 +192,6 @@ section.contents span:nth-child(3n+3) {
 		visibility: hidden;
 	}
 	:target {
-		text-decoration: underline;
+		animation: targeted 4s;
 	}
 }
