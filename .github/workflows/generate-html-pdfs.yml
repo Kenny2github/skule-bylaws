@@ -113,7 +113,7 @@ jobs:
           mv "${{ matrix.file }}" build/index.html
 
       - name: Generate PDFs from HTML
-        uses: ferdinandkeller/html-to-pdf-action@4b09b14
+        uses: ferdinandkeller/html-to-pdf-action@4b09b14f4b2f6f6f1e3a648a8428bd7d47d1efb0
         with:
           source-path: "./build"
           destination-path: ${{ steps.pdf.outputs.file }}
