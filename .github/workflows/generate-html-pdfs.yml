@@ -14,7 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       html: ${{ steps.set-matrix.outputs.html }}
-      pdf: ${{ steps.set-matrix.outputs.pdf }}
 
     steps:
       - name: Setup Python
@@ -55,12 +54,7 @@ jobs:
         run: |
           {
             echo 'html<<EOF'
-            ls -1 build/*.html
-            echo EOF
-          } >> "$GITHUB_OUTPUT"
-          {
-            echo 'pdf<<EOF'
-            ls -1 build/*.html | sed -r 's/build\/(.+)\.html/\1.pdf/g'
+            ls -1 build/*.html | jq -R -s -c 'split("\n")[:-1]'
             echo EOF
           } >> "$GITHUB_OUTPUT"
 
@@ -94,6 +88,11 @@ jobs:
     name: Generate PDF build
     runs-on: ubuntu-latest
     needs: [generate-html]
+    strategy:
+      fail-fast: true
+      matrix:
+        file: ${{ fromJson(needs.generate-html.outputs.html) }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -104,11 +103,39 @@ jobs:
           name: html-build
           path: build
 
+      - name: Get PDF filename
+        shell: bash
+        id: pdf
+        run: |
+          echo "${{ matrix.file }}" | sed -r 's/build\/(.+)\.html/file=\1.pdf/g' >> "$GITHUB_OUTPUT"
+          echo "${{ matrix.file }}" | sed -r 's/ /-/g;s/[^a-zA-Z0-9_-]//g;s/(.+)/artifact=\1/g' >> "$GITHUB_OUTPUT"
+
       - name: Generate PDFs from HTML
-        uses: Kenny2github/html-to-pdf-action@master
+        uses: ferdinandkeller/html-to-pdf-action@v2
         with:
-          htmlFile: ${{ needs.generate-html.outputs.html }}
-          outputFile: ${{ needs.generate-html.outputs.pdf }}
+          source-path: ${{ matrix.file }}
+          destination-path: ${{ steps.pdf.outputs.file }}
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          path: ${{ steps.pdf.outputs.file }}
+          name: pdf-out-${{ steps.pdf.outputs.artifact }}
+
+  commit-pdfs:
+    name: Commit and push PDFs
+    runs-on: ubuntu-latest
+    needs: [generate-pdfs]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download PDF artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: .
+          pattern: pdf-out-*
+          merge-multiple: true
 
       - name: Commit and push PDFs
         shell: bash
