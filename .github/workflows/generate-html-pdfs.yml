@@ -55,7 +55,7 @@ jobs:
         run: |
           {
             echo 'html<<EOF'
-            ls -1 build/*.html"
+            ls -1 build/*.html
             echo EOF
           } >> "$GITHUB_OUTPUT"
           {
