@@ -106,8 +106,8 @@ jobs:
       - name: Generate PDFs from HTML
         uses: Kenny2github/html-to-pdf-action@v0.2.1
         with:
-          htmlFile: ${{ fromJson(needs.generate-html.outputs.html) }}
-          outputFile: ${{ fromJson(needs.generate-html.outputs.pdf) }}
+          htmlFile: ${{ needs.generate-html.outputs.html }}
+          outputFile: ${{ needs.generate-html.outputs.pdf }}
 
       - name: Commit and push PDFs
         shell: bash
