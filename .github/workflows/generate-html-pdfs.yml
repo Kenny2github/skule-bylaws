@@ -53,8 +53,16 @@ jobs:
       - name: Enumerate HTML files
         id: set-matrix
         run: |
-          echo "html=$(ls -1 build/*.html | jq -R -s -c 'split("\n")[:-1]')" >> "$GITHUB_OUTPUT"
-          echo "pdf=$(ls -1 build/*.html | sed 's/build\/(.+)\.html/\1.pdf/g' | jq -R -s -c 'split("\n")[:-1]')" >> "$GITHUB_OUTPUT"
+          {
+            echo 'html<<EOF'
+            ls -1 build/*.html"
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+          {
+            echo 'pdf<<EOF'
+            ls -1 build/*.html | sed 's/build\/(.+)\.html/\1.pdf/g'
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
 
   publish-pages:
     name: Publish to GitHub Pages
@@ -96,7 +104,7 @@ jobs:
           name: html-build
 
       - name: Generate PDFs from HTML
-        uses: Kenny2github/html-to-pdf-action@v0.2.0
+        uses: Kenny2github/html-to-pdf-action@v0.2.1
         with:
           htmlFile: ${{ fromJson(needs.generate-html.outputs.html) }}
           outputFile: ${{ fromJson(needs.generate-html.outputs.pdf) }}
