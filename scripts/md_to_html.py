@@ -141,7 +141,7 @@ def get_data(file: TextIO) -> tuple[dict[str, str], list[Section]]:
     meta = yaml.safe_load(StringIO(meta))
     html = crossref(cmarkgfm.github_flavored_markdown_to_html(
         md, cmarkgfm.Options.CMARK_OPT_UNSAFE))
-    pprint(html, sort_dicts=False, stream=sys.stderr)
+    # pprint(html, sort_dicts=False, stream=sys.stderr)
     chapters = parse(html)
     return meta, chapters
 
@@ -150,7 +150,11 @@ def main(argv: list[str] = sys.argv) -> None:
         file = sys.stdin if argv[1] == '-' else open(argv[1], 'r', encoding='utf8')
     else:
         file = open(input('File: '), 'r', encoding='utf8')
-    print(render(*get_data(file)))
+    if len(argv) > 2 and argv[2] != '-':
+        outfile = open(argv[2], 'w', encoding='utf8')
+    else:
+        outfile = sys.stdout
+    print(render(*get_data(file)), file=outfile)
 
 if __name__ == '__main__':
     main()
