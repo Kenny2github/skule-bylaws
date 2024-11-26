@@ -1,0 +1,110 @@
+name: Generate HTML and PDFs from Markdown
+on:
+  push:
+    paths:
+      - '**/*.md'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-html:
+    name: Generate HTML artifacts
+    runs-on: ubuntu-latest
+    outputs:
+      html: ${{ steps.set-matrix.outputs.html }}
+      pdf: ${{ steps.set-matrix.outputs.pdf }}
+
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build HTML
+        shell: bash
+        run: |
+          shopt -s globstar
+          pip install -r scripts/requirements.txt
+          mkdir build
+          # start builds in parallel
+          pids=()
+          for f in **/*.md; do
+            python scripts/md_to_html.py "$f" "build/$(basename "${f%.md}.html")" &
+            pids+=($!)
+          done
+          # wait for all builds
+          for pid in ${pids[*]}; do
+            wait $pid
+          done
+          cp -rf scripts/main.{css,js} scripts/images build/
+
+      - name: Upload HTML artifact
+        uses: actions/upload-artifact@v4
+        with:
+          path: build
+          name: html-build
+
+      - name: Enumerate HTML files
+        id: set-matrix
+        run: |
+          echo "html=$(ls -1 build/*.html | jq -R -s -c 'split("\n")[:-1]')" >> "$GITHUB_OUTPUT"
+          echo "pdf=$(ls -1 build/*.html | sed 's/build\/(.+)\.html/\1.pdf/g' | jq -R -s -c 'split("\n")[:-1]')" >> "$GITHUB_OUTPUT"
+
+  publish-pages:
+    name: Publish to GitHub Pages
+    runs-on: ubuntu-latest
+    needs: [generate-html]
+    if: github.ref_name == 'master'
+    steps:
+      - name: Checkout GitHub Pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Download HTML artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: html-build
+
+      - name: Commit artifact
+        run: |
+          shopt -s globstar
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          mv -f build/* .
+          git add **/*.html
+          git commit -m "Generate HTML from commit $GITHUB_SHA"
+          git push
+
+  generate-pdfs:
+    name: Generate PDF build
+    runs-on: ubuntu-latest
+    needs: [generate-html]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download HTML artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: html-build
+
+      - name: Generate PDFs from HTML
+        uses: Kenny2github/html-to-pdf-action@v0.2.0
+        with:
+          htmlFile: ${{ fromJson(needs.generate-html.outputs.html) }}
+          outputFile: ${{ fromJson(needs.generate-html.outputs.pdf) }}
+
+      - name: Commit and push PDFs
+        shell: bash
+        run: |
+          shopt -s globstar
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add **/*.pdf
+          git commit -m "Generate PDFs from commit $GITHUB_SHA"
+          git push
