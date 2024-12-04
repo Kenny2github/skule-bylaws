@@ -95,18 +95,21 @@ ol ol ol li {
 	size: letter portrait;
 
 	@top-center {
-		content: 'Bylaw 1';
+		content: 'Document Title';
 		font-weight: bold;
 		border-bottom: 1px solid black;
 		height: 42pt;
 	}
 	@top-right {
-		content: 'Last Revision: August 22, 2024';
+		content: 'Last Revision:';
 		border-bottom: 1px solid black;
 		height: 42pt;
 	}
 	@top-left {
 		content: url('images/logo-48.png');
+		background-image: url('images/logo-48.png');
+		background-repeat: no-repeat;
+		background-position: top left;
 		border-bottom: 1px solid black;
 		height: 42pt;
 	}
@@ -126,7 +129,7 @@ ol ol ol li {
 	}
 	@bottom-right {
 		counter-reset: page;
-		content: 'LAST REVISED: August 22, 2024';
+		content: 'LAST REVISED:';
 	}
 }
 
