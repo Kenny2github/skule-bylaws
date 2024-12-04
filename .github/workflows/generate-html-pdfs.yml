@@ -52,7 +52,6 @@ jobs:
     name: Publish to GitHub Pages
     runs-on: ubuntu-latest
     needs: [generate-html]
-    if: github.ref_name == 'master'
     steps:
       - name: Checkout GitHub Pages
         uses: actions/checkout@v4
@@ -69,7 +68,19 @@ jobs:
           shopt -s globstar
           git config user.name github-actions
           git config user.email github-actions@github.com
-          mv -f build/* .
+          if [ '${{ github.ref_name }}' != 'master' ]; then
+            SUBDIR='branch/${{ github.ref_name }}'
+            mkdir -p "$SUBDIR"
+          else
+            SUBDIR=""
+          fi
+          mv -f build/* "./$SUBDIR"
+          for f in ./$SUBDIR/**/*.html; do
+            sed -i "/<head>/a <base href=\"${{ vars.WEBROOT }}/$SUBDIR\" />" "$f"
+          done
+          if [ -z "$SUBDIR" ]; then
+            git restore branch/**/*
+          fi
           git add **/*.html
           git commit -m "Generate HTML from commit $GITHUB_SHA"
           git push
