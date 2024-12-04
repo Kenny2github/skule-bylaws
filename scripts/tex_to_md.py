@@ -45,6 +45,7 @@ def main(argv: list[str] = sys.argv) -> None:
                     continue
                 if re.match(r'\\begin\s*\{\s*easylist\s*\}', line):
                     in_list = True
+                    section[:] = [-1, -1, -1]
                     continue
                 continue
             if in_list:
@@ -58,6 +59,9 @@ def main(argv: list[str] = sys.argv) -> None:
                     print('\n\n##', line.removeprefix(m.group(0)).rstrip(), end='', file=outfile)
                     section[:] = [0, 0, 0]
                 else:
+                    if section == [-1, -1, -1]:
+                        print('\n\n##', 'General', end='', file=outfile)
+                        section[:] = [0, 0, 0]
                     i = (len(m.group(1)) - 3)
                     section[i] += 1
                     section[i+1:] = [0] * (2 - i)
