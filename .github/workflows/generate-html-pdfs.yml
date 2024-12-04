@@ -114,17 +114,18 @@ jobs:
           cat "${{ matrix.file }}" | sed -r -n -e 's/^.*<!--\s*title:\s*(.+)$/file=\1.pdf/p' >> "$GITHUB_OUTPUT"
           echo "${{ matrix.file }}" | sed -r 's/ /-/g;s/[^a-zA-Z0-9_-]+/-/g;s/(.+)/artifact=\L\1/g' >> "$GITHUB_OUTPUT"
           mv "${{ matrix.file }}" build/index.html
+          mkdir -p build/pdf
 
       - name: Generate PDFs from HTML
         uses: ferdinandkeller/html-to-pdf-action@v2.1
         with:
           source-path: "./build"
-          destination-path: ${{ steps.pdf.outputs.file }}
+          destination-path: "./build/pdf/${{ steps.pdf.outputs.file }}"
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
-          path: ${{ steps.pdf.outputs.file }}
+          path: build/pdf
           name: pdf-out-${{ steps.pdf.outputs.artifact }}
 
   commit-pdfs:
