@@ -1,7 +1,9 @@
 @echo off
 
-rmdir /S /Q build
-mkdir build
+if exist build (
+	for /D %%i in (build\*) do rmdir /S /Q %%i
+	del /Q build\*
+) else mkdir build
 
 for /R %%i in (*.md) do (
 	if /I "%%~ni"=="README" (

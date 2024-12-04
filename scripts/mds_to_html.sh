@@ -1,6 +1,6 @@
 #!/bin/bash
-rm -rf build
-mkdir build
+rm -rf build/*
+mkdir -p build
 # start builds in parallel
 pids=()
 for f in **/*.md; do
