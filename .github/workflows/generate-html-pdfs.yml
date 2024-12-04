@@ -124,7 +124,7 @@ jobs:
       - name: Prepare directory structure
         shell: bash
         run: |
-          mv "${{ matrix.file }}" build/index.html
+          mv -f "${{ matrix.file }}" build/index.html || echo No need to move index
           mkdir -p build/pdf/$(dirname '${{ steps.pdf.outputs.file }}')
 
       - name: Generate PDF from HTML
