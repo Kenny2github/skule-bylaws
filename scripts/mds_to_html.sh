@@ -6,6 +6,7 @@ mkdir -p build
 pids=()
 for f in **/*.md; do
 	if [[ $f =~ (README|LICENSE).* ]]; then continue; fi
+	mkdir -p "build/$(dirname "$f")"
 	python scripts/md_to_html.py "$f" "build/${f%.md}.html" &
 	pids+=($!)
 done
