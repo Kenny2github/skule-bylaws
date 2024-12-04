@@ -65,7 +65,7 @@ def main(argv: list[str] = sys.argv) -> None:
                     i = (len(m.group(1)) - 3)
                     section[i] += 1
                     section[i+1:] = [0] * (2 - i)
-                    print('\n' + ' ' * (3 * i) + str(section[i]) + '.',
+                    print('\n' + ' ' * (3 * i) + '1.',
                           line.removeprefix(m.group(0)).rstrip(), end='', file=outfile)
             else:
                 print('', line.strip(), end='', file=outfile)
