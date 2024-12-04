@@ -76,6 +76,11 @@ def parse(html: str) -> list[Section]:
 
     root = etree.fromstring(f'<body>{html}</body>')
 
+    while elems := root.cssselect('a a'):
+        for elem in elems:
+            elem.tag = 'span'
+            elem.attrib.pop('href', '')
+
     for element in root.cssselect('h1, h2, body > ol'):
         # pprint(element, sort_dicts=False, stream=sys.stderr)
         if len(stack) == 1:
