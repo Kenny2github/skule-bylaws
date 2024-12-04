@@ -71,6 +71,7 @@ jobs:
           shopt -s globstar
           git config user.name github-actions
           git config user.email github-actions@github.com
+          # HACK: patch absolute URLs to web root
           if [ '${{ github.ref_name }}' != 'master' ]; then
             SUBDIR='branch/${{ github.ref_name }}'
             mkdir -p "$SUBDIR"
@@ -79,7 +80,7 @@ jobs:
           fi
           mv -f build/* "./$SUBDIR"
           for f in ./$SUBDIR/**/*.html; do
-            sed -i "/<head>/a <base href=\"${{ vars.WEBROOT }}/$SUBDIR\" />" "$f"
+            sed -i -re "s#(href|src)=\"/([^\"]+)\"#\1=\"${{ vars.WEBROOT }}/$SUBDIR/\2\"#" "$f"
           done
           if [ -z "$SUBDIR" ]; then
             git restore branch/**/*
