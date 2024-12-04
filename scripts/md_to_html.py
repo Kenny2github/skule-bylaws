@@ -11,12 +11,12 @@ import lxml.etree as etree
 import jinja2
 import yaml
 
-FILE_RE = r'(?:(?:bylaw|policy)[\w\s-]*,?\s*|[\w\s-]*policy,?\s*)?'
 SPLIT_RE = r'(?:chapters?|chaps?\.|chs?\.|sections?|secs?\.|ss?\.|§)\s*'
 CHAPTER_SPLIT_RE = r'(?:chapters?|chaps?\.|chs?\.)\s*'
 SECTION_SPLIT_RE = r'(?:sections?|secs?\.|ss?\.|§)\s*'
 SECTION_RE = r'([0-9]+)(?:\.([0-9]+)(?:\.([1-9][0-9]*)(?:\.?([a-z])(?:\.([ivxlcdm]+))?)?)?)?'
 SUBSECTION_RE = r'([0-9]+)\.([0-9]+)(?:\.([1-9][0-9]*)(?:\.?([a-z])(?:\.([ivxlcdm]+))?)?)?'
+REF_RE = fr'({CHAPTER_SPLIT_RE}(?P<chapter>{SECTION_RE})|{SECTION_SPLIT_RE}(?P<section>{SUBSECTION_RE}))(?:\.(?=\S))?'
 ROMAN = [
     'i', 'ii', 'iii', 'iv', 'v',
     'vi', 'vii', 'viii', 'ix', 'x',
@@ -24,19 +24,10 @@ ROMAN = [
     'xvi', 'xvii', 'xviii', 'xix', 'xx',
 ]
 
-def slug(s: str) -> str:
-    return re.sub(r'[^a-z0-9_-]', '', s.strip().casefold().replace(' ', '-'))
-
 def make_crossref(m: re.Match) -> str:
     unquoted = m.group(1).strip()
-    split = re.split(SPLIT_RE, unquoted.casefold(), maxsplit=1)
-    try:
-        file, section = split
-    except ValueError: # wrong number of splits
-        file = ''
-        section = unquoted.casefold()
-    else:
-        file = slug(file)
+    section = (m.group('chapter') or '') + (m.group('section') or '')
+    section = section.casefold()
     if s := re.match(SECTION_RE, section, re.I):
         a, b, c, d, e = s.groups()
         href = '#' + a
@@ -51,16 +42,12 @@ def make_crossref(m: re.Match) -> str:
                 href += '-' + str(ROMAN.index(e))
             except IndexError:
                 return m.group(0)
-        if file:
-            href = f'{file}.html{href}'
         return f'<a href="{href}">{unquoted}</a>'
     else:
         return m.group(0)
 
 def crossref(s: str) -> str:
-    return re.sub(fr'({FILE_RE}{CHAPTER_SPLIT_RE}{SECTION_RE}'
-                  fr'|{FILE_RE}{SECTION_SPLIT_RE}{SUBSECTION_RE})(?:\.(?=\S))?',
-                  make_crossref, s, flags=re.I)
+    return re.sub(REF_RE, make_crossref, s, flags=re.I)
 
 class Section(TypedDict):
     title: str
