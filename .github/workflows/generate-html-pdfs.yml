@@ -115,10 +115,14 @@ jobs:
         run: |
           cat "${{ matrix.file }}" | sed -r -n -e 's/^.*<!--\s*title:\s*(.+)$/file=\1.pdf/p' >> "$GITHUB_OUTPUT"
           echo "${{ matrix.file }}" | sed -r 's/ /-/g;s/[^a-zA-Z0-9_-]+/-/g;s/(.+)/artifact=\L\1/g' >> "$GITHUB_OUTPUT"
-          mv "${{ matrix.file }}" build/index.html
-          mkdir -p build/pdf
 
-      - name: Generate PDFs from HTML
+      - name: Prepare directory structure
+        shell: bash
+        run: |
+          mv "${{ matrix.file }}" build/index.html
+          mkdir -p build/pdf/$(dirname '${{ steps.pdf.outputs.file }}')
+
+      - name: Generate PDF from HTML
         uses: ferdinandkeller/html-to-pdf-action@v2.1
         with:
           source-path: "./build"
