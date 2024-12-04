@@ -5,6 +5,8 @@ on:
       - '**/*.md'
       - '.github/workflows/*.yml'
       - 'scripts/**/*'
+    branches-ignore:
+      - gh-pages
   workflow_dispatch:
 
 permissions:
