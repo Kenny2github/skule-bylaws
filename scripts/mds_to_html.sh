@@ -1,11 +1,12 @@
 #!/bin/bash
+shopt -s globstar
 rm -rf build/*
 mkdir -p build
 # start builds in parallel
 pids=()
 for f in **/*.md; do
 	if [[ $f =~ (README|LICENSE).* ]]; then continue; fi
-	python scripts/md_to_html.py "$f" "build/$(basename "${f%.md}.html")" &
+	python scripts/md_to_html.py "$f" "build/${f%.md}.html" &
 	pids+=($!)
 done
 # wait for all builds

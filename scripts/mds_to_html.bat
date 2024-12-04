@@ -1,5 +1,8 @@
 @echo off
 
+echo Warning: Only for live building purposes.
+echo Does not produce correct directory structure.
+
 if exist build (
 	for /D %%i in (build\*) do rmdir /S /Q %%i
 	del /Q build\*
