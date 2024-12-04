@@ -1,3 +1,4 @@
+from pathlib import Path
 import re
 import sys
 
@@ -22,6 +23,11 @@ def main(argv: list[str] = sys.argv) -> None:
                 continue
             if meta == 1:
                 print('title:', line.strip(), file=outfile)
+                # output PDF filename based on original TeX filename
+                if len(argv) > 1 and argv[1] != '-':
+                    print('pdf:', Path(argv[1].rsplit('.', 1)[0]).relative_to(Path.cwd()).as_posix(), file=outfile)
+                else:
+                    print('pdf:', line.strip(), file=outfile)
                 meta = 2
                 continue
             if meta == 2:
