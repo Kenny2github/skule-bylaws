@@ -6,6 +6,11 @@ html {
 	font-optical-sizing: auto;
 	font-style: normal;
 	font-size: 12pt;
+	/* Hack to fix headless Chrome not rendering images in print
+	that weren't loaded in screen media */
+	background-image: url('images/logo-48.png');
+	background-position: center -96px;
+	background-repeat: no-repeat;
 }
 body {
 	margin: 0 auto;
@@ -107,9 +112,6 @@ ol ol ol li {
 	}
 	@top-left {
 		content: url('images/logo-48.png');
-		background-image: url('images/logo-48.png');
-		background-repeat: no-repeat;
-		background-position: top left;
 		border-bottom: 1px solid black;
 		height: 42pt;
 	}
