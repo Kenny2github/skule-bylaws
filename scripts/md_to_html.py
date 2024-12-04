@@ -24,11 +24,9 @@ ROMAN = [
     'xvi', 'xvii', 'xviii', 'xix', 'xx',
 ]
 
-def make_crossref(m: re.Match) -> str:
-    unquoted = m.group(1).strip()
-    section = (m.group('chapter') or '') + (m.group('section') or '')
+def crossref_href(section: str) -> str | None:
     section = section.casefold()
-    if s := re.match(SECTION_RE, section, re.I):
+    if s := re.search(SECTION_RE, section, re.I):
         a, b, c, d, e = s.groups()
         href = '#' + a
         if b:
@@ -41,7 +39,16 @@ def make_crossref(m: re.Match) -> str:
             try:
                 href += '-' + str(ROMAN.index(e))
             except IndexError:
-                return m.group(0)
+                return None
+        return href
+    else:
+        return None
+
+def make_crossref(m: re.Match) -> str:
+    unquoted = m.group(1).strip()
+    section = (m.group('chapter') or '') + (m.group('section') or '')
+    href = crossref_href(section)
+    if href is not None:
         return f'<a href="{href}">{unquoted}</a>'
     else:
         return m.group(0)
@@ -80,6 +87,18 @@ def parse(html: str) -> list[Section]:
         for elem in elems:
             elem.tag = 'span'
             elem.attrib.pop('href', '')
+
+    for elem in root.cssselect('a[href*=".md"]'):
+        href = elem.attrib.get('href', '').replace('.md', '.html')
+        m = re.search(REF_RE, innerHTML(elem), flags=re.I)
+        if m is None:
+            elem.attrib['href'] = href
+            continue
+        frag = crossref_href((m.group('chapter') or '') + (m.group('section') or ''))
+        if frag is None:
+            elem.attrib['href'] = href
+            continue
+        elem.attrib['href'] = f'{href.split('#', 1)[0]}{frag}'
 
     for element in root.cssselect('h1, h2, body > ol'):
         # pprint(element, sort_dicts=False, stream=sys.stderr)
