@@ -88,6 +88,10 @@ jobs:
             git restore branch/**/*
           fi
           git add **/*.html **/main.{css,js} **/images
+          if [ -z "$(git status --porcelain=2)" ]; then
+            echo Nothing to commit; exiting cleanly
+            exit 0
+          fi
           git commit -m "Generate HTML from commit $GITHUB_SHA"
           git push
 
@@ -157,5 +161,9 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add **/*.pdf
+          if [ -z "$(git status --porcelain=2)" ]; then
+            echo Nothing to commit; exiting cleanly
+            exit 0
+          fi
           git commit -m "Generate PDFs from commit $GITHUB_SHA"
           git push
