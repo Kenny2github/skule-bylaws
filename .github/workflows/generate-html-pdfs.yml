@@ -44,9 +44,10 @@ jobs:
       - name: Enumerate HTML files
         id: set-matrix
         run: |
+          shopt -s globstar
           {
             echo 'html<<EOF'
-            ls -1 build/*.html | jq -R -s -c 'split("\n")[:-1]'
+            ls -1 build/**/*.html | jq -R -s -c 'split("\n")[:-1]'
             echo EOF
           } >> "$GITHUB_OUTPUT"
 
