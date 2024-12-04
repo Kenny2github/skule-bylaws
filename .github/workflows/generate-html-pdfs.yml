@@ -79,7 +79,8 @@ jobs:
           else
             SUBDIR=""
           fi
-          mv -f build/* "./$SUBDIR"
+          cp -rf build/* "./$SUBDIR"
+          rm -rf build
           for f in ./$SUBDIR/**/*.html; do
             sed -i -re "s#(href|src)=\"/([^\"]+)\"#\1=\"${{ vars.WEBROOT }}/$SUBDIR/\2\"#" "$f"
           done
