@@ -86,7 +86,7 @@ jobs:
           rm -rf build
           BASE="$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url')"
           for f in ./$SUBDIR/**/*.html; do
-            sed -i -re "s#(href|src)=\"/([^\"]*)\"#\1=\"$BASE/$SUBDIR\2\"#" "$f"
+            sed -i -re "s#(href|src)=\"/([^\"]*)\"#\1=\"$BASE$SUBDIR\2\"#" "$f"
           done
           if [ -z "$SUBDIR" ]; then
             git restore branch/**/*
