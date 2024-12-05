@@ -1,5 +1,5 @@
 ---
-revdate: Irrelevant
+revdate: ''
 title: EngSoc Bylaws
 pdf: Index
 subtitle: Index of Documents
