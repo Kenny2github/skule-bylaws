@@ -94,6 +94,9 @@ ol ol ol li {
 		color: black;
 		text-decoration: none;
 	}
+	p.contents {
+		display: none;
+	}
 }
 @page {
 	margin: 1in;
@@ -137,10 +140,10 @@ ol ol ol li {
 
 /* Contents page */
 .contents {
-	font-weight: bold;
 	page: contents;
 }
 section.contents {
+	font-weight: bold;
 	display: grid;
 	grid-template-columns: min-content 1fr min-content;
 	gap: 1em;
