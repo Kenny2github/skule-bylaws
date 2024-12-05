@@ -1,0 +1,39 @@
+name: Comment GitHub Pages link on new pull requests
+on:
+  pull_request_target:
+    paths:
+      - '**/*.md'
+      - '.github/workflows/*.yml'
+      - 'scripts/**/*'
+    branches-ignore:
+      - gh-pages
+    types:
+      - opened
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  link-html:
+    name: Post link to GitHub Pages build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Post link
+        uses: actions/github-script@v7
+        with:
+          script: |
+            let url = (await github.rest.repos.getPages({
+              owner: ${{ github.event.pull_request.head.repo.owner }},
+              repo: ${{ github.event.pull_request.head.repo.name }},
+            })).html_url;
+            if ('${{ github.head_ref }}' != 'master') {
+              url += '/branch/${{ github.head_ref }}';
+            }
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `Successful HTML builds will appear at ${url}`
+            });
