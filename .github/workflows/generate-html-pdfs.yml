@@ -82,7 +82,7 @@ jobs:
           cp -rf build/* "./$SUBDIR"
           rm -rf build
           for f in ./$SUBDIR/**/*.html; do
-            sed -i -re "s#(href|src)=\"/([^\"]+)\"#\1=\"${{ vars.WEBROOT }}/$SUBDIR/\2\"#" "$f"
+            sed -i -re "s#(href|src)=\"/([^\"]*)\"#\1=\"${{ vars.WEBROOT }}/$SUBDIR/\2\"#" "$f"
           done
           if [ -z "$SUBDIR" ]; then
             git restore branch/**/*
