@@ -3,7 +3,7 @@ on:
   push:
     paths:
       - '**/*.md'
-      - '.github/workflows/*.yml'
+      - '.github/workflows/generate-html-pdfs.yml'
       - 'scripts/**/*'
     branches-ignore:
       - gh-pages
