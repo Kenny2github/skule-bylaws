@@ -15,8 +15,8 @@ subtitle: Policy on Complaints
 
 ## Application
 1. This policy applies to any member that holds a position within the Engineering Society, including but not limited to, an Officer, Project Director, employee, member of the Board of Directors, or member of a Project Director’s team.
-   1. This policy applies to any of the persons listed in section 0.3 for the entirety of their term, from when they take office of their position to when they are relieved of their position. This includes actions taken outside of their official capacity within their role.
-1. Complaints to which this policy applies include the misconduct of any member that holds a position within the Engineering Society as defined in section 0.3. This policy defines an act of misconduct as any of the following, as interpreted by the investigator of the case:
+   1. This policy applies to any of the persons listed in section 0.2.1 for the entirety of their term, from when they take office of their position to when they are relieved of their position. This includes actions taken outside of their official capacity within their role.
+1. Complaints to which this policy applies include the misconduct of any member that holds a position within the Engineering Society as defined in section 0.2.1. This policy defines an act of misconduct as any of the following, as interpreted by the investigator of the case:
    1. any offense outlined in section B1 of the University of Toronto Code of Student Conduct
    1. any form of sexual violence or sexual harassment in the University of Toronto Policy on Sexual Violence and Sexual Harassment
    1. any form of harassment outlined in the University of Toronto Statement on Prohibited Discrimination and Discriminatory Harassment
@@ -28,15 +28,15 @@ subtitle: Policy on Complaints
 1. All materials related to complaints, including without limitation the original complaint, any recommendation report, and communications with relevant parties, are strictly confidential to the extent practicable.
    1. If a recommendation report is presented to the Board of Directors, it must be presented _in camera_. However, if the Board chooses to execute the recommendation, the recommendation can no longer be confidential.
    1. If a recommendation report is presented to a General Meeting, the version presented can no longer be confidential.
-   1. Multiple versions of a recommendation report may/should be produced, with different information redacted depending on the audience of each version in accordance with section 4.3.2.b.
+   1. Multiple versions of a recommendation report may/should be produced, with different information redacted depending on the audience of each version in accordance with section 4.0.3.d.
 
 # Submission of Complaints
 
 ## General
 1. All complaints should be submitted to the Ombudsperson, except a complaint against the Ombudsperson, which should be directed to the Speaker.
-   1. If any person holding any office of the Society receives a formal complaint, they must refer the complainant to the Ombudsperson or Speaker, as outlined in section 1.1 respectively, to pursue an investigation.
+   1. If any person holding any office of the Society receives a formal complaint, they must refer the complainant to the Ombudsperson or Speaker, as outlined in section 1.0.1 respectively, to pursue an investigation.
 1. In the absence or unavailability of the Ombudsperson, the Speaker shall carry out all of their functions.
-1. Complaints may be submitted in person or by mail to the Society’s registered address, or by email to the appropriate person (as outlined in section 1.1).
+1. Complaints may be submitted in person or by mail to the Society’s registered address, or by email to the appropriate person (as outlined in section 1.0.1).
 1. Complaints may be submitted anonymously, so long as the identity of the complainant is not germane to the complaint itself.
 
 # Investigator and Completeness of Complaints
@@ -50,18 +50,18 @@ subtitle: Policy on Complaints
 1. The investigator shall immediately acknowledge receipt of the complaint to the complainant, unless there is no means of doing so.
 1. Within 7 days, the investigator shall advise the complainant on whether the complaint submitted is complete.
    1. A complaint will be considered complete if it:
-      1. Concerns a person to which this Policy applies, as described in section 0.3; and
+      1. Concerns a person to which this Policy applies, as described in section 0.2.1; and
       1. Contains sufficient detail, such as an approximate date or timeline of the alleged conduct, for a reasonable person, with full access to the Society's documents, to ascertain the factual accuracy of the allegation.
    1. If the complaint is deemed incomplete, the complaint shall not be investigated. To pursue the complaint, the complainant must to submit a new, complete complaint. This shall be communicated to the complainant, unless there is no means of doing so. The investigator shall archive the complaint.
 
 # Investigation Process
 
 ## General
-1. Upon advising that a complaint is complete, the investigator shall immediately take steps to ascertain whether the complaint actionably concerns misconduct under section 0.4 of this Policy committed by persons listed in section 0.3.
+1. Upon advising that a complaint is complete, the investigator shall immediately take steps to ascertain whether the complaint actionably concerns misconduct under section 0.2.2 of this Policy committed by persons listed in section 0.2.1.
    1. The investigator must contact all possible relevant parties in the complaint and offer to remain in contact throughout the investigation.
    1. The investigator shall make the greatest feasible effort to determine all the facts of the case.
    1. The investigator shall make a reasonable effort to determine what the appropriate conduct would have been and whether there have been previous similar cases.
-   1. All persons listed in section 0.3 shall cooperate in the investigation of complaints to the fullest extent that is reasonably possible.
+   1. All persons listed in section 0.2.1 shall cooperate in the investigation of complaints to the fullest extent that is reasonably possible.
 1. At any point during the investigation of a complaint, the complainant can choose to withdraw their complaint by notifying the investigator, at which point the associated investigation shall cease immediately.
 1. The investigator must respond to the complainant, within 21 days of acknowledging the complaint, with an outcome or a notification for a defined time extension to the investigation period.
 
@@ -70,7 +70,7 @@ subtitle: Policy on Complaints
 ## General
 1. The investigator will respond to the complainant in writing to inform them of the close of the investigation. The response shall note whether the investigator found the complaint actionable.
 1. If the investigator finds the complaint inactionable, the investigation ends there. The possible reasons for inactionability are:
-   1. None of the conduct of the subject(s) of the complaint constitutes misconduct under section 0.4 of this Policy.
+   1. None of the conduct of the subject(s) of the complaint constitutes misconduct under section 0.2.2 of this Policy.
    1. The misconduct was not committed during the time period in which the subject(s) held their position(s), except when the misconduct, had it been known, would likely have led to the subject(s) not being selected for their position(s).
    1. The facts of the case do not prove, on the balance of the probabilities, that the misconduct alleged in the complaint was committed by the subject(s) of the complaint.
 1. If the investigator finds the complaint actionable, they must produce a recommendation report.
@@ -84,7 +84,7 @@ subtitle: Policy on Complaints
       1. rumors, speculation, nor hearsay
       1. information likely to compromise the well-being of its source, such as personally identifying information, when shared with parties other than the investigator
       1. information not germane to the complaint
-   1. The possible recommendations mentioned in section 4.3.1.e are to:
+   1. The possible recommendations mentioned in section 4.0.3.a.v are to:
       1. Recall subject of complaint from their position.
       1. Mandate additional training.
       1. Require subject of complaint to issue official apology.
@@ -95,7 +95,7 @@ subtitle: Policy on Complaints
       1. Amend EngSoc Bylaws and/or Policies.
       1. Take some other specific action, with additional justification for such an extraordinary recommendation.
       1. Any combination of the above.
-   1. The recommendation report shall be confidentially (in accordance with section 0.5) provided to the following parties:
+   1. The recommendation report shall be confidentially (in accordance with section 0.3) provided to the following parties:
       1. the complainant (if possible)
       1. the subject(s) of the complaint
       1. the overseeing body of the subject(s) of the complaint

@@ -12,7 +12,7 @@ subtitle: Policy on Affiliated Clubs
 
 ## Definitions
 1. The "Engineering Society” shall refer to the University of Toronto Engineering Society, hereafter referred to as "the Society.”
-1. "Members” shall mean members of the Society, as defined in Chapter 1 of [Bylaw 1 - The Constitution](../bylaw-1.md).
+1. "Members” shall mean members of the Society, as defined in [Chapter 1 of Bylaw 1 - The Constitution](../bylaw-1.md).
 1. The "Affiliation Year” shall be defined from September 1st of any year to August 31st of the following year.
 1. The "Fall” term shall be defined from September 1st to December 31st of the Affiliation Year.
 1. The "Winter ” term shall be defined as January 1st to April 31st of the Affiliation Year.
@@ -42,7 +42,7 @@ subtitle: Policy on Affiliated Clubs
    1. Commit other forms of harassment (as defined in the University of Toronto Statement on Prohibited Discrimination and Discriminatory Harassment).
    1. Commit or attempt to commit other acts deemed inappropriate by both the President and Vice-President Student Life.
    1. Fail to report violations of this standard of behaviour to an appropriate authority (whether to appropriate individuals the Engineering Society, to appropriate individuals within the University of Toronto, or appropriate law enforcement authorities).
-1. If a club leader is made aware that a member of their club has committed a violation outlined in Section 1.8, they should report the incident to the Ombudsperson in accordance with the Society’s [Policy on Complaints](policy-on-complaints.md).
+1. If a club leader is made aware that a member of their club has committed a violation outlined in Section 0.3.8, they should report the incident to the Ombudsperson in accordance with the Society’s [Policy on Complaints](policy-on-complaints.md).
    1. In the case that a club leader receives a confidential disclosure they are not given permission to share, the club leader should explain the Society’s complaints resources to the complainant.
 1. If after a report to the Ombudsperson, no action is taken by the club to rectify the situation in a timely manner to the satisfaction of the Ombudsperson, the Ombudsperson will notify the VP Student Life and the President that an affiliation violation has occurred and recommend outcomes including but not limited to removal of the club’s affiliation status as outline in Section 7.
 

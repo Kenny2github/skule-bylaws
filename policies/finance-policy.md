@@ -20,7 +20,7 @@ subtitle: Policy on Finances
 1. The Finance Committee shall be responsible for overseeing the business described in this policy. Ultimate responsibility for the implementation of this Policy shall rest with the Vice-President Finance.
 1. The Finance Committee shall meet at least once a month to conduct their business as outlined in this Policy, except for the months of December and April..
 1. There shall be a Secretary of the Finance Committee who shall be responsible for recording all decisions and recommendations made at Finance Committee meetings, including justification for these decisions and recommendations.
-1. The Board of Directors shall be required to review and approve the recommendations of each Finance Committee meeting for the decisions therein to be effective, as per [Bylaw 1 §4.12.8](../bylaw-1.md).
+1. The Board of Directors shall be required to review and approve the recommendations of each Finance Committee meeting for the decisions therein to be effective, as per [Bylaw 1 §4.12.7](../bylaw-1.md).
 
 # Requests for Funding
 

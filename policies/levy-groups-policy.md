@@ -46,9 +46,9 @@ subtitle: Policy on Levy Groups
    1. A list of each member of that group authorized to its behalf and their current home address, phone number, and email address;
    1. Proof that the group has a bank account and that the only authorized signatories for disbursements are current signing officers of the organization; and
    1. A preliminary or forecast budget for 2013-2014.
-   1. A constitution or governing document, as outlined in Section 1.2.d
-1. The Vice President Finance shall post items 2.2.b, 2.2.e and 2.2.f in a publicly accessible location for members to access.
-1. 2.4. Items 2.2.a and 2.2.b can be waived for groups which did not receive a levy in the previous fiscal year.
+   1. A constitution or governing document, as outlined in Section 1.0.2.d
+1. The Vice President Finance shall post the items listed in section 2.0.2.b, section 2.0.2.e, and section 2.0.2.f in a publicly accessible location for members to access.
+1. Section 2.0.2.a and section 2.0.2.b can be waived for groups which did not receive a levy in the previous fiscal year.
 
 # Audit Requirements
 
