@@ -186,7 +186,7 @@ section.contents span:nth-child(3n+3) {
 		margin: 1em auto;
 		padding: 1in;
 		max-width: 6.5in; /* 8.5in - 1in padding * 2 */
-		min-height: calc(100vh - 2rem - 2in);
+		min-height: calc(100vh - 2rem - 2in - 2px);
 		background-color: white;
 		background-image: url('images/logo.png');
 		background-position: center 2em;
