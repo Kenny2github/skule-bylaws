@@ -25,7 +25,7 @@ subtitle: Orientation Governance Policy
 
 ## The Orientation Chair must consult the President before appointing members to the Orientation Committee (Vice-Chairs, Sub-Committee Chairs, and Head Leedurs).
 
-## Any appointed member of the Orientation Committee (Vice-Chairs, Sub-Committee Chairs, and Head Leedurs) may be removed from their position by a majority vote of a committee comprised of the Orientation Chair, the Assistant Director, First Year Student Success \& Transition, and the President.
+## Any appointed member of the Orientation Committee (Vice-Chairs, Sub-Committee Chairs, and Head Leedurs) may be removed from their position by a majority vote of a committee comprised of the Orientation Chair, the Assistant Director, First Year Student Success & Transition, and the President.
 
 # Project Management
 

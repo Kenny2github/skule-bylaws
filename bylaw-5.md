@@ -44,12 +44,12 @@ subtitle: The Commercial Operations Bylaw
 1. Suds shall be operated in accordance with the regulations of the Alcohol and Gaming Commission of Ontario and University of Toronto Campus Beverage Services.
 1. Suds Managers shall be aware of the regulations set out by Campus Beverage Services, as well as the consequences of any non-compliance.
 
-# Hard Hat Caf\'e
+# Hard Hat Café
 
-## Hard Hat Caf\'e
-1. There shall be an Engineering Cafeteria, to be known as the "Hard Hat Caf\'e".
-1. The Hard Hat Caf\'e shall sell reasonably priced food and beverages according to the needs of the members.
-1. The Hard Hat Caf\'e and its vending machines shall not directly compete with other vending machines located within Sandford Fleming B740V.
-1. The Hard Hat Caf\'e shall maintain a bank account separate from that of the Society.
-1. The Signing Officers of the account shall be the President, the Vice-President Finance, and the Hard Hat Caf\'e Managers. Two (2) signatures of the Signing Officers, with at least one (1) Officer of the Society, shall be required on any financial document.
-1. The Engineering Society shall be responsible for obtaining and/or renewing applicable license(s) annually or otherwise, as required for the unobstructed operation of the Hard Hat Caf\'e and full compliance with applicable laws, rules, and regulations.
+## Hard Hat Café
+1. There shall be an Engineering Cafeteria, to be known as the "Hard Hat Café".
+1. The Hard Hat Café shall sell reasonably priced food and beverages according to the needs of the members.
+1. The Hard Hat Café and its vending machines shall not directly compete with other vending machines located within Sandford Fleming B740V.
+1. The Hard Hat Café shall maintain a bank account separate from that of the Society.
+1. The Signing Officers of the account shall be the President, the Vice-President Finance, and the Hard Hat Café Managers. Two (2) signatures of the Signing Officers, with at least one (1) Officer of the Society, shall be required on any financial document.
+1. The Engineering Society shall be responsible for obtaining and/or renewing applicable license(s) annually or otherwise, as required for the unobstructed operation of the Hard Hat Café and full compliance with applicable laws, rules, and regulations.

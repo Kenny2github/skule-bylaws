@@ -16,7 +16,7 @@ subtitle: Policy on Levy Groups
 1. Campaigns and elections for the receipt of levies shall be held in accordance with the chapter on Referenda in [Bylaw 3](../bylaw-3.md).
 1. Engineering Society levies shall have a maximum duration of two years after which they must be renewed.
 1. All levy groups must maintain affiliated club status throughout the entire period where they receive a levy.
-1. Levy groups must also be in accordance with the University of Toronto’s emph{Policy for Compulsory Non-Academic Incidental Fees} where applicable.
+1. Levy groups must also be in accordance with the University of Toronto’s _Policy for Compulsory Non-Academic Incidental Fees_ where applicable.
 1. Levy groups are not eligible to receive affiliated club funding or conference funding.
 
 # Applying for Levy Group Status

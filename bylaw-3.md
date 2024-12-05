@@ -28,7 +28,7 @@ subtitle: The Elections Bylaw
 1. Electronic voting shall be made available over the entirety of a given Voting Period for an election cycle, where applicable, through vote.skule.ca.
 1. For a given election cycle, the CRO shall publicly certify and announce election results to the Society within six hours of the end of the election period.
 1. Each Nomination Package shall include the following mandatory sign-off statement signifying that the "Confidentiality Agreement - Information Sharing" document will be used to verify the Member's enrolment status with the Registrar, as per the conditions outlined in [Bylaw 1 Section 1.1.5](bylaw-1.md).
-   1. "By signing this Nomination Package, I hereby allow the Chief Returning Officer of the Engineering Society to verify my enrolment status using the `Confidentiality Agreement - Information Sharing' document as described in [Bylaw 1 Section 1.1.5](bylaw-1.md), in order to complete the nomination process. Further, I acknowledge if I obtain this position, I allow the Speaker or President (determined by the sub-clauses of [Bylaw 1 Section 1.1.5](bylaw-1.md)) to verify my enrolment status if a concern or complaint is brought to the attention of the President, Ombudsperson, and/or Speaker."
+   1. "By signing this Nomination Package, I hereby allow the Chief Returning Officer of the Engineering Society to verify my enrolment status using the "Confidentiality Agreement - Information Sharing" document as described in [Bylaw 1 Section 1.1.5](bylaw-1.md), in order to complete the nomination process. Further, I acknowledge if I obtain this position, I allow the Speaker or President (determined by the sub-clauses of [Bylaw 1 Section 1.1.5](bylaw-1.md)) to verify my enrolment status if a concern or complaint is brought to the attention of the President, Ombudsperson, and/or Speaker."
 1. Elections must not occur within the Fall or Winter Exam Periods.
 1. Elections requiring a Voting Period shall not occur within the Summer Months.
 1. Where nominations are required for a position, candidates for that position may not be nominators for the same position.
@@ -180,7 +180,7 @@ subtitle: The Elections Bylaw
    1. Engineering Athletics Association (positions elected by the Membership);
    1. Chemical Discipline Club (positions elected by the Chemical Engineering constituency);
    1. Civil Discipline Club (positions elected by the Civil Engineering constituency);
-   1. Electrical and Computer Discipline Club (positions elected by the Electrical Engineering \& Computer Engineering constituencies);
+   1. Electrical and Computer Discipline Club (positions elected by the Electrical Engineering & Computer Engineering constituencies);
    1. Engineering Science Discipline Club (positions elected by the Engineering Science constituency);
    1. Industrial Discipline Club (positions elected by the Industrial Engineering constituency);
    1. Materials Science and Engineering Discipline Club (positions elected by the Materials Science and Engineering constituency);
@@ -384,7 +384,7 @@ subtitle: The Elections Bylaw
       1. Should a ruling be overturned by the Speaker, it is deemed null and void
       1. Should the Speaker take no action on the ruling within 24 hours, it shall be deemed to be approved.
    1. These rulings must be communicated to all candidates, and posted publicly on Skule Digest, if approved by the Speaker.
-   1. A candidate shall not be punished for conduct prohibited under these rulings unless said conduct occurs after the ruling has been made publicly known. \newline
+   1. A candidate shall not be punished for conduct prohibited under these rulings unless said conduct occurs after the ruling has been made publicly known.
 
 ## Materials
 1. For Officer candidates or referenda Designates, posters are limited to twenty-five (25) letter-size pages or the equivalent area using letter and tabloid-size only.

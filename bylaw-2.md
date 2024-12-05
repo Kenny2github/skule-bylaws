@@ -65,9 +65,9 @@ subtitle: The Directors and Associated Entities Bylaw
 1. The Suds Managers shall attend a form of or equivalent of Sexual Violence Prevention and Response Training, before the November month of their term, provided by the University of Toronto and their resources or from an external organization deemed reliable at a meeting of the Board of Directors.
 1. The Suds Managers shall be overseen by the Vice-President Finance.
 
-## Hard Hat Caf\'e Managers
-1. There shall be two (2) Hard Hat Caf\'e Managers, who shall be responsible for the Hard Hat Caf\'e, as described in [Bylaw 5](bylaw-5.md).
-1. The Hard Hat Caf\'e Managers shall be overseen by the Vice-President Finance.
+## Hard Hat Café Managers
+1. There shall be two (2) Hard Hat Café Managers, who shall be responsible for the Hard Hat Café, as described in [Bylaw 5](bylaw-5.md).
+1. The Hard Hat Café Managers shall be overseen by the Vice-President Finance.
 
 ## Archivist
 1. There shall be an Archivist, who shall be responsible for:
@@ -194,17 +194,17 @@ subtitle: The Directors and Associated Entities Bylaw
 ## International Transition Director
 1. There shall be an International Transition Director, who shall be responsible for coordinating initiatives that:
    1. Aid the transition of incoming students who migrated to Canada into university and Canadian lifestyle.
-   1. Engage all migrated student communities in the Skule\textsuperscript{TM} community.
+   1. Engage all migrated student communities in the Skule™ community.
 1. The International Transition Director shall be overseen by the President.
 
-## Skule\textsuperscript{TM} Photography Director
-1. There shall be a Skule\textsuperscript{TM} Photography Director who shall be responsible for:
+## Skule™ Photography Director
+1. There shall be a Skule™ Photography Director who shall be responsible for:
    1. Coordinating photographers for the major events of the Society, such as but not limited to: Cannonball and Gradball;
    1. Working with Affiliated Clubs, Associated Entities, and Project Directorships to find photographers to cover other events;
-   1. Maintaining the Skule\textsuperscript{TM} Photos website at photos.skule.ca;
+   1. Maintaining the Skule™ Photos website at photos.skule.ca;
    1. Researching, purchasing, and maintaining Society-owned photography equipment;
    1. Managing the borrowing and renting of photography equipment.
-1. The Skule\textsuperscript{TM} Photography Director shall be overseen by the Vice-President Student Life.
+1. The Skule™ Photography Director shall be overseen by the Vice-President Student Life.
 
 ## External Relations Director
 1. There shall be an External Relations Director, who shall be responsible for:
@@ -253,11 +253,11 @@ subtitle: The Directors and Associated Entities Bylaw
       1. The Valedictorian shall be a Member in their Final Year of an undergraduate program in the Faculty.
 
 ## Spirit Heads
-1. Spirit Heads promote student spirit and extracurricular engagement within the Skule\textsuperscript{TM} community.
+1. Spirit Heads promote student spirit and extracurricular engagement within the Skule™ community.
 1. The following Spirit Heads will have the President as a point of contact for their activities that fall within the Society's jurisdiction:
    1. The Chief Attiliator, who oversees the Cannon Guard.
 1. The following Spirit Heads will have the Vice-President Student Life as a point of contact for their activities that fall within the Society's jurisdiction:
-   1. The Blue \& Gold Chairs, who oversee the Blue \& Gold Committee; and
+   1. The Blue & Gold Chairs, who oversee the Blue & Gold Committee; and
    1. The Seenyur Bnad Leedur, who oversees the Lady Godiva Memorial Bnad.
 
 ## External Representatives

@@ -39,9 +39,9 @@ subtitle: The Search and Review Committee Bylaw
 # Composition
 
 ## Composition
-1. The "Search" component of the Committee will be comprised of: President, Vice-President Finance, Vice-President Communications, the Suds Managers, the Engineering Stores Managers, and the Hard Hat Caf\'e Managers.
+1. The "Search" component of the Committee will be comprised of: President, Vice-President Finance, Vice-President Communications, the Suds Managers, the Engineering Stores Managers, and the Hard Hat Café Managers.
 1. The "Review" component of the Committee will be compromised of: President, Vice-President Finance, and an additional member.
-   1. The additional member is to be selected by the Board of Directors from the following candidates: Orientation Chair, Suds Managers, Engineering Stores Managers or Hard Hat Caf\'e Managers.
+   1. The additional member is to be selected by the Board of Directors from the following candidates: Orientation Chair, Suds Managers, Engineering Stores Managers or Hard Hat Café Managers.
 1. All members of both the Search and Review Committees shall adhere to a confidentiality agreement.
 1. For the "Review” component of the Committee, the President shall solicit input from all Project Directors identified in Section 1.0.2.a.
 1. The President shall serve as Chair of the Committee.

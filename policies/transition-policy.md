@@ -24,7 +24,7 @@ subtitle: Transition Policy
 ## General
 1. A Transition Report is a document which outlines the necessary information for the transition.
    1. A transition report shall be prepared by Officers, Project Directors, the Speaker, and the Chief Returning Officer.
-   1. A \href{https://docs.google.com/document/d/1uN2ui3WaedRhSUtC0AQIJCpq0djgoHSq/edit?usp=sharing&ouid=111631590450340878953&rtpof=true&sd=true}{recommended template} for the transition report shall be available on skule.ca
+   1. A [recommended template](https://docs.google.com/document/d/1uN2ui3WaedRhSUtC0AQIJCpq0djgoHSq/edit?usp=sharing&ouid=111631590450340878953&rtpof=true&sd=true) for the transition report shall be available on skule.ca
 1. The Transition Report should be prepared prior to the successor entering their new position and given to them as a digital document no more than one week following the Board of Directors meeting at which they formally enter the position.
 
 # Transition Meetings

@@ -38,7 +38,7 @@ subtitle: The Discipline Clubs and Class Representatives Bylaw
 
 # TrackOne Committee
 
-## \textit{Repealed}, merged into Chapter 1.
+## *Repealed*, merged into Chapter 1.
 
 # Class Representatives
 
@@ -62,4 +62,4 @@ subtitle: The Discipline Clubs and Class Representatives Bylaw
    1. In the case that the constituency is smaller than twenty (20) members, the referendum may be called by no less than 50% of the constituency.
    1. If a referendum is called, the Class Representative in question must be notified by email by the Chief Returning Officer at least seven (7) days prior to the start of the referendum.
    1. If a referendum is called, the entire constituency that is eligible to vote must be notified by email at the start of the voting period, which shall be at least three (3) days.
-   1. Any person explicitly advocating for or against recalling the Class Representative in question shall be held to the same standards as referendum delegates as per [Bylaw 3](bylaw-3.md), and penalties may be imposed at the discretion of the Chief Returning Officer. \end{easylist}
+   1. Any person explicitly advocating for or against recalling the Class Representative in question shall be held to the same standards as referendum delegates as per [Bylaw 3](bylaw-3.md), and penalties may be imposed at the discretion of the Chief Returning Officer.
