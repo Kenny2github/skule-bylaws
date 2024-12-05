@@ -25,8 +25,8 @@ jobs:
         with:
           script: |
             let url = (await github.rest.repos.getPages({
-              owner: ${{ github.event.pull_request.head.repo.owner }},
-              repo: ${{ github.event.pull_request.head.repo.name }},
+              owner: '${{ github.event.pull_request.head.repo.owner.login }}',
+              repo: '${{ github.event.pull_request.head.repo.name }}',
             })).html_url;
             if ('${{ github.head_ref }}' != 'master') {
               url += '/branch/${{ github.head_ref }}';
