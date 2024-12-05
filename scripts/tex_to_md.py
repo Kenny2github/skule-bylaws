@@ -18,14 +18,14 @@ def main(argv: list[str] = sys.argv) -> None:
         print('---', file=outfile)
         for line in file:
             line = re.sub(r"``|''", '"', line)
-            line = re.sub(r"\\([$%])", r'\1', line)
+            line = re.sub(r"\\([$%&])", r'\1', line)
             if not line.strip():
                 continue
             if meta == 1:
                 print('title:', line.strip(), file=outfile)
                 # output PDF filename based on original TeX filename
                 if len(argv) > 1 and argv[1] != '-':
-                    print('pdf:', Path(argv[1].rsplit('.', 1)[0]).relative_to(Path.cwd()).as_posix(), file=outfile)
+                    print('pdf:', Path(argv[1].rsplit('.', 1)[0]).resolve().relative_to(Path.cwd()).as_posix(), file=outfile)
                 else:
                     print('pdf:', line.strip(), file=outfile)
                 meta = 2
