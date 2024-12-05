@@ -8,7 +8,7 @@ subtitle: The Elections Bylaw
 # General
 
 ## Interpretation and Definitions
-1. In any situations where this Bylaw contradicts Bylaw 1, Bylaw 1 shall have precedence.
+1. In any situations where this Bylaw contradicts [Bylaw 1](bylaw-1.md), [Bylaw 1](bylaw-1.md) shall have precedence.
 1. In this document:
    1. "CRO" shall refer to the Chief Returning Officer;
    1. "DRO" shall refer to a Deputy Returning Officer;
@@ -27,8 +27,8 @@ subtitle: The Elections Bylaw
 1. The CRO shall notify all Members by email at the opening of an Election period, and at 12pm on the day an Election Period closes.
 1. Electronic voting shall be made available over the entirety of a given Voting Period for an election cycle, where applicable, through vote.skule.ca.
 1. For a given election cycle, the CRO shall publicly certify and announce election results to the Society within six hours of the end of the election period.
-1. Each Nomination Package shall include the following mandatory sign-off statement signifying that the "Confidentiality Agreement - Information Sharing" document will be used to verify the Member's enrolment status with the Registrar, as per the conditions outlined in Bylaw 1 Section 1.1.5.
-   1. "By signing this Nomination Package, I hereby allow the Chief Returning Officer of the Engineering Society to verify my enrolment status using the `Confidentiality Agreement - Information Sharing' document as described in Bylaw 1 Section 1.1.5., in order to complete the nomination process. Further, I acknowledge if I obtain this position, I allow the Speaker or President (determined by the sub-clauses of Bylaw 1 Section 1.1.5.) to verify my enrolment status if a concern or complaint is brought to the attention of the President, Ombudsperson, and/or Speaker."
+1. Each Nomination Package shall include the following mandatory sign-off statement signifying that the "Confidentiality Agreement - Information Sharing" document will be used to verify the Member's enrolment status with the Registrar, as per the conditions outlined in [Bylaw 1 Section 1.1.5](bylaw-1.md).
+   1. "By signing this Nomination Package, I hereby allow the Chief Returning Officer of the Engineering Society to verify my enrolment status using the `Confidentiality Agreement - Information Sharing' document as described in [Bylaw 1 Section 1.1.5](bylaw-1.md), in order to complete the nomination process. Further, I acknowledge if I obtain this position, I allow the Speaker or President (determined by the sub-clauses of [Bylaw 1 Section 1.1.5](bylaw-1.md)) to verify my enrolment status if a concern or complaint is brought to the attention of the President, Ombudsperson, and/or Speaker."
 1. Elections must not occur within the Fall or Winter Exam Periods.
 1. Elections requiring a Voting Period shall not occur within the Summer Months.
 1. Where nominations are required for a position, candidates for that position may not be nominators for the same position.
@@ -234,7 +234,7 @@ subtitle: The Elections Bylaw
 1. Use of the phrase "Appointed by" in this chapter shall mean that the organization in question may appoint any Member to fulfill the position.
 
 ## Orientation Chair(s) Election Period
-1. The Nomination Period for the Orientation Chair(s), as described in Bylaw 2, shall commence at 9:00am on the first or second Monday of January and shall close at 5:00pm the following Friday.
+1. The Nomination Period for the Orientation Chair(s), as described in [Bylaw 2](bylaw-2.md), shall commence at 9:00am on the first or second Monday of January and shall close at 5:00pm the following Friday.
 1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature.
 1. There shall be no campaigning for this position.
@@ -288,7 +288,7 @@ subtitle: The Elections Bylaw
       1. The signatures of seventy-five (75) Members; and
       1. A fifty dollar ($50) cash deposit.
 1. Any referendum concerning student fees shall require a Special Resolution of the Board.
-1. A referendum to recall a Class Representative may be called as per Bylaw 7 Section 3.0.5.
+1. A referendum to recall a Class Representative may be called as per [Bylaw 7 Section 3.0.5](bylaw-7.md).
 1. The CRO shall hold an All Candidates Meeting (ACM) at least seventy-two (72) hours before the Campaign Period opens.
    1. All campaigns must send an official representative to attend the ACM .
 1. The CRO shall adjudicate any violations of rules set out in the Bylaws. Consequences of non-compliance may include, but are not limited to:

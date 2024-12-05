@@ -11,12 +11,12 @@ subtitle: Policy on Affiliated Clubs
 
 ## Definitions
 1. The "Engineering Society” shall refer to the University of Toronto Engineering Society, hereafter referred to as "the Society.”
-1. "Members” shall mean members of the Society, as defined in Chapter 1 of Bylaw 1 - The Constitution.
+1. "Members” shall mean members of the Society, as defined in Chapter 1 of [Bylaw 1 - The Constitution](../bylaw-1.md).
 1. The "Affiliation Year” shall be defined from September 1st of any year to August 31st of the following year.
 1. The "Fall” term shall be defined from September 1st to December 31st of the Affiliation Year.
 1. The "Winter ” term shall be defined as January 1st to April 31st of the Affiliation Year.
 1. The "Summer” term shall be defined as May 1st to August 31st of the Affiliation Year.
-1. The "Affiliation Committee” is defined in Section 4.12.6 of Bylaw 1.
+1. The "Affiliation Committee” is defined in [Section 4.12.6 of Bylaw 1](../bylaw-1.md).
 
 ## Clubs may obtain affiliation with the Society in one of the following status:
 1. Trial Status (Lasting a duration of 4 months with the potential for extension as deemed necessary by the VP Student Life)
@@ -43,7 +43,7 @@ subtitle: Policy on Affiliated Clubs
 
 ## Affiliated clubs must follow relevant Society bylaws and policies.
 
-## Affiliated clubs must make the Society’s Policy on Complaints easily accessible to their members.
+## Affiliated clubs must make the Society’s [Policy on Complaints](policy-on-complaints.md) easily accessible to their members.
 
 ## Members of affiliated clubs must not:
 1. Violate the University of Toronto Student Code of Conduct Section B-1.
@@ -51,7 +51,7 @@ subtitle: Policy on Affiliated Clubs
 1. Commit or attempt to commit other acts deemed inappropriate by both the President and Vice-President Student Life.
 1. Fail to report violations of this standard of behaviour to an appropriate authority (whether to appropriate individuals the Engineering Society, to appropriate individuals within the University of Toronto, or appropriate law enforcement authorities).
 
-## If a club leader is made aware that a member of their club has committed a violation outlined in Section 1.8, they should report the incident to the Ombudsperson in accordance with the Society’s Policy on Complaints.
+## If a club leader is made aware that a member of their club has committed a violation outlined in Section 1.8, they should report the incident to the Ombudsperson in accordance with the Society’s [Policy on Complaints](policy-on-complaints.md).
 1. In the case that a club leader receives a confidential disclosure they are not given permission to share, the club leader should explain the Society’s complaints resources to the complainant.
 
 ## If after a report to the Ombudsperson, no action is taken by the club to rectify the situation in a timely manner to the satisfaction of the Ombudsperson, the Ombudsperson will notify the VP Student Life and the President that an affiliation violation has occurred and recommend outcomes including but not limited to removal of the club’s affiliation status as outline in Section 7.
@@ -68,7 +68,7 @@ subtitle: Policy on Affiliated Clubs
 1. If clubs are not granted Full Status within the balance of their affiliation year, they shall re-apply for Trial Status.
 1. The summer term does not contribute to the Trial status period.
 
-## Once granted Trial Status, clubs will be eligible for all the benefits of Full Status clubs, with restrictions on their allocated budget as per the Engineering Society Policy on Finances.
+## Once granted Trial Status, clubs will be eligible for all the benefits of Full Status clubs, with restrictions on their allocated budget as per the Engineering Society [Policy on Finances](finance-policy.md).
 
 # Engineering Club Trial Status Application
 

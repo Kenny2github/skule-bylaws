@@ -35,7 +35,7 @@ subtitle: The Constitution
 1. Where a Board of Directors meeting is referred to by month (such as "the April Board of Directors meeting") or as "monthly", the meeting referred to is the last regular meeting in that month, unless otherwise specified.
 1. In the event of any ambiguity in a by-law or policy, its interpretation shall be ruled upon by the Speaker. The Speaker shall commit an item to the Policy and Structures Committee to review the Bylaw or policy found to be in ambiguity and make a recommendation to the Board.
 1. The Speaker shall rule out of order any vote on an interpretation that is not reasonably plausible in the existing by-law or policy or that would contravene any act of Parliament.
-1. The interpretation and enforcement of Bylaw 3 during Election Periods, to the extent required to run free and fair elections, is the jurisdiction of the Chief Returning Officer (with substantive decisions subject to appeal by the process described in Bylaw 3 Chapter 10).
+1. The interpretation and enforcement of [Bylaw 3](bylaw-3.md) during Election Periods, to the extent required to run free and fair elections, is the jurisdiction of the Chief Returning Officer (with substantive decisions subject to appeal by the process described in [Bylaw 3 Chapter 10](bylaw-3.md)).
    1. The CRO shall consult the Speaker to ensure fair and consistent interpretations and judgements in accordance with the Bylaws and the principles of fundamental justice.
    1. In all other cases (i.e. interpretation of the Bylaw not strictly related to the administration of elections) the interpretation of the Bylaw rests with the Speaker in accordance with Section 0.1.3
 
@@ -155,16 +155,16 @@ subtitle: The Constitution
 
 ## General
 1. The Officers of the Society shall be the President, the Vice-President Finance, the Vice-President Communications, the Vice-President Academic and the Vice-President Student Life.
-1. Each Officer shall be elected by the Membership, as defined in Bylaw 3.
+1. Each Officer shall be elected by the Membership, as defined in [Bylaw 3](bylaw-3.md).
 1. In case of infirmity, death, resignation, or other form of ineligibility of an Officer:
    1. The President shall assume said Officer's responsibilities, unless the President's position is the one in question, in which case the Vice-President Finance shall assume the President's responsibilities;
-   1. An Election for said Officer's position shall be held as early as possible, as described in Bylaw 3; and
+   1. An Election for said Officer's position shall be held as early as possible, as described in [Bylaw 3](bylaw-3.md); and
    1. Should the Vice-President Finance be unable to fulfill these responsibilities, the following order of succession shall apply: Vice-President Communications, Vice-President Academic, Vice-President Student Life, and Speaker; and
    1. All other Officers may be candidates to replace said Officer, by resigning from their positions.
 1. An Officer, once elected, will not be considered eligible to run in an election for the same or substantially similar position.
 1. Except in cases of Section 3.0.3, no person may hold two Officer positions simultaneously.
 1. The term of office for each Officer shall commence when they take the Oath of Office and shall end upon the respective incoming Officer's Oath of Office the following year.
-1. Each Officer shall oversee Directors, as specified in Bylaw 2.
+1. Each Officer shall oversee Directors, as specified in [Bylaw 2](bylaw-2.md).
 1. Each Officer shall have such other duties as may be outlined in Bylaws or Policies.
 1. Officers shall be official representatives of the Society, in the following order of precedence: President, Vice-President Finance, Vice-President Communications, Vice-President Academic, and Vice-President Student Life.
 1. Each Officer shall be a Full Time Member of the Society or a Part Time Member of the Society who is not completing a Professional Experience Year (PEY) in the September of their term of Office and thereafter during their term of Office.
@@ -272,7 +272,7 @@ subtitle: The Constitution
 1. A Member of the Board of Directors may resign from their position at any point during their term by giving formal written notice to the Vice President Communications and Speaker.
    1. Notwithstanding Section 27 of ONCA, the Society is not required to provide Members with a statement written by a Member of The Board of Directors.
 1. No Member of the Society may hold more than one (1) position on the Board of Directors at any given time.
-1. If a seat on the Board of Directors is left vacant after the Board of Directors Election Period and prior to the First Year Board of Directors Election Period as defined in Bylaw 3, the Chief Returning Officer shall hold an election in accordance with the relevant sections of Bylaw 3.
+1. If a seat on the Board of Directors is left vacant after the Board of Directors Election Period and prior to the First Year Board of Directors Election Period as defined in [Bylaw 3](bylaw-3.md), the Chief Returning Officer shall hold an election in accordance with the relevant sections of [Bylaw 3](bylaw-3.md).
 
 ## Votes and Quorum
 1. Each Board Member shall have one (1) vote on each motion to be decided by the Board.
@@ -357,10 +357,10 @@ subtitle: The Constitution
 1. The Finance Committee shall consist of the Vice-President Finance, the Vice-President Student Life and other members as the Board may appoint.
    1. The Vice-President Finance shall serve as the Chair of the Finance Committee; and
    1. The Vice-President Finance shall strike the Finance Committee no later than at the May Board of Directors Meeting.
-1. The Policy and Structures Committee shall shall consist of the President, the Vice-President Communications, the CRO (as defined in Bylaw 3), the Speaker of the Board, members of the Board as elected, and appointed members of the Society.
+1. The Policy and Structures Committee shall shall consist of the President, the Vice-President Communications, the CRO (as defined in [Bylaw 3](bylaw-3.md)), the Speaker of the Board, members of the Board as elected, and appointed members of the Society.
    1. The Vice-President Communications shall fulfill the role of the Chair until such time as the Committee elects its own Chair.
    1. The Vice-President Communications shall strike the Policy and Structures Committee no later than at the May Board of Directors Meeting.
-   1. The Policy and Structures Committee will review Bylaw 3 at their August and November meetings.
+   1. The Policy and Structures Committee will review [Bylaw 3](bylaw-3.md) at their August and November meetings.
 1. The Academic Advocacy Committee shall consist of the Vice-President Academic, other members of the Board that may be appointed, one representative from each Discipline appointed by Discipline Club Chairs, Faculty Council Standing Committee Representatives, Faculty Council Representatives and appointed members of the Society.
    1. The Vice-President Academic shall serve as the Chair of the Academic Advocacy Committee; and
    1. The Vice-President Academic shall strike the Academic Advocacy Committee no later than at the May Board of Directors Meeting.

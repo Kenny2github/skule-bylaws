@@ -95,7 +95,7 @@ subtitle: Policy on Complaints
 
 # Appeals Process
 
-## If a recommended outcome was dispositioned by the Board of Directors, the complainant may appeal the ruling by calling a General Meeting (as outlined in Bylaw 1, Section 2.1.2)
+## If a recommended outcome was dispositioned by the Board of Directors, the complainant may appeal the ruling by calling a General Meeting (as outlined in [Bylaw 1, Section 2.1.2](../bylaw-1.md))
 1. A majority of Members present at the General Meeting can overturn the decision rendered by the Board of Directors.
 
 ## If a recommended outcome was dispositioned by a General Meeting, there shall be no further appeal.

@@ -48,7 +48,7 @@ subtitle: Digital Services Policy
    1. Full-Status Affiliated Clubs.
    1. Associated Entities.
 1. The Administrators reserve the right to deny a Google Workspace Account to any individual if there is reasonable suspicion that the Account will be used in a way that violates the User Agreement.
-1. With the exception of the accounts held by employees of the Society as per Bylaw 1 Chapter 6, the names of all Google Workspace Accounts associated with the skule.ca domain must reflect the individual’s position.
+1. With the exception of the accounts held by employees of the Society as per [Bylaw 1 Chapter 6](../bylaw-1.md), the names of all Google Workspace Accounts associated with the skule.ca domain must reflect the individual’s position.
    1. Account names or aliases may not explicitly or implicitly suggest that an individual holds a position other than the one which the Account was specifically created for.
 1. With the approval of the Administrators, any individual who holds an Account on the Engineering Society Google Workspace may own one or more Google Groups for the purposes of operating or advertising their organization.
 

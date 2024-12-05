@@ -11,7 +11,7 @@ subtitle: Policy on Finances
 1. In this document:
    1. “Conference Funding” shall refer to the allocation of funding for engineering students or clubs (as defined in this Policy) which is used for subsidization of  attendance costs of academic conferences or design competitions. With conferences that are in the category of academics, design competition, or professional, the faculty funding source will cover up to $500/student attending or 50% of max costs or capped at $5000/entity/club/group of students. With conferences that are of a non academic, design competition, or professional nature, the funding will be covered by the Engineering Society at $200/student attending or 50% of max costs or capped at $2000/entity/club/group of students.
    1. “Special Projects Funding” shall refer to the allocation of funding for one-time purchases which benefit their organizations or the Skule™ community as a whole. “Special Projects Funding” could also be first time operation events for entities that have never run it before.
-   1. “Finance Committee” shall refer to the standing committee of the Board of Directors as defined in Bylaw 1.
+   1. “Finance Committee” shall refer to the standing committee of the Board of Directors as defined in [Bylaw 1](../bylaw-1.md).
    1. “Fiscal year” shall refer to from May 1st of the current year to April 31st of the successive year.
 
 # Oversight by the Finance Committee
@@ -20,7 +20,7 @@ subtitle: Policy on Finances
 1. The Finance Committee shall be responsible for overseeing the business described in this policy. Ultimate responsibility for the implementation of this Policy shall rest with the Vice-President Finance.
 1. The Finance Committee shall meet at least once a month to conduct their business as outlined in this Policy, except for the months of December and April..
 1. There shall be a Secretary of the Finance Committee who shall be responsible for recording all decisions and recommendations made at Finance Committee meetings, including justification for these decisions and recommendations.
-1. The Board of Directors shall be required to review and approve the recommendations of each Finance Committee meeting for the decisions therein to be effective, as per Bylaw 1 §4.12.8.
+1. The Board of Directors shall be required to review and approve the recommendations of each Finance Committee meeting for the decisions therein to be effective, as per [Bylaw 1 §4.12.8](../bylaw-1.md).
 
 # Requests for Funding
 
@@ -58,7 +58,7 @@ subtitle: Policy on Finances
    1. Requests for Conference Funding, Special Projects Funding, Project Directorships, levy renewal/new applications, Discipline Clubs, Associated Entities, or Affiliated Clubs funding should be decided by the Finance Committee;
 1. The Finance Committee shall be responsible for explaining its recommendation and any associated background information to the group that it refers the request to.
 
-# Funding Appeals 
+# Funding Appeals
 
 ## General
 1. All appeals for funding amounts shall be either tabled for resolution via reapplication to the Finance Committee or resolved at the month-end board of directors meeting.The Vice President Finance (vpfinance@skule.ca) and to the Secretary of the Finance Committee (finance.secretary@skule.ca) will determine whether an application can be tabled for resolution in the next finance committee meeting.
@@ -73,7 +73,7 @@ subtitle: Policy on Finances
 # Engineering Society Budgets
 
 ## General
-1. The Finance Committee shall assist the Vice President Finance in the creation of the Engineering Society operating budgets as described in Bylaw 4.
+1. The Finance Committee shall assist the Vice President Finance in the creation of the Engineering Society operating budgets as described in [Bylaw 4](../bylaw-4.md).
 1. The Vice President Finance shall open budget submissions from Project Directorships, Associated Entities, and Officers of the Society after the April Board of Directors meeting. Budgets shall be returned as soon as possible to the Vice President Finance for examination by the Finance Committee, as described in Section 3.
 
 # Financial Reporting

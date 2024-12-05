@@ -17,8 +17,8 @@ subtitle: The Commercial Operations Bylaw
 
 ## Managers
 1. Each commercial operation shall have two (2) Managers.
-1. Managers shall be Project Directors, as laid out in Bylaw 2.
-1. Where Bylaw 2 allows for only one Manager to be a Project Director, that Project Director position may be filled by either Manager.
+1. Managers shall be Project Directors, as laid out in [Bylaw 2](bylaw-2.md).
+1. Where [Bylaw 2](bylaw-2.md) allows for only one Manager to be a Project Director, that Project Director position may be filled by either Manager.
 1. The Managers shall be responsible for the security of the property and premises of the Operation.
 
 # Financial Records

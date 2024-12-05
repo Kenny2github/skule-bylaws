@@ -16,7 +16,7 @@ subtitle: The Directors and Associated Entities Bylaw
 1. A Project Director, once elected, shall not be eligible to run in elections for any Project Directorship with the same Term of Office. This requirement may be waived due to extenuating circumstances by a unanimous vote of the Board.
 1. A Member may hold a maximum of two (2) Project Director positions at the same time, provided that the terms of office of the two (2) positions do not overlap by more than four (4) months.
 1. Project Directors may not also hold Officer positions.
-1. Project Directors shall be elected, as defined in Chapter 7 in Bylaw 3.
+1. Project Directors shall be elected, as defined in [Chapter 7 in Bylaw 3](bylaw-3.md).
 1. A Project Director may only be recalled upon a two-thirds vote by:
    1. The Board of Directors of the Society;
    1. The Annual General Meeting; or
@@ -57,16 +57,16 @@ subtitle: The Directors and Associated Entities Bylaw
 1. The Skulebook Editor shall be overseen by the Vice-President Communications.
 
 ## Engineering Stores Managers
-1. There shall be two (2) Engineering Stores Managers, who shall be responsible for Engineering Stores, as described in Bylaw 5.
+1. There shall be two (2) Engineering Stores Managers, who shall be responsible for Engineering Stores, as described in [Bylaw 5](bylaw-5.md).
 1. The Engineering Stores Managers shall be overseen by the Vice-President Finance.
 
 ## Suds Managers
-1. There shall be two (2) Suds Managers, who shall be responsible for Suds, the Engineering Pub, as described in Bylaw 5.
+1. There shall be two (2) Suds Managers, who shall be responsible for Suds, the Engineering Pub, as described in [Bylaw 5](bylaw-5.md).
 1. The Suds Managers shall attend a form of or equivalent of Sexual Violence Prevention and Response Training, before the November month of their term, provided by the University of Toronto and their resources or from an external organization deemed reliable at a meeting of the Board of Directors.
 1. The Suds Managers shall be overseen by the Vice-President Finance.
 
 ## Hard Hat Caf\'e Managers
-1. There shall be two (2) Hard Hat Caf\'e Managers, who shall be responsible for the Hard Hat Caf\'e, as described in Bylaw 5.
+1. There shall be two (2) Hard Hat Caf\'e Managers, who shall be responsible for the Hard Hat Caf\'e, as described in [Bylaw 5](bylaw-5.md).
 1. The Hard Hat Caf\'e Managers shall be overseen by the Vice-President Finance.
 
 ## Archivist

@@ -18,7 +18,7 @@ subtitle: The Discipline Clubs and Class Representatives Bylaw
 # Finances
 
 ## Finances
-1. Financial support for Discipline Clubs from the Engineering Society shall be allocated according to the following formula: $1000 per discipline, plus $4.50 per student. If the Engineering Society increases membership fees to adjust for cost of living, as per Bylaw 1 Section 1.2.4, then the funding for Discipline Clubs shall be adjusted by the same percentage.
+1. Financial support for Discipline Clubs from the Engineering Society shall be allocated according to the following formula: $1000 per discipline, plus $4.50 per student. If the Engineering Society increases membership fees to adjust for cost of living, as per [Bylaw 1 Section 1.2.4](bylaw-1.md), then the funding for Discipline Clubs shall be adjusted by the same percentage.
    1. Notwithstanding subsection 1.0.1. the formula for the TrackOne Committee shall be $348.98 plus $6.31 per student.
 1. Financial support shall be delivered in the form of three cheques.
 1. All discipline club funding shall be withheld until its release is approved by the Board. The Board may decline to release funding for the following reasons:
@@ -28,7 +28,7 @@ subtitle: The Discipline Clubs and Class Representatives Bylaw
    1. The club's chair or co-chairs are not in their Final Year.
       1. This section does not apply to the TrackOne Committee.
    1. The club has not run elections in compliance with the Society's bylaws.
-      1. Each Discipline Club Constitution shall clearly state that the Discipline Club Chair must be elected through the Engineering Society, barring extraneous circumstances, as defined in Bylaw 3.
+      1. Each Discipline Club Constitution shall clearly state that the Discipline Club Chair must be elected through the Engineering Society, barring extraneous circumstances, as defined in [Bylaw 3](bylaw-3.md).
 1. In cases where no Chair has been elected, an Interim Chair may be appointed and the requirements for funding in 1.0.3.d and 1.0.3.e be waived.
    1. Should a Discipline Club choose to appoint an Interim Chair, the process for doing so must be clearly outlined in their constitution.
    1. In cases where an Interim Chair is appointed, the position of Chair must be opened for nominations in the next applicable election cycle regardless.
@@ -62,4 +62,4 @@ subtitle: The Discipline Clubs and Class Representatives Bylaw
    1. In the case that the constituency is smaller than twenty (20) members, the referendum may be called by no less than 50% of the constituency.
    1. If a referendum is called, the Class Representative in question must be notified by email by the Chief Returning Officer at least seven (7) days prior to the start of the referendum.
    1. If a referendum is called, the entire constituency that is eligible to vote must be notified by email at the start of the voting period, which shall be at least three (3) days.
-   1. Any person explicitly advocating for or against recalling the Class Representative in question shall be held to the same standards as referendum delegates as per Bylaw 3, and penalties may be imposed at the discretion of the Chief Returning Officer. \end{easylist}
+   1. Any person explicitly advocating for or against recalling the Class Representative in question shall be held to the same standards as referendum delegates as per [Bylaw 3](bylaw-3.md), and penalties may be imposed at the discretion of the Chief Returning Officer. \end{easylist}

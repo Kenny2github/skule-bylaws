@@ -29,16 +29,16 @@ subtitle: The Officers Bylaw
 1. The President shall wear the white firefighter’s hardhat for the entire duration of all General Meetings and Meetings of the Board of Directors.
 1. The President shall have the authority to execute any action or act on the Society’s behalf in any matter authorized by legislation, the Constitution, Bylaws, or Resolution of the Board unless it has been specifically assigned to another person.
 1. The President shall strike the Student Choice Awards Committee no later than the September Board of Directors meeting.
-1. The President is responsible for the oversight of the Orientation Chair and aiding in the creation of an Orientation Report, as outlined in Bylaw 2.
+1. The President is responsible for the oversight of the Orientation Chair and aiding in the creation of an Orientation Report, as outlined in [Bylaw 2](bylaw-2.md).
 
 # Vice-Presidents
 
 ## Vice-President Finance
-1. The Vice-President Finance is responsible for overseeing the commercial operations defined in Bylaw 5.
+1. The Vice-President Finance is responsible for overseeing the commercial operations defined in [Bylaw 5](bylaw-5.md).
 1. The Vice-President Finance shall report, at all regular Meetings of the Board of Directors, the Society’s financial position, including but not limited to:
    1. A comparison of actual income and expenses pertaining to the budget; and
    1. A statement of expected income and expenses.
-1. The Vice-President Finance shall, within two (2) weeks following the end of the fiscal year as defined in Bylaw 1, submit the Society's accounts and year-end financial statements to the auditors.
+1. The Vice-President Finance shall, within two (2) weeks following the end of the fiscal year as defined in [Bylaw 1](bylaw-1.md), submit the Society's accounts and year-end financial statements to the auditors.
 1. The Vice-President Finance shall present the auditor's report at the Annual General Meeting during their term of office.
 1. The Vice-President Finance is responsible for working with the Alumni Outreach Director, the Engineering Alumni Network and the Faculty’s Office of Advancement and Alumni Relations, on matters pertaining to fundraising.
 1. The Vice-President Finance is responsible for cheque requisition and approval.
