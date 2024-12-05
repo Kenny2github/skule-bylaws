@@ -76,7 +76,8 @@ jobs:
           git config user.email github-actions@github.com
           # HACK: patch absolute URLs to web root
           if [ '${{ github.ref_name }}' != 'master' ]; then
-            SUBDIR='branch/${{ github.ref_name }}'
+            # Trailing slash is important!
+            SUBDIR='branch/${{ github.ref_name }}/'
             mkdir -p "$SUBDIR"
           else
             SUBDIR=""
@@ -85,7 +86,7 @@ jobs:
           rm -rf build
           BASE="$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url')"
           for f in ./$SUBDIR/**/*.html; do
-            sed -i -re "s#(href|src)=\"/([^\"]*)\"#\1=\"$BASE/$SUBDIR/\2\"#" "$f"
+            sed -i -re "s#(href|src)=\"/([^\"]*)\"#\1=\"$BASE/$SUBDIR\2\"#" "$f"
           done
           if [ -z "$SUBDIR" ]; then
             git restore branch/**/*
