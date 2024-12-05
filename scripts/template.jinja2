@@ -28,7 +28,9 @@
 		<br/>University of Toronto Engineering Society
 	</h1>
 	<h1 class="contents">Contents</h1>
+	{% if pdf|lower != 'index' %}
 	<p class="contents">For a list of all Bylaws and Policies, see the <a href="/">index</a>.</p>
+	{% endif %}
 	<section class="contents">
 	{% for chapter in chapters %}
 		<span></span> <a href="#{{ loop.index0 }}">{{ chapter.title }}</a> <span></span>
