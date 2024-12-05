@@ -1,5 +1,5 @@
 ---
-revdate: March 27, 2021
+revdate: October 19, 2024 by the Board of Directors
 title: Policy Number "1234-56-78"
 pdf: policies/Orientation Governance Policy
 subtitle: Orientation Governance Policy
@@ -17,8 +17,6 @@ subtitle: Orientation Governance Policy
 1. Given the large number of individuals who hold positions in Orientation as well as other positions within the Engineering Society and the resulting conflicts of interest, it is necessary for Orientation to maintain institutional independence to protect the experience of incoming first-year students.
 
 ## Interpretation
-1. This policy operates notwithstanding Policy Number “2013-02-01”, the [Policy on Complaints](policy-on-complaints.md).
-1. In any situations where this Policy contradicts the [Policy on Complaints](policy-on-complaints.md), this Policy shall have precedence.
 1. This policy does not override the University of Toronto Policy on Sexual Violence and Sexual Harassment nor any applicable municipal, provincial, and federal legislation (in particular, the Ontario Child, Youth and Family Services Act). All individuals involved with Orientation must comply with their obligations under the University of Toronto Policy on Sexual Violence and Sexual Harassment as well as any applicable municipal, provincial, and federal legislation.
 
 # Appointed Members
@@ -47,12 +45,6 @@ subtitle: Orientation Governance Policy
 1. Unless removed by the Orientation Chair, individuals will remain on the list indefinitely.
 1. The list will be shared only with the President and Orientation Vice-Chairs, except as needed to enforce the requirement that individuals do not participate in or engage with Orientation or Orientation-related events and activities.
    1. Determining with whom to share the list (including with other Officers of the Engineering Society) shall be done at the sole discretion of the Orientation Chair.
-
-## Complaints and Investigation
-1. Complaints alleging that an individual’s behaviour falls under a criterion outlined in Section 4.3.1 should be submitted directly to the Orientation Chair.
-   1. If a person submitting a complaint is unsatisfied with the resolution of their complaint, the person should submit their complaint directly to the President, who will discuss the matter with the Orientation Chair.
-1. Determining if an individual’s behaviour falls under a criterion outlined in Section 4.2.1, including the procedure and timeline of any investigation as well as any engagement with external parties, shall be done at the sole discretion of the Orientation Chair.
-1. If the complaint is regarding the Orientation Chair, it should be submitted to the President. In this case, determining if the Orientation Chair’s behaviour falls under a criterion outlined in Section 4.2.1 shall be done at the sole discretion of the President, including whether to invoke procedures outlined in the [Policy on Complaints](policy-on-complaints.md).
 
 ## Standard of Behaviour
 1. Individuals will not be permitted to participate in or engage with Orientation or Orientation-related events if there exist credible allegations that the individual has:
