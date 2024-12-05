@@ -10,7 +10,7 @@ subtitle: Policy on Levy Groups
 1. To define the process by which affiliated clubs may become levy groups and the requirements for those levy groups.
 
 ## In this document:
-   1. "Levy Groups" shall refer to all groups receiving a portion of the Engineering Society fee.
+1. "Levy Groups" shall refer to all groups receiving a portion of the Engineering Society fee.
 
 ## Regulations
 1. Campaigns and elections for the receipt of levies shall be held in accordance with the chapter on Referenda in [Bylaw 3](../bylaw-3.md).

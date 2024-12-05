@@ -19,23 +19,19 @@ subtitle: Orientation Governance Policy
 ## Interpretation
 1. This policy does not override the University of Toronto Policy on Sexual Violence and Sexual Harassment nor any applicable municipal, provincial, and federal legislation (in particular, the Ontario Child, Youth and Family Services Act). All individuals involved with Orientation must comply with their obligations under the University of Toronto Policy on Sexual Violence and Sexual Harassment as well as any applicable municipal, provincial, and federal legislation.
 
-# Appointed Members
+# Management
 
-## The Orientation Chair must consult the President before appointing members to the Orientation Committee (Vice-Chairs, Sub-Committee Chairs, and Head Leedurs).
+## Appointed Members
+1. The Orientation Chair must consult the President before appointing members to the Orientation Committee (Vice-Chairs, Sub-Committee Chairs, and Head Leedurs).
+1. Any appointed member of the Orientation Committee (Vice-Chairs, Sub-Committee Chairs, and Head Leedurs) may be removed from their position by a majority vote of a committee comprised of the Orientation Chair, the Assistant Director, First Year Student Success & Transition, and the President.
 
-## Any appointed member of the Orientation Committee (Vice-Chairs, Sub-Committee Chairs, and Head Leedurs) may be removed from their position by a majority vote of a committee comprised of the Orientation Chair, the Assistant Director, First Year Student Success & Transition, and the President.
+## Project Management
+1. The Orientation Chair must provide a tentative schedule for Orientation to the President by the beginning of April.
+1. The Orientation Chair must provide a written monthly update to the President at the beginning of every month in the Summer Months.
 
-# Project Management
-
-## The Orientation Chair must provide a tentative schedule for Orientation to the President by the beginning of April.
-
-## The Orientation Chair must provide a written monthly update to the President at the beginning of every month in the Summer Months.
-
-# Sexual Violence Prevention and Response
-
-## The Orientation Chair and Vice-Chairs are required to receive sexual violence prevention training from the University’s Sexual Violence Prevention and Support Centre before the start of August.
-
-## The Orientation Chair is required to create a Sexual Violence Prevention and Response plan before August 15th, and this plan will be presented to all members of the Engineering Society taking part in F!rosh Week and F!rosh Week-adjacent events.
+## Sexual Violence Prevention and Response
+1. The Orientation Chair and Vice-Chairs are required to receive sexual violence prevention training from the University’s Sexual Violence Prevention and Support Centre before the start of August.
+1. The Orientation Chair is required to create a Sexual Violence Prevention and Response plan before August 15th, and this plan will be presented to all members of the Engineering Society taking part in F!rosh Week and F!rosh Week-adjacent events.
 
 # Restricted Participation in Orientation
 
