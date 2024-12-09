@@ -8,3 +8,7 @@
 *.synctex*
 *.xdv
 build/
+__pycache__/
+*.pyc
+*.html
+*.diff
