@@ -31,9 +31,12 @@ jobs:
             if ('${{ github.head_ref }}' != 'master') {
               url += 'branch/${{ github.head_ref }}';
             }
+            const diff_url = '${{ github.event.pull_request.diff_url }}';
+            const body = `Please remember to check [the diff](${diff_url}) for
+            reference warnings. Successful HTML builds will appear at ${url}`;
             await github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `Successful HTML builds will appear at ${url}`
+              body: body
             });
