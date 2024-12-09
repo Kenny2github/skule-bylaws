@@ -44,7 +44,7 @@ def crossref_href(section: str) -> str | None:
     else:
         return None
 
-def make_crossref(m: re.Match) -> str:
+def make_crossref(m: re.Match[str]) -> str:
     unquoted = m.group(1).strip()
     section = (m.group('chapter') or '') + (m.group('section') or '')
     href = crossref_href(section)
