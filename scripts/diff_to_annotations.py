@@ -180,7 +180,8 @@ def main(crossrefs_diff: str, files_diff: str):
                 if 'dest' in status:
                     changed.append('location')
                 if changed:
-                    changed = f' Referenced {" and ".join(changed)} have also changed.'
+                    changed = f' Referenced {" and ".join(changed)} ' \
+                        f'{"have" if len(changed) > 1 else "has"} also changed.'
                 else:
                     changed = ''
                 print(f'::{level} file={file.name},line={lineno}::'
