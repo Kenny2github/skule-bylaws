@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+import io
 from pathlib import Path
 import re
 import sys
@@ -86,4 +87,6 @@ def main(crossrefs_diff: str, files_diff: str):
                       f'{m.group(3)} is an invalid reference.')
 
 if __name__ == '__main__':
+    if isinstance(sys.stdout, io.TextIOWrapper):
+        sys.stdout.reconfigure(encoding='utf8')
     main(*sys.argv[1:])

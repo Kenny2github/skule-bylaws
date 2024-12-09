@@ -1,5 +1,6 @@
 from __future__ import annotations
 from io import StringIO
+import io
 from pathlib import Path
 import re
 import sys
@@ -174,4 +175,8 @@ def main(argv: list[str] = sys.argv) -> None:
     print(render(*get_data(file)), file=outfile)
 
 if __name__ == '__main__':
+    if isinstance(sys.stdin, io.TextIOWrapper):
+        sys.stdin.reconfigure(encoding='utf8')
+    if isinstance(sys.stdout, io.TextIOWrapper):
+        sys.stdout.reconfigure(encoding='utf8')
     main()

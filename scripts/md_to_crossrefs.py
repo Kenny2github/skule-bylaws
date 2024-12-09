@@ -1,5 +1,6 @@
 from functools import partial
 from glob import glob
+import io
 from pathlib import Path
 import re
 import sys
@@ -53,4 +54,6 @@ def main() -> None:
                 check_textref(filename, ln+1, files, m)
 
 if __name__ == '__main__':
+    if isinstance(sys.stdout, io.TextIOWrapper):
+        sys.stdout.reconfigure(encoding='utf8')
     main()
