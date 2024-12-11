@@ -26,7 +26,7 @@ jobs:
           OWNER: ${{ github.event.pull_request.head.repo.owner.login }}
           REPO: ${{ github.event.pull_request.head.repo.name }}
           HEAD: ${{ github.head_ref }}
-          URL: ${{ github.event.pull_request.diff_url }}
+          URL: ${{ github.event.pull_request.html_url }}/files
         with:
           script: |
             let {data: {html_url: url}} = await github.rest.repos.getPages({
