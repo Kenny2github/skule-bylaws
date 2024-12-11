@@ -1,4 +1,4 @@
-name: Comment GitHub Pages link on new pull requests
+name: Comment helpful links on new pull requests
 on:
   pull_request_target:
     paths:
@@ -16,32 +16,44 @@ permissions:
 
 jobs:
   link-html:
-    name: Post link to GitHub Pages build
+    name: Post relevant links
     runs-on: ubuntu-latest
 
     steps:
+      - name: Get GitHub Pages link
+        id: link
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAGES_URL: ${{ github.event.pull_request.head.repo.html_url }}/settings/pages
+          HEAD: ${{ github.head_ref }}
+          MAIN: ${{ github.event.pull_request.head.repo.default_branch }}
+        run: |
+          URL="$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url' || echo)"
+          if [ -z "$URL" ]; then
+            MSG="GitHub Pages has not yet been set up. Please set the Branch for build and deployment to `gh-pages` here: $PAGES_URL"
+            gh pr close --comment "$MSG"
+            exit 1
+          else
+            if [ "$HEAD" != "$MAIN" ]; then
+              URL="${URL}branch/$HEAD"
+            fi
+            echo "url=$URL" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Post link
         uses: actions/github-script@v7
         env:
           OWNER: ${{ github.event.pull_request.head.repo.owner.login }}
           REPO: ${{ github.event.pull_request.head.repo.name }}
-          HEAD: ${{ github.head_ref }}
-          MAIN: ${{ github.event.pull_request.head.repo.default_branch }}
-          URL: ${{ github.event.pull_request.html_url }}/files
+          PAGE_URL: ${{ steps.link.outputs.url }}
+          DIFF_URL: ${{ github.event.pull_request.html_url }}/files
           PDF_URL: ${{ github.event.pull_request.head.repo.html_url }}/actions/workflows/generate-html-pdfs.yml
           BASE: ${{ github.base_ref }}
           DEFAULT: ${{ github.event.repository.default_branch }}
         with:
           script: |
-            let {data: {html_url: url}} = await github.rest.repos.getPages({
-              owner: process.env.OWNER,
-              repo: process.env.REPO,
-            });
-            if (process.env.HEAD != process.env.MAIN) {
-              url += `branch/${process.env.HEAD}`;
-            }
-            const diff_url = process.env.URL;
-            let body = `Please remember to check [the diff](${diff_url}) for reference warnings. Successful HTML builds will appear at ${url}
+            let body = `Please remember to check [the diff](${process.env.DIFF_URL}) for reference warnings. Successful HTML builds will appear at ${process.env.PAGE_URL}
 
             Successful PDF builds will appear in the Artifacts section of the latest [workflow run](${process.env.PDF_URL}). Alternatively, print-to-PDF on Chrome from the HTML build will produce the same PDF build.`;
             if (process.env.BASE == process.env.DEFAULT) {
