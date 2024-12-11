@@ -119,7 +119,7 @@ jobs:
             exit 0
           fi
           git commit -m "Generate HTML from commit $GITHUB_SHA"
-          git push
+          git push -u origin gh-pages
 
   generate-pdfs:
     name: Generate PDF build
