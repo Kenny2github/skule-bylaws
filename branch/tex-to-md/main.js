@@ -32,8 +32,12 @@ function search() {
 		needle = new RegExp(needle.replace(/[/\-\\^$*+?.()|[\]{}]/g, '\\$&'), 'ig')
 	}
 	results.textContent = '';
-	for (const [file, [title, content]] of Object.entries(index)) {
-		for (const [section, [href, text]] of Object.entries(content)) {
+	const files = Object.entries(index);
+	files.sort(([a,], [b,]) => a.localeCompare(b));
+	for (const [file, [title, content]] of files) {
+		const sections = Object.entries(content);
+		sections.sort(([, [a,]], [, [b,]]) => a.localeCompare(b));
+		for (const [section, [href, text]] of sections) {
 			const line = text.replaceAll(needle, repl);
 			if (line == text) continue;
 			const result = document.createElement('li');
