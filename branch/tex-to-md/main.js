@@ -1,4 +1,4 @@
-matchMedia('print').addListener(m => {
+matchMedia('print').addEventListener('change', m => {
 	if (!m.matches) return;
 	const spans = Array.from(document.querySelectorAll('section.contents a + span'));
 	const h1s = Array.from(document.querySelectorAll('h1[id]'));
@@ -12,3 +12,33 @@ matchMedia('print').addListener(m => {
 		spans[i].innerText = Math.floor(h1s[i].getBoundingClientRect().top / (9 * inch)) + 1;
 	}
 });
+
+/**
+ * @param {string} needle Value to search for.
+ */
+function search() {
+	let needle = document.getElementById('search').value;
+	if (needle.length < 3) return;
+	/**
+	 * @type {{string: [string, {string: [string, string]}]}}
+	 */
+	const index = window.index;
+	const repl = '<b>$&</b>';
+	const results = document.getElementById('search-results');
+	const regex = document.getElementById('regex-search').checked;
+	if (regex) {
+		needle = new RegExp(needle, 'ig');
+	} else {
+		needle = new RegExp(needle.replace(/[/\-\\^$*+?.()|[\]{}]/g, '\\$&'), 'ig')
+	}
+	results.textContent = '';
+	for (const [file, [title, content]] of Object.entries(index)) {
+		for (const [section, [href, text]] of Object.entries(content)) {
+			const line = text.replaceAll(needle, repl);
+			if (line == text) continue;
+			const result = document.createElement('li');
+			result.innerHTML = `<a href="${file}${href}">${title} ${section}</a>: ${line}`
+			results.appendChild(result);
+		}
+	}
+}
