@@ -41,16 +41,11 @@ jobs:
               url += `branch/${process.env.HEAD}`;
             }
             const diff_url = process.env.URL;
-            let body = `Please remember to check [the diff](${diff_url}) for
-            reference warnings. Successful HTML builds will appear at ${url}
+            let body = `Please remember to check [the diff](${diff_url}) for reference warnings. Successful HTML builds will appear at ${url}
 
-            Successful PDF builds will appear in the Artifacts section of
-            the latest [workflow run](${process.env.PDF_URL}). Alternatively,
-            print-to-PDF on Chrome from the HTML build will produce the same
-            PDF build.`;
+            Successful PDF builds will appear in the Artifacts section of the latest [workflow run](${process.env.PDF_URL}). Alternatively, print-to-PDF on Chrome from the HTML build will produce the same PDF build.`;
             if (process.env.BASE == process.env.DEFAULT) {
-              body += ` After this pull request is merged, the PDFs will be
-            updated in the repository automatically.`;
+              body += ` After this pull request is merged, the PDFs will be updated in the repository automatically.`;
             }
             await github.rest.issues.createComment({
               issue_number: context.issue.number,
