@@ -20,25 +20,13 @@ class Hunk:
 class File:
     name: str
     hunks: list[Hunk] = field(default_factory=list)
-    del_linenos: set[int] = field(default_factory=set)
     add_linenos: set[int] = field(default_factory=set)
 
-def gather_del(hunk: Hunk, del_offset: int):
-    del_start = hunk.del_start - 1 + del_offset
-    del_count = 0
-    for ln, line in enumerate(hunk.del_lines, start=del_start + 1):
-        if line[0] != ' ':
-            yield ln - del_count
-            del_count += 1
-
 def update_mod(file: File):
-    del_offset = 0
     for hunk in file.hunks:
-        file.del_linenos.update(gather_del(hunk, del_offset))
         for ln, line in enumerate(hunk.add_lines, start=hunk.add_start):
             if line[0] != ' ':
                 file.add_linenos.add(ln)
-        del_offset += hunk.add_count - hunk.del_count
 
 def gather_diff(f: TextIO) -> list[File]:
     files: list[File] = []
