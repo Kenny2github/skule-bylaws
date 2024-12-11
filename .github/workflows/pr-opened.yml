@@ -22,16 +22,21 @@ jobs:
     steps:
       - name: Post link
         uses: actions/github-script@v7
+        env:
+          OWNER: ${{ github.event.pull_request.head.repo.owner.login }}
+          REPO: ${{ github.event.pull_request.head.repo.name }}
+          HEAD: ${{ github.head_ref }}
+          URL: ${{ github.event.pull_request.diff_url }}
         with:
           script: |
             let {data: {html_url: url}} = await github.rest.repos.getPages({
-              owner: '${{ github.event.pull_request.head.repo.owner.login }}',
-              repo: '${{ github.event.pull_request.head.repo.name }}',
+              owner: process.env.OWNER,
+              repo: process.env.REPO,
             });
-            if ('${{ github.head_ref }}' != 'master') {
-              url += 'branch/${{ github.head_ref }}';
+            if (process.env.HEAD != 'master') {
+              url += `branch/${process.env.HEAD}`;
             }
-            const diff_url = '${{ github.event.pull_request.diff_url }}';
+            const diff_url = process.env.URL;
             const body = `Please remember to check [the diff](${diff_url}) for
             reference warnings. Successful HTML builds will appear at ${url}`;
             await github.rest.issues.createComment({
