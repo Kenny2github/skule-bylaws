@@ -65,23 +65,15 @@ jobs:
           ref: gh-pages
           fetch-depth: 0
 
-      - name: Ensure gh-pages branch is orphaned
+      - name: Create new gh-pages branch
         shell: bash
-        env:
-          BRANCH: ${{ github.ref_name }}
+        if: steps.checkout.outcome == 'failure'
         run: |
-          if git merge-base "$BRANCH" gh-pages; then
-            git config user.name "$GITHUB_ACTOR"
-            git config user.email "$GITHUB_ACTOR_ID+$GITHUB_ACTOR@users.noreply.github.com"
-            git checkout --orphan orphan
-            git reset --hard
-            git commit --allow-empty -m "Initial gh-pages commit"
-            git branch -D gh-pages
-            git branch -M gh-pages
-            git push -u origin gh-pages
-          else
-            echo "gh-pages has no common ancestors with $BRANCH"
-          fi
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR_ID+$GITHUB_ACTOR@users.noreply.github.com"
+          git checkout --orphan gh-pages
+          git reset --hard
+          git commit --allow-empty -m "Initial gh-pages commit"
 
       - name: Download HTML artifact
         uses: actions/download-artifact@v4
