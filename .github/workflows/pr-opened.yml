@@ -26,8 +26,11 @@ jobs:
           OWNER: ${{ github.event.pull_request.head.repo.owner.login }}
           REPO: ${{ github.event.pull_request.head.repo.name }}
           HEAD: ${{ github.head_ref }}
-          MAIN: ${{ github.event.repository.default_branch }}
+          MAIN: ${{ github.event.pull_request.head.repo.default_branch }}
           URL: ${{ github.event.pull_request.html_url }}/files
+          PDF_URL: ${{ github.event.pull_request.head.repo.html_url }}/actions/workflows/generate-html-pdfs.yml
+          BASE: ${{ github.base_ref }}
+          DEFAULT: ${{ github.event.repository.default_branch }}
         with:
           script: |
             let {data: {html_url: url}} = await github.rest.repos.getPages({
@@ -38,8 +41,17 @@ jobs:
               url += `branch/${process.env.HEAD}`;
             }
             const diff_url = process.env.URL;
-            const body = `Please remember to check [the diff](${diff_url}) for
-            reference warnings. Successful HTML builds will appear at ${url}`;
+            let body = `Please remember to check [the diff](${diff_url}) for
+            reference warnings. Successful HTML builds will appear at ${url}
+
+            Successful PDF builds will appear in the Artifacts section of
+            the latest [workflow run](${process.env.PDF_URL}). Alternatively,
+            print-to-PDF on Chrome from the HTML build will produce the same
+            PDF build.`;
+            if (process.env.BASE == process.env.DEFAULT) {
+              body += ` After this pull request is merged, the PDFs will be
+            updated in the repository automatically.`;
+            }
             await github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
