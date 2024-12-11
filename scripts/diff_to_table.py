@@ -11,20 +11,16 @@ from lineno_to_section import section_to_str
 from mds_to_html import Section, get_data, clean_html
 
 START = """
-<table>
+<table border="1" frame="border">
 <tr><th colspan="2">Deleted</th><th colspan="2">Added</th></tr>
 <tr><th>Section</th><th>Text</th><th>Section</th><th>Text</th></tr>
 """.strip()
 
 ROW = '''<tr>
 <td>{0}</td>
-<td>
-
-{1}</td>
+<td>{1}</td>
 <td>{2}</td>
-<td>
-
-{3}</td>
+<td>{3}</td>
 </tr>'''
 
 @dataclass(frozen=True)
@@ -101,7 +97,7 @@ def main() -> None:
                 b_line = clean_html(b_line)
                 print(ROW.format(a_prefix, a_line, b_prefix, b_line))
             if tag is None: # for loop never executed
-                print('<tr><td colspan="4">\n\n_No changes resulted in HTML differences_</td></tr>')
+                print('<tr><td colspan="4"><i>No changes resulted in HTML differences</i></td></tr>')
     print('</table>')
 
 if __name__ == '__main__':
