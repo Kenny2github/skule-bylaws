@@ -1,0 +1,37 @@
+name: Annotate pull requests with crossref checks
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+    branches-ignore:
+      - gh-pages
+
+jobs:
+  make-crossref:
+    name: Annotate PR diff
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate annotations
+        shell: bash
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          shopt -s globstar
+          pip install -r scripts/requirements.txt
+          git diff "$BASE" HEAD -- **/*.md > md.diff
+          python scripts/md_to_crossrefs.py > crossrefs-src.txt
+          git checkout "$BASE" -- **/*.md
+          python scripts/md_to_crossrefs.py > crossrefs-base.txt
+          git diff --no-index crossrefs-base.txt crossrefs-src.txt > crossref.diff || echo '::debug::At least one reference changed'
+          python scripts/diff_to_annotations.py crossref.diff md.diff

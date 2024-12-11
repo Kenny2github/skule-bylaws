@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+	<!-- title: {{ pdf }}
+	-->
+	<title>{{ title }} - {{ subtitle }}</title>
+	<link rel="stylesheet" href="/main.css" />
+	<style>
+		@page {
+			@top-center {
+				content: '{{ title }}';
+			}
+			@top-right {
+				content: 'Last Revision: ' '{{ revdate }}';
+			}
+		}
+		@page :first {
+			@bottom-right {
+				content: 'LAST REVISED: ' '{{ revdate }}';
+			}
+		}
+	</style>
+	{% if pdf|lower == 'index' %}
+	<script src="/index.js" type="text/javascript"></script>
+	{% endif %}
+	<script src="/main.js" type="text/javascript"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1 class="cover-heading">
+		{{ title }}
+		<br/>{{ subtitle }}
+		<br/>University of Toronto Engineering Society
+	</h1>
+	<h1 class="contents">Contents</h1>
+	<div class="screen-only">
+		{% if pdf|lower == 'index' %}
+		<fieldset>
+			<legend>Search the Bylaws and Policies</legend>
+			<p>
+				<label>
+					Find:
+					<input type="search" id="search" oninput="search()" placeholder="Search term or regex" />
+				</label>
+				<label>
+					<input type="checkbox" id="regex-search" oninput="search()" />
+					Use regex to search
+				</label>
+			</p>
+			<ul id="search-results"><li>Enter a search term above.</li></ul>
+		</fieldset>
+		{% else %}
+		<p>For a list of all Bylaws and Policies, see the <a href="/">index</a>.</p>
+		{% endif %}
+	</div>
+	<section class="contents">
+	{% for chapter in chapters %}
+		<span></span> <a href="#{{ loop.index0 }}">{{ chapter.title }}</a> <span></span>
+	{% endfor %}
+	</section>
+	{% for chapter in chapters %}
+		{% set c = loop.index0 %}
+		<h1 id="{{ c }}">{{ chapter.title }}</h1>
+		{% for section in chapter.body %}
+			{% set s = loop.index0 %}
+			<h2 id="{{ c }}-{{ s }}">{{ section.title }}</h2>
+			<ol>
+			{% for subsection in section.body %}
+				{% set ss = loop.index0 %}
+				<li id="{{ c }}-{{ s }}-{{ ss }}">
+					{{ subsection.title }}
+					{% if subsection.body %}
+					<ol>
+					{% for subsubsection in subsection.body %}
+						{% set sss = loop.index0 %}
+						<li id="{{ c }}-{{ s }}-{{ ss }}-{{ sss }}">
+							{{ subsubsection.title }}
+							{% if subsubsection.body %}
+							<ol>
+								{% for subsubsubsection in subsubsection.body %}
+								{% set ssss = loop.index0 %}
+								<li id="{{ c }}-{{ s }}-{{ ss }}-{{ sss }}-{{ ssss }}">
+									{{ subsubsubsection.title }}
+								</li>
+								{% endfor %}
+							</ol>
+							{% endif %}
+						</li>
+					{% endfor %}
+					</ol>
+					{% endif %}
+				</li>
+			{% endfor %}
+			</ol>
+		{% endfor %}
+	{% endfor %}
+</body>

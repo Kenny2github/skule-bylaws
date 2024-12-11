@@ -1,0 +1,55 @@
+name: Comment GitHub Pages link on new pull requests
+on:
+  pull_request_target:
+    paths:
+      - '**/*.md'
+      - '.github/workflows/generate-html-pdfs.yml'
+      - 'scripts/**/*'
+    branches-ignore:
+      - gh-pages
+    types:
+      - opened
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  link-html:
+    name: Post link to GitHub Pages build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Post link
+        uses: actions/github-script@v7
+        env:
+          OWNER: ${{ github.event.pull_request.head.repo.owner.login }}
+          REPO: ${{ github.event.pull_request.head.repo.name }}
+          HEAD: ${{ github.head_ref }}
+          MAIN: ${{ github.event.pull_request.head.repo.default_branch }}
+          URL: ${{ github.event.pull_request.html_url }}/files
+          PDF_URL: ${{ github.event.pull_request.head.repo.html_url }}/actions/workflows/generate-html-pdfs.yml
+          BASE: ${{ github.base_ref }}
+          DEFAULT: ${{ github.event.repository.default_branch }}
+        with:
+          script: |
+            let {data: {html_url: url}} = await github.rest.repos.getPages({
+              owner: process.env.OWNER,
+              repo: process.env.REPO,
+            });
+            if (process.env.HEAD != process.env.MAIN) {
+              url += `branch/${process.env.HEAD}`;
+            }
+            const diff_url = process.env.URL;
+            let body = `Please remember to check [the diff](${diff_url}) for reference warnings. Successful HTML builds will appear at ${url}
+
+            Successful PDF builds will appear in the Artifacts section of the latest [workflow run](${process.env.PDF_URL}). Alternatively, print-to-PDF on Chrome from the HTML build will produce the same PDF build.`;
+            if (process.env.BASE == process.env.DEFAULT) {
+              body += ` After this pull request is merged, the PDFs will be updated in the repository automatically.`;
+            }
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });

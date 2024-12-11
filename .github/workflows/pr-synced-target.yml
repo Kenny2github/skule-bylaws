@@ -1,0 +1,75 @@
+name: Comment section-by-section diff on new pull requests
+on:
+  pull_request_target:
+    paths:
+      - '**/*.md'
+      - '.github/workflows/generate-html-pdfs.yml'
+      - 'scripts/**/*'
+    branches-ignore:
+      - gh-pages
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  comment-diff:
+    name: Post human-readable diff
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: (DANGER!) Checkout head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      - name: Run base version of diff scripts
+        id: diff
+        shell: bash
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          shopt -s globstar
+          git checkout "$BASE" -- **/*.py scripts/requirements.txt
+          pip install -r scripts/requirements.txt
+          {
+            echo 'md<<EOF'
+            git diff -U1000000 "$BASE" HEAD -- **/*.md | python scripts/diff_to_table.py
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Post diff
+        uses: actions/github-script@v7
+        env:
+          BODY: |
+            ## Section-by-section diff
+
+            <details>
+            <summary>Full table of differences</summary>
+
+            ${{ steps.diff.outputs.md }}
+
+            </details>
+
+            <details>
+            <summary>Markdown source of the table for copying</summary>
+
+            ```md
+            ${{ steps.diff.outputs.md }}
+            ```
+
+            </details>
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: process.env.BODY
+            });
