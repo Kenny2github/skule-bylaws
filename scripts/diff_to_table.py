@@ -34,12 +34,12 @@ class FrozenSection:
         body = tuple(FrozenSection.from_section(s) for s in section['body'])
         return cls(title, body)
 
-def lines_to_chapters(lines: Iterable[str]) -> tuple[FrozenSection, ...]:
+def lines_to_chapters(lines: Iterable[str]) -> tuple[dict[str, str], tuple[FrozenSection, ...]]:
     sio = StringIO()
     sio.writelines(line + '\n' for line in lines)
     sio.seek(0)
-    _, chapters = get_data(sio)
-    return tuple(FrozenSection.from_section(chapter) for chapter in chapters)
+    meta, chapters = get_data(sio)
+    return meta, tuple(FrozenSection.from_section(chapter) for chapter in chapters)
 
 def diff_sections(body1: tuple[FrozenSection, ...], body2: tuple[FrozenSection, ...],
                   prefix1: tuple[int, ...] = (), prefix2: tuple[int, ...] = ()):
@@ -79,10 +79,11 @@ def diff_sections(body1: tuple[FrozenSection, ...], body2: tuple[FrozenSection, 
 def main() -> None:
     print(START)
     for file in gather_diff(sys.stdin):
-        print(f'<tr><th colspan="4">{file.name}</th></tr>')
         for hunk in file.hunks:
-            a_chapters = lines_to_chapters(line[1:] for line in hunk.del_lines)
-            b_chapters = lines_to_chapters(line[1:] for line in hunk.add_lines)
+            _, a_chapters = lines_to_chapters(line[1:] for line in hunk.del_lines)
+            meta, b_chapters = lines_to_chapters(line[1:] for line in hunk.add_lines)
+            title = meta['subtitle'] if 'policies' in meta['pdf'].casefold() else meta['title']
+            print(f'<tr><th colspan="4">{title}</th></tr>')
             tag = None
             for tag, a_prefix, a_line, b_prefix, b_line in diff_sections(a_chapters, b_chapters):
                 if a_prefix is None:
