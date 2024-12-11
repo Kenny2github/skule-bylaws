@@ -22,12 +22,14 @@ jobs:
 
       - name: Generate annotations
         shell: bash
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
         run: |
           shopt -s globstar
           pip install -r scripts/requirements.txt
-          git diff ${{ github.base_ref }} HEAD -- **/*.md > md.diff
+          git diff "$BASE" HEAD -- **/*.md > md.diff
           python scripts/md_to_crossrefs.py > crossrefs-src.txt
-          git checkout ${{ github.base_ref }} -- **/*.md
+          git checkout "$BASE" -- **/*.md
           python scripts/md_to_crossrefs.py > crossrefs-base.txt
           git diff --no-index crossrefs-base.txt crossrefs-src.txt > crossref.diff
           python scripts/diff_to_annotations.py crossref.diff md.diff

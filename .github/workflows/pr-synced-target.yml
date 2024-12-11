@@ -31,13 +31,15 @@ jobs:
       - name: Run base version of diff scripts
         id: diff
         shell: bash
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
         run: |
           shopt -s globstar
-          git checkout '${{ github.base_ref }}' -- **/*.py scripts/requirements.txt
+          git checkout "$BASE" -- **/*.py scripts/requirements.txt
           pip install -r scripts/requirements.txt
           {
             echo 'md<<EOF'
-            git diff -U1000000 '${{ github.base_ref }}' HEAD -- **/*.md | python scripts/diff_to_table.py
+            git diff -U1000000 "$BASE" HEAD -- **/*.md | python scripts/diff_to_table.py
             echo EOF
           } >> "$GITHUB_OUTPUT"
 

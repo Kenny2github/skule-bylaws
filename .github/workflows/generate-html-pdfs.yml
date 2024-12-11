@@ -87,14 +87,15 @@ jobs:
       - name: Commit artifact
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: ${{ github.ref_name }}
         run: |
           shopt -s globstar
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR_ID+$GITHUB_ACTOR@users.noreply.github.com"
           # HACK: patch absolute URLs to web root
-          if [ '${{ github.ref_name }}' != 'master' ]; then
+          if [ "$BRANCH" != 'master' ]; then
             # Trailing slash is important!
-            SUBDIR='branch/${{ github.ref_name }}/'
+            SUBDIR="branch/$BRANCH/"
             mkdir -p "$SUBDIR"
           else
             SUBDIR=""
@@ -138,15 +139,20 @@ jobs:
       - name: Get PDF filename
         shell: bash
         id: pdf
+        env:
+          FILE: ${{ matrix.file }}
         run: |
-          cat "${{ matrix.file }}" | sed -r -n -e 's/^.*<!--\s*title:\s*(.+)$/file=\1.pdf/p' >> "$GITHUB_OUTPUT"
-          echo "${{ matrix.file }}" | sed -r 's/ /-/g;s/[^a-zA-Z0-9_-]+/-/g;s/(.+)/artifact=\L\1/g' >> "$GITHUB_OUTPUT"
+          cat "$FILE" | sed -r -n -e 's/^.*<!--\s*title:\s*(.+)$/file=\1.pdf/p' >> "$GITHUB_OUTPUT"
+          echo "$FILE" | sed -r 's/ /-/g;s/[^a-zA-Z0-9_-]+/-/g;s/(.+)/artifact=\L\1/g' >> "$GITHUB_OUTPUT"
 
       - name: Prepare directory structure
         shell: bash
+        env:
+          HTML_FILE: ${{ matrix.file }}
+          PDF_FILE: ${{ steps.pdf.outputs.file }}
         run: |
-          mv -f "${{ matrix.file }}" build/index.html || echo No need to move index
-          mkdir -p build/pdf/$(dirname '${{ steps.pdf.outputs.file }}')
+          mv -f "$HTML_FILE" build/index.html || echo No need to move index
+          mkdir -p build/pdf/$(dirname "$PDF_FILE")
 
       - name: Generate PDF from HTML
         uses: ferdinandkeller/html-to-pdf-action@v2.1
