@@ -57,9 +57,26 @@ jobs:
     needs: [generate-html]
     steps:
       - name: Checkout GitHub Pages
+        continue-on-error: true
+        id: checkout
         uses: actions/checkout@v4
         with:
           ref: gh-pages
+
+      - name: Checkout repository default branch
+        uses: actions/checkout@v4
+        if: steps.checkout.outcome == 'failure'
+
+      - name: Create and switch to gh-pages branch
+        if: steps.checkout.outcome == 'failure'
+        shell: bash
+        run: |
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR_ID+$GITHUB_ACTOR@users.noreply.github.com"
+          git checkout --orphan gh-pages
+          git reset --hard
+          git commit --allow-empty -m "Initial gh-pages commit"
+          git push -u origin gh-pages
 
       - name: Download HTML artifact
         uses: actions/download-artifact@v4
