@@ -151,17 +151,17 @@ subtitle: The Constitution
    1. Published online on the Society's website and all Members given notice of their availability; and
    1. Submitted to the Office of the Governing Council and any other University offices that require them.
 
-# Officers
+# EngSoc Officers
 
 ## General
 1. The Officers of the Society shall be the President, the Vice-President Finance, the Vice-President Communications, the Vice-President Academic and the Vice-President Student Life.
-1. Each Officer shall be elected by the Membership, as defined in [Bylaw 3](bylaw-3.md).
 1. In case of infirmity, death, resignation, or other form of ineligibility of an Officer:
    1. The President shall assume said Officer's responsibilities, unless the President's position is the one in question, in which case the Vice-President Finance shall assume the President's responsibilities;
    1. An Election for said Officer's position shall be held as early as possible, as described in [Bylaw 3](bylaw-3.md); and
    1. Should the Vice-President Finance be unable to fulfill these responsibilities, the following order of succession shall apply: Vice-President Communications, Vice-President Academic, Vice-President Student Life, and Speaker; and
    1. All other Officers may be candidates to replace said Officer, by resigning from their positions.
 1. An Officer, once elected, will not be considered eligible to run in an election for the same or substantially similar position.
+1. Each Officer shall be elected by the Membership, as defined in [Bylaw 3](bylaw-3.md).
 1. Except in cases of Section 3.0.3, no person may hold two Officer positions simultaneously.
 1. The term of office for each Officer shall commence when they take the Oath of Office and shall end upon the respective incoming Officer's Oath of Office the following year.
 1. Each Officer shall oversee Directors, as specified in [Bylaw 2](bylaw-2.md).
@@ -179,11 +179,11 @@ subtitle: The Constitution
 
 ## Vice-President Finance
 1. The Vice-President Finance shall be the Chief Financial Officer of the Society.
-1. The Vice-President Finance shall be a Member entering their Final Year of an undergraduate program in the Faculty in September of their term of office.
 1. The Vice-President Finance shall be responsible for the preparation of budgets for approval by the Board of Directors as specified in the Bylaws.
+1. The Vice-President Finance shall be a Member entering their Final Year of an undergraduate program in the Faculty in September of their term of office.
 1. In the August following the election of the Vice-President Finance, the Speaker will confirm that the Vice-President Finance is entering their Final Year of an undergraduate program.
 1. In accordance with the Not-for-Profit Corporations Act of Ontario and generally accepted accounting principles, the Vice-President Finance shall be responsible for the keeping of all accounting records with respect to all financial and like transactions of the Society.
-1. Without derogating from Section 3.2.3., the Vice-President Finance shall be responsible for the maintenance of records of:
+1. Without derogating from Section 3.2.2., the Vice-President Finance shall be responsible for the maintenance of records of:
    1. All sums of money received and disbursed by the Society and the matters with respect to which receipt and disbursement took place;
    1. All sales and purchases of the Society;
    1. The assets and liabilities of the Society;
