@@ -1,6 +1,9 @@
 name: Remove GitHub Pages builds when the branch is deleted
 on: delete
 
+permissions:
+  contents: write
+
 jobs:
   clean-pages:
     name: Clean GitHub Pages build
