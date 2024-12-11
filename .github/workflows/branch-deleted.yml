@@ -1,0 +1,29 @@
+name: Remove GitHub Pages builds when the branch is deleted
+on: delete
+
+jobs:
+  clean-pages:
+    name: Clean GitHub Pages build
+    runs-on: ubuntu-latest
+    if: github.event.ref_type == 'branch' && github.event.ref != 'gh-pages'
+
+    steps:
+      - name: Checkout GitHub Pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Remove branch build
+        env:
+          BRANCH: ${{ github.event.ref }}
+        run: |
+          shopt -s globstar
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR_ID+$GITHUB_ACTOR@users.noreply.github.com"
+          git rm -r "branch/$BRANCH/"
+          if [ -z "$(git status --porcelain=2)" ]; then
+            echo "Nothing to commit; exiting cleanly"
+            exit 0
+          fi
+          git commit -m "Delete $BRANCH build due to branch deletion"
+          git push
