@@ -25,11 +25,12 @@ jobs:
         shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.event.pull_request.head.repo.full_name }}
           PAGES_URL: ${{ github.event.pull_request.head.repo.html_url }}/settings/pages
           HEAD: ${{ github.head_ref }}
           MAIN: ${{ github.event.pull_request.head.repo.default_branch }}
         run: |
-          URL="$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url' || echo)"
+          URL="$(gh api "repos/$REPO/pages" --jq '.html_url' || echo)"
           if [ -z "$URL" ]; then
             MSG="GitHub Pages has not yet been set up. Please set the Branch for build and deployment to `gh-pages` here: $PAGES_URL"
             gh pr close --comment "$MSG"
