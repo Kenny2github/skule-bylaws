@@ -31,14 +31,14 @@ jobs:
           MAIN: ${{ github.event.pull_request.head.repo.default_branch }}
         run: |
           if URL="$(gh api "repos/$REPO/pages" --jq '.html_url')"; then
-            MSG="GitHub Pages has not yet been set up. Please set the Branch for build and deployment to `gh-pages` here: $PAGES_URL"
-            gh pr close --comment "$MSG"
-            exit 1
-          else
             if [ "$HEAD" != "$MAIN" ]; then
               URL="${URL}branch/$HEAD"
             fi
             echo "url=$URL" >> "$GITHUB_OUTPUT"
+          else
+            MSG="GitHub Pages has not yet been set up. Please set the Branch for build and deployment to `gh-pages` here: $PAGES_URL"
+            gh pr close --comment "$MSG"
+            exit 1
           fi
 
       - name: Post link
