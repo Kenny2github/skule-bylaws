@@ -1,4 +1,4 @@
-matchMedia('print').addListener(m => {
+matchMedia('print').addEventListener('change', m => {
 	if (!m.matches) return;
 	const spans = Array.from(document.querySelectorAll('section.contents a + span'));
 	const h1s = Array.from(document.querySelectorAll('h1[id]'));
