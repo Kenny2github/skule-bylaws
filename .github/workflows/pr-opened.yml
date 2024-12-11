@@ -26,6 +26,7 @@ jobs:
           OWNER: ${{ github.event.pull_request.head.repo.owner.login }}
           REPO: ${{ github.event.pull_request.head.repo.name }}
           HEAD: ${{ github.head_ref }}
+          MAIN: ${{ github.event.repository.default_branch }}
           URL: ${{ github.event.pull_request.html_url }}/files
         with:
           script: |
@@ -33,7 +34,7 @@ jobs:
               owner: process.env.OWNER,
               repo: process.env.REPO,
             });
-            if (process.env.HEAD != 'master') {
+            if (process.env.HEAD != process.env.MAIN) {
               url += `branch/${process.env.HEAD}`;
             }
             const diff_url = process.env.URL;

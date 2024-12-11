@@ -55,6 +55,7 @@ jobs:
     name: Publish to GitHub Pages
     runs-on: ubuntu-latest
     needs: [generate-html]
+
     steps:
       - name: Checkout GitHub Pages
         continue-on-error: true
@@ -88,12 +89,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: ${{ github.ref_name }}
+          MAIN: ${{ github.event.repository.default_branch }}
         run: |
           shopt -s globstar
           git config user.name "$GITHUB_ACTOR"
           git config user.email "$GITHUB_ACTOR_ID+$GITHUB_ACTOR@users.noreply.github.com"
           # HACK: patch absolute URLs to web root
-          if [ "$BRANCH" != 'master' ]; then
+          if [ "$BRANCH" != "$MAIN" ]; then
             # Trailing slash is important!
             SUBDIR="branch/$BRANCH/"
             mkdir -p "$SUBDIR"
@@ -170,6 +172,7 @@ jobs:
     name: Commit and push PDFs
     runs-on: ubuntu-latest
     needs: [generate-pdfs]
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
