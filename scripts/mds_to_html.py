@@ -1,8 +1,11 @@
 from __future__ import annotations
+from glob import glob
 from io import StringIO
-import io
+import json
+import os
 from pathlib import Path
 import re
+import shutil
 import sys
 from typing import Never, TextIO, TypedDict
 from pprint import pprint
@@ -12,18 +15,14 @@ import lxml.etree as etree
 import jinja2
 import yaml
 
+from lineno_to_section import section_to_str, ROMAN
+
 SPLIT_RE = r'(?:chapters?|chaps?\.|chs?\.|sections?|secs?\.|ss?\.|§|&#167;|&#xa7;)\s*'
 CHAPTER_SPLIT_RE = r'(?:chapters?|chaps?\.|chs?\.)\s*'
 SECTION_SPLIT_RE = r'(?:sections?|secs?\.|ss?\.|§|&#167;|&#xa7;)\s*'
 SECTION_RE = r'([0-9]+)(?:\.([0-9]+)(?:\.([1-9][0-9]*)(?:\.?([a-z])(?:\.([ivxlcdm]+))?)?)?)?'
 SUBSECTION_RE = r'([0-9]+)\.([0-9]+)(?:\.([1-9][0-9]*)(?:\.?([a-z])(?:\.([ivxlcdm]+))?)?)?'
 REF_RE = fr'({CHAPTER_SPLIT_RE}(?P<chapter>{SECTION_RE})|{SECTION_SPLIT_RE}(?P<section>{SUBSECTION_RE}))(?:\.(?=\S))?'
-ROMAN = [
-    'i', 'ii', 'iii', 'iv', 'v',
-    'vi', 'vii', 'viii', 'ix', 'x',
-    'xi', 'xii', 'xiii', 'xiv', 'xv',
-    'xvi', 'xvii', 'xviii', 'xix', 'xx',
-]
 
 def crossref_href(section: str) -> str | None:
     section = section.casefold()
@@ -60,6 +59,18 @@ def crossref(s: str) -> str:
 class Section(TypedDict):
     title: str
     body: list[Section]
+
+def clean_html(line: str) -> str:
+    return re.sub(r'</?(?![biu]|strong|em)(\w+)[^>]*>', '', line)
+
+def walk_sections(sections: list[Section], prefix: tuple[int, ...] = ()):
+    for i, section in enumerate(sections):
+        num = (*prefix, i, *((-1,) * (5 - len(prefix) - 1)))
+        num = (num[0], num[1], num[2], num[3], num[4])
+        href = '#' + '-'.join(map(str, (*prefix, i)))
+        yield (('section ' if prefix else 'Chapter ') + section_to_str(num),
+               (href, clean_html(section['title'])))
+        yield from walk_sections(section['body'], (*prefix, i))
 
 def innerHTML(e: etree._Element) -> str:
     return (
@@ -163,20 +174,39 @@ def get_data(file: TextIO) -> tuple[dict[str, str], list[Section]]:
     chapters = parse(html)
     return meta, chapters
 
-def main(argv: list[str] = sys.argv) -> None:
-    if len(argv) > 1:
-        file = sys.stdin if argv[1] == '-' else open(argv[1], 'r', encoding='utf8')
-    else:
-        file = open(input('File: '), 'r', encoding='utf8')
-    if len(argv) > 2 and argv[2] != '-':
-        outfile = open(argv[2], 'w', encoding='utf8')
-    else:
-        outfile = sys.stdout
-    print(render(*get_data(file)), file=outfile)
+def main() -> None:
+    build_dir = Path('build')
+    build_dir.mkdir(exist_ok=True)
+    # empty build folder
+    for root, dirs, files in build_dir.walk():
+        for f in files:
+            (root / f).unlink()
+        for d in dirs:
+            shutil.rmtree(root / d)
+        dirs.clear()
+    # generate htmls
+    index: dict[str, tuple[str, dict[str, tuple[str, str]]]] = {}
+    for filename in glob('**/*.md', recursive=True):
+        if 'README' in filename or 'LICENSE' in filename:
+            continue
+        htmlname = Path(re.sub(r'\.md$', '.html', filename))
+        outpath = build_dir / htmlname
+        outpath.parent.mkdir(exist_ok=True)
+        with (
+            open(filename, encoding='utf8') as infile,
+            open(outpath, 'w', encoding='utf8') as outfile
+        ):
+            meta, chapters = get_data(infile)
+            print(render(meta, chapters), file=outfile)
+            if 'index' in meta['pdf'].casefold():
+                continue
+            title = meta['subtitle'] if 'policies' in meta['pdf'].casefold() \
+                else meta['title']
+            index[htmlname.as_posix()] = (title, dict(walk_sections(chapters)))
+    with open(build_dir / 'index.js', 'w', encoding='utf8') as f:
+        f.write('window.index = ')
+        json.dump(index, f)
+        f.write(';\n')
 
 if __name__ == '__main__':
-    if isinstance(sys.stdin, io.TextIOWrapper):
-        sys.stdin.reconfigure(encoding='utf8')
-    if isinstance(sys.stdout, io.TextIOWrapper):
-        sys.stdout.reconfigure(encoding='utf8')
     main()

@@ -1,8 +1,12 @@
 import re
 
-from md_to_html import ROMAN
-
 Section = tuple[int, int, int, int, int]
+ROMAN = [
+    'i', 'ii', 'iii', 'iv', 'v',
+    'vi', 'vii', 'viii', 'ix', 'x',
+    'xi', 'xii', 'xiii', 'xiv', 'xv',
+    'xvi', 'xvii', 'xviii', 'xix', 'xx',
+]
 
 def lineno_to_section(lineno: int, lines: list[str]) -> Section:
     if lineno < 0:

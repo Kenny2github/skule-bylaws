@@ -1,17 +1,3 @@
 #!/bin/bash
-shopt -s globstar
-rm -rf build/*
-mkdir -p build
-# start builds in parallel
-pids=()
-for f in **/*.md; do
-	if [[ $f =~ (README|LICENSE).* ]]; then continue; fi
-	mkdir -p "build/$(dirname "$f")"
-	python scripts/md_to_html.py "$f" "build/${f%.md}.html" &
-	pids+=($!)
-done
-# wait for all builds
-for pid in ${pids[*]}; do
-	wait $pid
-done
+python scripts/mds_to_html.py
 cp -rf scripts/main.{css,js} scripts/images build/

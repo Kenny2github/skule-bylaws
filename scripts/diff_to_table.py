@@ -3,13 +3,12 @@ from dataclasses import dataclass
 from difflib import SequenceMatcher
 from io import StringIO, TextIOWrapper
 from itertools import zip_longest
-import re
 import sys
 from typing import Iterable, Self
 
 from diff_to_annotations import gather_diff
 from lineno_to_section import section_to_str
-from md_to_html import Section, get_data
+from mds_to_html import Section, get_data, clean_html
 
 START = """
 <table>
@@ -27,14 +26,6 @@ ROW = '''<tr>
 
 {3}</td>
 </tr>'''
-
-def clean_md(line: str) -> str:
-    line = re.sub(r'^(##?|\s*\d+\.)\s*', '', line)
-    line = re.sub(r'\[([^\]]+)\]\([^\)]+\.md\)', r'\1', line)
-    return line
-
-def clean_html(line: str) -> str:
-    return re.sub(r'</?(?![biu]|strong|em)(\w+)[^>]*>', '', line)
 
 @dataclass(frozen=True)
 class FrozenSection:

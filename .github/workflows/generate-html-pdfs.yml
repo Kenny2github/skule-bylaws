@@ -108,7 +108,7 @@ jobs:
           if [ -z "$SUBDIR" ]; then
             git restore branch/**/*
           fi
-          git add **/*.html **/main.{css,js} **/images
+          git add **/*.{html,css,js} **/images
           if [ -z "$(git status --porcelain=2)" ]; then
             echo "Nothing to commit; exiting cleanly"
             exit 0

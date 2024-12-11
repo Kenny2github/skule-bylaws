@@ -1,22 +1,5 @@
 @echo off
 
-echo Warning: Only for live building purposes.
-echo Does not produce correct directory structure.
-
-if exist build (
-	for /D %%i in (build\*) do rmdir /S /Q %%i
-	del /Q build\*
-) else mkdir build
-
-for /R %%i in (*.md) do (
-	if /I "%%~ni"=="README" (
-		rem Skipping %%i
-	) else if /I "%%~ni"=="LICENSE" (
-		rem Skipping %%i
-	) else (
-		python scripts\md_to_html.py "%%i" "build/%%~ni.html"
-	)
-)
-
+python scripts\mds_to_html.py
 copy scripts\main.* build
 xcopy scripts\images build\images /S /I

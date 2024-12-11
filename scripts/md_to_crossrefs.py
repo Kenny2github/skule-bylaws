@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 import sys
 
-from md_to_html import REF_RE, crossref_href
+from mds_to_html import REF_RE, crossref_href
 from lineno_to_section import section_to_lineno, section_to_str
 
 def print_crossref(src: str, files: dict[str, list[str]], frag: str, text: str, link: str) -> None:
