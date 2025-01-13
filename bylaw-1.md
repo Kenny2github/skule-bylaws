@@ -37,7 +37,7 @@ subtitle: The Constitution
 1. The Speaker shall rule out of order any vote on an interpretation that is not reasonably plausible in the existing by-law or policy or that would contravene any act of Parliament.
 1. The interpretation and enforcement of [Bylaw 3](bylaw-3.md) during Election Periods, to the extent required to run free and fair elections, is the jurisdiction of the Chief Returning Officer (with substantive decisions subject to appeal by the process described in [Bylaw 3 Chapter 10](bylaw-3.md)).
    1. The CRO shall consult the Speaker to ensure fair and consistent interpretations and judgements in accordance with the Bylaws and the principles of fundamental justice.
-   1. In all other cases (i.e. interpretation of the Bylaw not strictly related to the administration of elections) the interpretation of the Bylaw rests with the Speaker in accordance with Section 0.1.3
+   1. In all other cases (i.e. interpretation of the Bylaw not strictly related to the administration of elections) the interpretation of the Bylaw rests with the Speaker in accordance with Section 0.1.4
 
 # Membership and Fees
 
@@ -119,7 +119,7 @@ subtitle: The Constitution
 ## Notice
 1. Notice shall be given at least fourteen (14) days prior to any General Meeting;
 1. Notice shall be given electronically through email to the Membership.
-1. Without notice as defined in Sections 2.3.1 and 2.3.2, no motions passed at a General Meeting shall have force, unless all Members present waive notice as described in section 55(3) of ONCA.
+1. Without notice as defined in Section 2.3.1 and Section 2.3.2, no motions passed at a General Meeting shall have force, unless all Members present waive notice as described in section 55(3) of ONCA.
 1. If a General Meeting is adjourned for less than thirty (30) days but more than seven (7) days, notice by the aforementioned means shall be given at least seven (7) days prior to the meeting that continues the adjourned meeting.
 1. For the Annual General Meeting, notice must be given to the Auditor of the Society, however their attendance is not required.
    1. Notwithstanding Section 1.4, the Auditor shall be permitted to attend and speak at the Annual General Meeting.
@@ -127,7 +127,7 @@ subtitle: The Constitution
 ## Voting
 1. Each Member of the Society shall be entitled to one (1) vote at General Meetings.
 1. A Member may proxy their vote at a General Meeting to any person.
-   1. Every proxy must be in a form that complies with the regulations of the Ontario Not-for-Profit Corporations Act, Section 64.3.
+   1. Every proxy must be in a form that complies with the regulations of the [Ontario Not-for-Profit Corporations Act, Section 64.3](https://www.ontario.ca/laws/statute/10n15#BK70).
    1. The Proxyholder shall bring the signed proxy form to the Speaker at the start of the AGM.
 1. No person shall hold more than four (4) votes at a General Meeting, including their own.
 
@@ -284,7 +284,7 @@ subtitle: The Constitution
 1. In the absence of the Speaker, the President shall act as Chair of the Board, except as determined by a majority vote of the Board.
 1. The Speaker shall be a non-voting member of the Board of Directors.
 1. All decisions of the Speaker may be reversed by a two-thirds majority vote of the Board, except regarding applicable law, the Constitution and Bylaws of the Society from which there is no appeal.
-1. In addition to the responsibilities outlined above, the Speaker shall also fulfill the duties specified in Bylaw 2, Section 3.1.
+1. In addition to the responsibilities outlined above, the Speaker shall also fulfill the duties specified in [Bylaw 2, Section 3.1](bylaw-2.md).
 
 ## Meetings
 1. The rules contained in Robert's Rules of Order, Twelfth Edition shall govern the Board of Directors, and in which they are not inconsistent with the by-laws or the special rules of order of this society.
@@ -430,4 +430,4 @@ subtitle: The Constitution
 1. Policies passed, repealed, or amended at a General Meeting may only be repealed, re-instated, or amended at another General Meeting for a period of one (1) year.
 1. Policies passed, repealed, or amended at a meeting of the Board of Directors may only be repealed, re-instated, or amended at another meeting of the Board, or a General Meeting for a period of one (1) year.
 1. Policies passed, repealed, or amended at a meeting of the Officers may be repealed, amended, or re-instated at another meeting of the Officers, a Board of Directors meeting, or a General Meeting for a period of one (1) year.
-1. One (1) year after a policy has been passed, repealed, or amended; it may again be amended or repealed by anybody outlined in Section 7.3.2.
+1. One (1) year after a policy has been passed, repealed, or amended; it may again be amended or repealed by anybody outlined in Section 7.4.2.

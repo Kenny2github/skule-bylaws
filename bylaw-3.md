@@ -27,8 +27,8 @@ subtitle: The Elections Bylaw
 1. The CRO shall notify all Members by email at the opening of an Election period, and at 12pm on the day an Election Period closes.
 1. Electronic voting shall be made available over the entirety of a given Voting Period for an election cycle, where applicable, through vote.skule.ca.
 1. For a given election cycle, the CRO shall publicly certify and announce election results to the Society within six hours of the end of the election period.
-1. Each Nomination Package shall include the following mandatory sign-off statement signifying that the "Confidentiality Agreement - Information Sharing" document will be used to verify the Member's enrolment status with the Registrar, as per the conditions outlined in [Bylaw 1 Section 1.1.5](bylaw-1.md).
-   1. "By signing this Nomination Package, I hereby allow the Chief Returning Officer of the Engineering Society to verify my enrolment status using the "Confidentiality Agreement - Information Sharing" document as described in [Bylaw 1 Section 1.1.5](bylaw-1.md), in order to complete the nomination process. Further, I acknowledge if I obtain this position, I allow the Speaker or President (determined by the sub-clauses of [Bylaw 1 Section 1.1.5](bylaw-1.md)) to verify my enrolment status if a concern or complaint is brought to the attention of the President, Ombudsperson, and/or Speaker."
+1. Each Nomination Package shall include the following mandatory sign-off statement signifying that the "Confidentiality Agreement - Information Sharing" document will be used to verify the Member's enrolment status with the Registrar, as per the conditions outlined in [Bylaw 1 Section 1.1.4](bylaw-1.md).
+   1. "By signing this Nomination Package, I hereby allow the Chief Returning Officer of the Engineering Society to verify my enrolment status using the "Confidentiality Agreement - Information Sharing" document as described in [Bylaw 1 Section 1.1.4](bylaw-1.md), in order to complete the nomination process. Further, I acknowledge if I obtain this position, I allow the Speaker or President (determined by the sub-clauses of [Bylaw 1 Section 1.1.4](bylaw-1.md)) to verify my enrolment status if a concern or complaint is brought to the attention of the President, Ombudsperson, and/or Speaker."
 1. Elections must not occur within the Fall or Winter Exam Periods.
 1. Elections requiring a Voting Period shall not occur within the Summer Months.
 1. Where nominations are required for a position, candidates for that position may not be nominators for the same position.
@@ -78,11 +78,11 @@ subtitle: The Elections Bylaw
 1. Should the CRO judge that they are unable to exercise impartial judgement over one or more candidate(s) for a given election cycle, they may request that the Speaker assume the role of Interim CRO for matters involving said candidate(s) for the duration of the election cycle.
    1. The Speaker may choose to deny this request, in which event the CRO shall continue to exercise their full authority over the candidate(s) in question.
 1. In the event that the Speaker declares they are unable or unwilling to execute the role of interim CRO faithfully, the role of interim CRO shall be passed to a Director of the Board elected in a special election, which is to be held immediately after the Speaker is declared unable or unwilling.
-   1. Holding another position within the Society does not preclude any Member from holding the position of interim CRO, regardless of Section 1.0.4.
+   1. Holding another position within the Society does not preclude any Member from holding the position of interim CRO, regardless of Section 1.0.3.
    1. By accepting the role of interim CRO, a Member forfeits the ability to be a candidate for any official elected position of the Society until their term as interim CRO ends.
 
 ## Election Period for the CRO
-1. The CRO shall be elected according to the process outlined in Section 5.1, and shall serve a term that concludes at the end of the January Special Board of Directors Meeting.
+1. The CRO shall be elected according to the process outlined in Section 5.1, and shall serve a term that concludes at the end of the Winter Ratification Meeting.
 
 # Officer Elections
 
@@ -243,8 +243,8 @@ subtitle: The Elections Bylaw
 1. The CRO shall determine the order in which positions are considered; however, the position of CRO shall be the last position considered at the Winter Ratification Meeting.
    1. Each candidate for the position of Orientation Chair shall be given the opportunity to speak for two (2) minutes before the election for this position.
 1. Any election details not specified in Section 5.1 shall follow the provisions in Chapter 7 of this Bylaw.
-   1. Notwithstanding Section 7.2.7.a, nominations shall not be required to be reopened for the position of Orientation Chair(s) if only one (1) Orientation Chair is elected.
-1. For the purposes of forming the hiring committees, the Incoming and Outgoing Officers as specified under sections 7.2.1.b and 7.2.1.c shall be the overseeing Officer for the position and another currently serving Officer, chosen at the discretion of the CRO.
+   1. Notwithstanding Section 7.2.8.a, nominations shall not be required to be reopened for the position of Orientation Chair(s) if only one (1) Orientation Chair is elected.
+1. For the purposes of forming the hiring committees, the Incoming and Outgoing Officers as specified under section 7.2.1 shall be the overseeing Officer for the position and another currently serving Officer, chosen at the discretion of the CRO.
    1. The overseeing Officer for the CRO hiring committee shall be the Speaker.
 
 ## Valedictorian Election Period
@@ -323,8 +323,8 @@ subtitle: The Elections Bylaw
    1. The outgoing overseeing Officer;
    1. Two (2) Project Director(s), Internal Representative(s), or Discipline Club Chair(s).
 1. Unless otherwise specified in Bylaw 3, each Project Director Hiring Committee shall include all members from each bracket outlined in Sections 7.2.1.a through 7.2.1.c, and no more than two (2) members selected from Section 7.2.1.d.
-   1. If an insufficient number of members under 7.2.1.d are interested in sitting on the hiring committee, their place may be taken by Board Members or Officers as needed, at the discretion of the CRO.
-1. Should the outgoing Officer be unable or unwilling to sit on the hiring committee as per 7.2.1.b, their place shall be filled in the following order of precedence:
+   1. If an insufficient number of members under Section 7.2.1.d are interested in sitting on the hiring committee, their place may be taken by Board Members or Officers as needed, at the discretion of the CRO.
+1. Should the outgoing Officer be unable or unwilling to sit on the hiring committee as per Section 7.2.1.b, their place shall be filled in the following order of precedence:
    1. Any current Member who has previously served in that Officer position.
    1. Any Alumni Member who has previously served in that Officer position within the past 4 years.
    1. Any outgoing Project Director who served under the outgoing Officer.
@@ -335,15 +335,15 @@ subtitle: The Elections Bylaw
    1. If requested by the candidate, one member of the hiring committee must record the entire interview. The candidate may choose to make this recording available to the Board of Directors.
    1. Any and all recordings shall be destroyed immediately after the conclusion of the Board of Directors meeting electing the Project Director.
 1. The recommendation report shall completely and accurately provide all reasoning for the recommendation provided, including discussion and concerns raised among the members of the hiring committee.
-1. The outgoing Officer on the committee, or their replacement as specified in 7.2.3,  shall be tasked with ensuring the recommendation report maintains a professional and respectful tone for all the candidates. The report shall accurately reflect the discussion held during the interview, to the best of the hiring committee’s ability.
+1. The outgoing Officer on the committee, or their replacement as specified in Section 7.2.3,  shall be tasked with ensuring the recommendation report maintains a professional and respectful tone for all the candidates. The report shall accurately reflect the discussion held during the interview, to the best of the hiring committee’s ability.
 1. From the nominated candidates, the hiring committee shall recommend a number of candidates less than the number of positions available, a number of candidates equal to the number of positions available, a number of candidates greater than the number of positions available, or to re-open nominations.
    1. Should the number of candidates elected be greater than zero, but less than the number of positions available, nominations shall be reopened only for the unfilled positions.
 
 ## Board Meeting
 1. Each recommendation report shall be circulated to Members of the Board of Directors and candidates as soon as is reasonably possible.
-   1. Any recommendation report must be available to the parties listed in 7.3.1 at least 48 hours prior to the scheduled start of the Board of Directors meeting ratifying it.
+   1. Any recommendation report must be available to the parties listed in Section 7.3.1 at least 48 hours prior to the scheduled start of the Board of Directors meeting ratifying it.
    1. At least one member of each hiring committee must be present at the Board meeting to motivate their respective recommendation report and answer questions from the Board.
-   1. Any position for which the associated recommendation report was not presented to the Board in accordance with the requirements in clauses 7.3.1.a and 7.3.1.b shall not be elected, and the motion to elect the position shall be tabled until the next meeting of the Board of Directors.
+   1. Any position for which the associated recommendation report was not presented to the Board in accordance with the requirements in Section 7.3.1.a and Section 7.3.1.b shall not be elected, and the motion to elect the position shall be tabled until the next meeting of the Board of Directors.
 1. The Board of Directors shall be responsible for electing each Project Director in accordance with the recommendation (or recommendations) provided by the hiring committee.
 1. Any Member may move to amend the recommendation for any particular Project Director in accordance with the Bylaws and Rules of Procedure governing the consideration of motions at a Board of Directors meeting.
 1. If a recommendation report supports multiple candidates, no candidate, or is undecided as to whom should be hired as the Project Director, then the Board may, on their own judgement after considering the recommendation report, elect a candidate or re-open nominations, as per the process outlined in Section 7.4.
@@ -368,14 +368,14 @@ subtitle: The Elections Bylaw
 1. All campaign materials must prominently display the following text: "vote.skule.ca".
 1. In this chapter the term "candidate" shall be interpreted to include the term "Designate" for referenda questions.
 1. Candidates are limited to zero dollars ($0) in campaign expenses.
-   1. Tools and resources used to create the content outlined in sections 8.1, 8.2 and 8.6 are not counted towards a candidate's campaign spending.
+   1. Tools and resources used to create the content outlined in section 8.1, section 8.2, and section 8.6 are not counted towards a candidate's campaign spending.
    1. A printing budget may be determined at the discretion of the CRO in the case that a candidate  does not have a printing quota or has exhausted their printing quota with the Engineering Computing Facility (ECF).
    1. Objects used or distributed in relation to a campaign will be judged at reasonable market value, at the discretion of the CRO, and not at the value for which they were obtained. For example, distribution of	freely obtained food in a campaign context would result in a breach of this rule.
 1. The campaigning rules outlined in this Chapter apply to all positions identified in this Bylaw, with the exception of the following, for which candidates may not campaign:
    1. Project Directors (including the Orientation Chair);
    1. Neutral Officers
 1. The CRO shall maintain a document containing voter statements and platforms of all candidates who wish to submit such materials. The permitted lengths of each shall be announced prior to the beginning of the nomination period. The maximum length of a platform shall be left to the discretion of the CRO, however the maximum shall be no less than five-hundred (500) words.
-   1. Notwithstanding section 8.2, the link to this document, as well as statements which would be permitted under 8.7, may be posted on any social media platform during the election period.
+   1. Notwithstanding section 8.2, the link to this document, as well as statements which would be permitted under section 8.7, may be posted on any social media platform during the election period.
 1. Should campaigning activities occur for which permissibility is not explicitly addressed under the Bylaws of the Society, and the CRO judges these activities to violate the spirit of this Bylaw, the CRO may rule such conduct to be prohibited.
 1. All candidates, regardless of whether they are running opposed or unopposed, must establish a campaign presence and engage with voters.
    1. All candidates must submit a voter statement, at an absolute minimum of one (1) word. This statement must be submitted to the CRO through a means specified by the Nomination Package, which is due at the close of the Nomination Period.
@@ -562,7 +562,7 @@ subtitle: The Elections Bylaw
 1. Each vote that belonged to the eliminated or elected candidate(s) is transferred to the voter's next preference at its present value.
    1. If this candidate is one who was previously eliminated or elected, Section 11.1.5. is repeated.
    1. If the voter has not listed any additional preference or was unable to do so, their ballot is exhausted.
-1. Section 11.1.3. through 11.1.5. are repeated until:
+1. Section 11.1.3. through Section 11.1.5. are repeated until:
    1. All of the seats are filled by election; or
    1. At the end of Section 11.1.4., if the number of eligible candidates is equal to or less than the number of unfilled seats and there is no candidate who can reach the quota, then the election is stopped and those seats are considered vacant and a by-election is held immediately following with the timeline at the CRO's discretion.
 1. If "Re-Open Nominations" receives equal to or more than Q votes, the election iterations are stopped and the unfilled seats are reopened in a by-election.
