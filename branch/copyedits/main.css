@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+/* Basic root styling */
+html {
+	margin: 0;
+	/* Hack to fix headless Chrome not rendering images in print
+	that weren't loaded in screen media */
+	background-image: url('images/logo-48.png');
+	background-position: center -96px;
+	background-repeat: no-repeat;
+}
+html, ::placeholder {
+	font-family: "EB Garamond", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-size: 12pt;
+}
+body {
+	margin: 0 auto;
+	counter-reset: chapter -1;
+}
+code, pre {
+	background-color: #f8f9fa;
+	border-color: #eee;
+	border-radius: 3px;
+	font-family: 'Consolas', monospace;
+	box-shadow: 0 0 0.2rem black;
+	margin: 0 0.2rem;
+	font-size: 11pt;
+}
+/* Heading styling */
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: larger;
+}
+h2 {
+	font-size: 1rem;
+	margin-bottom: 0;
+}
+/* Numbering */
+h1[id] {
+	counter-increment: chapter;
+	counter-reset: section -1;
+}
+h1[id]::before {
+	content: "Chapter " counter(chapter) " - ";
+}
+h2::before {
+	counter-increment: section;
+	content: counter(chapter) "." counter(section) ". ";
+	padding-right: 0.5rem;
+}
+ol li::marker {
+	content: counter(chapter) "." counter(section) "." counter(list-item) ". ";
+}
+
+/* List styling */
+ol {
+	margin-left: 2rem;
+	margin-top: 0;
+}
+ol li {
+	padding-left: 1rem;
+}
+ol ol {
+	margin-left: 0;
+	padding-inline-start: 1rem;
+}
+ol ol li {
+	list-style-type: lower-alpha;
+	padding-left: 1.5rem;
+}
+ol ol li::marker {
+	content: initial;
+}
+ol ol ol {
+	margin-left: 0;
+}
+ol ol ol li {
+	list-style-type: lower-roman;
+}
+
+
+/* Print styling */
+@media print {
+	body {
+		width: 100vw;
+	}
+	h1.cover-heading {
+		margin: calc((95vh - 4em) / 2) auto;
+	}
+	h1:not(.cover-heading) {
+		break-before: page;
+	}
+	a {
+		color: black;
+		text-decoration: none;
+	}
+	.screen-only {
+		display: none;
+	}
+}
+@page {
+	margin: 1in;
+	size: letter portrait;
+
+	@top-center {
+		content: 'Document Title';
+		font-weight: bold;
+		border-bottom: 1px solid black;
+		height: 42pt;
+	}
+	@top-right {
+		content: 'Last Revision:';
+		border-bottom: 1px solid black;
+		height: 42pt;
+	}
+	@top-left {
+		content: url('images/logo-48.png');
+		border-bottom: 1px solid black;
+		height: 42pt;
+	}
+	@bottom-right {
+		content: counter(page);
+	}
+}
+@page :first {
+	@top-center {
+		visibility: hidden;
+	}
+	@top-right {
+		visibility: hidden;
+	}
+	@top-left {
+		visibility: hidden;
+	}
+	@bottom-right {
+		counter-reset: page;
+		content: 'LAST REVISED:';
+	}
+}
+
+/* Contents page */
+.contents {
+	page: contents;
+}
+section.contents {
+	font-weight: bold;
+	display: grid;
+	grid-template-columns: min-content 1fr min-content;
+	gap: 1em;
+	counter-reset: chapter -1;
+}
+section.contents span:nth-child(3n+1)::before {
+	counter-increment: chapter;
+	content: counter(chapter);
+}
+section.contents span:nth-child(3n+3) {
+	text-align: right;
+}
+@page contents {
+	@bottom-right {
+		visibility: hidden;
+	}
+	@bottom-left {
+		border-top: 1px solid black;
+		width: 45%;
+		content: 'If you have any questions regarding this document, please contact the Speaker at speaker@skule.ca.';
+	}
+}
+
+@keyframes targeted {
+	0% {text-decoration: underline;}
+	100% {text-decoration: none;}
+}
+
+/* Non-print styling */
+@media screen {
+	thead, tfoot {
+		display: none;
+	}
+	h1.cover-heading {
+		border-bottom: 1px solid black;
+		padding-bottom: 1em;
+	}
+	html {
+		background-color: #5F6368;
+	}
+	body {
+		border: 1px solid #d3d3d3;
+		margin: 1em auto;
+		padding: 1in;
+		max-width: 6.5in; /* 8.5in - 1in padding * 2 */
+		min-height: calc(100vh - 2rem - 2in - 2px);
+		background-color: white;
+		background-image: url('images/logo.png');
+		background-position: center 2em;
+		background-repeat: no-repeat;
+		box-shadow: 0 0 0.5rem black;
+	}
+	body > :last-child {
+		margin-bottom: 0;
+	}
+	fieldset {
+		margin: 1rem 0;
+	}
+	fieldset > p {
+		margin-top: 0;
+	}
+	fieldset label {
+		white-space: nowrap;
+	}
+	#search-results {
+		margin: 0;
+		margin-left: -1rem;
+	}
+	section.contents span:nth-child(3n+3) {
+		visibility: hidden;
+	}
+	:target {
+		animation: targeted 4s;
+	}
+}
+
+@media screen and (max-width: 8.5in) {
+	body {
+		margin: 0;
+		max-width: unset;
+		min-height: calc(100vh - 1rem - 1in - 2px);
+	}
+}
+
+@media screen and (min-width: calc(6.5in + 2rem)) and (max-width: 8.5in) {
+	body {
+		padding: 1in calc((100vw - 6.5in) / 2) 1rem;
+	}
+}
+
+@media screen and (max-width: calc(6.5in + 2rem)) {
+	body {
+		padding: 1in 1rem 1rem;
+	}
+}
+
+@media screen and (max-width: calc(394px + 2rem)) {
+	body {
+		background-size: calc(100vw - 2rem);
+	}
+}
