@@ -90,7 +90,7 @@ subtitle: The Constitution
    1. General Meetings for the purpose of Recall, are the responsibility of the Chief Returning Officer; and
    1. Other General Meetings, are the responsibility of the Vice-President Communications.
 
-## Calling a Meeting
+## Doing a Meeting Lol it's Funny
 1. An Annual General Meeting (AGM) shall be called annually, in October.
    1. The AGM shall serve as the Annual Meeting of the Members as defined under Section 52 of ONCA.
 1. A General Meeting shall be called upon:
