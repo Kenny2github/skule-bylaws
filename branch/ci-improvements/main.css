@@ -102,6 +102,9 @@ ol ol ol li {
 	.find-handle {
 		display: none;
 	}
+	hr.contents {
+		visibility: hidden;
+	}
 }
 @page {
 	margin: 1in;
@@ -154,6 +157,9 @@ section.contents {
 	gap: 1em;
 	counter-reset: chapter -1;
 }
+hr.contents {
+	counter-set: chapter -1;
+}
 section.contents span:nth-child(3n+1)::before {
 	counter-increment: chapter;
 	content: counter(chapter);
@@ -178,6 +184,7 @@ section.contents span:nth-child(3n+3) {
 		background-color: #ffc;
 	}
 	100% {
+		border-radius: .5rem;
 		background-color: none;
 	}
 }
@@ -222,8 +229,11 @@ section.contents span:nth-child(3n+3) {
 		margin: 0;
 		margin-left: -1rem;
 	}
+	section.contents {
+		grid-template-columns: min-content 1fr;
+	}
 	section.contents span:nth-child(3n+3) {
-		visibility: hidden;
+		display: none;
 	}
 	:target {
 		animation: targeted 5s cubic-bezier(0.5, 0, 0.75, 0);
