@@ -43,6 +43,11 @@ subtitle: Policy on Finances
 1. The Engineering Society reserves the right to deny reimbursements to individual items that were not approved by the Board of Directors or items with a significant price difference from what was approved initially at the discretion of the Engineering Society President or the Engineering Society Vice-President Finance.
 1. The Engineering Society must not approve any budgets or expenses that were expensed in the previous fiscal year cycle.
 
+## Misrepresentation
+1. Misuse of funds is a serious matter defined as:
+   1. Having a request for funding approved by the Board of Directors, and
+   1. Successfully using Engineering Society funding for purposes other than those approved by the Board of Directors.
+
 # Finance Committee Responsibilities
 
 ## General

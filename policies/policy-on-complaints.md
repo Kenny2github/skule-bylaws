@@ -23,6 +23,8 @@ subtitle: Policy on Complaints
    1. any violation of the Standard of Behavior defined in the [Orientation Governance Policy](orientation-governance-policy.md), for complaints against members of the Orientation Committee
    1. any form of defamation or slander that injures the complainant's reputation with false statements of fact
    1. failure to perform duties as required by the position held by the subject of the complaint, or as directed by an overseeing body with the authority to so direct them
+   1. any form of misuse of funds defined in the [Finance Policy](finance-policy.md)
+   1. any violation of the Standards for Affiliation defined in the [Policy on Affiliated Clubs](policy-on-affiliated-clubs.md)
 
 ## Confidentiality
 1. All materials related to complaints, including without limitation the original complaint, any recommendation report, and communications with relevant parties, are strictly confidential to the extent practicable.
@@ -87,7 +89,8 @@ subtitle: Policy on Complaints
       1. information not germane to the complaint
    1. The possible recommendations mentioned in section 4.0.3.a.v are to:
       1. Recall subject of complaint from their position.
-      1. Revoke affiliation of club for which subject of complaint was acting.
+      1. Recommend to the Board consequences described in the [Policy on Affiliated Clubs](policy-on-affiliated-clubs.md).
+      1. Recommend to the Board consequences described in the [Finance Policy](finance-policy.md).
       1. Mandate additional training.
       1. Require subject of complaint to issue official apology.
       1. Escalate matter to campus police.
