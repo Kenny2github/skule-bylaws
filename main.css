@@ -86,10 +86,10 @@ ol ol ol li {
 	body {
 		width: 100vw;
 	}
-	h1.cover-heading {
+	h1.cover-page {
 		margin: calc((95vh - 4em) / 2) auto;
 	}
-	h1:not(.cover-heading) {
+	h1:not(.cover-page) {
 		break-before: page;
 	}
 	a {
@@ -194,9 +194,9 @@ section.contents span:nth-child(3n+3) {
 	thead, tfoot {
 		display: none;
 	}
-	h1.cover-heading {
+	p.cover-page {
 		border-bottom: 1px solid black;
-		padding-bottom: 1em;
+		text-align: center;
 	}
 	html {
 		background-color: #5F6368;
