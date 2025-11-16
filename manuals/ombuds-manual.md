@@ -33,13 +33,13 @@ subtitle: A Manual for the Ombudsperson
 # Summary and Structure
 
 ## Role Summary
-1. The Ombudsperson is an impartial role chiefly responsible for the investigation of complaints against EngSoc roles, but also for other miscellaneous tasks demanding neutrality and impartiality.
+1. The Ombudsperson is an impartial role, defined in [Bylaw 2 section 3.2](../bylaw-2.md), chiefly responsible for the investigation of complaints against EngSoc roles, but also for other miscellaneous tasks demanding neutrality and impartiality.
 
 ## Transition
 1. The Ombudsperson shall transition their successor as described in the [Transition Policy](../policies/transition-policy.md).
 
 ## Executive Structure
-1. The Ombudsperson has no regular executive structure.
+1. The Ombudsperson does not typically have executives.
 
 ## Executive Responsibilities
 1. All responsibilities of the role fall on the Ombudsperson.
@@ -65,7 +65,7 @@ subtitle: A Manual for the Ombudsperson
    1. Equity and Inclusivity Director
 1. In November of their term, the Ombudsperson submits motions to recall any role-holders listed above which have not completed their mandatory training.
 1. In November of their term or thereabouts, the Ombudsperson holds the Fall EngSoc Meet & Greet.
+1. Before the February Policy and Structures Committee meeting in their term, the Ombudsperson reviews the [Policy on Complaints](../policies/policy-on-complaints.md) and this Manual with the Speaker and submits any updates to the Committee for comment before adopting them in accordance with [Bylaw 1 section 7.5.4.d](../bylaw-1.md).
 1. In March of their term or thereabouts, the Ombudsperson holds the Spring EngSoc Meet & Greet.
-1. In March of their term, the Ombudsperson reviews the [Policy on Complaints](../policies/policy-on-complaints.md) and this Manual, and submits any updates to the Policy and Structures Committee
 1. In March of their term, the Ombudsperson creates and distributes the Skule Census.
 1. In April of their term, the Ombudsperson reports to the Board the results of the Skule Census and any other issues they identified that year.
