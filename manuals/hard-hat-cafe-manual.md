@@ -44,6 +44,13 @@ The Hard Hat Café Managers are responsible for maintaining and operating the Ha
 2. Supplier contacts should be updated/renewed 
 
 ## Executive Structure
+1. A typical team consists of the two Project Directors along with 4-5 executives, divided as follows: 
+   1. One (1) Vending Machine Manager
+   1. One (1) Assistant Manager
+   1. One or two (1-2) Graphics Executives
+   1. One (1) Finance Executive
+
+## Executive Responsibilities
 1. Vending Machine Manager
    1. Propose new items
    2. Ensure vending machines are stocked
