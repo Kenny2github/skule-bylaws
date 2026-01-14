@@ -1,5 +1,5 @@
 ---
-revdate: October 29, 2025
+revdate: November 26, 2025
 title: Bylaw 3
 pdf: Bylaw 3
 subtitle: The Elections Bylaw
@@ -228,14 +228,14 @@ subtitle: The Elections Bylaw
 ## General
 1. Use of the phrase "Appointed by" in this chapter shall mean that the organization in question may appoint any Member to fulfill the position.
 
-## Winter Elections Period
-1. The Winter Election shall consist of the Orientation Chair, Hi-Skule™ Director, and the University of Toronto Engineering Kompetition (UTEK) Director. The CRO shall also be elected during this election period, as described in section 1.1.
+## Winter Election Period
+1. The Winter Election shall consist of the Orientation Chair and the University of Toronto Engineering Kompetition (UTEK) Director. The CRO shall also be elected during this election period, as described in section 1.1.
    1. The Board of Directors may direct the CRO to defer the election of any of these positions, except the CRO, to the Valedictorian Election Period. In this case, the Nomination Period shall be the same as for the Valedictorian, but other details remain the same.
 1. The Nomination Period for the Winter Elections shall commence at 9:00am on the first or second Monday of January and shall close at 5:00pm the following Friday.
 1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature.
 1. There shall be no campaigning for the positions in this election.
-1. The Winter Ratification Meeting shall be for the purpose of electing the Orientation Chair, Hi-Skule™ Director, the University of Toronto Engineering Kompetition (UTEK) Director and the CRO.
+1. The Winter Ratification Meeting shall be for the purpose of electing the positions specified in section 5.1.1.
    1. The aforementioned meeting shall occur within eleven (11) business days of the close of the Nomination Period.
    1. Positions deferred to the Valedictorian Election Period as described in section 5.1.1.a shall be elected at the February Board of Directors meeting.
 1. The CRO shall determine the order in which positions are considered; however, the position of CRO shall be the last position considered at the Winter Ratification Meeting.
@@ -246,6 +246,7 @@ subtitle: The Elections Bylaw
 
 ## Valedictorian Election Period
 1. The Nomination Period for the Valedictorian shall commence at 9:00am on the nearest Monday before February 1st and shall close at 5:00pm on the Friday of the same week.
+   1. The Hi-Skule™ Director shall also be elected during the Valedictorian Election Period, as if deferred from the Winter Election Period as described in section 5.1.1.a.
 1. A Member, who must be in their Final Year, shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature
 1. Potential candidates must submit a voter’s statement in accordance with section 8.0.7, through a means specified by the Nomination Package, which is due at the close of the Nomination Period; and

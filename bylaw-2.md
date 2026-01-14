@@ -1,5 +1,5 @@
 ---
-revdate: September 25, 2025
+revdate: November 26, 2025
 title: Bylaw 2
 pdf: Bylaw 2
 subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
@@ -9,8 +9,13 @@ subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
 
 ## Project Directors
 1. A Director is responsible for a specific and limited area of the Society’s activities.
-1. The Term of Office of all Project Directors shall commence at the adjournment of the April Board of Directors meeting, unless the motion ratifying their election specifies otherwise.
-1. The Term of Office of all Project Directors shall extend until the adjournment of the April Board of Directors Meeting, unless the motion ratifying their election specifies otherwise.
+1. Unless the motion ratifying their election specifies a later time:
+   1. The Term of Office of Project Directors elected in a by-election shall commence at the adjournment of the Board of Directors meeting ratifying the by-election.
+   1. The Term of Office of Project Directors defined by [Bylaw 3](bylaw-3.md) to be elected in an Election Period other than the Project Directors Election Period defined in [Bylaw 3 Chapter 7](bylaw-3.md) shall commence at the adjournment of the Board of Directors meeting ratifying the Election in that Election Period.
+   1. The Term of Office of all other Project Directors shall commence at the adjournment of the April Board of Directors meeting.
+1. Unless the motion ratifying their election specifies an earlier time:
+   1. The Term of Office of Project Directors defined by [Bylaw 3](bylaw-3.md) to be elected in an Election Period other than the Project Directors Election Period defined in [Bylaw 3 Chapter 7](bylaw-3.md) shall extend until the adjournment of the Board of Directors meeting ratifying the Election in that Election Period.
+   1. The Term of Office of all other Project Directors shall extend until the adjournment of the April Board of Directors Meeting.
 1. A Director must be a Member for the entire duration of the Directorship’s Term of Office, as described in 0.0.1.
 1. A Project Director is ineligible to serve in a position they have previously held for more than two (2) months even if re-elected. This requirement may be waived in cases of extenuating circumstances by a unanimous vote of the Board of Directors.
 1. A Project Director, once elected, shall not be eligible to run in elections for any Project Directorship with the same Term of Office. This requirement may be waived due to extenuating circumstances by a unanimous vote of the Board.
