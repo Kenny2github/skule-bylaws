@@ -229,8 +229,9 @@ subtitle: The Elections Bylaw
 1. Use of the phrase "Appointed by" in this chapter shall mean that the organization in question may appoint any Member to fulfill the position.
 
 ## Winter Election Period
-1. The Winter Election shall consist of the Orientation Chair and the University of Toronto Engineering Kompetition (UTEK) Director. The CRO shall also be elected during this election period, as described in section 1.1.
+1. The Winter Election shall consist of the Orientation Chair, the Iron Pin Director, and the University of Toronto Engineering Kompetition (UTEK) Director. The CRO shall also be elected during this election period, as described in section 1.1.
    1. The Board of Directors may direct the CRO to defer the election of any of these positions, except the CRO, to the Valedictorian Election Period. In this case, the Nomination Period shall be the same as for the Valedictorian, but other details remain the same.
+   1. In the 2025-2026 academic year, the Iron Pin Director shall be elected according to the provisions of Chapter 7 instead of this section.
 1. The Nomination Period for the Winter Elections shall commence at 9:00am on the first or second Monday of January and shall close at 5:00pm the following Friday.
 1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature.

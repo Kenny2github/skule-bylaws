@@ -216,6 +216,11 @@ subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
 1. The Skule™ Patrol Directors shall attend a form of or equivalent of Equity Training and Sexual Violence Prevention and Response Training before the August month of their term, provided by the University of Toronto and their resources or an external organization deemed reliable at a meeting of the Board of Directors.
 1. The Skule™ Patrol Directors shall be overseen by the Vice-President Student Life.
 
+## Iron Pin Director
+1. There shall be an Iron Pin Director responsible for organizing the Iron Pin Ceremony in January of each year, where first year students commit themselves to engineering student ethics, are inspired in their passion for engineering, and are shown the value of transparency and mentorship.
+   1. In the 2026-2027 academic year, the Iron Pin Ceremony shall additionally be open to students who were absent from Toronto during the 2025-2026 Ceremonies due to being on PEY Co-op or for other reasons that the Director and President may agree to allow.
+1. The Iron Pin Director shall be overseen by the President.
+
 # Associated Entities
 
 ## General
