@@ -26,8 +26,8 @@ subtitle: The Elections Bylaw
 1. The CRO shall notify all Members by email at the opening of an Election period, and at 12pm on the day an Election Period closes.
 1. Electronic voting shall be made available over the entirety of a given Voting Period for an election cycle, where applicable, through vote.skule.ca.
 1. For a given election cycle, the CRO shall publicly certify and announce election results to the Society within six hours of the end of the election period.
-1. Each Nomination Package shall include the following mandatory sign-off statement signifying that the "Confidentiality Agreement - Information Sharing" document will be used to verify the Member's enrolment status with the Registrar, as per the conditions outlined in [Bylaw 1 Section 1.1.4](bylaw-1.md).
-   1. "By signing this Nomination Package, I hereby allow the Chief Returning Officer of the Engineering Society to verify my enrolment status using the "Confidentiality Agreement - Information Sharing" document as described in [Bylaw 1 Section 1.1.4](bylaw-1.md), in order to complete the nomination process. Further, I acknowledge if I obtain this position, I allow the Speaker or President (determined by the sub-clauses of [Bylaw 1 Section 1.1.4](bylaw-1.md)) to verify my enrolment status if a concern or complaint is brought to the attention of the President, Ombudsperson, and/or Speaker."
+1. Each Nomination Package shall include the following mandatory sign-off statement signifying that the "Confidentiality Agreement - Information Sharing" document will be used to verify the Member's enrolment status with the Registrar, as per the conditions outlined in [Bylaw 1 Section 1.0.1](bylaw-1.md).
+   1. "By signing this Nomination Package, I hereby allow the Chief Returning Officer of the Engineering Society to verify my enrolment status using the "Confidentiality Agreement - Information Sharing" document as described in [Bylaw 1 Section 1.0.1](bylaw-1.md), in order to complete the nomination process. Further, I acknowledge if I obtain this position, I allow the Speaker or President (determined by the sub-clauses of [Bylaw 1 Section 1.0.1](bylaw-1.md)) to verify my enrolment status if a concern or complaint is brought to the attention of the President, Ombudsperson, and/or Speaker."
 1. Elections must not occur within the Fall or Winter Exam Periods.
 1. Elections requiring a Voting Period shall not occur within the Summer Months.
 1. Where nominations are required for a position, candidates for that position may not be nominators for the same position.
@@ -291,7 +291,7 @@ subtitle: The Elections Bylaw
 1. Referendum rules not specified in this chapter shall be decided by the CRO with the Speaker's approval.
 
 ## Levy Referenda
-1. A referendum for the purpose of creating, renewing, increasing, decreasing, or removing student fees as specified in [Bylaw 1 Section 1.3](bylaw-1.md) must be called by one of:
+1. A referendum for the purpose of creating, renewing, increasing, decreasing, or removing student fees as specified in [Bylaw 0 Section 1.2](bylaw-0.md) must be called by one of:
    1. A two-thirds majority vote at a Board of Directors Meeting; or
    1. A simple majority vote at a General Meeting.
 1. The question text of such a referendum shall contain exclusively the following elements:

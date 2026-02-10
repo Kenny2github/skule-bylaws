@@ -1,8 +1,8 @@
 ---
-revdate: February 23, 2026
+revdate: TBD, 2026
 title: Bylaw 1
 pdf: Bylaw 1
-subtitle: The Constitution
+subtitle: The Engineering Society
 ---
 
 # General
@@ -19,15 +19,11 @@ subtitle: The Constitution
    1. "Board Members" shall mean members of the Board of Directors, as specified in Chapter 4;
    1. "Faculty" shall mean the Faculty of Applied Science and Engineering of the University of Toronto;
    1. "Governing Council" shall mean the Governing Council of the University of Toronto;
-   1. "Members" shall mean members of the Society, as specified in Chapter 1;
    1. "Officers" shall mean the President and all Vice-Presidents of the Society, as specified in Chapter 3;
    1. "PEY Constituency" shall mean the group of Members registered in the Professional Experience Year Co-op Program;
    1. "Program" shall mean a course of study in an Engineering discipline, as defined by the Faculty;
    1. "Recall" shall mean a process by which a position-holder of the Society may be removed from their position without their consent;
-   1. "Resolution" shall mean a motion approved by a majority vote;
    1. "Signing Officer" shall mean a person who has the right to authorize financial transactions on behalf of the Society;
-   1. "Summer Months" shall refer to the months of May, June, July and August;
-   1. "Academic Year" shall refer to the months of September, October, November, December, January, February, March and April; and
    1. "First Year", "Second Year", "Third Year", and "Fourth Year" shall mean "First Year", "Second Year", "Third Year", and "Fourth Year" as defined by the Faculty.
    1. “Final Year” shall refer to the Academic Year in which a person fulfills the remainder of their academic criteria for graduation (as defined by the Faculty) and is eligible for graduation in the following June.
    1. “ONCA” shall mean The Ontario Not-For-Profit Corporations Act.
@@ -41,17 +37,7 @@ subtitle: The Constitution
 
 # Membership and Fees
 
-## General
-1. There shall be two (2) types of Members:
-   1. Regular Members
-   1. Ex-Officio Members
-
-## Qualifications for Membership
-1. Regular Members shall be students who are enrolled (as defined by the Faculty) in a degree-seeking undergraduate program of study in the Faculty and have paid or deferred either the Full Time or Part Time Membership Fees for the semester.
-   1. Regular Members shall only retain their membership for the semesters in which they have paid or deferred their Membership Fees.
-   1. Regular Members retain their membership during the Summer following the Academic Year if they were enrolled and paid their membership fees during the Winter Semester.
-1. Regular Members who complete the requirements of their undergraduate degree (as defined by the Faculty) shall lose Membership of the Society  and become Alumni (as defined in 1.2) on the date of their Convocation.
-1. Ex-Officio Members shall be individuals who have been granted Membership by the Bylaws of the Society.
+## Verification of Membership
 1. The “Confidentiality Agreement - Information Sharing” document provides the ability for the President, Speaker, and Chief Returning Officer of the Engineering Society to verify a Member’s enrolment status if they hold, are attempting to hold a position, or have signed a nomination form for a Member attempting to hold a position through a process administered by the Society.
    1. The enrolment status of a Member may be verified in the following circumstances:
       1. After a Nomination Period for each candidate, and if applicable, the Members who signed their nomination form. This is the responsibility of the Chief Returning Officer;
@@ -59,28 +45,8 @@ subtitle: The Constitution
       1. Upon a concern or complaint regarding an individual’s enrollment status brought to the attention of the Ombudsperson, and/or Speaker, in which case the Speaker shall notify in writing the individual who is the subject of the complaint at least twenty-four (24) hours prior to verifying their enrollment status.
    1. If it is the Speaker’s enrolment status under consideration, the President shall be the one to verify the Speaker’s enrolment status.
 
-## Alumni
-1. Alumni are individuals who have either:
-   1. Received an undergraduate degree, diploma, or certificate from the University of Toronto Faculty of Applied Science and Engineering or its precursor, the Ontario School of Practical Science, or
-   1. Completed the requirements for the first year of study in any undergraduate program, but are not currently registered with the University of Toronto Faculty of Applied Science and Engineering or its precursor, the Ontario School of Practical Science, towards a degree, diploma or certificate.
-
 ## Fees
-1. Regular Members shall have paid in full, or successfully deferred, their Membership Fees for the Fall and/or Winter semesters in which they are considered a Member.
 1. The Membership Fee shall be $32.21 in each of the Fall and Winter Semesters for Full Time Students and $30.29 in each of the Fall and Winter Semesters for Part Time Students in the year 2026-2027, and $0.00 for the summer semester of 2027, for both Full Time Students and Part Time Students, provided the student continues to meet the other conditions of membership.
-1. Upon a resolution of the Board of Directors, the Membership Fee for each subsequent year shall include a cost of living adjustment as approved by the Governing Council.
-1. The Membership Fee shall be non-refundable.
-1. Any fees to be created or increased except as specified in Section 1.3.3 shall be done so by the Membership through a referendum.
-1. Any fees to be decreased or removed except as specified in Section 1.3.3 shall be done so by one of:
-   1. A simple majority vote in a referendum of the Membership; or
-   1. A two-thirds majority vote at a General Meeting; or
-   1. A unanimous vote at a Board of Directors Meeting.
-
-## Rights of Membership
-1. Alumni are not Members and shall enjoy no rights of Membership other than the right to speak at General Meetings and at meetings of the Board of Directors.
-1. Ex-Officio Members shall enjoy no rights of Membership other than the right to speak and vote at General Meetings and speak at meetings of the Board of Directors, unless they have been individually granted other rights of Membership.
-1. All other rights and responsibilities of Members described in this document and other Bylaws and Policies of the Engineering Society shall pertain only to Regular Members.
-1. Individuals who are neither Members nor Alumni enjoy no rights within the Society, and do not have the right to attend or speak at General Meetings or meetings of the Board of Directors.
-   1. The right to attend or speak at said meetings may be granted by a resolution of the meeting’s voting members.
 
 # General Meetings
 
@@ -108,7 +74,7 @@ subtitle: The Constitution
    1. Appoint an auditor for the current year;
    1. Receive the auditor's report for the previous year;
    1. Authorize the Board of Directors to set the remuneration for the auditor for the current year;
-   1. Ratify any amendments to the Bylaws in accordance with Section 7.3; and
+   1. Ratify any amendments to the Bylaws in accordance with [Bylaw 0 section 2.4](bylaw-0.md); and
    1. Perform any other functions specified by the Not-for-Profit Corporations Act of Ontario and other relevant legislation.
 1. The agenda of any other General Meeting shall contain only those motions pertaining to matters specified under 2.1.3.
 1. Motions shall be added to the agenda of a General Meeting upon receipt of notice in writing to the Speaker at any time earlier than fourteen (14) days prior to the meeting.
@@ -122,7 +88,7 @@ subtitle: The Constitution
 1. Without notice as defined in Section 2.3.1 and Section 2.3.2, no motions passed at a General Meeting shall have force, unless all Members present waive notice as described in section 55(3) of ONCA.
 1. If a General Meeting is adjourned for less than thirty (30) days but more than seven (7) days, notice by the aforementioned means shall be given at least seven (7) days prior to the meeting that continues the adjourned meeting.
 1. For the Annual General Meeting, notice must be given to the Auditor of the Society, however their attendance is not required.
-   1. Notwithstanding Section 1.4, the Auditor shall be permitted to attend and speak at the Annual General Meeting.
+   1. Notwithstanding [Bylaw 0 section 1.3](bylaw-0.md), the Auditor shall be permitted to attend and speak at the Annual General Meeting.
 
 ## Voting
 1. Each Member of the Society shall be entitled to one (1) vote at General Meetings.
@@ -402,31 +368,12 @@ subtitle: The Constitution
    1. Maintaining the day-to-day financial records of the Society; and
    1. Other duties as may be specified in Bylaws and Policies.
 
-# Amendments, Bylaws, and Policies
+# Amendments to Governing Documents
 
 ## General
-1. There shall be three levels of documents specifying the organization of the Society;
-   1. Bylaw 1 (Constitution);
-   1. Other Bylaws; and
+1. In addition to the documents described in [Bylaw 0 section 2.0.1](bylaw-0.md), there shall be the following subordinate levels of documents specifying the organization of the Society;
    1. Policies.
-1. All of the documents contained under each of the levels of documents listed in 7.0.1 must be written using gender neutral pronouns.
-
-## Bylaw 1 (The Constitution of the University of Toronto Engineering Society)
-1. Bylaw 1 shall specify the fundamental organization of the Society.
-1. Bylaw 1 may only be amended by:
-   1. A two-thirds majority vote at a General Meeting; or
-   1. A two-thirds majority vote at a Board of Directors Meeting.
-
-## Other Bylaws
-1. Other Bylaws shall:
-   1. Provide additional order to the organization specified in Bylaw 1; and/or
-   1. Specify the organization of other areas of the Society.
-1. Other Bylaws may only be passed, repealed, or amended by a simple majority of:
-   1. A General Meeting; or
-   1. A meeting of the Board of Directors.
-
-## Amendments
-1. A bylaw amendment made by the Board of Directors is effective only until the next Annual General Meeting or a General Meeting called for the purpose of its ratification unless confirmed thereat, and in default of confirmation thereat, ceases to have effect at and from that time, and in that case no new bylaw of the same or like substance has any effect until confirmed at a General Meeting. If such approval has not occurred by the next Annual General Meeting the amendment is struck down and neither it nor any substantially similar amendment may be proposed at a meeting of the Board for one year following the date of the Annual General Meeting.
+1. All Bylaws and other documents listed here must be written using gender neutral pronouns.
 
 ## Policies
 1. Policies shall:
@@ -436,6 +383,6 @@ subtitle: The Constitution
    1. A simple majority vote of a General Meeting;
    1. A simple majority vote of the Board of Directors; or
    1. A simple majority vote of the Executive Committee.
-1. When a policy is passed, repealed, or amended, it shall be noted, within the relevant Policy, which of the parties listed in section 7.4.2 did so.
-1. A notice shall be given to the Board of Directors when a policy is passed, repealed, or amended by a party listed after the Board of Directors in section 7.4.2.
-1. Policies passed, Policies repealed, and Policy amendments by a party listed in 7.4.2 may not be repealed, passed, or reversed or substantively defeated, respectively, by parties which come after them in the same list until one (1) year after the amendment was made.
+1. When a policy is passed, repealed, or amended, it shall be noted, within the relevant Policy, which of the parties listed in section 7.1.2 did so.
+1. A notice shall be given to the Board of Directors when a policy is passed, repealed, or amended by a party listed after the Board of Directors in section 7.1.2.
+1. Policies passed, Policies repealed, and Policy amendments by a party listed in section 7.1.2 may not be repealed, passed, or reversed or substantively defeated, respectively, by parties which come after them in the same list until one (1) year after the amendment was made.

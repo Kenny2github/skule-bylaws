@@ -46,7 +46,7 @@ subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
    1. a motion to convert that Directorship into a full Project Directorship, which shall be out of order if it does not include the requisite amendments to this Bylaw
    1. a motion to renew that Directorship as a Temporary Internal Directorship
    1. a discussion item to explain why none of the above motions were submitted
-1. During a discussion item under section 0.1.6.c, if a motion to convert or renew the Directorship is made, it shall be considered by the Board without requiring their consent.
+1. During a discussion item under section 0.1.5.c, if a motion to convert or renew the Directorship is made, it shall be considered by the Board without requiring their consent.
 
 ## Limited Purpose Directors
 1. Limited Purpose Director positions are unelected Project Director positions which may be created by the Board by resolution if the choice of Director(s) is determined by a process outside the Society's direct control (such as ESSCO conference chairs).
