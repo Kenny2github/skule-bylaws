@@ -55,14 +55,14 @@ subtitle: A Manual for the President
    1. [Iron Pin Director](iron-pin-manual.md)
    1. [Orientation Chair](orientation-manual.md)
    1. [Sustainability Director](sustainability-manual.md)
-1. The [Speaker of the Board](speaker-manual.md) informally reports to the President.
+1. The President takes over the [Speaker of the Board](speaker-manual.md)'s responsibilities when the Speaker is unavailable, unless the Board resolves otherwise.
 1. The [Business Manager](business-management-manual.md) reports to the President.
 
 ## Executive Responsibilities
 1. Each direct report to the President has its own Manual which should be consulted instead of this section.
 
 ## Reporting Structure
-1. The President is accountable to the [Board of Directors](board-representative-manual.md).
+1. The President is overseen by the [Board of Directors](board-representative-manual.md).
 
 # Manual of Responsibilities
 
