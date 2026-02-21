@@ -9,8 +9,9 @@ subtitle: Index of Documents
 
 ## Bylaws
 
-1. Bylaw 1 is amended as given in [Bylaw 1, section 7.1](bylaw-1.md). Other Bylaws are amended as given in [Bylaw 1, section 7.2](bylaw-1.md).
-	1. [Bylaw 1](bylaw-1.md): The Constitution
+1. The Bylaws are amended as given in [Bylaw 0, Chapter 2](bylaw-0.md).
+   1. [Bylaw 0](bylaw-0.md): The Constitution
+	1. [Bylaw 1](bylaw-1.md): The Engineering Society
 	1. [Bylaw 2](bylaw-2.md): The Directors, Associated Entities, and Neutral Officers Bylaw
 	1. [Bylaw 3](bylaw-3.md): The Elections Bylaw
 	1. [Bylaw 4](bylaw-4.md): The Officers Bylaw
