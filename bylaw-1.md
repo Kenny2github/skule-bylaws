@@ -26,7 +26,6 @@ subtitle: The Engineering Society
    1. "Signing Officer" shall mean a person who has the right to authorize financial transactions on behalf of the Society;
    1. "First Year", "Second Year", "Third Year", and "Fourth Year" shall mean "First Year", "Second Year", "Third Year", and "Fourth Year" as defined by the Faculty.
    1. “Final Year” shall refer to the Academic Year in which a person fulfills the remainder of their academic criteria for graduation (as defined by the Faculty) and is eligible for graduation in the following June.
-   1. “ONCA” shall mean The Ontario Not-For-Profit Corporations Act.
 1. All other words shall carry their common dictionary definitions.
 1. Where a Board of Directors meeting is referred to by month (such as "the April Board of Directors meeting") or as "monthly", the meeting referred to is the last regular meeting in that month, unless otherwise specified.
 1. In the event of any ambiguity in a by-law or policy, its interpretation shall be ruled upon by the Speaker. The Speaker shall commit an item to the Policy and Structures Committee to review the Bylaw or policy found to be in ambiguity and make a recommendation to the Board.

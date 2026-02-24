@@ -22,6 +22,7 @@ subtitle: The Constitution
    1. "General Meeting" shall mean a meeting of the Members as defined by [Bylaw 1, Chapter 2](bylaw-1.md).
    1. "Governing Council" shall mean the Governing Council of the University of Toronto.
    1. "Members" shall mean members of the Society, as specified in Chapter 1.
+   1. “ONCA” shall mean the Ontario *Not-For-Profit Corporations Act*, S.O. 2010, c. 15.
    1. "Resolution" shall mean a motion approved by majority vote, unless a different vote threshold is specified;
    1. "Summer" shall refer to the months of May, June, July, and August.
    1. "Winter" shall refer to the months of January, February, March, and April.
@@ -87,7 +88,13 @@ subtitle: The Constitution
 
 ## Bylaw 0 (The Constitution)
 1. Bylaw 0 shall specify the fundamental purpose of the Society, its Membership, and Bylaw amendment procedures.
-1. Bylaw 0 may only be amended by a two-thirds majority vote at a General Meeting.
+1. An amendment to any of the following parts of Bylaw 0 requires a two-thirds majority vote at a Special General Meeting called for that purpose:
+   1. Section 0.0, section 0.2, and section 0.3
+   1. Section 1.0 and section 1.2
+1. A motion under section 2.1.2 is out of order unless:
+   1. It includes provisions directing that articles of amendment be filed to match the Bylaw 0 amendments, in accordance with ONCA sections 103 and 106; and
+   1. Notice of the Special General Meeting in which it is considered includes the proposed amendments, in accordance with ONCA section 104(2).
+1. The rest of Bylaw 0 may only be amended by a two-thirds majority vote at a General Meeting.
 
 ## Bylaw 1 (The Engineering Society)
 1. Bylaw 1 shall specify the fundamental organization of the Society.
