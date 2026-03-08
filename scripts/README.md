@@ -35,11 +35,14 @@ This comments links to the following things on newly opened PRs which modify Mar
 
 This also closes the PR if the source repository does not have GitHub Pages set up, noting that fact in the process, to ensure they can see the Pages build.
 
+### `pr-synced-noindex.yml`
+This is a simple check that fails if, in a modified file other than [`index.md`](../index.md) which already had a `revdate:` field in the Markdown frontmatter, that field was not modified.
+
 ### `pr-synced-target.yml`
-This generates and comments a section-by-section diff of Markdown changes, in unified diff format tabulated by section number and text. The table is given in both GitHub and Google Docs flavored markdown, the latter for copying.
+This generates and comments (if non-empty) a section-by-section diff of Markdown changes, in unified diff format tabulated by section number and text. The table is given in both GitHub and Google Docs flavored markdown, the latter for copying.
 
 > [!CAUTION]
-> This is a `pr-synced-target` workflow that checks out the HEAD version of the repository to get the modifications to the Markdown. It prevents malicious script injection by then checking out the base version of the scripts. Care should be taken that the latter mechanism is not broken or bypassed.
+> This is a `pull_request_target` workflow that checks out the HEAD version of the repository to get the modifications to the Markdown. It prevents malicious script injection by then checking out the base version of the scripts. Care should be taken that the latter mechanism is not broken or bypassed.
 
 ### `pr-synced.yml`
 This generates [workflow commands](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/workflow-commands-for-github-actions#setting-a-warning-message) that set the following messages:

@@ -138,7 +138,7 @@ subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
    1. Acquiring and maintaining deals and benefits for all engineering students and Engineering Society activities;
    1. Creating business cases based on the Engineering Society's and engineering students' expenditure in furtherance of paragraph a; and
    1. Acquiring and maintaining a database of contact information for potential and current vendors for student deals and benefits.
-1. The Sponsorship Director shall be overseen by the Vice-President Finance.
+1. The Student Benefits Director shall be overseen by the Vice-President Finance.
 
 ## Orientation Chair
 1. There shall be one (1) or two (2) Orientation Chair(s) who shall be responsible for F!rosh Week, an orientation for incoming students.

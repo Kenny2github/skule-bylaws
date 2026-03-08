@@ -90,7 +90,10 @@ def parse(html: str) -> list[Section]:
     chapters: list[Section] = []
     stack: list[list[Section]] = [chapters]
 
-    root = etree.fromstring(f'<body>{html}</body>')
+    try:
+        root = etree.fromstring(f'<body>{html}</body>')
+    except etree.XMLSyntaxError as e:
+        raise ValueError('Invalid HTML output, likely due to invalid Markdown input') from e
 
     while elems := root.cssselect('a a'):
         for elem in elems:
@@ -195,11 +198,11 @@ def main() -> None:
         ):
             meta, chapters = get_data(infile)
             print(render(meta, chapters), file=outfile)
-            if 'index' in meta['pdf'].casefold():
-                continue
-            title = meta['subtitle'] if 'policies' in meta['pdf'].casefold() \
-                else meta['title']
-            index[htmlname.as_posix()] = (title, dict(walk_sections(chapters)))
+        if 'index' in meta['pdf'].casefold():
+            continue
+        title = meta['subtitle'] if 'policies' in meta['pdf'].casefold() \
+            else meta['title']
+        index[htmlname.as_posix()] = (title, dict(walk_sections(chapters)))
     with open(build_dir / 'index.js', 'w', encoding='utf8') as f:
         f.write('window.index = ')
         json.dump(index, f)

@@ -1,21 +1,22 @@
+// generate page numbers in table of contents when printing
 matchMedia('print').addEventListener('change', m => {
 	if (!m.matches) return;
-	const spans = Array.from(document.querySelectorAll('section.contents a + span'));
-	const h1s = Array.from(document.querySelectorAll('h1[id]'));
+	const table = Array.from(document.querySelectorAll('section.contents a + span'));
+	const chapters = Array.from(document.querySelectorAll('h1[id]'));
 	// get inch to px conversion
 	const elem = document.createElement('test');
 	elem.style.fontSize = '1in';
 	document.body.appendChild(elem);
 	const inch = +getComputedStyle(elem).fontSize.slice(0, -2);
 	document.body.removeChild(elem);
-	for (let i = 0; i < h1s.length; ++i) {
-		spans[i].innerText = Math.floor(h1s[i].getBoundingClientRect().top / (9 * inch)) + 1;
+	// 8.5"x11" with 1" margins = 9" page height
+	const height = 9 * inch;
+	for (let i = 0; i < chapters.length; ++i) {
+		table[i].innerText = Math.floor(chapters[i].getBoundingClientRect().top / height) + 1;
 	}
 });
 
-/**
- * @param {string} needle Value to search for.
- */
+// implementation of full text search through all Bylaws
 function search() {
 	let needle = document.getElementById('search').value;
 	if (needle.length < 3) return;
@@ -29,6 +30,7 @@ function search() {
 	if (regex) {
 		needle = new RegExp(needle, 'ig');
 	} else {
+		// escape regex commands
 		needle = new RegExp(needle.replace(/[/\-\\^$*+?.()|[\]{}]/g, '\\$&'), 'ig')
 	}
 	results.textContent = '';
