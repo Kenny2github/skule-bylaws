@@ -1,5 +1,5 @@
 ---
-revdate: January 26, 2026
+revdate: February 23, 2026
 title: Bylaw 2
 pdf: Bylaw 2
 subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
@@ -17,27 +17,46 @@ subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
    1. The Term of Office of Project Directors defined by [Bylaw 3](bylaw-3.md) to be elected in an Election Period other than the Project Directors Election Period defined in [Bylaw 3 Chapter 7](bylaw-3.md) shall extend until the adjournment of the Board of Directors meeting ratifying the Election in that Election Period.
    1. The Term of Office of all other Project Directors shall extend until the adjournment of the April Board of Directors Meeting.
 1. A Director must be a Member for the entire duration of the Directorship’s Term of Office, as described in 0.0.1.
-1. A Project Director is ineligible to serve in a position they have previously held for more than two (2) months even if re-elected. This requirement may be waived in cases of extenuating circumstances by a unanimous vote of the Board of Directors.
-1. A Project Director, once elected, shall not be eligible to run in elections for any Project Directorship with the same Term of Office. This requirement may be waived due to extenuating circumstances by a unanimous vote of the Board.
-1. A Member may hold a maximum of two (2) Project Director positions at the same time, provided that the terms of office of the two (2) positions do not overlap by more than four (4) months.
+1. A person who has held a Project Director position for more than two (2) months is ineligible to run for or serve in any substantively similar Project Director position without the unanimous consent of the Board of Directors.
+1. A person may hold a maximum of two (2) Project Director positions at the same time, provided that the terms of office of the positions do not overlap by more than four (4) months.
 1. Project Directors may not also hold Officer positions.
 1. Project Directors shall be elected, as defined in [Chapter 7 in Bylaw 3](bylaw-3.md).
 1. A Project Director may only be recalled upon a two-thirds vote by:
    1. The Board of Directors of the Society;
    1. The Annual General Meeting; or
    1. A General Meeting called for such purpose.
+1. Removing a Project Director position requires a resolution of the Board or a General Meeting.
+   1. If the position is defined in this Bylaw, such resolution is out of order if it does not include provisions amending this Bylaw to remove the definition.
+   1. If the removal takes effect before the end of the Term of Office of an incumbent in the removed position, the resolution has the same requirements as recalling the incumbent.
 1. In case of infirmity, death, resignation, removal, vacancy, or other form of ineligibility of a Project Director:
    1. Responsibilities of the Director shall be performed by their overseeing Officer; and
-   1. A by-election may be required in accordance with [Bylaw 3 section 7.4](bylaw-3.md).
+   1. A new Director may be chosen in accordance with [Bylaw 3 section 7.4](bylaw-3.md).
 
 ## Temporary Internal Directors
-1. Temporary Internal Director positions may be created by the Board, as needed.
-1. Temporary Internal Directors shall be subject to the same eligibility requirements as Project Directors, as defined in 0.0.
-1. Temporary Internal Directors shall be overseen by an Officer of the Society.
-   1. The overseeing Officer shall be specified in the motion which creates the Directorship.
-1. The motion which creates a Temporary Internal Directorship may set the Term of Office for the Directorship.
-   1. Unless otherwise specified, a Temporary Internal Directorship shall cease to exist at the adjournment of the April Board of Directors meeting.
-1. For each Temporary Internal Director, unless the Term of Office is otherwise specified, the overseeing Officer shall submit a motion to renew that Directorship at the February Board Meeting.
+1. Temporary Internal Director positions are Project Director positions which may be created by the Board by resolution.
+1. The resolution creating the Temporary Internal Director shall specify the Directorship's:
+   1. Name;
+   1. Responsibilities, as if written in this Bylaw;
+   1. Number of positions (e.g. one, up to two, exactly two);
+   1. Overseeing Officer; and
+   1. Term of Office (e.g. the adjournment of the April Board of Directors meeting).
+1. Temporary Internal Directors shall be subject to the same eligibility requirements as Project Directors, as defined in section 0.0.
+1. Each Temporary Internal Director position shall cease to exist at the end of its Term of Office, if not removed earlier under section 0.0.11.
+1. The overseeing Officer of each Temporary Internal Director shall submit, at a Board Meeting occurring at least one month before the end of that Directorship's Term of Office, one of the following agenda items:
+   1. a motion to convert that Directorship into a full Project Directorship, which shall be out of order if it does not include the requisite amendments to this Bylaw
+   1. a motion to renew that Directorship as a Temporary Internal Directorship
+   1. a discussion item to explain why none of the above motions were submitted
+1. During a discussion item under section 0.1.6.c, if a motion to convert or renew the Directorship is made, it shall be considered by the Board without requiring their consent.
+
+## Limited Purpose Directors
+1. Limited Purpose Director positions are unelected Project Director positions which may be created by the Board by resolution if the choice of Director(s) is determined by a process outside the Society's direct control (such as ESSCO conference chairs).
+1. The resolution creating the Limited Purpose Director shall specify:
+   1. The Directorship's name, responsibilities (as if written in this Bylaw), overseeing Officer, and Term of Office; and
+   1. The persons to be appointed at the time of its creation.
+1. Limited Purpose Directors are not subject to Project Director eligibility requirements.
+1. Each Limited Purpose Director position shall cease to exist at the end of its Term of Office, if not removed earlier under section 0.0.11.
+1. Notwithstanding section 0.0.10, a Limited Purpose Director may be recalled by a simple majority of the Board of Directors or a General Meeting.
+1. Each Limited Purpose Director shall submit, at the last Board Meeting within that Directorship's Term of Office, a report on the Directorship's activities throughout its term.
 
 # Project Directors
 
@@ -114,13 +133,12 @@ subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
 1. The Gradball Director shall attend a form of or equivalent of Sexual Violence Prevention and Response Training, before the November month of their term, provided by the University of Toronto and their resources or from an external organization deemed reliable at a meeting of the Board of Directors.
 1. The Gradball Director shall be overseen by the Vice-President Finance.
 
-## Sponsorship Director
-1. There shall be a Sponsorship Director, who shall be responsible for:
-   1. The development and maintenance of sponsorship packages for Engineering Society activities, including Orientation, Cannonball, and Gradball;
-   1. Acquiring and maintaining a database of contact info for potential and current sponsors;
-   1. Selling ads in the Society's publications including the Toike Oike, Cannon, F!rosh Handbook and Skulebook; and
-   1. Actively pursuing sponsorship for Orientation, Cannonball, and Gradball.
-1. The Sponsorship Director shall be overseen by the Vice-President Finance.
+## Student Benefits Director
+1. There shall be a Student Benefits Director, who shall be responsible for:
+   1. Acquiring and maintaining deals and benefits for all engineering students and Engineering Society activities;
+   1. Creating business cases based on the Engineering Society's and engineering students' expenditure in furtherance of paragraph a; and
+   1. Acquiring and maintaining a database of contact information for potential and current vendors for student deals and benefits.
+1. The Student Benefits Director shall be overseen by the Vice-President Finance.
 
 ## Orientation Chair
 1. There shall be one (1) or two (2) Orientation Chair(s) who shall be responsible for F!rosh Week, an orientation for incoming students.

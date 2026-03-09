@@ -1,5 +1,5 @@
 ---
-revdate: November 26, 2025
+revdate: February 23, 2026
 title: Bylaw 7
 pdf: Bylaw 7
 subtitle: The Discipline Clubs and Class Representatives Bylaw
@@ -17,8 +17,8 @@ subtitle: The Discipline Clubs and Class Representatives Bylaw
 # Finances
 
 ## Finances
-1. Financial support for Discipline Clubs from the Engineering Society shall be allocated according to the following formula: $1419.63 per discipline, plus $6.42 per student. If the Engineering Society increases membership fees to adjust for cost of living, as per [Bylaw 1 Section 1.3.3](bylaw-1.md), then the funding for Discipline Clubs shall be adjusted by the same percentage.
-   1. Notwithstanding section 1.0.1. the formula for the TrackOne Club shall be $354.91 plus $6.42 per student.
+1. Financial support for Discipline Clubs from the Engineering Society shall be allocated according to the following formula: $1449.44 per discipline, plus $6.55 per student. If the Engineering Society increases membership fees to adjust for cost of living, as per [Bylaw 1 Section 1.3.3](bylaw-1.md), then the funding for Discipline Clubs shall be adjusted by the same percentage.
+   1. Notwithstanding section 1.0.1. the formula for the TrackOne Club shall be $362.36 plus $6.55 per student.
 1. Discipline club funding may be withheld by resolution of the Board of Directors, with Board members of the discipline in question barred from voting. The Board may decline to release funding for the following reasons:
    1. The club has graduate pranks from previous years which are in a state of disrepair.
    1. The club is not in compliance with its Board-approved constitution, as described in Chapter 2.
@@ -51,9 +51,11 @@ subtitle: The Discipline Clubs and Class Representatives Bylaw
 
 ## Class Representatives
 1. There shall be at most two (2) Class Representatives per discipline per year. Class Representatives for a PEY constituency shall be optional at the discretion of the appropriate Discipline Club.
-   1. Class Representatives shall have the option to be a Faculty Council Representative, holding one (1) vote on the Council.
-      1. If there are two (2) Class Representatives for a particular discipline or year, at most one may hold a vote on Faculty Council as determined by the representatives themselves. This decision shall be communicated to the Vice-President Academic at least three weeks prior to  the first Faculty Council meeting of their term. In the event Class Representatives do not communicate a decision to the Vice-President Academic within this time frame, then the Vice-President Academic shall appoint a Class Representative to Faculty Council by their own prerogative.
-      1. If Class Representatives do not wish to participate in Faculty Council, they must communicate this decision to the Vice-President Academic at least three weeks prior to the first Faculty Council meeting of their term. In the event of a Class Representative choosing not to participate in Faculty Council, the Vice-President Academic shall appoint a Faculty Council Representative through an application process made accessible to all students in the relevant year and discipline.
+1. Class Representatives shall have the option to be a Faculty Council Representative, holding one (1) vote on the Council. A decision not to serve on Faculty Council shall be communicated to the Vice-President Academic at least three weeks prior to the first Council meeting of their term.
+   1. If there are two (2) Class Representatives for a particular discipline or year, at most one may hold a vote on Faculty Council as determined by the representatives themselves and communicated within the same time frame.
+   1. The Vice-President Academic shall appoint a Faculty Council Representative through an application process made accessible to all students in the relevant year and discipline in the event that:
+      1. the decision is not communicated within the given time frame, or
+      1. no eligible Class Representatives wish to serve on Faculty Council.
 1. A Class Representative shall be automatically recalled upon cessation of their membership of the constituency that elected them.
 1. The role of a class representative includes, but is not limited to:
    1. Regularly soliciting feedback from their constituency regarding academic matters and present said feedback to the appropriate parties (e.g. Professors, Teaching Assistants, and/or Relevant Faculty Members).
@@ -63,5 +65,5 @@ subtitle: The Discipline Clubs and Class Representatives Bylaw
    1. Preparing a transition document for onboarding future class representatives of their respective constituency.
 1. At the discretion of their Discipline Club Chair and the Vice-President Academic or the President, a Class Representative shall be moved to be recalled at a subsequent meeting of the Board under the following circumstances:
    1. Cessation of their membership of the constituency or constituencies which elected them.
-   1. Neglect of their duties as described in Section 3.0.3.
+   1. Neglect of their duties as described in Section 3.0.4.
 1. A Class Representative may be recalled by referendum of the constituency that elected them, as described in [Bylaw 3 section 6.2](bylaw-3.md).
