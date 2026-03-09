@@ -1,5 +1,5 @@
 ---
-revdate: January 26, 2026
+revdate: February 23, 2026
 title: Bylaw 3
 pdf: Bylaw 3
 subtitle: The Elections Bylaw
@@ -320,7 +320,7 @@ subtitle: The Elections Bylaw
 1. The voting period for such a referendum shall begin between seven (7) and fourteen (14) days after it is called, at the CRO's discretion, and shall last at least three (3) days. If possible within these constraints, the voting period shall be aligned with the voting period of any other ongoing election cycle.
 1. There shall be no campaigning for such a referendum. Campaigning in any form by either the party calling the referendum or the Class Representative in question, beyond the voter statements outlined below, will result in a warning to the campaigning party, in accordance with Section 9.1.
 1. Both the party calling such a referendum and the Class Representative in question may provide a voter statement of at most one-hundred (100) words in length, in accordance with section 8.0.7.
-   1. For the party calling the referendum, this statement is limited in content to specifying how the Class Representative has neglected their duties as specified in [Bylaw 7 Section 3.0.3](bylaw-7.md). This statement must be provided at the same time as the referendum is called.
+   1. For the party calling the referendum, this statement is limited in content to specifying how the Class Representative has neglected their duties as specified in [Bylaw 7 Section 3.0.4](bylaw-7.md). This statement must be provided at the same time as the referendum is called.
    1. For the Class Representative in question, this statement is limited in content to rebutting the calling party's statement and/or otherwise defending their conduct. This statement must be provided to the CRO at least twenty-four (24) hours before the start of the voting period.
    1. If approved by the CRO as compliant with the above rules, these voter statements will be displayed alongside the referendum question when it is presented to voters.
 1. The Class Representative in question must be notified by email of the provisions of section 6.2.4 at least seven (7) days prior to the beginning of the voting period of the referendum.
@@ -392,9 +392,12 @@ subtitle: The Elections Bylaw
    1. Nominees nominated for two (2) positions may request the CRO to elect their preferred position first, which must be done at least one (1) day before the Board of Directors Meeting.
 
 ## By-Elections
-1. The CRO shall call a by-election in every month during which a Project Directorship position is vacant, if at least four (4) months remain before the end of the term of the position, and except as otherwise prohibited by the Bylaws.
-1. The CRO shall add any Project Directorship positions which become vacant at least four (4) months before the end of the term of that position, and at least three (3) days before the end of the Nomination Period of an ongoing election, to that election as an additional by-election, unless the election is an Officer Election.
-1. If no by-election can be held or amended at least four (4) months before the end of the Director’s Term of Office, a Director may be appointed by resolution of the Board, first considering all/any executive members of the Directorship.
+1. The CRO shall call a by-election in every month during which an elected Project Directorship position is vacant, if at least four (4) months remain before the end of the term of the position, and except as otherwise prohibited by the Bylaws.
+1. The CRO shall add any elected Project Directorship positions which become vacant at least four (4) months before the end of the term of that position, and at least three (3) days before the end of the Nomination Period of an ongoing election, to that election as an additional by-election, unless the election is an Officer Election.
+1. If no by-election can be held or amended at least four (4) months before the end of an elected Directorship’s Term of Office, a Director may be appointed by resolution of the Board, first considering all/any executive members of the Directorship.
+1. At every monthly Board Meeting during which an unelected Project Directorship is vacant, each such Directorship's overseeing Officer shall submit one of the following motions to the Board:
+   1. to appoint one or more replacement Directors to serve the rest of the Directorship's Term of Office
+   1. to remove the Directorship under [Bylaw 2 section 0.0.11](bylaw-2.md)
 
 # Campaigning
 

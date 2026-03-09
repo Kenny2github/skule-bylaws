@@ -1,0 +1,41 @@
+name: Ensure revision date has been updated
+on:
+  pull_request:
+    paths:
+      - '**/*.md'
+      - '!**/index.md'
+      - '!**/README.md'
+      - '!**/LICENSE*'
+    branches-ignore:
+      - gh-pages
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+
+jobs:
+  ensure-revdate:
+    name: Check for revdate update
+    runs-on: ubuntu-latest
+    if: ${{ !github.event.pull_request.draft }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for revdate in diff
+        shell: bash
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          shopt -s globstar
+          for file in **/*.md; do
+            echo "$file"
+            [[ "$file" =~ .*/(README|index).md$ ]] && continue
+            git diff --diff-filter=ad "$BASE" HEAD --quiet -- "$file" && continue
+            egrep '^revdate:' "$file" || continue
+            git diff --diff-filter=ad -U1000000 "$BASE" HEAD -- "$file" | egrep '^[+-]revdate:'
+          done

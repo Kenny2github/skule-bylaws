@@ -5,27 +5,31 @@ from itertools import zip_longest
 import sys
 from typing import Iterable, Literal
 
-from diff_to_annotations import gather_diff, FrozenSection, lines_to_chapters
+from diff_to_annotations import gather_diff, FrozenSection, Prefix, lines_to_chapters
 from lineno_to_section import section_to_str
 from mds_to_html import clean_html
 
-START = """
+START = '''
 <table border="1" frame="border">
 <tr><th>Section</th><th>Text</th></tr>
-""".strip()
+'''.strip()
 
-SAME_ROW = '''<tr>
+SAME_ROW = '''
+<tr>
 <td>{0}</td>
 <td>{1}</td>
-</tr>'''
+</tr>
+'''.strip()
+
+Body = tuple[FrozenSection, ...]
 
 def diff_sections(
-    body1: tuple[FrozenSection, ...], body2: tuple[FrozenSection, ...],
-    prefix1: tuple[int, ...] = (), prefix2: tuple[int, ...] = (),
+    body1: Body, body2: Body,
+    prefix1: Prefix = (), prefix2: Prefix = (),
     contextualized: bool = False
 ) -> Iterable[tuple[
     Literal['insert', 'delete', 'replace', 'context', 'equal'],
-    tuple[int, ...] | None, str, tuple[int, ...] | None, str
+    Prefix | None, str, Prefix | None, str
 ]]:
     sm = SequenceMatcher(a=body1, b=body2)
     for ops in sm.get_grouped_opcodes():
@@ -136,14 +140,21 @@ def main() -> None:
             _, a_chapters = lines_to_chapters(line[1:] for line in hunk.del_lines)
             meta, b_chapters = lines_to_chapters(line[1:] for line in hunk.add_lines)
             title = meta['subtitle'] if 'policies' in meta['pdf'].casefold() else meta['title']
+            print(f'<tr><th colspan="2">{title}</th></tr>')
             contexts = [
                 (a_prefix, b_prefix)
                 for tag, a_prefix, _, b_prefix, _ in diff_sections(a_chapters, b_chapters)
                 if tag == 'context'
             ][::-1]
             tag = None
+            del_rows: list[str] = []
+            ins_rows: list[str] = []
             for tag, a_prefix, a_line, b_prefix, b_line in diff_sections(a_chapters, b_chapters):
                 if tag == 'context':
+                    if del_rows or ins_rows:
+                        print('\n'.join(del_rows + ins_rows))
+                        del_rows = []
+                        ins_rows = []
                     continue # already handled
                 if not a_prefix:
                     a_prefix_s = ''
@@ -155,16 +166,20 @@ def main() -> None:
                     b_prefix_s = section_to_str(b_prefix + (-1,) * (5 - len(b_prefix))) # type: ignore
                 a_line = clean_html(a_line)
                 if contexts and a_prefix in {contexts[-1][0], None} and b_prefix in {contexts[-1][1], None}:
+                    if del_rows or ins_rows:
+                        print('\n'.join(del_rows + ins_rows))
+                        del_rows = []
+                        ins_rows = []
                     if a_prefix:
                         if b_prefix:
-                            if a_prefix != a_prefix:
-                                th = f'{title} § {a_prefix_s} → {b_prefix_s}'
+                            if a_prefix != b_prefix:
+                                th = f'§ {a_prefix_s} → {b_prefix_s}'
                             else:
-                                th = f'{title} § {a_prefix_s}'
+                                th = f'§ {a_prefix_s}'
                         else:
-                            th = f'{title} § {a_prefix_s} (deleted)'
+                            th = f'§ {a_prefix_s} (deleted)'
                     elif b_prefix:
-                        th = f'{title} § {b_prefix_s} (deleted)'
+                        th = f'§ {b_prefix_s} (added)'
                     else:
                         th = title
                     print(f'<tr><th colspan="2">{th}</th></tr>')
@@ -172,16 +187,25 @@ def main() -> None:
                 a_prefix = a_prefix_s
                 b_prefix = b_prefix_s
                 if tag == 'equal':
-                    print(SAME_ROW.format(a_prefix_s, a_line))
+                    if del_rows or ins_rows:
+                        print('\n'.join(del_rows + ins_rows))
+                        del_rows = []
+                        ins_rows = []
+                    if a_prefix == b_prefix:
+                        print(SAME_ROW.format(b_prefix, a_line))
+                    else:
+                        print(RENUMBERED_ROW.format(a_prefix, b_prefix, a_line))
                     continue
                 b_line = clean_html(b_line)
                 if tag == 'replace':
                     a_line, b_line = diff_lines(a_line, b_line)
                 if a_prefix and a_line:
-                    print(DEL_ROW.format(a_prefix, a_line))
+                    del_rows.append(DEL_ROW.format(a_prefix, a_line))
                 if b_prefix and b_line:
-                    print(INS_ROW.format(b_prefix, b_line))
-            if tag is None: # for loop never executed
+                    ins_rows.append(INS_ROW.format(b_prefix, b_line))
+            if del_rows or ins_rows:
+                print('\n'.join(del_rows + ins_rows))
+            elif tag is None: # for loop never executed
                 print('<tr><td colspan="2"><i>No changes resulted in HTML differences</i></td></tr>')
     print('</table>')
 
@@ -193,12 +217,26 @@ if __name__ == '__main__':
     if len(sys.argv) < 3:
         print('usage:', sys.argv[0], '<del tag name>', '<ins tag name>', file=sys.stderr)
         sys.exit(1)
-    DEL_ROW = '''<tr>
-    <td><%(tag)s style="color: #ff0000">{0}</%(tag)s></td>
-    <td><%(tag)s style="color: #ff0000">{1}</%(tag)s></td>
-    </tr>''' % {'tag': sys.argv[1]}
-    INS_ROW = '''<tr>
-    <td><%(tag)s style="color: #6aa84f">{0}</%(tag)s></td>
-    <td><%(tag)s style="color: #6aa84f">{1}</%(tag)s></td>
-    </tr>''' % {'tag': sys.argv[2]}
+    DEL_ROW = '''
+<tr>
+<td><%(tag)s style="color: #ff0000">{0}</%(tag)s></td>
+<td><%(tag)s style="color: #ff0000">{1}</%(tag)s></td>
+</tr>
+    '''.strip() % {'tag': sys.argv[1]}
+    INS_ROW = '''
+<tr>
+<td><%(tag)s style="color: #6aa84f">{0}</%(tag)s></td>
+<td><%(tag)s style="color: #6aa84f">{1}</%(tag)s></td>
+</tr>
+    '''.strip() % {'tag': sys.argv[2]}
+    RENUMBERED_ROW = '''
+<tr>
+<td>
+    <%(del)s style="color: #ff0000">{0}</%(del)s>
+    <br/>
+    <%(ins)s style="color: #6aa84f">{1}</%(ins)s>
+</td>
+<td>{2}</td>
+</tr>
+    '''.strip() % {'del': sys.argv[1], 'ins': sys.argv[2]}
     main()

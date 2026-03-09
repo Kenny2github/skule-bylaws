@@ -1,5 +1,5 @@
 ---
-revdate: February 12, 2026 by the Executive Committee
+revdate: April 30, 2026 by the Executive Committee
 title: Policy Number "2002-08-03"
 pdf: policies/Policy on Awarding Society Awards
 subtitle: Policy on Awarding Society Awards
@@ -15,9 +15,8 @@ subtitle: Policy on Awarding Society Awards
 ## Awards Committee
 1. The Awards Committee shall consist of the following members:
    1. One Member from each year, including PEY;
-   1. One Chair of each Discipline Club, or a member of their discipline designated by them;
-   1. The Officers of the Society; and
-   1. The Business Manager.
+   1. One Chair of each Discipline Club, or a member of their discipline designated by them; and
+   1. The Officers of the Society.
 1. The President shall chair the committee. Alternatively, they may designate any other person as Chair. If that person is not otherwise a member of the committee, they will be an additional nonvoting member.
 1. There shall be an open call for applications to fill the year representative positions on the committee. The application period should last at least one week. Committee members will be selected by the Officers by a method that they shall determine.
 1. The committee shall be responsible for deciding the recipients of the awards listed in Chapter 1.
@@ -50,7 +49,7 @@ subtitle: Policy on Awarding Society Awards
 1. The Centennial Award is given annually to one (1) person in first year and one (1) person in second year who demonstrate commitment and dedication to the Engineering Society through involvement in the Society’s activities.
 
 ## Engineering Society Semi-Centennial Award
-1. The Semi-Centennial Award is given annually to one (1) person in third year who demonstrates commitment and dedication to the Engineering Society through involvement in the Society’s activities.
+1. The Semi-Centennial Award is given annually to one (1) person in third year and one (1) person on their Professional Experience Year who demonstrate commitment and dedication to the Engineering Society through involvement in the Society’s activities.
 
 ## Engineering Society Award
 1. The Award is given annually to one (1) person in fourth year who demonstrates commitment and dedication to the Engineering Society through involvement in the Society’s activities.
