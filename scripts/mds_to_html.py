@@ -166,7 +166,10 @@ def render(metadata: dict[str, str], chapters: list) -> str:
 def get_data(file: TextIO) -> tuple[dict[str, str], list[Section]]:
     with file:
         text = file.read()
-    *_, meta, md = text.split('---')
+    try:
+        *_, meta, md = text.split('---')
+    except ValueError:
+        return {}, []
     meta = yaml.safe_load(StringIO(meta))
     html = crossref(cmarkgfm.github_flavored_markdown_to_html(
         md, cmarkgfm.Options.CMARK_OPT_UNSAFE))

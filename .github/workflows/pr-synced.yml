@@ -31,4 +31,4 @@ jobs:
         run: |
           shopt -s globstar
           pip install -r scripts/requirements.txt
-          git diff --diff-filter=ad -U1000000 "$BASE" HEAD -- '*.md' | python scripts/diff_to_annotations.py
+          git diff -U1000000 "$BASE" HEAD -- '*.md' | python scripts/diff_to_annotations.py
