@@ -57,6 +57,11 @@ subtitle: A Manual for the President
    1. [Sustainability Director](sustainability-manual.md)
 1. The President takes over the [Speaker of the Board](speaker-manual.md)'s responsibilities when the Speaker is unavailable, unless the Board resolves otherwise.
 1. The [Business Manager](business-management-manual.md) reports to the President.
+1. The President is _ex officio_ chair of:
+   1. Executive Committee, defined in [Bylaw 1 section 4.12.2](../bylaw-1.md) (see section 2.2.1)
+   1. Discipline Club Round Table (DCRT) meetings (see section 2.2.2)
+   1. Search and Review Committee, defined in [Bylaw 6](../bylaw-6.md) (see section 2.2.3)
+   1. Awards Committee (by default), defined in the [Policy on Awarding Society Awards](../policies/awards-policy.md) (see section 2.2.4)
 
 ## Executive Responsibilities
 1. Each direct report to the President has its own Manual which should be consulted instead of this section.
@@ -65,11 +70,8 @@ subtitle: A Manual for the President
 1. The President is overseen by the [Board of Directors](board-representative-manual.md).
 1. The President is an _ex officio_ member of:
    1. [Board of Directors](board-representative-manual.md)
-   1. Executive Committee, defined in [Bylaw 1 section 4.12.2](../bylaw-1.md), as chair
    1. Policy and Structures Committee (PSC), defined in [Bylaw 1 section 4.12.4](../bylaw-1.md)
-   1. Discipline Club Round Table (DCRT), as chair
    1. Skule™ Endowment Fund (SEF) Committee
-   1. Search and Review Committee, defined in [Bylaw 6](../bylaw-6.md), as chair
    1. Faculty Council Executive Committee
    1. Faculty Council (FC)
    1. Provostial Undergraduate Student Advisory Group (PUSAG)
@@ -80,12 +82,12 @@ subtitle: A Manual for the President
 ## Ongoing Responsibilities
 1. Every week, the President hosts the Executive Committee meeting or at minimum receives updates from the Vice Presidents.
 1. In each month with a Board of Directors meeting, the President:
-   1. Hosts a DCRT meeting to which each Discipline Club Chair is invited to attend or send a representative
-   1. Checks in with each Presidential Project Director in section 1.2.2
-   1. Meets with the Dean
-   1. Meets with the Vice Dean, Undergraduate
-   1. Meets with the Alumni Relations Office
-   1. Attends the PSC meeting
+   1. Hosts a DCRT meeting to which each Discipline Club Chair is invited to attend or send a representative (as well as, optionally, the VPA and VPSL)
+   1. Checks in with each Presidential Project Director in section 1.2.2 (see section 2.2.5 for typical discussion topics)
+   1. Meets with the Dean (see section 2.2.6)
+   1. Meets with the Vice Dean, Undergraduate (see section 2.2.7)
+   1. Meets with the Alumni Relations Office (see section 2.2.8)
+   1. Attends the PSC meeting (see section 2.2.9)
    1. Writes an Officer Report covering events since the last Report
    1. Attends the Board of Directors meeting, and:
       1. Wears the President's firefighter hard hat
@@ -149,3 +151,47 @@ subtitle: A Manual for the President
 1. In April of their term, the President:
    1. Reaches out to past Presidents to arrange dinner with the new President
    1. Swears in the new President at the April Board of Directors Meeting
+
+## Presidential Meeting Agendas
+1. Each Executive Committee meeting agenda typically includes:
+   1. Personal/mental health check-ins for each Officer
+   1. Updates from each Officer's portfolio
+   1. Updates on action items which were not done as of last meeting
+   1. Any other business that arises that week
+1. DCRT meetings typically discuss:
+   1. In the Summer, dinner dance arrangements (mainly to avoid bussing and date conflicts)
+   1. In the Fall, Iron Ring and after-party arrangements
+   1. In the Winter, updates to Discipline Club constitutions, if applicable
+   1. Any other business from any member
+1. The Search and Review Committee typically discusses:
+1. The Awards Committee agenda typically goes as follows:
+   1. Welcome and introduction
+   1. Assignment of breakout groups
+      1. Breakout groups should be minimal in size, to consider as many awards in parallel as possible, but should have at least 2 members.
+      1. The awards that a breakout group considers should be chosen to minimize the potential conflicts of interest between the nominees and group members, and in no event may a nominee be on a breakout group considering their nomination.
+   1. Breakout groups discuss the nominations to which they are assigned
+      1. If one group finishes before another group, the awards may be reassigned between groups to maximize efficiency.
+   1. The full committee reconvenes and each breakout group presents its recommendations and reasons for the awards they considered
+      1. Any committee members nominated for an award shall be excluded from both discussion and voting on the award.
+      1. Any committee members with another conflict of interest may be barred from voting and possibly discussion on the award at the chair's discretion.
+   1. The full committee votes on each award in sequence.
+1. Each Presidential Project Directorship check-in typically discusses:
+   1. Personal/mental health check-in
+   1. Any matters which the Director wishes to discuss first
+   1. Review of Directorship budget and timeline for the year
+   1. General updates since last check-in
+   1. Any other business from either side
+1. Common topics at meetings with the Dean include:
+   1. Faculty finances
+   1. EngSoc requests for Faculty funding
+   1. Business brought by the President on behalf of other EngSoc parties
+   1. Whatever's on the Dean's mind that day
+   1. Yap
+1. Common topics at meetings with the Vice Dean, Undergraduate include:
+   1. Discipline Club/Departmental matters and/or academic advocacy
+   1. Yap
+1. Each meeting with the Alumni Relations Office typically discusses:
+1. Each PSC meeting typically discusses:
+   1. In June, election of the PSC Chair
+   1. In August and November, Bylaw 3
+   1. Any other business brought forward by Members
