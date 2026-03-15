@@ -436,7 +436,6 @@ subtitle: The Elections Bylaw
    1. Be posted in restrooms in any building;
    1. Be put up in computer labs, on tables or any glass surfaces;
    1. Be posted outdoors unless on a public message board;
-   1. Obstruct other notices while they are current;
    1. Be placed in locations that are not the Sandford Fleming, Mechanical Engineering, Lassonde Mining, Wallberg Memorial, Galbraith, Rosebrugh, Haultain, D.L. Pratt Buildings, the Engineering Annex, or the Bahen Centre of Information Technology. Notably, they may not be placed in the Myhal Centre for Engineering Innovation and Entrepreneurship.
 1. Candidates shall not leave posters for longer than one week after the election, else they will be fined $1/day per poster that is not taken down.
 1. Banners are not permitted.
@@ -482,7 +481,8 @@ subtitle: The Elections Bylaw
 1. Candidates are not permitted to directly reference other candidates in their campaign; descriptions of candidates must only be of themselves, such as "I am the only candidate who ..." et cetera.
 
 ## In-Class Speeches
-1. In-class speeches before a class starts or after it ends are permitted, but permission needs to be granted from the lecturer. In-class speeches are not permitted for all candidates in any courses in which any candidates are lecturers.
+1. In-class speeches before a class starts or after it ends are permitted, but permission needs to be granted from the lecturer.
+1. In-class speeches are prohibited for all candidates in any courses in which any candidates are lecturers or teaching assistants.
 1. The lecturer has sole authority to limit in-class speeches.
 1. Candidates must give their own in-class speeches unless otherwise approved by the CRO.
 
@@ -542,14 +542,17 @@ subtitle: The Elections Bylaw
 
 ## Warnings
 1. Breach of any of the election rules will result in an official warning, via email from the CRO, along with instructions to amend the breach within twenty-four (24) hours.
-1. If a breach is not amended within twenty-four (24) hours, it will be considered the same as committing the same action again.
-1. All warnings given to a candidate shall be included both on elections.skule.ca and below their statement on vote.skule.ca.
-1. If a warning is given to a candidate regarding a certain action and the same action is performed again, they will be disqualified.
+1. If a breach is not amended within twenty-four (24) hours, it will be considered the same as repeating the breach.
+1. All warnings given to a candidate shall be displayed below their statement on vote.skule.ca.
 
 ## Disqualifications
-1. The CRO has the sole authority to disqualify a candidate if they receive warnings for three (3) separate breaches, or for other reasons presented in this Chapter.
-1. The CRO has the authority to disqualify a candidate if it is deemed that an infraction of the rules has caused irreparable harm to the integrity of the election.
-1. The CRO has the authority to disqualify a candidate for knowingly, blatantly or maliciously acting against the principles of the elections or breaching any election rule.
+1. The CRO has the sole authority to disqualify a candidate. The CRO shall disqualify a candidate if:
+   1. the candidate receives warnings for three (3) separate unexcused breaches;
+   1. the candidate repeats any breach for which they received a previous warning;
+   1. they deem that an infraction of the rules has caused irreparable harm to the integrity of the election;
+   1. the candidate knowingly, blatantly or maliciously acts against the principles of the elections or breaches any election rule; or
+   1. any other reason prescribed in this Bylaw.
+1. The CRO has the sole authority to excuse breaches for the purposes of the three-strikes rule in 9.1.1.a.
 1. A disqualified candidate will not be removed from the ballot, unless they wish to withdraw. However, a note shall be added stating they have been disqualified but the decision is subject to appeal.
 1. A disqualified candidate may petition to have their disqualification reviewed. Information regarding this process will be included in the disqualification notice.
 
