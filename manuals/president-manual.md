@@ -54,6 +54,7 @@ subtitle: A Manual for the President
    1. [International Transition Director](international-transition-manual.md)
    1. [Iron Pin Director](iron-pin-manual.md)
    1. [Orientation Chair](orientation-manual.md)
+   1. Any Temporary Internal Directors (see [Bylaw 2 section 0.1](../bylaw-2.md)) or Limited Purpose Directors (see [Bylaw 2 section 0.2](../bylaw-2.md)) with no better-fitting overseeing Officer
 1. The President takes over the [Speaker of the Board](speaker-manual.md)'s responsibilities when the Speaker is unavailable, unless the Board resolves otherwise.
 1. The [Business Manager](business-management-manual.md) officially reports to the entire Officer team, but in practice the President is their "manager" in an employment sense.
 1. The President is _ex officio_ chair of:
