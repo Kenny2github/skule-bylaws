@@ -1,5 +1,5 @@
 ---
-revdate: July 29, 2025 by the Board of Directors
+revdate: March 30, 2026 by the Board of Directors
 title: Policy Number "2013-02-01"
 pdf: policies/Policy-on-Complaints
 subtitle: Policy on Complaints
@@ -48,7 +48,6 @@ subtitle: Policy on Complaints
    1. If the complaint concerns the conduct of one or more of the Orientation Chairs, the President will be the investigator.
    1. If the complaint concerns the conduct of one or more other members of the Orientation Committee, the Orientation Chair(s) will be the investigator.
    1. If the complaint concerns the conduct of any other person(s), the Ombudsperson will investigate the complaint as the investigator.
-   1. If the complaint concerns matters discussed in the [Sustainability Policy](sustainability-policy.md), the Ombudsperson shall seek the guidance of the Sustainability Director to determine the severity and resolution of the complaint at all points in the investigation process.
 1. The investigator shall immediately acknowledge receipt of the complaint to the complainant, unless there is no means of doing so.
 1. Within 7 days, the investigator shall advise the complainant on whether the complaint submitted is complete.
    1. A complaint will be considered complete if it:
