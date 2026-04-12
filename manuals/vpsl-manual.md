@@ -88,3 +88,10 @@ subtitle: A Manual for the VP Student Life
 
 ## Time-fixed Responsibilities
 1. In March and April before their term begins, the incoming VPSL participates in hiring committees for the VPSL Project Directors listed in section 1.2.1.
+1. In May of their term, the VPSL:
+   1. Submits a motion to strike the Affiliation Committee to the Board of Directors
+   1. Submits the VPSL blurb to the [F!rosh Handbook](frosh-handbook-manual.md)
+   1. Meets with each Associated Entity representative listed in section 1.2.2 to establish mutual priorities and expectations for the year
+1. In June of their term, the VPSL:
+   1. Joins the Skule™ float at the Pride Parade along with the other Officers (either on the float or as a marcher, at the Blue & Gold Committee's discretion)
+   1. Runs EngSoc 101 to reintroduce EngSoc to Affiliated Clubs and _all_ Project Directors and explain EngSoc governance procedures
