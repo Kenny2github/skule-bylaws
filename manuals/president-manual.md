@@ -56,8 +56,8 @@ subtitle: A Manual for the President
    1. [Orientation Chair](orientation-manual.md)
    1. Any Temporary Internal Directors (see [Bylaw 2 section 0.1](../bylaw-2.md)) or Limited Purpose Directors (see [Bylaw 2 section 0.2](../bylaw-2.md)) with no better-fitting overseeing Officer
 1. The following Associated Entities have the President as their point of contact:
-   1. All Discipline Clubs
-   1. You're Next Career Network
+   1. All Discipline Clubs, through their (Co-)Chairs or Presidents
+   1. You're Next Career Network, through its Co-Presidents
    1. Cannon Guard, through its Chief Attiliator
    1. One "Constituency II" student representative on Governing Council, when held by an Engineering student
 1. The President takes over the [Speaker of the Board](speaker-manual.md)'s responsibilities when the Speaker is unavailable, unless the Board resolves otherwise.
