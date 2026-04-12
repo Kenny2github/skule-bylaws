@@ -54,9 +54,8 @@ subtitle: A Manual for the President
    1. [International Transition Director](international-transition-manual.md)
    1. [Iron Pin Director](iron-pin-manual.md)
    1. [Orientation Chair](orientation-manual.md)
-   1. [Sustainability Director](sustainability-manual.md)
 1. The President takes over the [Speaker of the Board](speaker-manual.md)'s responsibilities when the Speaker is unavailable, unless the Board resolves otherwise.
-1. The [Business Manager](business-management-manual.md) reports to the President.
+1. The [Business Manager](business-management-manual.md) officially reports to the entire Officer team, but in practice the President is their "manager" in an employment sense.
 1. The President is _ex officio_ chair of:
    1. Executive Committee, defined in [Bylaw 1 section 4.12.2](../bylaw-1.md) (see section 2.2.1)
    1. Discipline Club Round Table (DCRT) meetings (see section 2.2.2)
@@ -67,7 +66,7 @@ subtitle: A Manual for the President
 1. Each direct report to the President has its own Manual which should be consulted instead of this section.
 
 ## Reporting Structure
-1. The President is overseen by the [Board of Directors](board-representative-manual.md).
+1. The President is accountable to the [Board of Directors](board-representative-manual.md).
 1. The President is an _ex officio_ member of:
    1. [Board of Directors](board-representative-manual.md)
    1. Policy and Structures Committee (PSC), defined in [Bylaw 1 section 4.12.4](../bylaw-1.md)
@@ -76,6 +75,7 @@ subtitle: A Manual for the President
    1. Faculty Council (FC)
    1. Provostial Undergraduate Student Advisory Group (PUSAG)
    1. Election Appeals Committee (EAC), defined in [Bylaw 3 section 10.0](../bylaw-3.md), if requested
+   1. The UofT delegations to the ESSCO Presidents' Meeting (PM) and the CFES Summit on the Development of Engineering Societies (SDES)
 
 # Manual of Responsibilities
 
@@ -95,33 +95,34 @@ subtitle: A Manual for the President
 1. The President and [VP Finance](vpf-manual.md) approve Interac e-transfers which are set up by the [Business Manager](business-management-manual.md).
 
 ## Time-fixed Responsibilities
-1. In March and April *before* their term begins, the incoming President participates in hiring committees for the Presidential Project Directors listed in section 1.2.2.
-1. In May of their term, the President:
+1. In **March** and **April** *before* their term begins, the incoming President participates in hiring committees for the Presidential Project Directors listed in section 1.2.2.
+1. In **April** before their term, or in **April** or **May** of their term, the President may attend the annual meeting of the [University Affairs Board](https://governingcouncil.utoronto.ca/secretariat/page/governance-bodies/university-affairs-board) where levy renewals and fee increases are considered, to answer any questions that UAB members may have.
+1. In **May** of their term, the President:
    1. Submits a motion to strike the Executive Committee to the Board of Directors
    1. Submits the Presidential blurb to the [F!rosh Handbook](frosh-handbook-manual.md)
-1. In May and June of their term, the President assists the [Business Manager](business-management-manual.md) and [VP Finance](vpf-manual.md) with the annual financial audit where requested.
-1. In June of their term, the President:
+1. In **May** and **June** of their term, the President assists the [Business Manager](business-management-manual.md) and [VP Finance](vpf-manual.md) with the annual financial audit where requested.
+1. In **June** of their term, the President:
    1. Joins the Skule™ float at the Pride Parade along with the other Officers (either on the float or as a marcher, at the Blue & Gold Committee's discretion)
    1. Attends the ESSCO Presidents' Meeting (PM) along with the [External Relations Director](external-relations-manual.md)
-1. In July of their term, the President:
+1. In **July** of their term, the President:
    1. Ensures that an [Orientation](orientation-manual.md) budget has been finalized
    1. May attend a pre-meeting with other student representatives of the SEF Committee
    1. May attend a Summer SEF Committee meeting
-1. In August of their term, the President:
+1. In **August** of their term, the President:
    1. Assists the [Orientation Chair](orientation-manual.md) where requested
    1. Attends the EngSoc table at Fall Clubs Fair during Orientation along with the other Officers
-1. In September of their term, the President attends the CFES Summit on the Development of Engineering Societies (SDES, f.k.a. Presidents' Meeting or PM) along with the [External Relations Director](external-relations-manual.md)
-1. In October, December, February, and April of their term, the President:
+1. In **September** of their term, the President attends the CFES Summit on the Development of Engineering Societies (SDES, f.k.a. Presidents' Meeting or PM) along with the [External Relations Director](external-relations-manual.md)
+1. In **October**, **December**, **February**, and **April** of their term, the President:
    1. Attends the Provostial Undergraduate Student Advisory Group meeting
    1. Checks in with the [VP Academic](vpa-manual.md) on any Faculty Council strategy, if applicable
    1. Attends the Faculty Council Executive Committee meeting along with the [VP Academic](vpa-manual.md)
    1. Attends the Faculty Council meeting along with the [VP Academic](vpa-manual.md)
-1. In October of their term, the President attends the Annual General Meeting and presents a mid-term report to the Accountability Meeting along with the other Officers.
-1. In November of their term, the President:
+1. In **October** of their term, the President attends the Annual General Meeting and presents a mid-term report to the Accountability Meeting along with the other Officers.
+1. In **November** of their term, the President:
    1. Shows face at the traditional Skule™ Remembrance Day ceremonies along with the other Officers, and lays the EngSoc wreath at The Soldiers' Tower during the University ceremonies
    1. Attends a pre-meeting with other student representatives of the SEF Committee
    1. Attends the Fall SEF Committee meeting
-1. In December of their term, the President shows face at the traditional Skule™ ceremonies for the National Day of Remembrance and Action on Violence Against Women.
+1. In **December** of their term, the President shows face at the traditional Skule™ ceremonies for the National Day of Remembrance and Action on Violence Against Women.
 1. In January of their term, the President:
    1. Shows face at Godiva Week events and assists the Blue & Gold Committee with them where requested
    1. Attends [Cannonball](cannonball-manual.md) (for free) along with the other Officers and possibly gives a speech there if requested by the Director
@@ -129,7 +130,7 @@ subtitle: A Manual for the President
    1. Chairs the hiring committee for the Orientation Chair
    1. Gives speeches at the [Iron Pin Ceremonies](iron-pin-manual.md)
    1. May, depending on the will and budget of the [External Relations Director](external-relations-manual.md), attend the CFES Canadian Engineering Leadership Conference (CELC) with them
-1. In February of their term, the President:
+1. In **February** of their term, the President:
    1. Submits the Presidential blurb to the [Skulebook](skulebook-manual.md)
    1. May, depending on the will and budget of the [External Relations Director](external-relations-manual.md), attend the ESSCO Conference on Advocacy & Leadership in Engineering (CALE) with them
    1. Recruits Awards Committee year representatives and opens EngSoc Awards nominations in accordance with the [Policy on Awarding Society Awards](../policies/awards-policy.md)
@@ -139,16 +140,16 @@ subtitle: A Manual for the President
    1. Attends a pre-meeting with other student representatives of the SEF Committee
    1. Attends the Winter SEF Committee meeting
    1. Attends the All Candidates Forum to ask questions of Presidential candidates
-1. In late February or early March of their term, the President:
+1. In late **February** or early **March** of their term, the President:
    1. Attends their Iron Ring ceremony and shows face at the subsequent Skule™ and discipline traditions
    1. May attend an EAC meeting if requested
-1. In March of their term, the President:
+1. In **March** of their term, the President:
    1. Begins transitioning in the incoming President
    1. Attends [Gradball](gradball-manual.md) (for free) along with the other & incoming Officers
-   1. Attends the student leadership awards ceremony hosted by the Alumni Relations Office (including University of Toronto Student Leadership Awards and EngSoc Awards recipients)
+   1. Attends the Student Leadership Reception hosted by the Alumni Relations Office (including University of Toronto Student Leadership Awards and EngSoc Awards recipients)
    1. Chairs one or more meetings of at least the Review component of the Search & Review Committee
    1. Chairs hiring committees for the Presidential Project Directors listed in section 1.2.2 (except those hired in January)
-1. In April of their term, the President:
+1. In **April** of their term, the President:
    1. Reaches out to past Presidents to arrange dinner with the new President
    1. Swears in the new President at the April Board of Directors Meeting
 
@@ -188,9 +189,13 @@ subtitle: A Manual for the President
    1. Whatever's on the Dean's mind that day
    1. Yap
 1. Common topics at meetings with the Vice Dean, Undergraduate include:
-   1. Discipline Club/Departmental matters and/or academic advocacy
+   1. Discipline Club/Departmental matters and/or academic advocacy, subject to the VP Academic's strategy
    1. Yap
 1. Each meeting with the Alumni Relations Office typically discusses:
+   1. Any business related to the Student Leadership Reception
+   1. Requests for promotion from either side
+   1. Updates from the Alumni Relations Office on their work
+   1. Yap
 1. Each PSC meeting typically discusses:
    1. In June, election of the PSC Chair
    1. In August and November, Bylaw 3
