@@ -55,6 +55,11 @@ subtitle: A Manual for the President
    1. [Iron Pin Director](iron-pin-manual.md)
    1. [Orientation Chair](orientation-manual.md)
    1. Any Temporary Internal Directors (see [Bylaw 2 section 0.1](../bylaw-2.md)) or Limited Purpose Directors (see [Bylaw 2 section 0.2](../bylaw-2.md)) with no better-fitting overseeing Officer
+1. The following Associated Entities have the President as their point of contact:
+   1. All Discipline Clubs
+   1. You're Next Career Network
+   1. Cannon Guard, through its Chief Attiliator
+   1. One "Constituency II" student representative on Governing Council, when held by an Engineering student
 1. The President takes over the [Speaker of the Board](speaker-manual.md)'s responsibilities when the Speaker is unavailable, unless the Board resolves otherwise.
 1. The [Business Manager](business-management-manual.md) officially reports to the entire Officer team, but in practice the President is their "manager" in an employment sense.
 1. The President is _ex officio_ chair of:
@@ -93,6 +98,7 @@ subtitle: A Manual for the President
    1. Attends the Board of Directors meeting, and:
       1. Wears the President's firefighter hard hat
       1. Presents their Officer Report
+1. The President normally provides the "overseeing Officer" signature on all cheque requisitions submitted by Presidential Project Directors and Associated Entities.
 1. The President and [VP Finance](vpf-manual.md) approve Interac e-transfers which are set up by the [Business Manager](business-management-manual.md).
 
 ## Time-fixed Responsibilities
@@ -101,6 +107,7 @@ subtitle: A Manual for the President
 1. In **May** of their term, the President:
    1. Submits a motion to strike the Executive Committee to the Board of Directors
    1. Submits the Presidential blurb to the [F!rosh Handbook](frosh-handbook-manual.md)
+   1. Meets with each Associated Entity representative listed in section 1.2.3 (excluding Discipline Clubs, covered separately) to establish mutual priorities and expectations for the year
 1. In **May** and **June** of their term, the President assists the [Business Manager](business-management-manual.md) and [VP Finance](vpf-manual.md) with the annual financial audit where requested.
 1. In **June** of their term, the President:
    1. Joins the Skule™ float at the Pride Parade along with the other Officers (either on the float or as a marcher, at the Blue & Gold Committee's discretion)
@@ -124,7 +131,7 @@ subtitle: A Manual for the President
    1. Attends a pre-meeting with other student representatives of the SEF Committee
    1. Attends the Fall SEF Committee meeting
 1. In **December** of their term, the President shows face at the traditional Skule™ ceremonies for the National Day of Remembrance and Action on Violence Against Women.
-1. In January of their term, the President:
+1. In **January** of their term, the President:
    1. Shows face at Godiva Week events and assists the Blue & Gold Committee with them where requested
    1. Attends [Cannonball](cannonball-manual.md) (for free) along with the other Officers and possibly gives a speech there if requested by the Director
    1. Attends the EngSoc table at Winter Clubs Fair during Godiva Week along with the other Officers
