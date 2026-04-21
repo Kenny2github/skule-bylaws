@@ -162,11 +162,20 @@ subtitle: A Manual for the President
    1. Swears in the new President at the April Board of Directors Meeting
 
 ## Presidential Meeting Agendas
-1. Each Executive Committee meeting agenda typically includes:
-   1. Personal/mental health check-ins for each Officer
-   1. Updates from each Officer's portfolio
-   1. Updates on action items which were not done as of last meeting
-   1. Any other business that arises that week
+1. For the Executive Committee:
+   1. Each regular meeting agenda typically includes:
+      1. Personal/mental health check-ins for each Officer
+      1. Updates from each Officer's portfolio
+      1. Updates on action items which were not done as of last meeting
+      1. Any other business that arises that week
+   1. In addition to the items above, the first meeting typically establishes:
+      1. The expectation to keep confidential anything discussed at Executive Committee meetings or even generally with other Officers
+      1. Communication methods (online platforms, response deadlines, etc.)
+      1. Responsiveness expectations (response deadlines, quickest ways to reach each Officer, etc.)
+      1. Decision making processes (voting, consensus, etc.) and conflict management methods
+      1. Other commitments (such as travel, courses, employment, etc.) during the Summer, Fall, and Winter semesters
+      1. The schedule for regular meetings during each semester
+      1. Methods of maintaining wellness throughout the year
 1. DCRT meetings typically discuss:
    1. In the Summer, dinner dance arrangements (mainly to avoid bussing and date conflicts)
    1. In the Fall, Iron Ring and after-party arrangements
