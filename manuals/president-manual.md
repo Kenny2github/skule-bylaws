@@ -108,9 +108,11 @@ subtitle: A Manual for the President
    1. Submits a motion to strike the Executive Committee to the Board of Directors
    1. Submits the Presidential blurb to the [F!rosh Handbook](frosh-handbook-manual.md)
    1. Meets with each Associated Entity representative listed in section 1.2.3 (excluding Discipline Clubs, covered separately) to establish mutual priorities and expectations for the year
+   1. Attends Pre-F!rosh along with the other Officers
 1. In **May** and **June** of their term, the President assists the [Business Manager][bm] and [VP Finance][vpf] with the annual financial audit where requested.
 1. In **June** of their term, the President:
    1. Joins the Skule™ float at the Pride Parade along with the other Officers (either on the float or as a marcher, at the Blue & Gold Committee's discretion)
+   1. Reviews the first budget of each Presidential Project Director listed in section 1.2.2 before its submission to the [Finance Committee](fincomm-manual.md)
    1. Attends the ESSCO Presidents' Meeting (PM) along with the [External Relations Director][erd]
 1. In **July** of their term, the President:
    1. Ensures that an [Orientation][oc] budget has been finalized
@@ -118,6 +120,7 @@ subtitle: A Manual for the President
    1. May attend a Summer SEF Committee meeting
 1. In **August** of their term, the President:
    1. Assists the [Orientation Chair][oc] where requested
+   1. Prepares and executes a Matriculation performance along with the other Officers
    1. Attends the EngSoc table at Fall Clubs Fair during Orientation along with the other Officers
 1. In **September** of their term, the President attends the CFES Summit on the Development of Engineering Societies (SDES, f.k.a. Presidents' Meeting or PM) along with the [External Relations Director][erd]
 1. In **October**, **December**, **February**, and **April** of their term, the President:
@@ -125,19 +128,24 @@ subtitle: A Manual for the President
    1. Checks in with the [VP Academic][vpa] on any Faculty Council strategy, if applicable
    1. Attends the Faculty Council Executive Committee meeting along with the [VP Academic][vpa]
    1. Attends the Faculty Council meeting along with the [VP Academic][vpa]
-1. In **October** of their term, the President attends the Annual General Meeting and presents a mid-term report to the Accountability Meeting along with the other Officers.
+1. In **October** of their term, the President:
+   1. Attends the Annual General Meeting along with the other Officers
+   1. Presents a mid-term report to the Accountability Meeting along with the other Officers
+   1. Submits proof to the Ombudsperson of completion of Sexual Violence Prevention and Response training along with the other Officers
 1. In **November** of their term, the President:
    1. Shows face at the traditional Skule™ Remembrance Day ceremonies along with the other Officers, and lays the EngSoc wreath at The Soldiers' Tower during the University ceremonies
    1. Attends a pre-meeting with other student representatives of the SEF Committee
    1. Attends the Fall SEF Committee meeting
-1. In **December** of their term, the President shows face at the traditional Skule™ ceremonies for the National Day of Remembrance and Action on Violence Against Women.
+   1. Attends the Fall Meet & Greet along with the other Officers
+1. In **December** of their term, the President shows face at the traditional Skule™ ceremonies for the National Day of Remembrance and Action on Violence Against Women, along with the other Officers.
 1. In **January** of their term, the President:
-   1. Shows face at Godiva Week events and assists the Blue & Gold Committee with them where requested
+   1. Shows face at Godiva Week events and assists the Blue & Gold Committee with them where requested, along with the other Officers
    1. Attends [Cannonball](cannonball-manual.md) (for free) along with the other Officers and possibly gives a speech there if requested by the Director
    1. Attends the EngSoc table at Winter Clubs Fair during Godiva Week along with the other Officers
    1. Chairs the hiring committee for the Orientation Chair
    1. Gives speeches at the [Iron Pin Ceremonies][ipd]
    1. May, depending on the will and budget of the [External Relations Director][erd], attend the CFES Canadian Engineering Leadership Conference (CELC) with them
+   1. Begins identifying and encouraging potential Officer candidates to run in the Officer elections
 1. In **February** of their term, the President:
    1. Submits the Presidential blurb to the [Skulebook](skulebook-manual.md)
    1. May, depending on the will and budget of the [External Relations Director][erd], attend the ESSCO Conference on Advocacy & Leadership in Engineering (CALE) with them
@@ -154,7 +162,8 @@ subtitle: A Manual for the President
 1. In **March** of their term, the President:
    1. Begins transitioning in the incoming President
    1. Attends [Gradball](gradball-manual.md) (for free) along with the other & incoming Officers
-   1. Attends the Student Leadership Reception hosted by the Alumni Relations Office (including University of Toronto Student Leadership Awards and EngSoc Awards recipients)
+   1. Attends the Student Leadership Reception hosted by the Alumni Relations Office (including University of Toronto Student Leadership Awards and EngSoc Awards recipients) along with the other Officers
+   1. Attends the Spring Meet & Greet along with the other Officers
    1. Chairs one or more meetings of at least the Review component of the Search & Review Committee
    1. Chairs hiring committees for the Presidential Project Directors listed in section 1.2.2 (except those hired in January)
 1. In **April** of their term, the President:
