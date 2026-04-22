@@ -13,7 +13,7 @@ subtitle: A Manual for the President
 ## General Responsibilities
 1. The President sets the overall direction/vision of the Society for their term.
 1. The President ensures the overall sustainability of the organization, including by filling in for vacant roles as necessary.
-1. The President and the other Officers are jointly responsible for providing one of two required signatures for the release of EngSoc funds; the President and [VP Finance](vpf-manual.md) are jointly responsible for providing the other.
+1. The President and the other Officers are jointly responsible for providing one of two required signatures for the release of EngSoc funds; the President and [VP Finance][vpf] are jointly responsible for providing the other.
 
 ## Required Qualifications
 1. The President must be in their graduating year throughout their term.
@@ -42,26 +42,26 @@ subtitle: A Manual for the President
 
 ## Executive Structure
 1. The President is [first among equals](https://en.wiktionary.org/wiki/first_among_equals#English) among the Officers, and in that sense the following Officers report to the President:
-   1. [VP Finance](vpf-manual.md)
-   1. [VP Communications](vpc-manual.md)
-   1. [VP Academic](vpa-manual.md)
-   1. [VP Student Life](vpsl-manual.md)
+   1. [VP Finance][vpf]
+   1. [VP Communications][vpc]
+   1. [VP Academic][vpa]
+   1. [VP Student Life][vpsl]
 1. The following Project Directors report to the President:
-   1. [Alumni & Graduate Outreach Director](alumni-graduate-outreach-manual.md)
-   1. [Archivist](archives-manual.md)
-   1. [Equity and Inclusivity Director](equity-and-inclusivity-manual.md)
-   1. [External Relations Director](external-relations-manual.md)
-   1. [International Transition Director](international-transition-manual.md)
-   1. [Iron Pin Director](iron-pin-manual.md)
-   1. [Orientation Chair](orientation-manual.md)
+   1. [Alumni & Graduate Outreach Director][agod]
+   1. [Archivist][archivist]
+   1. [Equity and Inclusivity Director][eid]
+   1. [External Relations Director][erd]
+   1. [International Transition Director][itd]
+   1. [Iron Pin Director][ipd]
+   1. [Orientation Chair][oc]
    1. Any Temporary Internal Directors (see [Bylaw 2 section 0.1](../bylaw-2.md)) or Limited Purpose Directors (see [Bylaw 2 section 0.2](../bylaw-2.md)) with no better-fitting overseeing Officer
 1. The following Associated Entities have the President as their point of contact:
    1. All Discipline Clubs, through their (Co-)Chairs or Presidents
    1. You're Next Career Network, through its Co-Presidents
    1. Cannon Guard, through its Chief Attiliator
    1. One "Constituency II" student representative on Governing Council, when held by an Engineering student
-1. The President takes over the [Speaker of the Board](speaker-manual.md)'s responsibilities when the Speaker is unavailable, unless the Board resolves otherwise.
-1. The [Business Manager](business-management-manual.md) officially reports to the entire Officer team, but in practice the President is their "manager" in an employment sense.
+1. The President takes over the [Speaker of the Board][speaker]'s responsibilities when the Speaker is unavailable, unless the Board resolves otherwise.
+1. The [Business Manager][bm] officially reports to the entire Officer team, but in practice the President is their "manager" in an employment sense.
 1. The President is _ex officio_ chair of:
    1. Executive Committee, defined in [Bylaw 1 section 4.12.2](../bylaw-1.md) (see section 2.2.1)
    1. Discipline Club Round Table (DCRT) meetings (see section 2.2.2)
@@ -72,10 +72,10 @@ subtitle: A Manual for the President
 1. Each direct report to the President has its own Manual which should be consulted instead of this section.
 
 ## Reporting Structure
-1. The President is accountable to the [Board of Directors](board-representative-manual.md).
+1. The President is accountable to the [Board of Directors][bod].
 1. The President is an _ex officio_ member of:
-   1. [Board of Directors](board-representative-manual.md)
-   1. Policy and Structures Committee (PSC), defined in [Bylaw 1 section 4.12.4](../bylaw-1.md)
+   1. [Board of Directors][bod]
+   1. [Policy and Structures Committee][psc] (PSC), defined in [Bylaw 1 section 4.12.4](../bylaw-1.md)
    1. Skule™ Endowment Fund (SEF) Committee
    1. Faculty Council Executive Committee
    1. Faculty Council (FC)
@@ -93,13 +93,13 @@ subtitle: A Manual for the President
    1. Meets with the Dean (see section 2.2.6)
    1. Meets with the Vice Dean, Undergraduate (see section 2.2.7)
    1. Meets with the Alumni Relations Office (see section 2.2.8)
-   1. Attends the PSC meeting (see section 2.2.9)
+   1. Attends the [PSC][psc] meeting (see section 2.2.9)
    1. Writes an Officer Report covering events since the last Report
    1. Attends the Board of Directors meeting, and:
       1. Wears the President's firefighter hard hat
       1. Presents their Officer Report
 1. The President normally provides the "overseeing Officer" signature on all cheque requisitions submitted by Presidential Project Directors and Associated Entities.
-1. The President and [VP Finance](vpf-manual.md) approve Interac e-transfers which are set up by the [Business Manager](business-management-manual.md).
+1. The President and [VP Finance][vpf] approve Interac e-transfers which are set up by the [Business Manager][bm].
 
 ## Time-fixed Responsibilities
 1. In **March** and **April** *before* their term begins, the incoming President participates in hiring committees for the Presidential Project Directors listed in section 1.2.2.
@@ -108,23 +108,23 @@ subtitle: A Manual for the President
    1. Submits a motion to strike the Executive Committee to the Board of Directors
    1. Submits the Presidential blurb to the [F!rosh Handbook](frosh-handbook-manual.md)
    1. Meets with each Associated Entity representative listed in section 1.2.3 (excluding Discipline Clubs, covered separately) to establish mutual priorities and expectations for the year
-1. In **May** and **June** of their term, the President assists the [Business Manager](business-management-manual.md) and [VP Finance](vpf-manual.md) with the annual financial audit where requested.
+1. In **May** and **June** of their term, the President assists the [Business Manager][bm] and [VP Finance][vpf] with the annual financial audit where requested.
 1. In **June** of their term, the President:
    1. Joins the Skule™ float at the Pride Parade along with the other Officers (either on the float or as a marcher, at the Blue & Gold Committee's discretion)
-   1. Attends the ESSCO Presidents' Meeting (PM) along with the [External Relations Director](external-relations-manual.md)
+   1. Attends the ESSCO Presidents' Meeting (PM) along with the [External Relations Director][erd]
 1. In **July** of their term, the President:
-   1. Ensures that an [Orientation](orientation-manual.md) budget has been finalized
+   1. Ensures that an [Orientation][oc] budget has been finalized
    1. May attend a pre-meeting with other student representatives of the SEF Committee
    1. May attend a Summer SEF Committee meeting
 1. In **August** of their term, the President:
-   1. Assists the [Orientation Chair](orientation-manual.md) where requested
+   1. Assists the [Orientation Chair][oc] where requested
    1. Attends the EngSoc table at Fall Clubs Fair during Orientation along with the other Officers
-1. In **September** of their term, the President attends the CFES Summit on the Development of Engineering Societies (SDES, f.k.a. Presidents' Meeting or PM) along with the [External Relations Director](external-relations-manual.md)
+1. In **September** of their term, the President attends the CFES Summit on the Development of Engineering Societies (SDES, f.k.a. Presidents' Meeting or PM) along with the [External Relations Director][erd]
 1. In **October**, **December**, **February**, and **April** of their term, the President:
    1. Attends the Provostial Undergraduate Student Advisory Group meeting
-   1. Checks in with the [VP Academic](vpa-manual.md) on any Faculty Council strategy, if applicable
-   1. Attends the Faculty Council Executive Committee meeting along with the [VP Academic](vpa-manual.md)
-   1. Attends the Faculty Council meeting along with the [VP Academic](vpa-manual.md)
+   1. Checks in with the [VP Academic][vpa] on any Faculty Council strategy, if applicable
+   1. Attends the Faculty Council Executive Committee meeting along with the [VP Academic][vpa]
+   1. Attends the Faculty Council meeting along with the [VP Academic][vpa]
 1. In **October** of their term, the President attends the Annual General Meeting and presents a mid-term report to the Accountability Meeting along with the other Officers.
 1. In **November** of their term, the President:
    1. Shows face at the traditional Skule™ Remembrance Day ceremonies along with the other Officers, and lays the EngSoc wreath at The Soldiers' Tower during the University ceremonies
@@ -136,11 +136,11 @@ subtitle: A Manual for the President
    1. Attends [Cannonball](cannonball-manual.md) (for free) along with the other Officers and possibly gives a speech there if requested by the Director
    1. Attends the EngSoc table at Winter Clubs Fair during Godiva Week along with the other Officers
    1. Chairs the hiring committee for the Orientation Chair
-   1. Gives speeches at the [Iron Pin Ceremonies](iron-pin-manual.md)
-   1. May, depending on the will and budget of the [External Relations Director](external-relations-manual.md), attend the CFES Canadian Engineering Leadership Conference (CELC) with them
+   1. Gives speeches at the [Iron Pin Ceremonies][ipd]
+   1. May, depending on the will and budget of the [External Relations Director][erd], attend the CFES Canadian Engineering Leadership Conference (CELC) with them
 1. In **February** of their term, the President:
    1. Submits the Presidential blurb to the [Skulebook](skulebook-manual.md)
-   1. May, depending on the will and budget of the [External Relations Director](external-relations-manual.md), attend the ESSCO Conference on Advocacy & Leadership in Engineering (CALE) with them
+   1. May, depending on the will and budget of the [External Relations Director][erd], attend the ESSCO Conference on Advocacy & Leadership in Engineering (CALE) with them
    1. Recruits Awards Committee year representatives and opens EngSoc Awards nominations in accordance with the [Policy on Awarding Society Awards](../policies/awards-policy.md)
    1. Ensures that Awards Committee meetings are held and the awards are decided by early March at the latest
    1. Arranges for the physical awards to be made and delivered before the Alumni Relations Office's Student Leadership Reception
@@ -217,3 +217,19 @@ subtitle: A Manual for the President
    1. In June, election of the PSC Chair
    1. In August and November, Bylaw 3
    1. Any other business brought forward by Members
+
+[bod]: board-representative-manual.md
+[vpf]: vpf-manual.md
+[vpc]: vpc-manual.md
+[vpa]: vpa-manual.md
+[vpsl]: vpsl-manual.md
+[speaker]: speaker-manual.md
+[agod]: alumni-graduate-outreach-manual.md
+[archivist]: archives-manual.md
+[eid]: equity-and-inclusivity-manual.md
+[erd]: external-relations-manual.md
+[itd]: international-transition-manual.md
+[ipd]: iron-pin-manual.md
+[oc]: orientation-manual.md
+[bm]: business-management-manual.md
+[psc]: psc-manual.md
