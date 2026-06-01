@@ -47,6 +47,7 @@ subtitle: Transition Policy
    1. "For Prospective Candidates" - which shall not exceed one letter-sized page when printed (omitting less important information where necessary to meet this requirement) and which shall contain the following sections:
       1. "Role Summary" - which shall summarize the role in a manner and length suitable for direct inclusion in election notices.
       1. "General Responsibilities" - which shall list, or summarize, a few key responsibilities of the role, and direct prospective candidates to the rest of the Manual.
+      1. "Impact to Students" - which shall list, and/or summarize, the major impacts of the role on EngSoc Members at large.
       1. "Required Qualifications" - which shall list qualifications, including experience, without which a candidate is guaranteed to fail to uphold the responsibilities of the role.
       1. "Useful Qualifications" - which shall list qualifications, including experience, that will make it easier for the candidate to succeed in the role, or which will amplify their success.
       1. "Role Takeaways" - which shall list benefits of holding the position - including without limitation experience, pathways to EngSoc roles with greater influence, hard/soft skills for future career prospects, etc. - and which may refer to the "Useful Qualifications" section to indicate that qualifications absent at hire may be gained through the role.
