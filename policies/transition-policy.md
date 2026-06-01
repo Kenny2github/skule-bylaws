@@ -40,7 +40,7 @@ subtitle: Transition Policy
 # Manuals
 
 ## General
-1. Manuals are defined in [Bylaw 1 section 7.5](../bylaw-1.md).
+1. Manuals are defined in [Bylaw 1 section 7.2](../bylaw-1.md).
 
 ## Contents
 1. Each Manual shall contain the following chapters:

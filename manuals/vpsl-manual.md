@@ -141,6 +141,7 @@ subtitle: A Manual for the VP Student Life
    1. If graduating, attends their Iron Ring ceremony and shows face at the subsequent Skule™ and discipline traditions
    1. May attend an EAC meeting if requested
 1. In **March** of their term, the VPSL:
+   1. Reviews this Manual and submits any updates to the Committee for comment before adopting them in accordance with [Bylaw 1 section 7.2.4.d](../bylaw-1.md).
    1. Begins transitioning in the incoming VPSL
    1. Attends [Gradball](gradball-manual.md) (for free) along with the other & incoming Officers
    1. Attends the Student Leadership Reception hosted by the Alumni Relations Office (including UTSLA and EngSoc Awards recipients) along with the other Officers

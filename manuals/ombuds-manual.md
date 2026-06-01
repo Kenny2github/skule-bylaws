@@ -65,7 +65,7 @@ subtitle: A Manual for the Ombudsperson
    1. Equity and Inclusivity Director
 1. In November of their term, the Ombudsperson submits motions to recall any role-holders listed above which have not completed their mandatory training.
 1. In November of their term or thereabouts, the Ombudsperson holds the Fall EngSoc Meet & Greet.
-1. Before the February Policy and Structures Committee meeting in their term, the Ombudsperson reviews the [Policy on Complaints](../policies/policy-on-complaints.md) and this Manual with the Speaker and submits any updates to the Committee for comment before adopting them in accordance with [Bylaw 1 section 7.5.4.d](../bylaw-1.md).
+1. Before the February Policy and Structures Committee meeting in their term, the Ombudsperson reviews the [Policy on Complaints](../policies/policy-on-complaints.md) and this Manual with the Speaker and submits any updates to the Committee for comment before adopting them in accordance with [Bylaw 1 section 7.2.4.d](../bylaw-1.md).
 1. In March of their term or thereabouts, the Ombudsperson holds the Spring EngSoc Meet & Greet.
 1. In March of their term, the Ombudsperson creates and distributes the Skule Census.
 1. In April of their term, the Ombudsperson reports to the Board the results of the Skule Census and any other issues they identified that year.

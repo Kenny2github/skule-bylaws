@@ -94,7 +94,7 @@ subtitle: A Manual for the Speaker of the Board
    1. decides the dates for those meetings,
    1. books rooms, schedules online meetings, and sends electronic calendar invitations for those dates.
 1. Before November of their term, the Speaker shall complete a form of Equity Training and Sexual Violence Prevention and Response Training mandated by the Ombudsperson.
-1. Before the March Policy and Structures Committee meeting in their term, the Speaker reviews this Manual and submits any updates to the Committee for comment before adopting them in accordance with [Bylaw 1 section 7.5.4.d](../bylaw-1.md).
+1. Before the March Policy and Structures Committee meeting in their term, the Speaker reviews this Manual and submits any updates to the Committee for comment before adopting them in accordance with [Bylaw 1 section 7.2.4.d](../bylaw-1.md).
 1. Before the first day of classes of the first sub-session of Summer, the interim Speaker:
    1. surveys the Directors of the Board for their availability for the May, June, July, and August regular Board meetings,
    1. decides the date for the May regular meeting,
@@ -134,7 +134,7 @@ subtitle: A Manual for the Speaker of the Board
 1. February
    1. a motion for each extant Temporary Internal Director, by its overseeing Officer, to renew the Directorship
    1. a motion for each levy renewal/increase/establishment approved by the Finance Committee, by the VP Finance, to call a referendum for such purpose
-   1. a motion by the VP Finance to approve the annual cost of living increase as described in [Bylaw 1, section 1.3.3](../bylaw-1.md) and amend [Bylaw 1, section 1.3.2](../bylaw-1.md) and [Bylaw 7, section 1.0.1](../bylaw-7.md) accordingly
+   1. a motion by the VP Finance to approve the annual cost of living increase as described in [Bylaw 0, section 1.2.2](../bylaw-0.md) and amend [Bylaw 1, section 1.1.1](../bylaw-1.md) and [Bylaw 7, section 1.0.1](../bylaw-7.md) accordingly
    1. a motion by the President to strike the Search and Review Committee
 1. Spring Ratification
    1. a motion by the Chief Returning Officer to ratify the results of the Spring elections

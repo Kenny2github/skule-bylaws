@@ -226,7 +226,7 @@ subtitle: A Manual for the Hi-Skule™ Director
 1. In mid-November of their term, the Directorship runs UTHSDC.
 1. In late November of their term, the Directorship begins work on Designapalooza, as described in section 3.3.
 1. During Godiva Week, the Directorship runs the "Are You Smarter Than a Fifth Grader?" event.
-1. Before the January Policy and Structures Committee meeting in their term, the Director reviews this Manual with the Vice President, Academic and submits any updates to the Committee for comment before adopting them in accordance with [Bylaw 1 section 7.5.4.d](../bylaw-1.md).
+1. Before the January Policy and Structures Committee meeting in their term, the Director reviews this Manual with the Vice President, Academic and submits any updates to the Committee for comment before adopting them in accordance with [Bylaw 1 section 7.2.4.d](../bylaw-1.md).
 1. In mid-February of their term, the Directorship runs Designapalooza.
 
 # Event Responsibilities

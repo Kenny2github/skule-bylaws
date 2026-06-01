@@ -164,5 +164,5 @@ subtitle: A Manual for the Cannon Editor
 1. By the fourth Monday of January of their term, the Winter issue of *The Cannon* is published.
 1. After receiving an invoice for the Winter issue, the Cannon Editor reviews their operating budget in light of Winter issue actuals and submits updates to the budget if necessary.
 1. By the first Monday of March of their term, the Spring issue of *The Cannon* is finalized and sent for printing.
-1. Before the February Policy and Structures Committee meeting in their term, the Cannon Editor reviews this Manual with the Vice President, Communications and submits any updates to the Committee for comment before adopting them in accordance with [Bylaw 1 section 7.5.4.d](../bylaw-1.md).
+1. Before the February Policy and Structures Committee meeting in their term, the Cannon Editor reviews this Manual with the Vice President, Communications and submits any updates to the Committee for comment before adopting them in accordance with [Bylaw 1 section 7.2.4.d](../bylaw-1.md).
 1. By the third Monday of March of their term, the Spring issue of *The Cannon* is published.
