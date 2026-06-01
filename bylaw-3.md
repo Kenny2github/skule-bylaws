@@ -150,8 +150,9 @@ subtitle: The Elections Bylaw
 1. A Member who currently holds a seat on the Board of Directors may not seek another seat with the same term without first resigning their current seat.
 1. Members shall not be nominated for more than one (1) Board of Directors position.
 1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
-   1. The Member's name, student number, contact information, and signature; and
-   1. The names, student numbers, and signatures of ten (10) Nominators, all of whom shall be from the same constituency represented by the Director position.
+   1. The Member's name, student number, contact information, and signature;
+   1. The names, student numbers, and signatures of ten (10) Nominators, all of whom shall be from the same constituency represented by the Director position; and
+   1. A letter in accordance with Section 24(8) of ONCA attesting their consent to act as a director of the corporation if elected.
 1. The Campaign Period shall:
    1. Commence between twenty four (24) and seventy-two (72) hours after the ACM; and
    1. Be between two (2) and three (3) business days (inclusive) in length.
@@ -272,11 +273,11 @@ subtitle: The Elections Bylaw
       1. The outgoing Speaker will remain on the hiring committee even if they are not serving as the interim Speaker at the time.
    1. One of: the outgoing CRO, Chair of the Policy and Structures Committee or Ombudsperson;
    1. One of: the outgoing President, Vice-President Finance or Vice-President Communications;
-   1. One (1) member of the outgoing Board of Directors;
-   1. One (1) member of the incoming Board of Directors.
+   1. One (1) outgoing Director of the Board;
+   1. One (1) incoming Director of the Board.
 1. If one or more positions on the hiring committee remain vacant after exhausting all options, the CRO may select available individuals from the other brackets.
 1. The hiring committee shall follow the interview process outlined in Sections 7.2.4, 7.2.5, 7.2.6, and 7.2.7.
-1. At the May Board of Directors Meeting, each candidate will have the opportunity to speak for two (2) minutes on their candidacy for the position and chair a mock meeting held during recess. The agenda for the mock meeting will be prepared by the interim Speaker. Each member of the Board shall have one (1) vote to elect the Speaker at the meeting.
+1. At the May Board of Directors Meeting, each candidate will have the opportunity to speak for two (2) minutes on their candidacy for the position and chair a mock meeting held during recess. The agenda for the mock meeting will be prepared by the interim Speaker.
 1. Other details of the elections shall be at the discretion of the CRO.
 
 # Referenda
@@ -328,7 +329,7 @@ subtitle: The Elections Bylaw
 1. Such a referendum which receives votes from at least 5% of Members in the constituency in question, of which a simple majority are in favor, shall lead to the Class Representative being recalled. Otherwise, the referendum fails.
 
 ## Referenda to Recall a Board Representative
-1. A referendum to recall a Member of the Board of Directors, except Officers, for reason of breaching the standard of conduct in [Bylaw 1 section 4.11.3](bylaw-1.md) must be called by a simple majority vote at a Board of Directors Meeting.
+1. A referendum to recall a Board Representative, as defined in [Bylaw 1 section 4.1](bylaw-1.md), for reason of breaching the standard of conduct in [Bylaw 1 section 4.11.3](bylaw-1.md) must be called by a simple majority vote at a Board of Directors Meeting.
 1. The question text of such a referendum shall be: "Do you support recalling [name] from their position as [constituency] Board Representative?" where "[name]" is the name of the Board Representative in question and "[constituency]" is the constituency they represent (e.g. "At-Large", "First Year").
 1. The voting period for such a referendum shall begin at most eleven (11) business days after it is called, at the CRO's discretion, and shall last at least three (3) days. If possible within these constraints, the voting period shall be aligned with the voting period of any other ongoing election cycle.
 1. There shall be no campaigning for such a referendum. Campaigning in any form by either the party calling the referendum or the Board Representative in question, beyond the voter statements outlined below, will result in a warning to the campaigning party, in accordance with Section 9.1.
@@ -361,13 +362,13 @@ subtitle: The Elections Bylaw
    1. The outgoing overseeing Officer;
    1. Two (2) Project Director(s), Internal Representative(s), or Discipline Club Chair(s).
 1. Unless otherwise specified in Bylaw 3, each Project Director Hiring Committee shall include all members from each bracket outlined in Sections 7.2.1.a through 7.2.1.c, and no more than two (2) members selected from Section 7.2.1.d.
-   1. If an insufficient number of members under Section 7.2.1.d are interested in sitting on the hiring committee, their place may be taken by Board Members or Officers as needed, at the discretion of the CRO.
+   1. If an insufficient number of members under Section 7.2.1.d are interested in sitting on the hiring committee, their place may be taken by Board Representatives or Officers as needed, at the discretion of the CRO.
 1. Should the outgoing Officer be unable or unwilling to sit on the hiring committee as per Section 7.2.1.b, their place shall be filled in the following order of precedence:
    1. Any current Member who has previously served in that Officer position.
    1. Any Alumni Member who has previously served in that Officer position within the past 4 years.
    1. Any outgoing Project Director who served under the outgoing Officer.
    1. Any other outgoing Officer.
-   1. Members of the outgoing Board of Directors.
+   1. Outgoing Board Members.
 1. At the request of the hiring committee, the CRO may allow up to two (2) Members (including Alumni Members) specified by the hiring committee to participate as non-voting members of the committee.
 1. The hiring committee shall interview all nominees and minute each interview's questions and answers.
    1. If requested by the candidate, one member of the hiring committee must record the entire interview. The candidate may choose to make this recording available to the Board of Directors.
@@ -378,7 +379,7 @@ subtitle: The Elections Bylaw
    1. Should the number of candidates elected be greater than zero, but less than the number of positions available, nominations shall be reopened only for the unfilled positions, unless the smaller number of candidates elected is permitted for the position as specified in [Bylaw 2](bylaw-2.md). For example, [Bylaw 2](bylaw-2.md) permits only one (1) Orientation Chair to be elected, despite two (2) positions being available.
 
 ## Board Meeting
-1. Each recommendation report shall be circulated to Members of the Board of Directors and candidates as soon as is reasonably possible.
+1. Each recommendation report shall be circulated to the Board of Directors and candidates as soon as is reasonably possible.
    1. Any recommendation report must be available to the parties listed in Section 7.3.1 at least 48 hours prior to the scheduled start of the Board of Directors meeting ratifying it.
    1. At least one member of each hiring committee must be present at the Board meeting to motivate their respective recommendation report and answer questions from the Board.
    1. Any position for which the associated recommendation report was not presented to the Board in accordance with the requirements in Section 7.3.1.a and Section 7.3.1.b shall not be elected, and the motion to elect the position shall be tabled until the next meeting of the Board of Directors.
@@ -492,8 +493,7 @@ subtitle: The Elections Bylaw
    1. A person may not serve as a Campaign Assistant for more than one candidate in the same election cycle.
 1. Campaign Assistants must be Members.
 1. Campaign Assistants may not be:
-   1. Members of the EngSoc Board of Directors
-   1. EngSoc Officers
+   1. EngSoc Board Members, including Officers
    1. UTSU Executives
    1. Candidates for positions for which Campaign Assistants are permitted in the same election cycle (e.g. elected positions)
    1. The incumbent in the role for which their candidate is running
@@ -567,8 +567,8 @@ subtitle: The Elections Bylaw
 1. The Election Appeals Committee shall report to the Board of Directors all matters brought to them and any recommended action.
 1. The Election Appeals Committee's jurisdiction on any appeal shall be limited to the election(s) which the appeal concerns.
 1. The Election Appeals Committee (EAC) shall consider those arguments submitted to them by the Office of Returning Officers (ORO) and the appellant. Other relevant parties, as determined by the EAC, may be given reasonable opportunity to submit additional arguments and evidence.
-1. Any ruling of the Election Appeals Committee that upholds the ruling of the CRO in part or in full, or grants the requests of the appellant in part or in full shall be binding, unless opposed by a fourth-fifths majority vote of the Board, with at least a simple majority of the total membership of the Board voting to oppose. Members of the Election Appeals Committee and other members of the Board barred from voting by the Speaker will not be included in the total membership count.
-   1. In the event the four-fifths threshold falls below the simple majority of the total membership of the Board due to absence of members of the Board, the Speaker shall table the motion to a special meeting where a higher number of Board members may be present.
+1. Any ruling of the Election Appeals Committee that upholds the ruling of the CRO in part or in full, or grants the requests of the appellant in part or in full shall be binding, unless opposed by a fourth-fifths majority vote of the Board, with at least a simple majority of the total membership of the Board voting to oppose. Members of the Election Appeals Committee and other Directors of the Board barred from voting by the Speaker will not be included in the total membership count.
+   1. In the event the four-fifths threshold falls below the simple majority of the total membership of the Board due to absence of Directors of the Board, the Speaker shall table the motion to a special meeting where a higher number of Board members may be present.
 1. Any other ruling of the Election Appeals Committee shall be binding unless opposed by a regular motion of the Board
 1. Any recommendation of the Election Appeals Committee that does not pertain directly to the submitted Appeal, or any ruling beyond its jurisdiction shall not be binding.
 

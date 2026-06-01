@@ -16,7 +16,7 @@ subtitle: The Engineering Society
 ## Interpretation
 1. In this document:
    1. "Constituencies" shall mean the divisions of the student body, defined by both year and discipline, as well as the PEY Constituency and the TrackOne class;
-   1. "Board Members" shall mean members of the Board of Directors, as specified in Chapter 4;
+   1. "Board Members" shall mean Directors of the Board, as specified in Chapter 4;
    1. "Faculty" shall mean the Faculty of Applied Science and Engineering of the University of Toronto;
    1. "Governing Council" shall mean the Governing Council of the University of Toronto;
    1. "Officers" shall mean the President and all Vice-Presidents of the Society, as specified in Chapter 3;
@@ -206,42 +206,41 @@ subtitle: The Engineering Society
 
 ## General
 1. The business and affairs of the Society shall be managed by a Board of Directors.
+1. The the following office-holders, by virtue of their office in accordance with Section 23(4) of ONCA, shall be the Directors of the Board:
+   1. The five (5) EngSoc Officers defined in Chapter 3;
+   1. The sixteen (16) Board Representatives defined in section 4.1; and
+   1. The Speaker (as defined in section 4.6), as a non-voting director.
 
-## Directors of the Board
-1. The Board shall be comprised of all:
-   1. The Five (5) Officers of the Engineering Society;
-   1. Nine (9) Discipline Representatives as follows:
-      1. Chemical Engineering Representative;
-      1. Civil Engineering Representative;
-      1. Two (2) Electrical and Computer Engineering Representatives;
-      1. Engineering Science Representative;
-      1. Industrial Engineering Representative;
-      1. Materials Science and Engineering Representative;
-      1. Mechanical Engineering Representative;
-      1. Mineral Engineering Representative;
-   1. Three (3) Representatives from First Year;
-   1. Four (4) At-Large Representatives, representing the Society At-Large; and
-1. All Directors of the Board must meet the following criteria when their respective term of office begins, as described in Section 4.2.
-   1. Must be at least 18 years of age.
-   1. Must not have been found under the Substitute Decisions Act, 1992 or under the Mental Health Act to be incapable of managing property.
-   1. Must not have been found to be incapable by any court in Canada or elsewhere.
-   1. Must not be bankrupt.
+## Board Representatives
+1. There shall be nine (9) Discipline Representatives, each elected by Members in their respective Discipline, as follows:
+   1. One (1) Chemical Engineering Board Representative;
+   1. One (1) Civil Engineering Board Representative;
+   1. Two (2) Electrical and Computer Engineering Board Representatives;
+   1. One (1) Engineering Science Board Representative;
+   1. One (1) Industrial Engineering Board Representative;
+   1. One (1) Materials Science and Engineering Board Representative;
+   1. One (1) Mechanical Engineering Board Representative; and
+   1. One (1) Mineral Engineering Board Representative.
 1. Discipline Representatives are responsible for providing updates and raising concerns, as necessary, between their respective Discipline Clubs and the Board of Directors. The primary contact for the Representative in question will be their respective Discipline Club Chair, unless otherwise determined by the Discipline Club.
+1. There shall be three (3) First Year Board Representatives, elected by Members in First Year.
+1. There shall be four (4) At-Large Board Representatives, elected by Members at large.
+1. Election as mentioned in the above section shall be in accordance with section 4.2 and [Bylaw 3](bylaw-3.md).
+1. All Board Representatives must be, at all times throughout their term, EngSoc Members who meet the criteria specified in Section 23(1) of ONCA.
 
 ## Elections and Term of Office
 1. The results of any election held by the Society shall become official when they are ratified by a general resolution of the Board.
 1. The Board shall not refuse to ratify the results of an election conducted in accordance with the Bylaws of the Society.
-1. Each Board member’s term of office shall begin at the adjournment of the April Board of Directors meeting.
-   1. Within 10 days of being elected, each Board Member must sign a written letter attesting their consent to act as a Director of the Society.
-1. The term of the First Year Representative position extends until the adjournment of the Board of Directors meeting ratifying the election of their successor.
-1. A Member of the Board of Directors may resign from their position at any point during their term by giving formal written notice to the Vice President Communications and Speaker.
-   1. Notwithstanding Section 27 of ONCA, the Society is not required to provide Members with a statement written by a Member of The Board of Directors.
+1. Incoming Discipline Representatives and At-Large Representatives shall take office, and the term of office of their predecessors ends, at the adjournment of the April Board of Directors meeting.
+1. Incoming First Year Representatives shall take office, and the term of office of their predecessors ends, at the adjournment of the Board of Directors meeting ratifying the Fall elections.
+1. Board Representatives elected during a by-election take office immediately upon the ratification of the by-election.
+1. A Board Representative may resign from their position at any point during their term by giving formal written notice to the Vice President Communications and/or Speaker.
+   1. Notwithstanding Section 27 of ONCA, the Society is not required to provide Members with a statement written by a Director of the Board.
 1. No Member of the Society may hold more than one (1) position on the Board of Directors at any given time.
-1. If a seat on the Board of Directors is left vacant after the Board of Directors Election Period and prior to the First Year Board of Directors Election Period as defined in [Bylaw 3](bylaw-3.md), the Chief Returning Officer shall hold an election in accordance with the relevant sections of [Bylaw 3](bylaw-3.md).
+1. The Chief Returning Officer shall call a by-election in every month during which a Board Representative position is vacant, if at least four (4) months remain before the end of the term of the position, and except as otherwise prohibited by the Bylaws.
 
 ## Votes and Quorum
 1. Each Board Member shall have one (1) vote on each motion to be decided by the Board.
-1. Quorum of the Board shall be a majority of the members of the Board.
+1. Quorum of the Board shall be a majority of the Directors of the Board.
 
 ## Indemnity
 1. Every Board Member and their heirs, executors and administrators, and estate and effects, respectively shall be indemnified and saved harmless out of the funds of the Society, from and against:
@@ -254,7 +253,7 @@ subtitle: The Engineering Society
 ## Speaker
 1. The Speaker shall act as Chair of the Board of Directors and shall ensure proper procedure during all meetings of the Board.
 1. In the absence of the Speaker, the President shall act as Chair of the Board, except as determined by a majority vote of the Board.
-1. The Speaker shall be a non-voting member of the Board of Directors.
+1. The Speaker shall be a non-voting Director of the Board.
 1. All decisions of the Speaker may be reversed by a two-thirds majority vote of the Board, except regarding applicable law, the Constitution and Bylaws of the Society from which there is no appeal.
 1. In addition to the responsibilities outlined above, the Speaker shall also fulfill the duties specified in [Bylaw 2, Section 3.1](bylaw-2.md).
 
@@ -280,7 +279,7 @@ subtitle: The Engineering Society
 ## Special Meetings
 1. The Speaker may call a Special Meeting of the Board of Directors with a notice of twenty-four (24) hours provided the purpose of the meeting warrants immediate disposition.
    1. The President may also call a Special Meeting of the Board of Directors with a notice of twenty-four (24) hours in the absence of the Speaker or if the purpose of the meeting is to recall the Speaker.
-1. A Special Meeting of the Board of Directors may also be called by submitting a petition to the Speaker that is signed by at least one-half of all members of the Board.
+1. A Special Meeting of the Board of Directors may also be called by submitting a petition to the Speaker that is signed by at least one-half of all Directors of the Board.
    1. The petition must specify the purpose of the meeting and no other business may be conducted at the Special Meeting.
    1. The Speaker must call a meeting within seven (7) days of receiving a valid petition.
 
@@ -295,22 +294,21 @@ subtitle: The Engineering Society
 1. Minutes shall indicate each voting member's vote on each motion, whether in favour, against, or in abstention.
 
 ## Recall
-1. A Member of the Board of Directors shall be automatically recalled upon cessation of their membership of the constituency or constituencies that elected them.
-1. A Member of the Board of Directors, except Officers, may only be recalled by a simple majority of one of the following, in which only the Member's constituency or constituencies are eligible to vote:
-   1. A successful referendum for that purpose, if called for reason of breaching the standard of conduct in section 4.11.3; or
-   1. A simple majority vote at a General Meeting called for that purpose.
-1. A Member of the Board of Directors, including Officers, shall adhere to a standard of conduct that includes the following:
-   1. A Member of the Board of Directors shall not be absent from more than two (2) regular meetings of the Board of Directors without regrets over the course of their term.
-   1. A Member of the Board of Directors shall not be absent from more than three (3) regular meetings of the Board of Directors over the course of their term.
-1. If a Member of the Board of Directors breaches the standard of conduct outlined in section 4.11.3, the Speaker shall submit a motion at the next monthly meeting of the Board of Directors following the breach of conduct to begin the process of recalling the Member in question. The Member in question will have the opportunity to defend their breach of conduct at the meeting of the Board of Directors in which the motion is submitted by the Speaker.
+1. A Board Representative shall be automatically recalled upon cessation of their membership of the constituency or constituencies that elected them.
+1. A Board Representative may only be recalled:
+   1. by a successful referendum in accordance with [Bylaw 3, section 6.3](bylaw-3.md);
+   1. by a simple majority vote at a General Meeting called for that purpose, in which only the Representative's constituency is eligible to vote; or
+   1. by a vote of the Board with at most two (2) dissenting votes, if a referendum cannot legally be called.
+1. All Directors of the Board shall adhere to a standard of conduct that includes the following:
+   1. A Director of the Board shall not be absent from more than two (2) regular meetings of the Board of Directors without regrets over the course of their term.
+   1. A Director of the Board shall not be absent from more than three (3) regular meetings of the Board of Directors over the course of their term.
+1. If a voting Director of the Board breaches the standard of conduct outlined in section 4.11.3, the Speaker shall submit a motion at the next monthly meeting of the Board of Directors following the breach of conduct to begin the process of recalling the Member in question. The Member in question will have the opportunity to defend their breach of conduct at the meeting of the Board of Directors in which the motion is submitted by the Speaker.
    1. For an Officer, the motion shall be to call a General Meeting for the purpose of recalling the Officer.
-   1. For any other Member of the Board of Directors, the motion shall be to call a referendum for the purpose of recalling the Member.
-1. A Member of the Board of Directors’ failure to meet the standard of conduct outlined in section 4.11.3 may be neglected if the Member of the Board of Directors’ circumstances are proven to be extraneous or due to other factors, at the discretion of the Speaker.
+   1. For a Board Representative, the motion shall be in accordance with section 4.11.2.
+1. A Director of the Board's failure to meet the standard of conduct outlined in section 4.11.3 may be neglected if their circumstances are proven to be extraneous or due to other factors, at the discretion of the Speaker.
    1. The Speaker shall inform the Board of Directors any time a failure to meet the standard of conduct is neglected.
-   1. A Member of the Board of Directors may request additional information from the Speaker about the Speaker’s decision to neglect a failure to meet the standard of conduct.
-   1. If any personal information must be disclosed in order for the Speaker to meet the request of a Member of the Board of Directors described in section 4.11.5b, the Speaker must gain permission from the person whose information will potentially be disclosed.
-   1. If such permission is granted, a motion must be submitted to move the meeting to an in camera session before the Speaker may meet the Member’s request.  If permission is not granted, the Member’s request as described in section 4.11.5b will not be fulfilled.
-1. In all other situations not specified in section 4.11.3, upon a resolution to recall a Member of the Board of Directors, the Chief Returning Officer shall hold a General Meeting as specified in section 4.11.2.
+   1. A Director of the Board may request additional information from the Speaker about the Speaker’s decision to neglect a failure to meet the standard of conduct.
+   1. If any personal information must be disclosed in order for the Speaker to meet such a request, the Director of the Board whose information will potentially be disclosed may require that it be disclosed _in camera_.
 
 ## Committees
 1. The following shall be considered Standing Committees of the Board:
@@ -325,15 +323,15 @@ subtitle: The Engineering Society
 1. The Finance Committee shall consist of the Vice-President Finance, the Vice-President Student Life and other members as the Board may appoint.
    1. The Vice-President Finance shall serve as the Chair of the Finance Committee; and
    1. The Vice-President Finance shall strike the Finance Committee no later than at the May Board of Directors Meeting.
-1. The Policy and Structures Committee shall shall consist of the President, the Vice-President Communications, the CRO (as defined in [Bylaw 3](bylaw-3.md)), the Speaker of the Board, members of the Board as elected, and appointed members of the Society.
+1. The Policy and Structures Committee shall shall consist of the President, the Vice-President Communications, the CRO (as defined in [Bylaw 3](bylaw-3.md)), the Speaker of the Board, Directors of the Board as elected, and appointed members of the Society.
    1. The Vice-President Communications shall fulfill the role of the Chair until such time as the Committee elects its own Chair.
    1. The Vice-President Communications shall strike the Policy and Structures Committee no later than at the May Board of Directors Meeting.
    1. The Policy and Structures Committee will review [Bylaw 3](bylaw-3.md) at their August and November meetings.
-1. The Academic Advocacy Committee shall consist of the Vice-President Academic, other members of the Board that may be appointed, one representative from each Discipline appointed by Discipline Club Chairs, Faculty Council Standing Committee Representatives, Faculty Council Representatives and appointed members of the Society.
+1. The Academic Advocacy Committee shall consist of the Vice-President Academic, other Directors of the Board that may be appointed, one representative from each Discipline appointed by Discipline Club Chairs, Faculty Council Standing Committee Representatives, Faculty Council Representatives and appointed members of the Society.
    1. The Vice-President Academic shall serve as the Chair of the Academic Advocacy Committee; and
    1. The Vice-President Academic shall strike the Academic Advocacy Committee no later than at the May Board of Directors Meeting.
    1. The Academic Advocacy Committee shall meet prior to each Faculty Council meeting of the Academic Year to discuss the agenda items of the Faculty Council meeting.
-1. The Clubs Affiliation Committee shall consist of the Vice-President Student Life, Vice-President Finance, the DTA Director, members of the Board as elected, and appointed members of Society.
+1. The Clubs Affiliation Committee shall consist of the Vice-President Student Life, Vice-President Finance, the DTA Director, Directors of the Board as elected, and appointed members of Society.
    1. The Vice-President Student Life shall serve as the Chair of the Affiliation Committee;
    1. The Affiliation Committee shall have the authority to approve Trial Status applications and Full Status Renewal applications without ratification from the Board of Directors; and
    1. The Vice-President Student Life shall strike the Affiliation Committee no later than at the May Board of Directors Meeting.
@@ -341,14 +339,13 @@ subtitle: The Engineering Society
    1.	The Vice-President Finance shall serve as the Chair of the Audit Committee.
    1. The Vice-President Finance shall strike the Audit Committee no later than at the May Board of Directors Meeting.
    1.	At least two members of the Finance Committee shall also sit on the Audit Committee.
-
 1. No resolution of a Standing Committee shall take force until it is ratified by the Board, unless otherwise specified in these bylaws.
 1. Notice of meetings of Standing Committees of the Board shall be given electronically or in writing to every member who has expressed interest in meetings of that committee at least three (3) days before the time chosen for such a meeting.
 
 ## Conflicts of Interest
 1. The Speaker shall have the authority to bar Board members from voting on a motion where the Member has a conflict of interest.
 1. It shall be out of order for the Board of Directors to vote on motions to approve its own non-essential expenses unless a non-essential expenses quota is approved at a General Meeting of the Society.
-   1. Non-essential expenses include any food or recreational purchases which members of the Board or Council as a whole will have free and exclusive access to.
+   1. Non-essential expenses include any food or recreational purchases which Directors of the Board or Council as a whole will have free and exclusive access to.
    1. A non-essential expenses quota specifies a maximum amount of money which the Board is able to use for non-essential expenses cumulatively until the quota expires.
    1. An active non-essential expenses quota expires immediately after 365 days from when a quota comes into effect or when a new quota comes into effect.
    1. Unused funds from an expired quota do not carry over.

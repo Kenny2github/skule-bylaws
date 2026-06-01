@@ -14,7 +14,7 @@ subtitle: Policy on Complaints
 1. It is a requirement under the University of Toronto Policy for Compulsory Non-Academic Incidental Fees that organizations receiving such fees have and adhere to an internal process for addressing complaints. Further, the existence and continual refinement of such a process is an organizational best practice that is in the interest of facilitating Member participation in the Society.
 
 ## Application
-1. This policy applies to any Member that holds a position within the Engineering Society, including without limitation, an Officer, Project Director, employee, member of the Board of Directors, member of a Project Director’s team, or member of an Affiliated Club acting in an official capacity for the club.
+1. This policy applies to any Member that holds a position within the Engineering Society, including without limitation, an Officer, Project Director, employee, Board Representative, member of a Project Director’s team, or member of an Affiliated Club acting in an official capacity for the club.
    1. This policy applies to any of the persons listed in section 0.2.1 for the entirety of their term, from when they take office of their position to when they are relieved of their position. This includes actions taken outside of their official capacity within their role.
 1. Complaints to which this policy applies include the misconduct of any Member that holds a position within the Engineering Society as defined in section 0.2.1. This policy defines an act of misconduct as any of the following, as interpreted by the investigator of the case:
    1. any offense outlined in section B1 of the University of Toronto Code of Student Conduct

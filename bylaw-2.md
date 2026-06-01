@@ -307,7 +307,7 @@ subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
 1. The Speaker shall attend a form of or equivalent of Equity Training and Sexual Violence Prevention and Response Training, before the November month of their term, provided by the University of Toronto and their resources or from an external organization deemed reliable at a meeting of the Board of Directors.
 1. The Speaker shall be elected according to the process outlined in [Bylaw 3, Section 5.3](bylaw-3.md)
    1. Following the adjournment of the April Board of Directors Meeting, the Speaker’s term of office shall end but they shall also automatically be appointed as the interim Speaker until the May Board of Directors Meeting.
-   1. The outgoing Speaker is required to call a Special Meeting of the Board of Directors where an alternative interim Speaker may be appointed, if such a request is made before the May Board of Directors Meeting by at least one (1) member of the incoming Board of Directors. The meeting must be called within seven (7) days of having received such a request.
+   1. The outgoing Speaker is required to call a Special Meeting of the Board of Directors where an alternative interim Speaker may be appointed, if such a request is made before the May Board of Directors Meeting by at least one (1) incoming Director of the Board. The meeting must be called within seven (7) days of having received such a request.
    1. The outgoing Speaker is required to inform all incoming Board members of the provisions of Section 3.1.5.b at least seven (7) days before the April Board of Directors Meeting.
 
 ## Chief Returning Officer
