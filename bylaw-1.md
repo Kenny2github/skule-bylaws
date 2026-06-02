@@ -338,7 +338,7 @@ subtitle: The Engineering Society
    1. The Affiliation Committee shall have the authority to approve Trial Status applications and Full Status Renewal applications without ratification from the Board of Directors; and
    1. The Vice-President Student Life shall strike the Affiliation Committee no later than at the May Board of Directors Meeting.
 1. The Audit Committee shall consist of the Vice-President Finance, the Ombudsperson, and other members as the Board may appoint.
-   1.	The Vice-President Finance shall serve as the Chair of the Audit Committee.
+   1.	The Ombudsperson shall serve as the Chair of the Audit Committee.
    1. The Vice-President Finance shall strike the Audit Committee no later than at the May Board of Directors Meeting.
    1.	At least two members of the Finance Committee shall also sit on the Audit Committee.
 
