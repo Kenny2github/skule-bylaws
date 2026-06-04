@@ -93,7 +93,7 @@ subtitle: Policy on Finances
    1.	State all sources and individually identifiable recipients of funds and their amounts;
    1.	State the purpose of all expenditures incurred by the Club.
 1.	By the end of June of any year, all Affiliated Clubs and Discipline Clubs are required to submit their financial records spanning the immediately preceding fiscal year to the Audit Committee for audit. All records submitted must comply with the requirements set out in [Finance Policy §7.0.1](../policies/finance-policy.md#audits). Any Club that fails to submit their financial records before the deadline above shall be denied the benefits of affiliation until they do so.
-1. With the records collected pursuant to section [Finance Policy §7.0.2](../policies/finance-policy.md#audits), the Audit Committee shall audit Affiliated Clubs' records in the following August, September, November, January, and March.
+1. With the records collected pursuant to section [Finance Policy §7.0.2](../policies/finance-policy.md#audits), the Audit Committee shall audit Affiliated Clubs' records in the following months except for the months of April to June and month of December.
 1.	The Audit Committee's audit shall be for the purpose of ensuring the financial records it receives are correct and complete, and for ensuring that any fun ding disbursed by the Engineering Society was spent on its intended usage as per the Terms of Reference the funding was approved under.
 1.	As part of an audit, the Audit Committee shall offer feedback on the financial records it receives to the Affiliated Clubs.
 1.	The Audit Committee shall keep the financial records it receives on file for future examination by Affiliated Clubs, Society Members, the Faculty of Applied Science and Engineering, and the Engineering Alumni Association.
@@ -354,4 +354,4 @@ The following entities may not file Club Applications on behalf of their members
    1. Proof that the group has a bank account and that the only authorized signatories for disbursements are current signing officers of the organization; and
    1. A preliminary or forecast budget for the subsequent year.
 1. The Vice President Finance shall post the items listed in [Finance Policy §15.3.4](../policies/finance-policy.md#distribution-and-use-of-funds-5) in a location accessible to members of the Engineering Society.
-1. In addition to any consequences in the Audits chapter (get chapter no), any Levy funding that the Levy Group will receive shall be withheld by the Engineering Society up until the Levy Group's audit is concluded, provided that the audit does not result in an investigation by the Ombudsperson.
+1. In addition to any consequences in the Audits chapter 7, any Levy funding that the Levy Group will receive shall be withheld by the Engineering Society up until the Levy Group's audit is concluded, provided that the audit does not result in an investigation by the Ombudsperson.
