@@ -314,14 +314,12 @@ subtitle: The Engineering Society
 
 ## Committees
 1. The following shall be considered Standing Committees of the Board:
-   1. The Executive Committee;
    1. The Finance Committee;
    1. The Policy and Structures Committee;
    1. The Academic Advocacy Committee;
    1. The Affiliation Committee; and
    1. The Audit Committee.
-1. The Executive Committee shall consist of the Officers of the Society.
-   1. The President shall serve as the Chair of the Executive Committee.
+1. The Executive Committee is a committee of the Officers of the Society chaired by the President. It is not a Standing Committee of the Board.
 1. The Finance Committee shall consist of the Vice-President Finance, the Vice-President Student Life and other members as the Board may appoint.
    1. The Vice-President Finance shall serve as the Chair of the Finance Committee; and
    1. The Vice-President Finance shall strike the Finance Committee no later than at the May Board of Directors Meeting.
@@ -341,7 +339,6 @@ subtitle: The Engineering Society
    1.	The Vice-President Finance shall serve as the Chair of the Audit Committee.
    1. The Vice-President Finance shall strike the Audit Committee no later than at the May Board of Directors Meeting.
    1.	At least two members of the Finance Committee shall also sit on the Audit Committee.
-
 1. No resolution of a Standing Committee shall take force until it is ratified by the Board, unless otherwise specified in these bylaws.
 1. Notice of meetings of Standing Committees of the Board shall be given electronically or in writing to every member who has expressed interest in meetings of that committee at least three (3) days before the time chosen for such a meeting.
 
