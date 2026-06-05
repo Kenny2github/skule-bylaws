@@ -13,6 +13,9 @@ subtitle: A Manual for the Academic Adovcacy Committee
 ## General Responsibilities
 1. TODO
 
+## Impact to Students
+1. TODO
+
 ## Required Qualifications
 1. TODO
 
@@ -20,7 +23,7 @@ subtitle: A Manual for the Academic Adovcacy Committee
 1. TODO
 
 ## Role Takeaways
-1. A Academic Adovcacy Committee missing qualifications listed in section 0.3 may gain them by exercising the role.
+1. A Academic Adovcacy Committee missing qualifications listed in section 0.4 may gain them by exercising the role.
 1. TODO
 
 # Summary and Structure

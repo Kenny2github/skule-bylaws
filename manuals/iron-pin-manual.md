@@ -13,6 +13,9 @@ subtitle: A Manual for the Iron Pin Director
 ## General Responsibilities
 1. TODO
 
+## Impact to Students
+1. TODO
+
 ## Required Qualifications
 1. TODO
 
@@ -20,7 +23,7 @@ subtitle: A Manual for the Iron Pin Director
 1. TODO
 
 ## Role Takeaways
-1. A Iron Pin Director missing qualifications listed in section 0.3 may gain them by exercising the role.
+1. A Iron Pin Director missing qualifications listed in section 0.4 may gain them by exercising the role.
 1. TODO
 
 # Summary and Structure

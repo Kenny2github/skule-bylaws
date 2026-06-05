@@ -26,7 +26,7 @@ subtitle: A Manual for the Class Representatives
 1. Strong negotiation skills, an ability to come up with compromises, a silver tongue, and other diplomatic skills can all be assets.
 
 ## Role Takeaways
-1. A Class Representative missing qualifications listed in section 0.3 may gain them by exercising the role.
+1. A Class Representative missing qualifications listed in section 0.4 may gain them by exercising the role.
 1. The Class Representative role is extremely useful experience for a prospective candidate for [Vice President, Academic](vpa-manual.md) to have.
 
 # Summary and Structure

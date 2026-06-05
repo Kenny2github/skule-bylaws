@@ -21,13 +21,16 @@ subtitle: A Manual for the VP Student Life
 1. The VP Student Life must have genuine passion for Skule™ spirit and Engineering student life and traditions.
 1. The VP Student Life must be able to exercise mature, fair, and intelligent judgement in urgent situations.
 
+## Impact to Students
+1. TODO
+
 ## Useful Qualifications
 1. Extensive experience with EngSoc, ideally in the VPSL portfolio, is an asset.
 1. Experience with and in student club and/or Spirit Head positions is an asset.
 1. Experience with Faculty relations or space management is an asset.
 
 ## Role Takeaways
-1. A VP Student Life missing qualifications listed in section 0.3 may gain them by exercising the role.
+1. A VP Student Life missing qualifications listed in section 0.4 may gain them by exercising the role.
 1. The VPSL's role as representative of student life in Engineering makes them a desirable connection to make for club executives and certain divisions of the Faculty or University, which results in unique connection opportunities.
 1. The VPSL role is useful experience for anyone wishing to participate in running a not-for-profit organization.
 1. The VPSL role is unique leadership experience which can be cited in future applications for employment, graduate school, etc.
