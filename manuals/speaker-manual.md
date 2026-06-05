@@ -30,12 +30,12 @@ subtitle: A Manual for the Speaker of the Board
    1. Attendance at meetings of the Board of Directors
    1. Chairing meetings
    1. Policy interpretation
-   1. All qualifications mentioned in the [Ombuds Manual, section 0.3](ombuds-manual.md)
-   1. All qualifications mentioned in the [Returning Manual, section 0.3](returning-manual.md)
+   1. All qualifications mentioned in the [Ombuds Manual, section 0.4](ombuds-manual.md)
+   1. All qualifications mentioned in the [Returning Manual, section 0.4](returning-manual.md)
 1. Knowledge of the workings of the Engineering Society is an asset.
 
 ## Role Takeaways
-1. A Speaker missing qualifications listed in section 0.3 may gain them by exercising the role.
+1. A Speaker missing qualifications listed in section 0.4 may gain them by exercising the role.
 1. The Speaker role is useful experience for a prospective candidate for [President](president-manual.md) to have.
 
 # Summary and Structure

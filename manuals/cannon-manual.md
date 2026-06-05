@@ -31,7 +31,7 @@ subtitle: A Manual for the Cannon Editor
 1. Familiarity with Adobe InDesign
 
 ## Role Takeaways
-1. A Cannon Editor missing qualifications listed in section 0.3 may gain them by exercising the role.
+1. A Cannon Editor missing qualifications listed in section 0.4 may gain them by exercising the role.
 1. The Cannon Editor role is useful experience for a prospective candidate for [Vice President, Communications](vpc-manual.md) to have.
 
 # Summary and Structure

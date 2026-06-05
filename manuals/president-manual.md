@@ -29,7 +29,7 @@ subtitle: A Manual for the President
 1. Experience with Faculty relations is an asset.
 
 ## Role Takeaways
-1. A President missing qualifications in section 0.3 may gain them by exercising the role.
+1. A President missing qualifications in section 0.4 may gain them by exercising the role.
 1. The President's role as ultimate representative of the student body makes them an attractive candidate for event invitee, personal connection, guest speaker, panelist, student advisory group member, committee member, etc. which results in unique connection opportunities.
 1. The President role is useful experience for anyone wishing to run a not-for-profit organization after graduation.
 1. The President is unique leadership experience which can be cited in future applications for employment, graduate school, etc.

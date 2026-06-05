@@ -32,7 +32,7 @@ subtitle: A Manual for the Hi-Skule™ Director
 1. A certain degree of finance experience is an asset.
 
 ## Role Takeaways
-1. A Hi-Skule™ Director missing qualifications listed in section 0.3 may gain them by exercising the role.
+1. A Hi-Skule™ Director missing qualifications listed in section 0.4 may gain them by exercising the role.
 1. The Hi-Skule™ Director role is useful experience for a prospective candidate for Officer positions or [UTEK Director](utek-manual.md) to have.
 
 # Summary and Structure

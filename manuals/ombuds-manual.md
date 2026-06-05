@@ -32,7 +32,7 @@ subtitle: A Manual for the Ombudsperson
 1. Knowledge of the workings of the Engineering Society is an asset.
 
 ## Role Takeaways
-1. An Ombudsperson missing qualifications listed in section 0.3 may gain them by exercising the role.
+1. An Ombudsperson missing qualifications listed in section 0.4 may gain them by exercising the role.
 1. The Ombudsperson role is useful experience for a prospective candidate for [Speaker of the Board](speaker-manual.md) to have.
 
 # Summary and Structure
