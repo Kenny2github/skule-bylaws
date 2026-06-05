@@ -56,11 +56,12 @@ subtitle: Transition Policy
       1. "Transition" - which shall describe the transition process, by referencing this Policy, and where appropriate by giving role-specific details.
       1. "Executive Structure" - which shall either describe the structure of the executive team which reports to the role (including formal direct reports defined in the Bylaws, if applicable); state that the role's executive structure varies enough due to its nature so as to defy consistent description; or state that the role has no executives.
       1. "Executive Responsibilities" - which shall either briefly summarize the responsibilities of each executive listed in the "Executive Structure" section, or repeat the statement of the "Executive Structure" section.
+      1. Optionally, "Executive Qualifications" - which, if present, shall list the useful qualifications for each executive listed in the "Executive Structure" section, separately from the section on responsibilities.
       1. "Reporting Structure" - which shall list all direct reports from the role, and/or any roles to which the role is informally subordinate.
    1. "Manual of Responsibilities" - which shall contain the following sections:
       1. "Ongoing Responsibilities" - listing all tasks for which the role is responsible on an on-going basis, and the conditions triggering such tasks when applicable.
       1. "Time-fixed Responsibilities" - listing all tasks for which the role is responsible at a certain point in time, and the respective points in time, in chronological order. This list shall include an item describing that the role reviews the Manual and relevant Policies, and submits any updates to the Policy and Structures Committee.
-      1. "Optional Responsibilities" - listing all tasks for which the role has, from time to time in its history, been responsible, but without which the role may still be considered to have functioned at a basic level.
-      1. A "Manual on (Responsibility)" section for each responsibility described in the previous three sections which requires more detailed description
+      1. Optionally, "Optional Responsibilities" - listing all tasks for which the role has, from time to time in its history, been responsible, but without which the role may still be considered to have functioned at a basic level.
+      1. Optionally, additional sections for each responsibility described in the previous three sections which requires more detailed description.
    1. Any other chapters as necessary to fully describe the role.
 1. Manuals may delegate to Policies for even more detailed descriptions of specific responsibilities as necessary.
