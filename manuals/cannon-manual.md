@@ -43,6 +43,7 @@ subtitle: A Manual for the Cannon Editor
 1. The Cannon Editor shall transition their successor as described in the [Transition Policy](../policies/transition-policy.md).
 
 ## Executive Structure
+1. None of the following roles are guaranteed to be opened or hired every year.
 1. The Managing Editor reports to the EIC.
 1. The Writing team reports to the Managing Editor and consists of:
    1. Senior Editors;
