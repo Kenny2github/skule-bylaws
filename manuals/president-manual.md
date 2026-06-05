@@ -15,18 +15,21 @@ subtitle: A Manual for the President
 1. The President ensures the overall sustainability of the organization, including by filling in for vacant roles as necessary.
 1. The President and the other Officers are jointly responsible for providing one of two required signatures for the release of EngSoc funds; the President and [VP Finance][vpf] are jointly responsible for providing the other.
 
+## Impact to Students
+1. The President enables and ensures that all other EngSoc position-holders bring the benefits they provide to the students entitled to those benefits.
+
 ## Required Qualifications
 1. The President must be in their graduating year throughout their term.
 1. The President must have genuine passion for service to every Engineering student.
 1. The President must be able to exercise mature, fair, and intelligent judgement at all times, including in urgent situations.
 
 ## Useful Qualifications
-1. Extensive experience with EngSoc, ideally including some in each Officer portfolio, is an asset.
+1. Extensive experience with EngSoc, ideally some in each Officer portfolio, is an asset.
 1. Experience with EngSoc or student club finances is an asset.
 1. Experience with Faculty relations is an asset.
 
 ## Role Takeaways
-1. A President missing qualifications listed in section 0.3 may gain them by exercising the role.
+1. A President missing qualifications in section 0.3 may gain them by exercising the role.
 1. The President's role as ultimate representative of the student body makes them an attractive candidate for event invitee, personal connection, guest speaker, panelist, student advisory group member, committee member, etc. which results in unique connection opportunities.
 1. The President role is useful experience for anyone wishing to run a not-for-profit organization after graduation.
 1. The President is unique leadership experience which can be cited in future applications for employment, graduate school, etc.

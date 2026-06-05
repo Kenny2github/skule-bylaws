@@ -11,20 +11,24 @@ subtitle: A Manual for the Cannon Editor
 1. The Cannon Editor is the Editor-in-Chief ("EIC") of *The Cannon*, a publication devoted to fact and opinion, including essays, articles, short stories, poems, photographs, paintings, digital art, and more.
 
 ## General Responsibilities
-1. The Cannon Editor is responsible for publishing *The Cannon* at least four times per year.
-1. The Cannon Editor is responsible for quality control and the stylistic consistency of *The Cannon* across their tenure as EIC.
+1. The Cannon Editor is responsible for the publication (at least four times per year), quality control, and stylistic consistency of *The Cannon*.
 1. The Cannon Editor manages subteams which ensure that a diversity of content is published both in print and online in a form accessible to the wider student body.
 1. The Cannon Editor ensures that all content published adheres to and upholds the values of the Engineering Society and Skule™ as a whole.
 
+## Impact to Students
+1. *The Cannon* brings literature and the arts into the lives of engineering students.
+1. *The Cannon* provides students opportunities to develop skills listed in section 1.4, such as writing, design, communication, and more.
+1. The Cannon Editor is the top-level role responsible for ensuring that the above impacts reach students.
+
 ## Required Qualifications
 1. The Cannon Editor must be able to communicate well and professionally both in writing and orally, including with their team, to the public at events like club fairs, and to external organizations such as publishers, advertising agencies, and printers.
-1. The Cannon Editor must have previous experience as a writer or editor on at least one publication.
+1. The Cannon Editor must have experience writing/editing at least one publication.
 1. The Cannon Editor must have the capacity to occasionally dedicate 10-20 hours per week to the role.
 
 ## Useful Qualifications
-1. A strong writing and/or editing portfolio, especially including past experience with *The Cannon* or other student publications, is an asset.
-1. Time management and organization, especially adherence to contract deadlines, is an asset.
-1. Familiarity with Adobe InDesign is an asset.
+1. A strong writing and/or editing portfolio, especially including past experience with *The Cannon* or other student publications
+1. Time management and organization, especially adherence to contract deadlines
+1. Familiarity with Adobe InDesign
 
 ## Role Takeaways
 1. A Cannon Editor missing qualifications listed in section 0.3 may gain them by exercising the role.

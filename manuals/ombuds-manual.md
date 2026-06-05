@@ -16,6 +16,11 @@ subtitle: A Manual for the Ombudsperson
 1. The Ombudsperson runs the Skule™ Census annually and reports to the Board of Directors on its results.
 1. The Ombudsperson has other responsibilities listed in Chapter 2 of this Manual.
 
+## Impact to Students
+1. The Ombudsperson provides individual students the opportunity to have their aggrievances towards the Engineering Society heard and decided fairly.
+1. The Ombudsperson provides students the opportunity to meet EngSoc position-holders and better understand their work.
+1. The Ombudsperson provides the student body the opportunity to collectively express their opinions and feelings about EngSoc's work each year to the [Board of Directors](board-representative-manual.md).
+
 ## Required Qualifications
 1. The Ombudsperson must be impartial in all aspects of the role.
 

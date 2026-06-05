@@ -11,10 +11,14 @@ subtitle: A Manual for the Speaker of the Board
 1. The Speaker of the Board is a Neutral Officer chiefly responsible for chairing meetings of the Board of Directors, but also for interpreting Bylaws and Rules of Order, overseeing and supporting other Neutral Officers, and other impartial duties.
 
 ## General Responsibilities
-1. The Speaker organizes and chairs all meetings of the Board of Directors, and chairs General Meetings, in accordance with the Bylaws, the [Standing Rules](../standing-rules.md), and Robert's Rules of Order.
-1. The Speaker makes rulings on the interpretation of Bylaws and Rules of Order both during meetings and asynchronously.
+1. The Speaker organizes and chairs all meetings of the Board of Directors, and chairs General Meetings, in accordance with their binding interpretation of the Bylaws, the [Standing Rules](../standing-rules.md), and Robert's Rules of Order.
 1. The Speaker oversees the [Ombudsperson](ombuds-manual.md) and [Chief Returning Officer](returning-manual.md), and takes over their responsibilities in certain situations.
 1. The Speaker has other responsibilities listed in Chapter 2 of this Manual.
+
+## Impact to Students
+1. The Speaker ensures that business before the [Board of Directors](board-representative-manual.md) proceeds in an orderly fashion and thereby enables EngSoc's benefits to reach students.
+1. The Speaker prevents the Engineering Society from violating its [Bylaws](/) or otherwise acting unfairly towards its Members (the students).
+1. The Speaker supports the [Ombudsperson](ombuds-manual.md) and [Chief Returning Officer](returning-manual.md) in bringing fair complaint resolution and elections, respectively, to the student body.
 
 ## Required Qualifications
 1. The Speaker must be impartial in all aspects of the role.

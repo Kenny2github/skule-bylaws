@@ -16,6 +16,11 @@ subtitle: A Manual for the Hi-Skule™ Director
 1. The Hi-Skule™ Director is the point of communication with the Engineering Student Recruitment and Outreach Office (ESROO).
 1. The Hi-Skule™ Director has other responsibilities listed in Chapter 2 of this Manual.
 
+## Impact to Students
+1. Hi-Skule™ attracts potential future engineering students to the University of Toronto and gets them excited about Skule™ life.
+1. Hi-Skule™ provides current students opportunities to develop skills listed in section 1.4, such as leadership, organization, mentorship, and more.
+1. The Hi-Skule™ Director is the top-level role responsible for ensuring that the above impacts reach (potential or current) students.
+
 ## Required Qualifications
 1. The Hi-Skule™ Director must have timely communication skills.
 1. The Hi-Skule™ Director must have the ability and willingness to learn.
