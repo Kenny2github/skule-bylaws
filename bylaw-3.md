@@ -90,8 +90,9 @@ subtitle: The Elections Bylaw
 1. The Nomination Period for the election of Officers shall commence at 9:00 am on the Monday before Reading Week of the Winter semester, and shall close at 5:00 pm on the Friday of Reading Week.
 1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature;
-   1. The names, student numbers, and signatures of twenty-five (25) Nominators, all of whom shall be Members; and
-   1. A fifty dollar ($50) cash deposit.
+   1. The names, student numbers, and signatures of twenty-five (25) Nominators, all of whom shall be Members;
+   1. A fifty dollar ($50) cash deposit; and
+   1. A letter in accordance with Section 24(8) of ONCA attesting their consent to act as a director of the corporation if elected.
 1. Potential candidates must submit a voter's statement, through a means specified by the Nomination Package, which is due at the close of the Nomination Period.
    1. The voter's statement must have at least one (1) word, and is limited to two-hundred and fifty (250) words in length, in accordance with section 8.0.7.
 1. The CRO shall produce a certified list of candidates within seventy-two (72) hours from the close of the Nomination Period.
