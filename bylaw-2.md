@@ -1,5 +1,5 @@
 ---
-revdate: March 30, 2026
+revdate: June 25, 2026
 title: Bylaw 2
 pdf: Bylaw 2
 subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
