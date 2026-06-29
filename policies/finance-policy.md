@@ -1,5 +1,5 @@
 ---
-revdate:  March 28, 2026
+revdate:  July 23, 2026
 title: Policy Number "2006-01-02"
 pdf: policies/Finance Policy
 subtitle: Policy on Finances

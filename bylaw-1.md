@@ -1,5 +1,5 @@
 ---
-revdate: April 4, 2026
+revdate: July 23, 2026
 title: Bylaw 1
 pdf: Bylaw 1
 subtitle: The Engineering Society
@@ -317,6 +317,7 @@ subtitle: The Engineering Society
    1. The Executive Committee;
    1. The Finance Committee;
    1. The Policy and Structures Committee;
+   1. The Sillies and Jokies Committee;
    1. The Academic Advocacy Committee;
    1. The Affiliation Committee; and
    1. The Audit Committee.
