@@ -298,7 +298,7 @@ subtitle: The Engineering Society
 1. A Board Representative may only be recalled:
    1. by a successful referendum in accordance with [Bylaw 3, section 6.3](bylaw-3.md);
    1. by a simple majority vote at a General Meeting called for that purpose, in which only the Representative's constituency is eligible to vote; or
-   1. by a vote of the Board with at most two (2) dissenting votes, if a referendum cannot legally be called.
+   1. by a vote of the Board with at most two (2) dissenting votes, if a referendum cannot legally be called or feasibly called at the discretion of the speaker.
 1. All Directors of the Board shall adhere to a standard of conduct that includes the following:
    1. A Director of the Board shall not be absent from more than two (2) regular meetings of the Board of Directors without regrets over the course of their term.
    1. A Director of the Board shall not be absent from more than three (3) regular meetings of the Board of Directors over the course of their term.
