@@ -75,6 +75,10 @@ ol ol ol li {
 	list-style-type: lower-roman;
 }
 
+/* Rich content styling */
+img {
+	max-width: 100%;
+}
 
 /* Print styling */
 @media print {
