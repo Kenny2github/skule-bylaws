@@ -79,6 +79,16 @@ ol ol ol li {
 img {
 	max-width: 100%;
 }
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+tr {
+	border-bottom: 1px solid black;
+}
+tbody tr:nth-child(odd) {
+	background-color: #e7e6e6;
+}
 
 /* Print styling */
 @media print {
@@ -190,9 +200,6 @@ section.contents span:nth-child(3n+3) {
 
 /* Non-print styling */
 @media screen {
-	thead, tfoot {
-		display: none;
-	}
 	p.cover-page {
 		border-bottom: 1px solid black;
 		text-align: center;
