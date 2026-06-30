@@ -1,5 +1,5 @@
 ---
-revdate: April 4, 2026
+revdate: June 25, 2026
 title: Bylaw 3
 pdf: Bylaw 3
 subtitle: The Elections Bylaw
@@ -93,7 +93,7 @@ subtitle: The Elections Bylaw
    1. The names, student numbers, and signatures of twenty-five (25) Nominators, all of whom shall be Members; and
    1. A fifty dollar ($50) cash deposit.
 1. Potential candidates must submit a voter's statement, through a means specified by the Nomination Package, which is due at the close of the Nomination Period.
-   1. The voter's statement must have at least one (1) word, and is limited to two-hundred and fifty (250) words in length, in accordance with section 8.0.7.
+   1. The voter's statement must have at least one (1) word, and is limited to two-hundred and fifty (250) words in length, in accordance with section 8.0.6.
 1. The CRO shall produce a certified list of candidates within seventy-two (72) hours from the close of the Nomination Period.
 1. No Member may be nominated for more than one Officer position.
 1. The Campaign Period shall:
@@ -141,7 +141,7 @@ subtitle: The Elections Bylaw
 1. The following apply to all elections outlined in this Chapter, except for the Winter Election and the Election for the Speaker of the Board of Directors:
    1. An All Candidates Meeting (ACM) will be held pursuant to the description in 2.2.1;
    1. Potential candidates must submit a voter's statement, through a means specified by the Nomination Package, which is due at the close of the Nomination Period; and
-      1. The voter’s statement must have at least one (1) word, and is limited to one-hundred (100) words in length, in accordance with section 8.0.7.
+      1. The voter’s statement must have at least one (1) word, and is limited to one-hundred (100) words in length, in accordance with section 8.0.6.
    1. The CRO shall produce a certified list of candidates within seventy-two (72) hours from the close of the Nomination Period.
 
 ## Board of Directors Election Period
@@ -193,7 +193,7 @@ subtitle: The Elections Bylaw
 1. The following apply to all elections outlined in this Chapter:
    1. An All Candidates Meeting (ACM) will be held pursuant to the description in 2.2.1; and
    1. Potential candidates must submit a voter's statement, through a means specified by the Nomination Package, which is due at the close of the Nomination Period; and
-      1. The voter’s statement must have at least one (1) word, and is limited to one-hundred (100) words in length, in accordance with section 8.0.7.
+      1. The voter’s statement must have at least one (1) word, and is limited to one-hundred (100) words in length, in accordance with section 8.0.6.
    1. The CRO shall produce a certified list of candidates within seventy-two (72) hours from the close of the Nomination Period.
 
 ## First Year Board of Directors Election Period
@@ -251,7 +251,7 @@ subtitle: The Elections Bylaw
    1. The Hi-Skule™ Director shall also be elected during the Valedictorian Election Period, as if deferred from the Winter Election Period as described in section 5.1.1.a.
 1. A Member, who must be in their Final Year, shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature
-1. Potential candidates must submit a voter’s statement in accordance with section 8.0.7, through a means specified by the Nomination Package, which is due at the close of the Nomination Period; and
+1. Potential candidates must submit a voter’s statement in accordance with section 8.0.6, through a means specified by the Nomination Package, which is due at the close of the Nomination Period; and
 1. An All Candidates Meeting (ACM) shall be held pursuant to the description in 2.2.1.
 1. The Campaign Period shall:
    1. Commence between twenty four (24) and seventy-two (72) hours after the ACM; and
@@ -307,7 +307,7 @@ subtitle: The Elections Bylaw
       1. Social media accounts need not be new (contrary to Section 8.2.2.a).
       1. Social media accounts may continue to be active after the campaign period (contrary to Section 8.2.5), but may not post further campaign material.
       1. The student group may use its own logos and endorse itself (contrary to Section 8.3), but its members may not publicly endorse it.
-      1. Campaign messages may be posted in the student group's own internal channels (contrary to Section 8.6.5) but still may not be posted in other groups not created for the purpose of campaigning.
+      1. Campaign messages may be posted in the student group's own internal channels (contrary to Section 8.6.4) but still may not be posted in other groups not created for the purpose of campaigning.
    1. Physical campaign materials and in-class speeches, as outlined in Section 8.1 and Section 8.4 respectively, are not allowed.
    1. Section 8.5 does not apply. Any member of the student group may assist with its campaign.
 1. Such a referendum which receives votes from at least 5% of Members, of which a simple majority are in favor, shall lead to the fee being modified as proposed. Otherwise, the referendum fails.
@@ -319,7 +319,7 @@ subtitle: The Elections Bylaw
 1. The question text of such a referendum shall be: "Do you support recalling [name] from their position as [discipline and year] Class Representative?" where "[name]" is the name of the Class Representative in question and "[discipline and year]" is the constituency they represent.
 1. The voting period for such a referendum shall begin between seven (7) and fourteen (14) days after it is called, at the CRO's discretion, and shall last at least three (3) days. If possible within these constraints, the voting period shall be aligned with the voting period of any other ongoing election cycle.
 1. There shall be no campaigning for such a referendum. Campaigning in any form by either the party calling the referendum or the Class Representative in question, beyond the voter statements outlined below, will result in a warning to the campaigning party, in accordance with Section 9.1.
-1. Both the party calling such a referendum and the Class Representative in question may provide a voter statement of at most one-hundred (100) words in length, in accordance with section 8.0.7.
+1. Both the party calling such a referendum and the Class Representative in question may provide a voter statement of at most one-hundred (100) words in length, in accordance with section 8.0.6.
    1. For the party calling the referendum, this statement is limited in content to specifying how the Class Representative has neglected their duties as specified in [Bylaw 7 Section 3.0.4](bylaw-7.md). This statement must be provided at the same time as the referendum is called.
    1. For the Class Representative in question, this statement is limited in content to rebutting the calling party's statement and/or otherwise defending their conduct. This statement must be provided to the CRO at least twenty-four (24) hours before the start of the voting period.
    1. If approved by the CRO as compliant with the above rules, these voter statements will be displayed alongside the referendum question when it is presented to voters.
@@ -332,7 +332,7 @@ subtitle: The Elections Bylaw
 1. The question text of such a referendum shall be: "Do you support recalling [name] from their position as [constituency] Board Representative?" where "[name]" is the name of the Board Representative in question and "[constituency]" is the constituency they represent (e.g. "At-Large", "First Year").
 1. The voting period for such a referendum shall begin at most eleven (11) business days after it is called, at the CRO's discretion, and shall last at least three (3) days. If possible within these constraints, the voting period shall be aligned with the voting period of any other ongoing election cycle.
 1. There shall be no campaigning for such a referendum. Campaigning in any form by either the party calling the referendum or the Board Representative in question, beyond the voter statements outlined below, will result in a warning to the campaigning party, in accordance with Section 9.1.
-1. Both the party calling such a referendum and the Board Representative in question may provide a voter statement of at most one-hundred (100) words in length, in accordance with section 8.0.7.
+1. Both the party calling such a referendum and the Board Representative in question may provide a voter statement of at most one-hundred (100) words in length, in accordance with section 8.0.6.
    1. For the party calling the referendum, this statement is limited in content to specifying how the Board Representative has breached the standard of conduct in [Bylaw 1 section 4.11.3](bylaw-1.md). This statement must be provided at the same time as the referendum is called.
    1. For the Board Representative in question, this statement is limited in content to rebutting the calling party's statement and/or otherwise defending their conduct. This statement must be provided to the CRO at least twenty-four (24) hours before the start of the voting period.
    1. If approved by the CRO as compliant with the above rules, these voter statements will be displayed alongside the referendum question when it is presented to voters.
@@ -403,7 +403,6 @@ subtitle: The Elections Bylaw
 
 ## General
 1. Campaigning activities are allowed solely during the Campaign Period and may only be done by a candidate.
-1. All campaign materials must prominently display the following text: "vote.skule.ca".
 1. Candidates are limited to zero dollars ($0) in campaign expenses.
    1. Tools and resources used to create the content outlined in section 8.1, section 8.2, and section 8.6 are not counted towards a candidate's campaign spending.
    1. A printing budget may be determined at the discretion of the CRO in the case that a candidate  does not have a printing quota or has exhausted their printing quota with the Engineering Computing Facility (ECF).
@@ -417,7 +416,7 @@ subtitle: The Elections Bylaw
    1. Any ruling under this section must be immediately communicated by the CRO to the Speaker, who may approve or overturn the CRO’s ruling
       1. Should a ruling be overturned by the Speaker, it is deemed null and void
       1. Should the Speaker take no action on the ruling within 24 hours, it shall be deemed to be approved.
-   1. These rulings must be communicated to all candidates, and posted publicly on Skule Digest, if approved by the Speaker.
+   1. These rulings must be communicated to candidates involved, and posted publicly on Skule™ Digest, if approved by the Speaker.
    1. A candidate shall not be punished for conduct prohibited under these rulings unless said conduct occurs after the ruling has been made publicly known.
 1. All candidates, regardless of whether they are running opposed or unopposed, must establish a campaign presence and engage with voters.
    1. All candidates must submit a voter statement, at an absolute minimum of one (1) word. This statement must be submitted to the CRO through a means specified by the Nomination Package, which is due at the close of the Nomination Period.
@@ -425,18 +424,16 @@ subtitle: The Elections Bylaw
 
 ## Materials
 1. For Officer candidates, posters are limited to twenty-five (25) letter-size pages or the equivalent area using letter and tabloid-size only.
-1. For Board of Director candidates, posters are limited to ten (10) letter-size pages or the equivalent area using letter and tabloid-size only.
+1. For Board of Director and Discipline Club Chair candidates, posters are limited to ten (10) letter-size pages or the equivalent area using letter and tabloid-size only.
 1. A candidate’s campaign for any position not encompassed in 8.1.1 and 8.1.2 is not allowed any posters.
-1. Posters shall be approved by the CRO and stamped by the Society.
+1. Posters shall be approved by the CRO and stamped by the Society. Locations of posters must be shared with the CRO.
 1. Posters shall not:
    1. Exceed the size of 2 letter-size pages;
-   1. Be placed on other posters;
-   1. Obstruct other notices while they are current;
+   1. Be placed on other posters or notices;
    1. Be clustered in groups of more than 2;
    1. Be posted in restrooms in any building;
    1. Be put up in computer labs, on tables or any glass surfaces;
    1. Be posted outdoors unless on a public message board;
-   1. Obstruct other notices while they are current;
    1. Be placed in locations that are not the Sandford Fleming, Mechanical Engineering, Lassonde Mining, Wallberg Memorial, Galbraith, Rosebrugh, Haultain, D.L. Pratt Buildings, the Engineering Annex, or the Bahen Centre of Information Technology. Notably, they may not be placed in the Myhal Centre for Engineering Innovation and Entrepreneurship.
 1. Candidates shall not leave posters for longer than one week after the election, else they will be fined $1/day per poster that is not taken down.
 1. Banners are not permitted.
@@ -458,7 +455,8 @@ subtitle: The Elections Bylaw
    1. Any additional criteria deemed necessary by the CRO.
       1. The CRO will disclose these requirements to all candidates at the All Candidates Meeting. Failure to adhere to undisclosed criteria will not be considered a penalizable offense.
 1. Any content posted in approved social media locations must satisfy all other applicable sections of Bylaw 3.
-1. Campaign material may not be reposted or shared by any other account, including the candidate’s personal account. It is the candidate’s responsibility to ensure their campaign material is not redistributed by any account that has not been approved by the CRO for that election period.
+1. Campaign material posted by candidates may not be reposted or shared by any other account, including the candidate's personal account. It is the candidate's responsibility to ensure their campaign material is not redistributed by any account that has not been approved by the CRO for that election period.
+   1. Campaign material posted by the CRO/ORO may be reposted by any account.
 1. All activity on campaign accounts must cease at the conclusion of the campaign period and remain inactive until the release of the election results. Following the announcement of results, candidates may use their campaign accounts at their discretion.
 1. The CRO shall be as permissible as is reasonable in their approval of campaign activities under this section.
    1. Should unforeseeable and extenuating circumstances require it, approval of social media campaigning activities may be revoked by the CRO at any time, at which point further campaigning activities must cease in the location(s) in question.
@@ -473,8 +471,9 @@ subtitle: The Elections Bylaw
 1. Endorsements by organizations or organization executives are not allowed; what constitutes an endorsement is at the discretion of the CRO.
 1. Candidates are not permitted to lead voters to believe they are endorsed by any club or organization.
 1. The following are examples of permitted endorsement:
-   1. The Toike Oike mocks you on their own initiative; and
-   1. Campus news outlets conduct interviews with candidates.
+   1. The Toike Oike mocks you on their own initiative;
+   1. Campus news outlets conduct interviews with candidates; and
+   1. Sharing previous involvement in clubs or organizations without implying endorsement.
 1. The following are examples of unauthorized endorsement:
    1. Ask the President of the Society for a mention during a meeting;
    1. Usage of any logo in a candidate's campaign material; and
@@ -520,7 +519,6 @@ subtitle: The Elections Bylaw
    1. Yelling;
    1. Playing loud music; and/or
    1. Creating a mess for cleaning staff.
-1. Candidates are not allowed to create any campaign videos.
 1. The official language of campaigning is English. Candidates wishing to use another language must supply an accurate and equivalent English translation, to be provided prior to the dissemination or delivery of the non-English material.
    1. Providing a false or misleading translation shall constitute a blatant breach of this rule.
 1. Campaigning messages and/or campaigning material may not be posted in group chats/servers whose original purpose of creation was not campaigning.
