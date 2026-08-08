@@ -1,5 +1,5 @@
 ---
-revdate: February 23, 2026
+revdate: July 23, 2026
 title: Bylaw 3
 pdf: Bylaw 3
 subtitle: The Elections Bylaw
@@ -21,17 +21,21 @@ subtitle: The Elections Bylaw
    1. “Nominator” shall refer to a Member who wishes to nominate an individual other than themself to a position.
 
 ## General
-1. The CRO shall give notice of the opening of a Nomination Period of any referendum or election and the positions to be elected.
-   1. Notice shall be given at least two (2) days in advance via an email to all Members. Notice shall include all information, or a reference to such, necessary to form a complete nomination.
-1. The CRO shall notify all Members by email at the opening of an Election period, and at 12pm on the day an Election Period closes.
+1. The CRO shall notify all Members subscribed to receive Governance Updates through the Governance Mailing List of the opening of a Nomination Period of any referendum or election and the positions to be elected.
+   1. Notice shall be given at least two (2) days in advance via an email.
+1. The CRO shall notify all Members by email at the opening of an Election Period. This notice shall include all information, or a reference to such, necessary to form a complete nomination.
+1. The CRO shall notify all Members at 12pm on the day an Election Period closes.
 1. Electronic voting shall be made available over the entirety of a given Voting Period for an election cycle, where applicable, through vote.skule.ca.
 1. For a given election cycle, the CRO shall publicly certify and announce election results to the Society within six hours of the end of the election period.
-1. Each Nomination Package shall include the following mandatory sign-off statement signifying that the "Confidentiality Agreement - Information Sharing" document will be used to verify the Member's enrolment status with the Registrar, as per the conditions outlined in [Bylaw 1 Section 1.1.4](bylaw-1.md).
-   1. "By signing this Nomination Package, I hereby allow the Chief Returning Officer of the Engineering Society to verify my enrolment status using the "Confidentiality Agreement - Information Sharing" document as described in [Bylaw 1 Section 1.1.4](bylaw-1.md), in order to complete the nomination process. Further, I acknowledge if I obtain this position, I allow the Speaker or President (determined by the sub-clauses of [Bylaw 1 Section 1.1.4](bylaw-1.md)) to verify my enrolment status if a concern or complaint is brought to the attention of the President, Ombudsperson, and/or Speaker."
+1. Each Nomination Package shall include the following mandatory sign-off statement signifying that the "Confidentiality Agreement - Information Sharing" document will be used to verify the Member's enrolment status with the Registrar, as per the conditions outlined in [Bylaw 1 Section 1.0.1](bylaw-1.md).
+   1. "By signing this Nomination Package, I hereby allow the Chief Returning Officer of the Engineering Society to verify my enrolment status using the "Confidentiality Agreement - Information Sharing" document as described in [Bylaw 1 Section 1.0.1](bylaw-1.md), in order to complete the nomination process. Further, I acknowledge if I obtain this position, I allow the Speaker or President (determined by the sub-clauses of [Bylaw 1 Section 1.0.1](bylaw-1.md)) to verify my enrolment status if a concern or complaint is brought to the attention of the President, Ombudsperson, and/or Speaker."
 1. Elections must not occur within the Fall or Winter Exam Periods.
 1. Elections requiring a Voting Period shall not occur within the Summer Months.
 1. Where nominations are required for a position, candidates for that position may not be nominators for the same position.
-1. No more than one election shall be held in a given month.
+1. No more than one election shall be held in a given month, with the following exceptions:
+   1. Officer Elections
+   1. Valedictorian Elections
+
 
 ## Principles
 1. In general, the goal of any election is to:
@@ -88,12 +92,13 @@ subtitle: The Elections Bylaw
 
 ## Election Period
 1. The Nomination Period for the election of Officers shall commence at 9:00 am on the Monday before Reading Week of the Winter semester, and shall close at 5:00 pm on the Friday of Reading Week.
-1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
+1. A Member shall be considered nominated upon receipt by the CRO a completed Nomination Form, during the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature;
-   1. The names, student numbers, and signatures of twenty-five (25) Nominators, all of whom shall be Members; and
-   1. A fifty dollar ($50) cash deposit.
+   1. The names, student numbers, and signatures of twenty-five (25) Nominators, all of whom shall be Members;
+   1. A fifty dollar ($50) cash deposit; and
+   1. A letter in accordance with Section 24(8) of ONCA attesting their consent to act as a director of the corporation if elected.
 1. Potential candidates must submit a voter's statement, through a means specified by the Nomination Package, which is due at the close of the Nomination Period.
-   1. The voter's statement must have at least one (1) word, and is limited to two-hundred and fifty (250) words in length, in accordance with section 8.0.7.
+   1. The voter's statement must have at least one (1) word, and is limited at the discretion of the CRO, in accordance with section 8.0.3.
 1. The CRO shall produce a certified list of candidates within seventy-two (72) hours from the close of the Nomination Period.
 1. No Member may be nominated for more than one Officer position.
 1. The Campaign Period shall:
@@ -109,7 +114,7 @@ subtitle: The Elections Bylaw
 1. The reopened nomination period shall last at least three (3) days.
 
 ## All Candidates Meeting (ACM)
-1. An All Candidates Meeting will be held within seventy-two (72) hours after the conclusion of the Nomination Period. The details of the ACM (time and location), if available, will be outlined in the Nomination Package and must be chosen in consideration of those who cannot attend during normal business hours (i.e. 9:00am - 5:00pm).
+1. An All Candidates Meeting will be held within ninety-six (96) hours after the conclusion of the Nomination Period. The details of the ACM (time and location), if available, will be outlined in the Nomination Package and must be chosen in consideration of those who cannot attend during normal business hours (i.e. 9:00am - 5:00pm).
 1. In the case of reopened nominations, the candidates shall be informed of the date, time, and location of this meeting when the extended nomination period ends.
 1. Attendance of the ACM is mandatory. Nominees who are unable to attend may have a designate (proxy) attend the meeting in their place.
    1. Proxy information (nominee's and proxy's names) must be provided to the CRO at least twenty-four (24) hours prior to the ACM; and
@@ -141,7 +146,7 @@ subtitle: The Elections Bylaw
 1. The following apply to all elections outlined in this Chapter, except for the Winter Election and the Election for the Speaker of the Board of Directors:
    1. An All Candidates Meeting (ACM) will be held pursuant to the description in 2.2.1;
    1. Potential candidates must submit a voter's statement, through a means specified by the Nomination Package, which is due at the close of the Nomination Period; and
-      1. The voter’s statement must have at least one (1) word, and is limited to one-hundred (100) words in length, in accordance with section 8.0.7.
+      1. The voter’s statement must have at least one (1) word, and is limited to one-hundred (100) words in length, in accordance with section 8.0.6.
    1. The CRO shall produce a certified list of candidates within seventy-two (72) hours from the close of the Nomination Period.
 
 ## Board of Directors Election Period
@@ -149,9 +154,10 @@ subtitle: The Elections Bylaw
 1. A Member may only be nominated for a position on the Board of Directors for the constituency to which they belong or have declared intent to transfer into.
 1. A Member who currently holds a seat on the Board of Directors may not seek another seat with the same term without first resigning their current seat.
 1. Members shall not be nominated for more than one (1) Board of Directors position.
-1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
-   1. The Member's name, student number, contact information, and signature; and
-   1. The names, student numbers, and signatures of ten (10) Nominators, all of whom shall be from the same constituency represented by the Director position.
+1. A Member shall be considered nominated upon receipt by the CRO a completed Nomination Form, during the Nomination Period, which shall include:
+   1. The Member's name, student number, contact information, and signature;
+   1. The names, student numbers, and signatures of ten (10) Nominators, all of whom shall be from the same constituency represented by the Director position; and
+   1. A letter in accordance with Section 24(8) of ONCA attesting their consent to act as a director of the corporation if elected.
 1. The Campaign Period shall:
    1. Commence between twenty four (24) and seventy-two (72) hours after the ACM; and
    1. Be between two (2) and three (3) business days (inclusive) in length.
@@ -162,7 +168,7 @@ subtitle: The Elections Bylaw
 ## Third, PEY, and Fourth Year Class Representatives Election Period
 1. Class Representatives shall be elected by a vote of the Members of each Constituency.
 1. The Nomination, Campaign, and Voting Periods for Third, PEY (if applicable to the Discipline Club), and Fourth Year Class Representatives shall be the same as those for the Board of Directors election.
-1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
+1. A Member shall be considered nominated upon receipt by the CRO a completed Nomination Form, during the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature.
 1. Discipline Clubs may opt to elect Third, PEY (if applicable to the Discipline Club), and Fourth Year Class Representatives in the fall term, with the same Nomination, Campaign, and Voting Periods as First and Second Year Class Representatives. To accomplish this, notice by email to the CRO is required no later than February 28.
 1. Discipline Clubs may have up to two (2) seats per Class Representative Position. To accomplish this, notice by email from the Discipline Club Chair to the CRO is required no later than ten (10) days before the opening of Nomination Period.
@@ -184,7 +190,7 @@ subtitle: The Elections Bylaw
    1. Mechanical Discipline Club (positions elected by the Mechanical Engineering constituency);
    1. Mineral Discipline Club (positions elected by the Mineral Engineering constituency); and
    1. TrackOne Club (positions elected by the TrackOne General Engineering constituency).
-1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
+1. A Member shall be considered nominated upon receipt by the CRO a completed Nomination Form, during the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature.
 
 # Fall Elections
@@ -193,14 +199,14 @@ subtitle: The Elections Bylaw
 1. The following apply to all elections outlined in this Chapter:
    1. An All Candidates Meeting (ACM) will be held pursuant to the description in 2.2.1; and
    1. Potential candidates must submit a voter's statement, through a means specified by the Nomination Package, which is due at the close of the Nomination Period; and
-      1. The voter’s statement must have at least one (1) word, and is limited to one-hundred (100) words in length, in accordance with section 8.0.7.
+      1. The voter’s statement must have at least one (1) word, and is limited to one-hundred (100) words in length, in accordance with section 8.0.6.
    1. The CRO shall produce a certified list of candidates within seventy-two (72) hours from the close of the Nomination Period.
 
 ## First Year Board of Directors Election Period
 1. The Nomination Period for First Year Representatives of the Board of Directors shall commence at 9:00 am on the Wednesday of the first full week of class in the Fall Term, and shall close at 5:00 pm on the following Monday.
 1. A Member may only be nominated for a position on the Board of Directors for the constituency to which they belong or have declared intent to transfer into.
 1. Members shall not be nominated for more than one (1) Board of Directors position.
-1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
+1. A Member shall be considered nominated upon receipt by the CRO a completed Nomination Form, during the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature; and
    1. The names, student numbers, and signatures of ten (10) Nominators, all of whom shall be from the same constituency represented by the Director position.
 1. The Campaign Period shall:
@@ -212,7 +218,7 @@ subtitle: The Elections Bylaw
 
 ## First and Second Year Class Representatives Election Period
 1. The Nomination, Campaign, and Voting Periods for First and Second Year Class Representatives shall be the same as those for the First Year Board of Directors election.
-1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
+1. A Member shall be considered nominated upon receipt by the CRO a completed Nomination Form, during the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature.
 1. Discipline Clubs may have up to two (2) seats per Class Representative Position. To accomplish this, notice by email from the Discipline Club Chair to the CRO is required no later than five (5) days before the opening of Nomination Period.
    1. Regardless of the number of seats available, all candidates for a Class Representative Position shall run individually.
@@ -221,7 +227,7 @@ subtitle: The Elections Bylaw
 1. The Nomination, Campaign, and Voting Periods for the following Internal Representative positions shall be the same as those for the First Year Board of Directors election:
    1. The First Year Chair, elected by the First Year student body;
    1. The Fourth Year Chair, elected by the Fourth Year student body; and
-1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
+1. A Member shall be considered nominated upon receipt by the CRO a completed Nomination Form, during the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature.
 
 # Other Elections
@@ -233,12 +239,12 @@ subtitle: The Elections Bylaw
 1. The Winter Election shall consist of the Orientation Chair, the Iron Pin Director, and the University of Toronto Engineering Kompetition (UTEK) Director. The CRO shall also be elected during this election period, as described in section 1.1.
    1. The Board of Directors may direct the CRO to defer the election of any of these positions, except the CRO, to the Valedictorian Election Period. In this case, the Nomination Period shall be the same as for the Valedictorian, but other details remain the same.
    1. In the 2025-2026 academic year, the Iron Pin Director shall be elected according to the provisions of Chapter 7 instead of this section.
-1. The Nomination Period for the Winter Elections shall commence at 9:00am on the first or second Monday of January and shall close at 5:00pm the following Friday.
-1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
+1. The Nomination Period for the Winter Elections shall commence at 9:00 am on the first Monday of the Winter semester and shall close at 5:00 pm the following Friday.
+1. A Member shall be considered nominated upon receipt by the CRO a completed Nomination Form, during the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature.
 1. There shall be no campaigning for the positions in this election.
 1. The Winter Ratification Meeting shall be for the purpose of electing the positions specified in section 5.1.1.
-   1. The aforementioned meeting shall occur within eleven (11) business days of the close of the Nomination Period.
+   1. The aforementioned meeting shall occur within seven (7) business days of the close of the Nomination Period.
    1. Positions deferred to the Valedictorian Election Period as described in section 5.1.1.a shall be elected at the February Board of Directors meeting.
 1. The CRO shall determine the order in which positions are considered; however, the position of CRO shall be the last position considered at the Winter Ratification Meeting.
    1. Each candidate for the position of Orientation Chair shall be given the opportunity to speak for two (2) minutes before the election for this position.
@@ -251,7 +257,7 @@ subtitle: The Elections Bylaw
    1. The Hi-Skule™ Director shall also be elected during the Valedictorian Election Period, as if deferred from the Winter Election Period as described in section 5.1.1.a.
 1. A Member, who must be in their Final Year, shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature
-1. Potential candidates must submit a voter’s statement in accordance with section 8.0.7, through a means specified by the Nomination Package, which is due at the close of the Nomination Period; and
+1. Potential candidates must submit a voter’s statement in accordance with section 8.0.6, through a means specified by the Nomination Package, which is due at the close of the Nomination Period; and
 1. An All Candidates Meeting (ACM) shall be held pursuant to the description in 2.2.1.
 1. The Campaign Period shall:
    1. Commence between twenty four (24) and seventy-two (72) hours after the ACM; and
@@ -263,7 +269,7 @@ subtitle: The Elections Bylaw
 
 ## Speaker of the Board of Directors Election Period
 1. The Nomination Period for the Speaker of the Board of Directors shall commence at 9:00am on the nearest Monday after April 30th and shall close on the Friday of the same week.
-1. A Member shall be considered nominated upon submitting a completed Nomination Package to the Engineering Society Office, no later than the close of the Nomination Period, which shall include:
+1. A Member shall be considered nominated upon receipt by the CRO a completed Nomination Form, during the Nomination Period, which shall include:
    1. The Member's name, student number, contact information, and signature; and
    1. The names, student numbers, and signatures of ten (10) Nominators, all of whom shall be Members.
 1. There shall be no campaigning for this position.
@@ -271,12 +277,12 @@ subtitle: The Elections Bylaw
    1. The outgoing Speaker;
       1. The outgoing Speaker will remain on the hiring committee even if they are not serving as the interim Speaker at the time.
    1. One of: the outgoing CRO, Chair of the Policy and Structures Committee or Ombudsperson;
-   1. One of: the outgoing President, Vice-President Finance or Vice-President Communications;
-   1. One (1) member of the outgoing Board of Directors;
-   1. One (1) member of the incoming Board of Directors.
+   1. One of: the outgoing Officers;
+   1. One (1) outgoing Director of the Board;
+   1. One (1) incoming Director of the Board.
 1. If one or more positions on the hiring committee remain vacant after exhausting all options, the CRO may select available individuals from the other brackets.
 1. The hiring committee shall follow the interview process outlined in Sections 7.2.4, 7.2.5, 7.2.6, and 7.2.7.
-1. At the May Board of Directors Meeting, each candidate will have the opportunity to speak for two (2) minutes on their candidacy for the position and chair a mock meeting held during recess. The agenda for the mock meeting will be prepared by the interim Speaker. Each member of the Board shall have one (1) vote to elect the Speaker at the meeting.
+1. At the May Board of Directors Meeting, each candidate will have the opportunity to speak for two (2) minutes on their candidacy for the position and chair a mock meeting held during recess. The agenda for the mock meeting will be prepared by the interim Speaker.
 1. Other details of the elections shall be at the discretion of the CRO.
 
 # Referenda
@@ -291,7 +297,7 @@ subtitle: The Elections Bylaw
 1. Referendum rules not specified in this chapter shall be decided by the CRO with the Speaker's approval.
 
 ## Levy Referenda
-1. A referendum for the purpose of creating, renewing, increasing, decreasing, or removing student fees as specified in [Bylaw 1 Section 1.3](bylaw-1.md) must be called by one of:
+1. A referendum for the purpose of creating, renewing, increasing, decreasing, or removing student fees as specified in [Bylaw 0 Section 1.2](bylaw-0.md) must be called by one of:
    1. A two-thirds majority vote at a Board of Directors Meeting; or
    1. A simple majority vote at a General Meeting.
 1. The question text of such a referendum shall contain exclusively the following elements:
@@ -307,7 +313,7 @@ subtitle: The Elections Bylaw
       1. Social media accounts need not be new (contrary to Section 8.2.2.a).
       1. Social media accounts may continue to be active after the campaign period (contrary to Section 8.2.5), but may not post further campaign material.
       1. The student group may use its own logos and endorse itself (contrary to Section 8.3), but its members may not publicly endorse it.
-      1. Campaign messages may be posted in the student group's own internal channels (contrary to Section 8.6.5) but still may not be posted in other groups not created for the purpose of campaigning.
+      1. Campaign messages may be posted in the student group's own internal channels (contrary to Section 8.6.4) but still may not be posted in other groups not created for the purpose of campaigning.
    1. Physical campaign materials and in-class speeches, as outlined in Section 8.1 and Section 8.4 respectively, are not allowed.
    1. Section 8.5 does not apply. Any member of the student group may assist with its campaign.
 1. Such a referendum which receives votes from at least 5% of Members, of which a simple majority are in favor, shall lead to the fee being modified as proposed. Otherwise, the referendum fails.
@@ -319,7 +325,7 @@ subtitle: The Elections Bylaw
 1. The question text of such a referendum shall be: "Do you support recalling [name] from their position as [discipline and year] Class Representative?" where "[name]" is the name of the Class Representative in question and "[discipline and year]" is the constituency they represent.
 1. The voting period for such a referendum shall begin between seven (7) and fourteen (14) days after it is called, at the CRO's discretion, and shall last at least three (3) days. If possible within these constraints, the voting period shall be aligned with the voting period of any other ongoing election cycle.
 1. There shall be no campaigning for such a referendum. Campaigning in any form by either the party calling the referendum or the Class Representative in question, beyond the voter statements outlined below, will result in a warning to the campaigning party, in accordance with Section 9.1.
-1. Both the party calling such a referendum and the Class Representative in question may provide a voter statement of at most one-hundred (100) words in length, in accordance with section 8.0.7.
+1. Both the party calling such a referendum and the Class Representative in question may provide a voter statement of at most one-hundred (100) words in length, in accordance with section 8.0.6.
    1. For the party calling the referendum, this statement is limited in content to specifying how the Class Representative has neglected their duties as specified in [Bylaw 7 Section 3.0.4](bylaw-7.md). This statement must be provided at the same time as the referendum is called.
    1. For the Class Representative in question, this statement is limited in content to rebutting the calling party's statement and/or otherwise defending their conduct. This statement must be provided to the CRO at least twenty-four (24) hours before the start of the voting period.
    1. If approved by the CRO as compliant with the above rules, these voter statements will be displayed alongside the referendum question when it is presented to voters.
@@ -328,11 +334,11 @@ subtitle: The Elections Bylaw
 1. Such a referendum which receives votes from at least 5% of Members in the constituency in question, of which a simple majority are in favor, shall lead to the Class Representative being recalled. Otherwise, the referendum fails.
 
 ## Referenda to Recall a Board Representative
-1. A referendum to recall a Member of the Board of Directors, except Officers, for reason of breaching the standard of conduct in [Bylaw 1 section 4.11.3](bylaw-1.md) must be called by a simple majority vote at a Board of Directors Meeting.
+1. A referendum to recall a Board Representative, as defined in [Bylaw 1 section 4.1](bylaw-1.md), for reason of breaching the standard of conduct in [Bylaw 1 section 4.11.3](bylaw-1.md) must be called by a simple majority vote at a Board of Directors Meeting.
 1. The question text of such a referendum shall be: "Do you support recalling [name] from their position as [constituency] Board Representative?" where "[name]" is the name of the Board Representative in question and "[constituency]" is the constituency they represent (e.g. "At-Large", "First Year").
 1. The voting period for such a referendum shall begin at most eleven (11) business days after it is called, at the CRO's discretion, and shall last at least three (3) days. If possible within these constraints, the voting period shall be aligned with the voting period of any other ongoing election cycle.
 1. There shall be no campaigning for such a referendum. Campaigning in any form by either the party calling the referendum or the Board Representative in question, beyond the voter statements outlined below, will result in a warning to the campaigning party, in accordance with Section 9.1.
-1. Both the party calling such a referendum and the Board Representative in question may provide a voter statement of at most one-hundred (100) words in length, in accordance with section 8.0.7.
+1. Both the party calling such a referendum and the Board Representative in question may provide a voter statement of at most one-hundred (100) words in length, in accordance with section 8.0.6.
    1. For the party calling the referendum, this statement is limited in content to specifying how the Board Representative has breached the standard of conduct in [Bylaw 1 section 4.11.3](bylaw-1.md). This statement must be provided at the same time as the referendum is called.
    1. For the Board Representative in question, this statement is limited in content to rebutting the calling party's statement and/or otherwise defending their conduct. This statement must be provided to the CRO at least twenty-four (24) hours before the start of the voting period.
    1. If approved by the CRO as compliant with the above rules, these voter statements will be displayed alongside the referendum question when it is presented to voters.
@@ -361,13 +367,17 @@ subtitle: The Elections Bylaw
    1. The outgoing overseeing Officer;
    1. Two (2) Project Director(s), Internal Representative(s), or Discipline Club Chair(s).
 1. Unless otherwise specified in Bylaw 3, each Project Director Hiring Committee shall include all members from each bracket outlined in Sections 7.2.1.a through 7.2.1.c, and no more than two (2) members selected from Section 7.2.1.d.
-   1. If an insufficient number of members under Section 7.2.1.d are interested in sitting on the hiring committee, their place may be taken by Board Members or Officers as needed, at the discretion of the CRO.
+   1. At each interview, a quorum of >50% of Committee members must be present and able to speak/write during the interview. If there are two project directors, at least one director must be present for any given interview.
+   1. If an insufficient number of members under Section 7.2.1.d are interested in sitting on the hiring committee, their place may be taken by Board Representatives or Officers as needed, at the discretion of the CRO.
 1. Should the outgoing Officer be unable or unwilling to sit on the hiring committee as per Section 7.2.1.b, their place shall be filled in the following order of precedence:
    1. Any current Member who has previously served in that Officer position.
    1. Any Alumni Member who has previously served in that Officer position within the past 4 years.
    1. Any outgoing Project Director who served under the outgoing Officer.
    1. Any other outgoing Officer.
-   1. Members of the outgoing Board of Directors.
+   1. Outgoing Board Members.
+1. Nominees shall be informed of the members of the hiring committee at least twenty-four (24) hours before their interview.
+   1. Nominees and hiring committee members are responsible for reporting any conflicts of interest to the CRO.
+   1. Should there be a conflict of interest between any nominee and hiring committee member, the hiring committee member shall be replaced as per Section 7.2.3, at the discretion of the CRO.
 1. At the request of the hiring committee, the CRO may allow up to two (2) Members (including Alumni Members) specified by the hiring committee to participate as non-voting members of the committee.
 1. The hiring committee shall interview all nominees and minute each interview's questions and answers.
    1. If requested by the candidate, one member of the hiring committee must record the entire interview. The candidate may choose to make this recording available to the Board of Directors.
@@ -378,10 +388,10 @@ subtitle: The Elections Bylaw
    1. Should the number of candidates elected be greater than zero, but less than the number of positions available, nominations shall be reopened only for the unfilled positions, unless the smaller number of candidates elected is permitted for the position as specified in [Bylaw 2](bylaw-2.md). For example, [Bylaw 2](bylaw-2.md) permits only one (1) Orientation Chair to be elected, despite two (2) positions being available.
 
 ## Board Meeting
-1. Each recommendation report shall be circulated to Members of the Board of Directors and candidates as soon as is reasonably possible.
+1. Each recommendation report shall be circulated to Members of the Board of Directors, Members of the Hiring Committee, and candidates as soon as is reasonably possible.
    1. Any recommendation report must be available to the parties listed in Section 7.3.1 at least 48 hours prior to the scheduled start of the Board of Directors meeting ratifying it.
    1. At least one member of each hiring committee must be present at the Board meeting to motivate their respective recommendation report and answer questions from the Board.
-   1. Any position for which the associated recommendation report was not presented to the Board in accordance with the requirements in Section 7.3.1.a and Section 7.3.1.b shall not be elected, and the motion to elect the position shall be tabled until the next meeting of the Board of Directors.
+   1. Any position for which the associated recommendation report was not presented to the Board in accordance with the requirements in Section 7.3.1.a and Section 7.3.1.b may be tabled until the next meeting of the Board of Directors at the discretion of the CRO.
 1. The Board of Directors shall be responsible for electing each Project Director in accordance with the recommendation (or recommendations) provided by the hiring committee.
 1. Any Member may move to amend the recommendation for any particular Project Director in accordance with the Bylaws and Rules of Order governing the consideration of motions at a Board of Directors meeting.
 1. If a recommendation report supports more candidates than positions, or is undecided, then the motion to adopt the recommendation shall be treated as a motion to conduct elections in accordance with [section 0.6.3 onwards of the Standing Rules of Order](standing-rules.md).
@@ -403,21 +413,20 @@ subtitle: The Elections Bylaw
 
 ## General
 1. Campaigning activities are allowed solely during the Campaign Period and may only be done by a candidate.
-1. All campaign materials must prominently display the following text: "vote.skule.ca".
 1. Candidates are limited to zero dollars ($0) in campaign expenses.
    1. Tools and resources used to create the content outlined in section 8.1, section 8.2, and section 8.6 are not counted towards a candidate's campaign spending.
-   1. A printing budget may be determined at the discretion of the CRO in the case that a candidate  does not have a printing quota or has exhausted their printing quota with the Engineering Computing Facility (ECF).
+   1. A printing budget may be determined at the discretion of the CRO in the case that a candidate does not have a printing quota or has exhausted their printing quota with the Engineering Computing Facility (ECF).
    1. Objects used or distributed in relation to a campaign will be judged at reasonable market value, at the discretion of the CRO, and not at the value for which they were obtained. For example, distribution of	freely obtained food in a campaign context would result in a breach of this rule.
 1. The campaigning rules outlined in this Chapter apply to all positions identified in this Bylaw, with the exception of the following, for which candidates may not campaign:
    1. Project Directors (including the Orientation Chair);
    1. Neutral Officers
-1. The CRO shall maintain a document containing voter statements and platforms of all candidates who wish to submit such materials. The permitted lengths of each shall be announced prior to the beginning of the nomination period. The maximum length of a platform shall be left to the discretion of the CRO, however the maximum shall be no less than five-hundred (500) words.
+1. The CRO shall produce a document containing voter statements and platforms of all candidates. The permitted lengths of each shall be stated in the nomination package. The maximum length of a platform shall be left to the discretion of the CRO.
    1. Notwithstanding section 8.2, the link to this document, as well as statements which would be permitted under section 8.7, may be posted on any social media platform during the election period.
 1. Should campaigning activities occur for which permissibility is not explicitly addressed under the Bylaws of the Society, and the CRO judges these activities to violate the spirit of this Bylaw, the CRO may rule such conduct to be prohibited.
    1. Any ruling under this section must be immediately communicated by the CRO to the Speaker, who may approve or overturn the CRO’s ruling
       1. Should a ruling be overturned by the Speaker, it is deemed null and void
       1. Should the Speaker take no action on the ruling within 24 hours, it shall be deemed to be approved.
-   1. These rulings must be communicated to all candidates, and posted publicly on Skule Digest, if approved by the Speaker.
+   1. These rulings must be communicated to candidates involved, and posted publicly on Skule™ Digest, if approved by the Speaker.
    1. A candidate shall not be punished for conduct prohibited under these rulings unless said conduct occurs after the ruling has been made publicly known.
 1. All candidates, regardless of whether they are running opposed or unopposed, must establish a campaign presence and engage with voters.
    1. All candidates must submit a voter statement, at an absolute minimum of one (1) word. This statement must be submitted to the CRO through a means specified by the Nomination Package, which is due at the close of the Nomination Period.
@@ -425,13 +434,12 @@ subtitle: The Elections Bylaw
 
 ## Materials
 1. For Officer candidates, posters are limited to twenty-five (25) letter-size pages or the equivalent area using letter and tabloid-size only.
-1. For Board of Director candidates, posters are limited to ten (10) letter-size pages or the equivalent area using letter and tabloid-size only.
+1. For Board of Director and Discipline Club Chair candidates, posters are limited to ten (10) letter-size pages or the equivalent area using letter and tabloid-size only.
 1. A candidate’s campaign for any position not encompassed in 8.1.1 and 8.1.2 is not allowed any posters.
-1. Posters shall be approved by the CRO and stamped by the Society.
+1. Posters shall be approved by the CRO and stamped by the Society. Locations of posters must be shared with the CRO.
 1. Posters shall not:
    1. Exceed the size of 2 letter-size pages;
-   1. Be placed on other posters;
-   1. Obstruct other notices while they are current;
+   1. Be placed on other posters or notices;
    1. Be clustered in groups of more than 2;
    1. Be posted in restrooms in any building;
    1. Be put up in computer labs, on tables or any glass surfaces;
@@ -457,7 +465,8 @@ subtitle: The Elections Bylaw
    1. Any additional criteria deemed necessary by the CRO.
       1. The CRO will disclose these requirements to all candidates at the All Candidates Meeting. Failure to adhere to undisclosed criteria will not be considered a penalizable offense.
 1. Any content posted in approved social media locations must satisfy all other applicable sections of Bylaw 3.
-1. Campaign material may not be reposted or shared by any other account, including the candidate’s personal account. It is the candidate’s responsibility to ensure their campaign material is not redistributed by any account that has not been approved by the CRO for that election period.
+1. Campaign material posted by candidates may not be reposted or shared by any other account, including the candidate's personal account. It is the candidate's responsibility to ensure their campaign material is not redistributed by any account that has not been approved by the CRO for that election period.
+   1. Campaign material posted by the CRO/ORO may be reposted by any account.
 1. All activity on campaign accounts must cease at the conclusion of the campaign period and remain inactive until the release of the election results. Following the announcement of results, candidates may use their campaign accounts at their discretion.
 1. The CRO shall be as permissible as is reasonable in their approval of campaign activities under this section.
    1. Should unforeseeable and extenuating circumstances require it, approval of social media campaigning activities may be revoked by the CRO at any time, at which point further campaigning activities must cease in the location(s) in question.
@@ -472,8 +481,9 @@ subtitle: The Elections Bylaw
 1. Endorsements by organizations or organization executives are not allowed; what constitutes an endorsement is at the discretion of the CRO.
 1. Candidates are not permitted to lead voters to believe they are endorsed by any club or organization.
 1. The following are examples of permitted endorsement:
-   1. The Toike Oike mocks you on their own initiative; and
-   1. Campus news outlets conduct interviews with candidates.
+   1. The Toike Oike mocks you on their own initiative;
+   1. Campus news outlets conduct interviews with candidates; and
+   1. Sharing previous involvement in clubs or organizations without implying endorsement.
 1. The following are examples of unauthorized endorsement:
    1. Ask the President of the Society for a mention during a meeting;
    1. Usage of any logo in a candidate's campaign material; and
@@ -492,8 +502,7 @@ subtitle: The Elections Bylaw
    1. A person may not serve as a Campaign Assistant for more than one candidate in the same election cycle.
 1. Campaign Assistants must be Members.
 1. Campaign Assistants may not be:
-   1. Members of the EngSoc Board of Directors
-   1. EngSoc Officers
+   1. EngSoc Board Members, including Officers
    1. UTSU Executives
    1. Candidates for positions for which Campaign Assistants are permitted in the same election cycle (e.g. elected positions)
    1. The incumbent in the role for which their candidate is running
@@ -520,7 +529,6 @@ subtitle: The Elections Bylaw
    1. Yelling;
    1. Playing loud music; and/or
    1. Creating a mess for cleaning staff.
-1. Candidates are not allowed to create any campaign videos.
 1. The official language of campaigning is English. Candidates wishing to use another language must supply an accurate and equivalent English translation, to be provided prior to the dissemination or delivery of the non-English material.
    1. Providing a false or misleading translation shall constitute a blatant breach of this rule.
 1. Campaigning messages and/or campaigning material may not be posted in group chats/servers whose original purpose of creation was not campaigning.
@@ -570,8 +578,8 @@ subtitle: The Elections Bylaw
 1. The Election Appeals Committee shall report to the Board of Directors all matters brought to them and any recommended action.
 1. The Election Appeals Committee's jurisdiction on any appeal shall be limited to the election(s) which the appeal concerns.
 1. The Election Appeals Committee (EAC) shall consider those arguments submitted to them by the Office of Returning Officers (ORO) and the appellant. Other relevant parties, as determined by the EAC, may be given reasonable opportunity to submit additional arguments and evidence.
-1. Any ruling of the Election Appeals Committee that upholds the ruling of the CRO in part or in full, or grants the requests of the appellant in part or in full shall be binding, unless opposed by a fourth-fifths majority vote of the Board, with at least a simple majority of the total membership of the Board voting to oppose. Members of the Election Appeals Committee and other members of the Board barred from voting by the Speaker will not be included in the total membership count.
-   1. In the event the four-fifths threshold falls below the simple majority of the total membership of the Board due to absence of members of the Board, the Speaker shall table the motion to a special meeting where a higher number of Board members may be present.
+1. Any ruling of the Election Appeals Committee that upholds the ruling of the CRO in part or in full, or grants the requests of the appellant in part or in full shall be binding, unless opposed by a fourth-fifths majority vote of the Board, with at least a simple majority of the total membership of the Board voting to oppose. Members of the Election Appeals Committee and other Directors of the Board barred from voting by the Speaker will not be included in the total membership count.
+   1. In the event the four-fifths threshold falls below the simple majority of the total membership of the Board due to absence of Directors of the Board, the Speaker shall table the motion to a special meeting where a higher number of Board members may be present.
 1. Any other ruling of the Election Appeals Committee shall be binding unless opposed by a regular motion of the Board
 1. Any recommendation of the Election Appeals Committee that does not pertain directly to the submitted Appeal, or any ruling beyond its jurisdiction shall not be binding.
 

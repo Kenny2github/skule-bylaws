@@ -1,5 +1,5 @@
 ---
-revdate: February 23, 2026
+revdate: July 23, 2026
 title: Bylaw 2
 pdf: Bylaw 2
 subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
@@ -46,7 +46,7 @@ subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
    1. a motion to convert that Directorship into a full Project Directorship, which shall be out of order if it does not include the requisite amendments to this Bylaw
    1. a motion to renew that Directorship as a Temporary Internal Directorship
    1. a discussion item to explain why none of the above motions were submitted
-1. During a discussion item under section 0.1.6.c, if a motion to convert or renew the Directorship is made, it shall be considered by the Board without requiring their consent.
+1. During a discussion item under section 0.1.5.c, if a motion to convert or renew the Directorship is made, it shall be considered by the Board without requiring their consent.
 
 ## Limited Purpose Directors
 1. Limited Purpose Director positions are unelected Project Director positions which may be created by the Board by resolution if the choice of Director(s) is determined by a process outside the Society's direct control (such as ESSCO conference chairs).
@@ -222,10 +222,6 @@ subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
    1. Sharing information regarding the CFES and the ESSCO with the Engineering Society and its members.
 1. The External Relations Director shall be overseen by the President.
 
-## Environmental Sustainability Director
-1. There shall be an Environmental Sustainability Director, who shall be responsible for working in collaboration with students, clubs, and faculty to assess and improve the environmental impact of EngSoc practices.
-1. The Environmental Sustainability Director shall be overseen by the President.
-
 ## Skule™ Patrol Directors
 1. There shall be two (2) Skule™ Patrol Directors responsible for:
    1. Recruiting, managing, coordinating, and training as applicable of Skule™ Patrol volunteers and Head Patrollers.
@@ -257,8 +253,10 @@ subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
    1. Industrial Discipline Club;
    1. Materials Science and Engineering Discipline Club;
    1. Mechanical Discipline Club;
-   1. Mineral Discipline Club; and
-   1. TrackOne Club.
+   1. Mineral Discipline Club;
+   1. TrackOne Club;
+   1. CALE Organizing Committee; and
+   1. OEC Organizing Committee.
 1. The following Ancillary Organizations will have the Vice-President Student Life as a point of contact for their activities that fall within the Society's jurisdiction:
    1. Engineering Athletics Association; and
    1. Skule Nite.
@@ -311,7 +309,7 @@ subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
 1. The Speaker shall attend a form of or equivalent of Equity Training and Sexual Violence Prevention and Response Training, before the November month of their term, provided by the University of Toronto and their resources or from an external organization deemed reliable at a meeting of the Board of Directors.
 1. The Speaker shall be elected according to the process outlined in [Bylaw 3, Section 5.3](bylaw-3.md)
    1. Following the adjournment of the April Board of Directors Meeting, the Speaker’s term of office shall end but they shall also automatically be appointed as the interim Speaker until the May Board of Directors Meeting.
-   1. The outgoing Speaker is required to call a Special Meeting of the Board of Directors where an alternative interim Speaker may be appointed, if such a request is made before the May Board of Directors Meeting by at least one (1) member of the incoming Board of Directors. The meeting must be called within seven (7) days of having received such a request.
+   1. The outgoing Speaker is required to call a Special Meeting of the Board of Directors where an alternative interim Speaker may be appointed, if such a request is made before the May Board of Directors Meeting by at least one (1) incoming Director of the Board. The meeting must be called within seven (7) days of having received such a request.
    1. The outgoing Speaker is required to inform all incoming Board members of the provisions of Section 3.1.5.b at least seven (7) days before the April Board of Directors Meeting.
 
 ## Chief Returning Officer

@@ -102,16 +102,22 @@ jobs:
           else
             SUBDIR=""
           fi
-          cp -rf build/* "./$SUBDIR"
-          rm -rf build
-          if [ "$REPO" == "$OWNER.github.io" ]; then
-            BASE="/"
+          if BASE="$(gh api "repos/$OWNER/$REPO/pages" --jq '.html_url' | sed -E 's#https?://[^/]+/?#/#g')"; then
+            : # BASE successfully detected
           else
-            BASE="/$REPO/"
+            echo 'WARNING: GitHub Pages has not yet been set up.'
+            echo 'WARNING: Falling back to naive (repo-name-based) path detection.'
+            if [ "$REPO" == "$OWNER.github.io" ]; then
+              BASE="/"
+            else
+              BASE="/$REPO/"
+            fi
           fi
-          for f in ./$SUBDIR/**/*.html; do
+          for f in build/**/*.html; do
             sed -i -re "s#(href|src)=\"/([^\"]*)\"#\1=\"$BASE$SUBDIR\2\"#" "$f"
           done
+          cp -rf build/* "./$SUBDIR"
+          rm -rf build
           if [ -z "$SUBDIR" ]; then
             git restore 'branch/*' || echo No branch directories
           fi

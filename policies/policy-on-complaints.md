@@ -1,5 +1,5 @@
 ---
-revdate: July 29, 2025 by the Board of Directors
+revdate: June 25, 2026 by the Board of Directors
 title: Policy Number "2013-02-01"
 pdf: policies/Policy-on-Complaints
 subtitle: Policy on Complaints
@@ -14,7 +14,7 @@ subtitle: Policy on Complaints
 1. It is a requirement under the University of Toronto Policy for Compulsory Non-Academic Incidental Fees that organizations receiving such fees have and adhere to an internal process for addressing complaints. Further, the existence and continual refinement of such a process is an organizational best practice that is in the interest of facilitating Member participation in the Society.
 
 ## Application
-1. This policy applies to any Member that holds a position within the Engineering Society, including without limitation, an Officer, Project Director, employee, member of the Board of Directors, member of a Project Director’s team, or member of an Affiliated Club acting in an official capacity for the club.
+1. This policy applies to any Member that holds a position within the Engineering Society, including without limitation, an Officer, Project Director, employee, Board Representative, member of a Project Director’s team, or member of an Affiliated Club acting in an official capacity for the club.
    1. This policy applies to any of the persons listed in section 0.2.1 for the entirety of their term, from when they take office of their position to when they are relieved of their position. This includes actions taken outside of their official capacity within their role.
 1. Complaints to which this policy applies include the misconduct of any Member that holds a position within the Engineering Society as defined in section 0.2.1. This policy defines an act of misconduct as any of the following, as interpreted by the investigator of the case:
    1. any offense outlined in section B1 of the University of Toronto Code of Student Conduct
@@ -48,7 +48,6 @@ subtitle: Policy on Complaints
    1. If the complaint concerns the conduct of one or more of the Orientation Chairs, the President will be the investigator.
    1. If the complaint concerns the conduct of one or more other members of the Orientation Committee, the Orientation Chair(s) will be the investigator.
    1. If the complaint concerns the conduct of any other person(s), the Ombudsperson will investigate the complaint as the investigator.
-   1. If the complaint concerns matters discussed in the [Sustainability Policy](sustainability-policy.md), the Ombudsperson shall seek the guidance of the Sustainability Director to determine the severity and resolution of the complaint at all points in the investigation process.
 1. The investigator shall immediately acknowledge receipt of the complaint to the complainant, unless there is no means of doing so.
 1. Within 7 days, the investigator shall advise the complainant on whether the complaint submitted is complete.
    1. A complaint will be considered complete if it:

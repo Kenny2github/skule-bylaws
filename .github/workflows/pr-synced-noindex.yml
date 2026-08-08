@@ -34,7 +34,7 @@ jobs:
           shopt -s globstar
           for file in **/*.md; do
             echo "$file"
-            [[ "$file" =~ .*/(README|index).md$ ]] && continue
+            [[ "$file" =~ .*(README|index).md$ ]] && continue
             git diff --diff-filter=ad "$BASE" HEAD --quiet -- "$file" && continue
             egrep '^revdate:' "$file" || continue
             git diff --diff-filter=ad -U1000000 "$BASE" HEAD -- "$file" | egrep '^[+-]revdate:'

@@ -1,5 +1,5 @@
 ---
-revdate: April 30, 2026 by the Executive Committee
+revdate: April 2, 2026 by the Executive Committee
 title: Policy Number "2002-08-03"
 pdf: policies/Policy on Awarding Society Awards
 subtitle: Policy on Awarding Society Awards
@@ -61,10 +61,10 @@ subtitle: Policy on Awarding Society Awards
 1. The award is given annually to the best Engineering Society Discipline Club. Criteria for evaluation include the quality and organization of their dinner/dance, level of student involvement in the club, quality and organization of the Iron Ring Party, contributions to the Engineering Society at large, and the quantity and quality of any other events undertaken by the club itself.
 
 ## Affiliated Club of the Year
-1. The award is given annually to the best Engineering Society Affiliated Club or Associated Entity. Criteria for evaluation includes the quality and organization of their events, amount of membership, inclusiveness of all Engineering Society members and their contribution to the improvement of the quality of student life.
+1. The award is given annually to the one to three (1-3) best Engineering Society Affiliated Clubs or Associated Entities. Criteria for evaluation includes the quality and organization of their events, amount of membership, inclusiveness of all Engineering Society members and their contribution to the improvement of the quality of student life.
 
-## Director of the Year
-1. Awarded annually to one to three (1-3) Engineering Society Project Directors deemed to have done the best job with their respective positions. Criteria for this evaluation of nominees for this award includes improvement over the work done in the previous year, the overall success and organization of their respective committee and their personal contribution to the development of the Engineering Society through involvement at meetings and other general contributions.
+## Directorship of the Year
+1. Awarded annually to one to three (1-3) Engineering Society Project Directorships deemed to have done the best job with their respective positions. Criteria for this evaluation of nominees for this award includes improvement over the work done in the previous year, the overall success and organization of their respective committee and their personal contribution to the development of the Engineering Society through involvement at meetings and other general contributions.
 
 ## Representative of the Year
 1. The award is given annually to one (1) Class Representative and one (1) Board of Directors or Faculty Council representative for outstanding dedication and effectiveness in representing their constituency to the Engineering Society, the Faculty and the broader University community.
