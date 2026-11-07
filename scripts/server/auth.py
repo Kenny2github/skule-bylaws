@@ -1,0 +1,40 @@
+import os
+
+import werkzeug.exceptions
+from flask import Blueprint, jsonify, session, redirect
+from authlib.integrations.flask_client import OAuth
+
+from .app import app
+
+oauth = OAuth(app)
+
+GOOGLE_TOKEN = 'google-token'
+
+bp = Blueprint('auth', __name__)
+
+@bp.route('/oauth')
+def oauth_start():
+    meta_url = 'https://accounts.google.com/.well-known/openid-configuration'
+    oauth.register(
+        name='google',
+        client_id=os.environ['GOOGLE_CLIENT_ID'],
+        client_secret=os.environ['GOOGLE_CLIENT_SECRET'],
+        server_metadata_url=meta_url,
+        client_kwargs={'scope': 'openid email profile'}
+    )
+    return oauth.google.authorize_redirect(os.environ['GOOGLE_REDIRECT_URI'])
+
+@bp.route('/oauth/callback')
+def oauth_callback():
+    session[GOOGLE_TOKEN] = oauth.google.authorize_access_token()
+    return redirect('/')
+
+def oauth_user():
+    user = session.get(GOOGLE_TOKEN)
+    if user is None:
+        raise werkzeug.exceptions.Unauthorized()
+    return user['userinfo']
+
+@bp.route('/oauth/verify')
+def oauth_verify():
+    return jsonify(oauth_user())
