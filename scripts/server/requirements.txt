@@ -1,3 +1,4 @@
 flask~=3.1
 authlib~=1.9
 requests~=2.34
+python-dotenv~=1.2
