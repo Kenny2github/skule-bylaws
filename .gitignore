@@ -5,6 +5,7 @@
 *.vs*
 !.vscode/
 *.fdb*
+*.db*
 *.fls
 *.synctex*
 *.xdv
