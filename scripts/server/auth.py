@@ -1,7 +1,7 @@
 import os
 
 import werkzeug.exceptions
-from flask import Blueprint, jsonify, session, redirect
+from flask import Blueprint, jsonify, request, session, redirect
 from authlib.integrations.flask_client import OAuth
 
 from .app import app
@@ -9,6 +9,7 @@ from .app import app
 oauth = OAuth(app)
 
 GOOGLE_TOKEN = 'google-token'
+RETURN_TO = 'return-to'
 
 bp = Blueprint('auth', __name__)
 
@@ -22,12 +23,13 @@ def oauth_start():
         server_metadata_url=meta_url,
         client_kwargs={'scope': 'openid email profile'}
     )
+    session[RETURN_TO] = request.args.get('return_to', '/')
     return oauth.google.authorize_redirect(os.environ['GOOGLE_REDIRECT_URI'])
 
 @bp.route('/oauth/callback')
 def oauth_callback():
     session[GOOGLE_TOKEN] = oauth.google.authorize_access_token()
-    return redirect('/')
+    return redirect(session.get(RETURN_TO, '/'))
 
 def oauth_user():
     user = session.get(GOOGLE_TOKEN)
