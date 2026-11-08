@@ -5,4 +5,4 @@ __all__ = [
     'app',
 ]
 
-app.register_blueprint(auth.bp, url_prefix='/api')
+app.register_blueprint(auth.bp)
