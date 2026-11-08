@@ -11,3 +11,14 @@ async function getDisplayName() {
 	}
 	return displayName;
 };
+
+async function parseMarkdown(md) {
+	const resp = await fetch('/api/parse', {
+		method: 'POST',
+		body: md,
+		headers: {'Content-Type': 'text/markdown'},
+	});
+	if (!resp.ok) throw resp;
+	const parsed = await resp.text();
+	return parsed;
+}
