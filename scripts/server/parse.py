@@ -1,7 +1,6 @@
 from werkzeug.exceptions import UnsupportedMediaType
 from flask import Blueprint, request
-import cmarkgfm
-from mds_to_html import crossref
+from mds_to_html import parse_lines
 
 bp = Blueprint('parse', __name__)
 
@@ -12,5 +11,4 @@ def parse():
             'text/markdown required'
         )
     text = request.data.decode('utf8')
-    return crossref(cmarkgfm.github_flavored_markdown_to_html(text)) \
-        .removeprefix('<p>').removesuffix('</p>')
+    return parse_lines(text)
