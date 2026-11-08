@@ -14,4 +14,4 @@ def proposals():
         raise BadRequest('Non-integer offset/limit')
     if limit > 50:
         raise BadRequest('Limit too large')
-    return jsonify(Proposal.list(offset, limit))
+    return jsonify(Proposal.page(offset, limit))

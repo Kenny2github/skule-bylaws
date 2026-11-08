@@ -55,7 +55,7 @@ class Proposal(db.Model, MappedAsDataclass):
         return list(db.session.execute(query).scalars())
 
     @classmethod
-    def list(cls, offset: int = 0, limit: int = 20) -> list[Self]:
+    def page(cls, offset: int = 0, limit: int = 20) -> list[Self]:
         return cls._exec(cls._base_query().offset(offset).limit(limit))
 
     @classmethod
