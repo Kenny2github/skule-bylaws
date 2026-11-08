@@ -59,57 +59,5 @@
 	{% endfor %}
 	</section>
 	<hr class="contents" />
-	{% for chapter in chapters %}
-		{% set c = loop.index0 %}
-		<h1 id="{{ c }}">{{ chapter.title }} <a title="Permalink to this chapter" href="#{{ c }}">#</a></h1>
-		{% for section in chapter.body %}
-			{% set s = loop.index0 %}
-			<h2 id="{{ c }}-{{ s }}">
-				<span class="find-handle">{{ c }}.{{ s }}</span>
-				<span class="permalink"><a title="Permalink to this section" href="#{{ c }}-{{ s }}">#</a></span>
-				{{ section.title }}
-			</h2>
-			<ol>
-			{% for subsection in section.body %}
-				{% set ss = loop.index0 %}
-				<li id="{{ c }}-{{ s }}-{{ ss }}">
-					<span class="find-handle">{{ c }}.{{ s }}.{{ ss + 1 }}</span>
-					<span class="permalink"><a title="Permalink to this section" href="#{{ c }}-{{ s }}-{{ ss }}">#</a></span>
-					{{ subsection.title }}
-					{% if subsection.body %}
-					<ol>
-					{% for subsubsection in subsection.body %}
-						{% set sss = loop.index0 %}
-						<li id="{{ c }}-{{ s }}-{{ ss }}-{{ sss }}">
-							<span class="find-handle">{{ c }}.{{ s }}.{{ ss + 1 }}.{{ 'abcdefghijklmnopqrstuvwxyz'[sss] }}</span>
-							<span class="permalink"><a title="Permalink to this section" href="#{{ c }}-{{ s }}-{{ ss }}-{{ sss }}">#</a></span>
-							{{ subsubsection.title }}
-							{% if subsubsection.body %}
-							<ol>
-								{% for subsubsubsection in subsubsection.body %}
-								{% set ssss = loop.index0 %}
-								<li id="{{ c }}-{{ s }}-{{ ss }}-{{ sss }}-{{ ssss }}">
-									<span class="find-handle">{{ c }}.{{ s }}.{{ ss + 1 }}.{{
-										'abcdefghijklmnopqrstuvwxyz'[sss]
-									}}.{{ [
-										'i', 'ii', 'iii', 'iv', 'v',
-										'vi', 'vii', 'viii', 'ix', 'x',
-										'xi', 'xii', 'xiii', 'xiv', 'xv',
-										'xvi', 'xvii', 'xviii', 'xix', 'xx',
-									][ssss] }}</span>
-									<span class="permalink"><a title="Permalink to this section" href="#{{ c }}-{{ s }}-{{ ss }}-{{ sss }}-{{ ssss }}">#</a></span>
-									{{ subsubsubsection.title }}
-								</li>
-								{% endfor %}
-							</ol>
-							{% endif %}
-						</li>
-					{% endfor %}
-					</ol>
-					{% endif %}
-				</li>
-			{% endfor %}
-			</ol>
-		{% endfor %}
-	{% endfor %}
+	{% include 'text.jinja2' %}
 </body>
