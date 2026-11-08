@@ -1,7 +1,7 @@
 import os
 
 from werkzeug.exceptions import Unauthorized
-from flask import Blueprint, jsonify, request, session, redirect
+from flask import Blueprint, jsonify, request, session, g, redirect
 from authlib.integrations.flask_client import OAuth
 
 from .app import app
@@ -40,3 +40,9 @@ def oauth_user():
 @bp.route('/oauth/verify')
 def oauth_verify():
     return jsonify(oauth_user())
+
+@bp.before_app_request
+def verify_auth():
+    if request.path.startswith('/oauth'):
+        return
+    g.user = oauth_user()
