@@ -46,7 +46,7 @@ def make_crossref(m: re.Match[str]) -> str:
     section = (m.group('chapter') or '') + (m.group('section') or '')
     href = crossref_href(section)
     if href is not None:
-        return f'<a href="{href}">{unquoted}</a>'
+        return f'[{unquoted}]({href})'
     else:
         return m.group(0)
 
@@ -55,6 +55,7 @@ def crossref(s: str) -> str:
 
 class Section(TypedDict):
     title: str
+    md: str
     body: list[Section]
 
 def clean_html(line: str) -> str:
@@ -76,84 +77,138 @@ def innerHTML(e: etree._Element) -> str:
                    if c.tag != 'ol').decode()
     ).strip()
 
-def parse_error(html: str, element: etree._Element, expected: str, md: str) -> Never:
-    lines = html.splitlines()
-    msg = f'Unexpected {element.tag} at line {element.sourceline} of HTML ' \
-        f'(expected {expected}, or {md} in Markdown):\n'
-    c = len('ValueError: ') - 2
-    if element.sourceline - 2 >= 0:
-        msg += f'{" "*c}  {lines[element.sourceline - 2]}\n'
-    msg += f'{" "*c}! {lines[element.sourceline - 1]}\n'
-    if element.sourceline < len(lines):
-        msg += f'{" "*c}  {lines[element.sourceline]}\n'
-    raise ValueError(msg.strip())
+def parse_error(lineno: int, line: str, expected: str) -> Never:
+    msg = f'Expected {expected} at line {lineno} of Markdown, got:\n'
+    c = len('ValueError: ')
+    msg += ' ' * c + line
+    raise ValueError(msg.strip()) from None
 
-def parse(html: str) -> list[Section]:
-    chapters: list[Section] = []
-    stack: list[list[Section]] = [chapters]
-
-    try:
-        root = etree.fromstring(f'<body>{html}</body>')
-    except etree.XMLSyntaxError as e:
-        raise ValueError('Invalid HTML output, likely due to invalid Markdown input') from e
-
-    while elems := root.cssselect('a a'):
-        for elem in elems:
-            elem.tag = 'span'
-            elem.attrib.pop('href', '')
-
-    for elem in root.cssselect('a[href*=".md"]'):
-        href = elem.attrib.get('href', '').replace('.md', '.html')
-        m = re.search(REF_RE, innerHTML(elem), flags=re.I)
-        if m is None:
-            elem.attrib['href'] = href
-            continue
-        frag = crossref_href((m.group('chapter') or '') + (m.group('section') or ''))
+def parse_line(md: str) -> str:
+    # "Refer to [Bylaw 3, section 1.0](bylaw-3.md)
+    #  for [an example](https://example.com)"
+    # -> "Refer to []() for []()"
+    # -> "... [Bylaw 3, section 1.0](bylaw-3.md#1-0) ..."
+    links: list[str] = []
+    link_re = re.compile(r'\[([^]]+)\]\(([^)]+)\)')
+    sentinel = '[]()'
+    def handle_link(m: re.Match[str]) -> str:
+        href = m.group(2).split('#', 1)[0]
+        if not href.endswith('.md') or re.search(r'^[a-z]*://', href):
+            links.append(m.group(0))
+            return sentinel
+        ref = re.search(REF_RE, m.group(1), flags=re.I)
+        if ref is None:
+            links.append(m.group(0))
+            return sentinel
+        section = (ref.group('chapter') or '') + (ref.group('section') or '')
+        frag = crossref_href(section)
         if frag is None:
-            elem.attrib['href'] = href
-            continue
-        elem.attrib['href'] = f'{href.split('#', 1)[0]}{frag}'
+            links.append(m.group(0))
+            return sentinel
+        href += frag
+        links.append(f'[{m.group(1)}]({href})')
+        return sentinel
+    md = re.sub(link_re, handle_link, md)
+    md = crossref(md)
+    links.reverse()
+    md = re.sub(re.escape(sentinel), lambda _: links.pop(), md)
+    # now produce html
+    html = cmarkgfm.github_flavored_markdown_to_html(md)
+    root = etree.fromstring(html)
+    for elem in root.cssselect('a[href*=".md"]'):
+        href = elem.attrib.get('href', '')
+        elem.attrib['href'] = href.replace('.md', '.html')
+    # should return root for h1/h2, and first child of root for li
+    return innerHTML(root.cssselect('h1, h2, li')[0])
 
-    for element in root.cssselect('h1, h2, body > ol'):
-        # pprint(element, sort_dicts=False, stream=sys.stderr)
-        if len(stack) == 1:
-            if element.tag != 'h1':
-                parse_error(html, element, 'h1', '#')
-            stack[-1].append({'title': innerHTML(element), 'body': []})
-            stack.append(stack[-1][-1]['body'])
-        elif len(stack) == 2:
-            if element.tag == 'h1':
-                stack.pop()
-            elif element.tag != 'h2':
-                parse_error(html, element, 'h2', '##')
-            stack[-1].append({'title': innerHTML(element), 'body': []})
-            stack.append(stack[-1][-1]['body'])
-        elif len(stack) == 3:
-            if element.tag in 'h1 h2':
-                stack.pop()
-                if element.tag == 'h1':
-                    stack.pop()
-                stack[-1].append({'title': innerHTML(element), 'body': []})
-                stack.append(stack[-1][-1]['body'])
-                continue
-            if element.tag != 'ol':
-                parse_error(html, element, 'ol', '1.')
-            for li in element.iterchildren('li'):
-                stack[-1].append({'title': innerHTML(li), 'body': []})
-                for ol in li.iterchildren('ol'):
-                    stack.append(stack[-1][-1]['body'])
-                    for li in ol.iterchildren('li'):
-                        stack[-1].append({'title': innerHTML(li), 'body': []})
-                        for ol in li.iterchildren('ol'):
-                            stack.append(stack[-1][-1]['body'])
-                            for li in ol.iterchildren('li'):
-                                stack[-1].append({'title': innerHTML(li), 'body': []})
-                                # max depth supported by bylaws
-                            stack.pop()
-                    stack.pop()
+def parse_lines(md: str) -> str:
+    first, *rest = md.splitlines()
+    # construct:
+    # 1. xyz
+    #    abc
+    md = '1. ' + first + ''.join('\n   ' + line for line in rest)
+    return parse_line(md)
 
-    # pprint(chapters, sort_dicts=False, stream=sys.stderr)
-    return chapters
+def process_body_line(lineno: int, line: str, stack: list[list[Section]], indents: list[str]) -> None:
+    assert len(stack) > 0
+    def append():
+        nonlocal stack, line, md
+        stack[-1].append({
+            'title': parse_lines(md) if len(stack) > 2 else parse_line(line),
+            'md': md.strip(), 'body': []
+        })
+    def push():
+        nonlocal stack
+        stack.append(stack[-1][-1]['body'])
+    if len(stack) == 1:
+        # inside body: we expect to advance into h1
+        try:
+            _, md = re.split(r'^#(?!#)\s*', line, maxsplit=1)
+        except ValueError:
+            parse_error(lineno, line, '#')
+        append()
+        push()
+    elif len(stack) == 2:
+        # inside h1: we expect to advance into h2, or
+        # complete the current h1 and start a new one
+        try:
+            _, h, md = re.split(r'^(#{1,2})(?!#)\s*', line, maxsplit=1)
+        except ValueError:
+            parse_error(lineno, line, '# or ##')
+        if h == '#':
+            # complete the current h1
+            stack.pop()
+        append()
+        push()
+    else: # len(stack) > 2
+        # inside h2 or ol li: we expect to add text to the current
+        # li, add a new li, advance into a new ol, or complete
+        # the current ol/h2/h1 and start a new one
+        try:
+            _, prefix, md = re.split(r'^(#{1,2}|\s*\d+\.|\s*)(?!#)\s*', line, maxsplit=1)
+        except ValueError:
+            parse_error(lineno, line, '#, ##, 1., or an indented line')
+        if '#' in prefix: # case 1: heading
+            # complete the current h2
+            stack[2:] = []
+            indents[1:] = [] # reset all indents
+            if prefix == '#':
+                # complete the current h1
+                stack.pop()
+            append()
+            push()
+            return
+        if not prefix.strip(): # case 3: continued li
+            if len(stack) <= 2:
+                parse_error(lineno, line, '"1." before an unprefixed line')
+            # note that even this is permissible, apparently:
+            # 1. a
+            #    1. b
+            # c
+            # (parses as {a, {b\nc}})
+            # add text to the current li
+            stack[-1][-1]['md'] += '\n' + md.strip()
+            stack[-1][-1]['title'] = parse_lines(stack[-1][-1]['md'])
+            return
+        # case 2: new li or ol
+        indent, _ = re.split(r'\d+\.', line, maxsplit=1)
+        assert not indent.strip()
+        if indent == indents[-1]: # new li, not ol
+            append()
+        elif indent.startswith(indents[-1]): # advance into a new ol
+            push()
+            append()
+            indents.append(indent)
+        else: # complete one or more ol's, then new li
+            old_indents = indents[:]
+            while indents and indent != indents[-1]:
+                indents.pop()
+                stack.pop()
+            # since indents starts as [''], if it becomes empty that can only
+            # be because an invalid indent was used
+            if not indents:
+                parse_error(lineno, line, f'indent matching one of {old_indents!r}')
+            append()
 
 def render(metadata: dict[str, str], chapters: list) -> str:
     env = jinja2.Environment(
@@ -166,17 +221,28 @@ def render(metadata: dict[str, str], chapters: list) -> str:
     return template.render(**metadata, chapters=chapters)
 
 def get_data(file: TextIO) -> tuple[dict[str, str], list[Section]]:
+    meta = StringIO()
     with file:
-        text = file.read()
-    try:
-        *_, meta, md = text.split('---')
-    except ValueError:
-        return {}, []
-    meta = yaml.safe_load(StringIO(meta))
-    html = crossref(cmarkgfm.github_flavored_markdown_to_html(
-        md, cmarkgfm.Options.CMARK_OPT_UNSAFE))
-    # pprint(html, sort_dicts=False, stream=sys.stderr)
-    chapters = parse(html)
+        state = 'awaiting-meta'
+        chapters: list[Section] = []
+        stack: list[list[Section]] = [chapters]
+        indents: list[str] = ['']
+        for lineno, line in enumerate(file, start=1):
+            if state == 'awaiting-meta':
+                if line.startswith('---'):
+                    state = 'awaiting-md'
+                continue
+            if state == 'awaiting-md':
+                if line.startswith('---'):
+                    state = 'md'
+                else:
+                    meta.write(line)
+                continue
+            if not line.strip():
+                continue
+            process_body_line(lineno, line, stack, indents)
+    meta.seek(0)
+    meta = yaml.safe_load(meta)
     return meta, chapters
 
 def main() -> None:
@@ -202,6 +268,7 @@ def main() -> None:
             open(outpath, 'w', encoding='utf8') as outfile
         ):
             meta, chapters = get_data(infile)
+            assert meta, f'Missing Markdown frontmatter in {filename}'
             print(render(meta, chapters), file=outfile)
         if 'index' in meta['pdf'].casefold():
             continue

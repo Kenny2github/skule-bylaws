@@ -1,9 +1,9 @@
 {% for chapter in chapters %}
 	{% set c = loop.index0 %}
-	<h1 id="{{ c }}">{{ chapter.title }} <a title="Permalink to this chapter" href="#{{ c }}">#</a></h1>
+	<h1 id="{{ c }}" data-md="{{ chapter.md | escape }}">{{ chapter.title }} <a title="Permalink to this chapter" href="#{{ c }}">#</a></h1>
 	{% for section in chapter.body %}
 		{% set s = loop.index0 %}
-		<h2 id="{{ c }}-{{ s }}">
+		<h2 id="{{ c }}-{{ s }}" data-md="{{ section.md | escape }}">
 			<span class="find-handle">{{ c }}.{{ s }}</span>
 			<span class="permalink"><a title="Permalink to this section" href="#{{ c }}-{{ s }}">#</a></span>
 			{{ section.title }}
@@ -11,7 +11,7 @@
 		<ol>
 		{% for subsection in section.body %}
 			{% set ss = loop.index0 %}
-			<li id="{{ c }}-{{ s }}-{{ ss }}">
+			<li id="{{ c }}-{{ s }}-{{ ss }}" data-md="{{ subsection.md | escape }}">
 				<span class="find-handle">{{ c }}.{{ s }}.{{ ss + 1 }}</span>
 				<span class="permalink"><a title="Permalink to this section" href="#{{ c }}-{{ s }}-{{ ss }}">#</a></span>
 				{{ subsection.title }}
@@ -19,15 +19,15 @@
 				<ol>
 				{% for subsubsection in subsection.body %}
 					{% set sss = loop.index0 %}
-					<li id="{{ c }}-{{ s }}-{{ ss }}-{{ sss }}">
+					<li id="{{ c }}-{{ s }}-{{ ss }}-{{ sss }}" data-md="{{ subsubsection.md | escape }}">
 						<span class="find-handle">{{ c }}.{{ s }}.{{ ss + 1 }}.{{ 'abcdefghijklmnopqrstuvwxyz'[sss] }}</span>
 						<span class="permalink"><a title="Permalink to this section" href="#{{ c }}-{{ s }}-{{ ss }}-{{ sss }}">#</a></span>
 						{{ subsubsection.title }}
 						{% if subsubsection.body %}
 						<ol>
-							{% for subsubsubsection in subsubsection.body %}
+						{% for subsubsubsection in subsubsection.body %}
 							{% set ssss = loop.index0 %}
-							<li id="{{ c }}-{{ s }}-{{ ss }}-{{ sss }}-{{ ssss }}">
+							<li id="{{ c }}-{{ s }}-{{ ss }}-{{ sss }}-{{ ssss }}" data-md="{{ subsubsubsection.md | escape }}">
 								<span class="find-handle">{{ c }}.{{ s }}.{{ ss + 1 }}.{{
 									'abcdefghijklmnopqrstuvwxyz'[sss]
 								}}.{{ [

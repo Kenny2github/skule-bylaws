@@ -218,7 +218,7 @@ subtitle: The Directors, Associated Entities, and Neutral Officers Bylaw
 1. There shall be an External Relations Director, who shall be responsible for:
    1. Representing the Society in the course of its membership of the Engineering Students Societies’ Council of Ontario (“ESSCO”) and the Canadian Federation of Engineering Students (“CFES”); and
    1. Facilitating communication for the Society and its members with undergraduate engineering societies of other universities, the ESSCO, the CFES, and other appropriate organizations; and
-Organizing the conference delegation selection process to select delegates to attend and represent the Society at conferences held by the ESSCO and the CFES; and 
+   1. Organizing the conference delegation selection process to select delegates to attend and represent the Society at conferences held by the ESSCO and the CFES; and
    1. Exploring other external opportunities for the Society to participate in, and facilitating contact with other student and professional institutions.
 1. The External Relations Director must attend meetings held by the ESSCO and the CFES at which motions impacting the Society are discussed. Should they be unable to attend, they must assign a proxy, preferably another Member of the Society with sufficient background knowledge, in a timely manner.
 1. The External Relations Director shall share updates to and gather input from the Society on motions presented at the ESSCO or the CFES council meetings in any manner necessary to best represent the Society and its interests.
