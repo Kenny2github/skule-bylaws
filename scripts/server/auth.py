@@ -1,6 +1,6 @@
 import os
 
-import werkzeug.exceptions
+from werkzeug.exceptions import Unauthorized
 from flask import Blueprint, jsonify, request, session, redirect
 from authlib.integrations.flask_client import OAuth
 
@@ -34,7 +34,7 @@ def oauth_callback():
 def oauth_user():
     user = session.get(GOOGLE_TOKEN)
     if user is None:
-        raise werkzeug.exceptions.Unauthorized()
+        raise Unauthorized()
     return user['userinfo']
 
 @bp.route('/oauth/verify')
