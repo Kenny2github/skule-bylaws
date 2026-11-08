@@ -22,3 +22,5 @@ async function parseMarkdown(md) {
 	const parsed = await resp.text();
 	return parsed;
 }
+
+getDisplayName();
