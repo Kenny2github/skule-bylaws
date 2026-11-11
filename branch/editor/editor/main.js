@@ -28,7 +28,10 @@ function appendProposal(proposal) {
 	const passed = document.getElementById('passed');
 	const row = document.createElement('tr');
 	const td = document.createElement('td');
-	td.innerText = proposal.summary;
+	const a = document.createElement('a');
+	a.innerText = proposal.summary;
+	a.href = '?proposal=' . encodeURIComponent(proposal.id);
+	td.appendChild(a);
 	row.appendChild(td);
 	if (proposal.adopted === null) {
 		pending.appendChild(row);
