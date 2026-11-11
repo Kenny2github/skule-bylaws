@@ -10,7 +10,7 @@ from flask_sqlalchemy_lite import SQLAlchemy
 from sqlalchemy import ForeignKey, PickleType, select
 from sqlalchemy.orm import (
     DeclarativeBase, Mapped, MappedAsDataclass,
-    mapped_column, composite
+    mapped_column
 )
 
 from mds_to_html import Section
@@ -92,6 +92,15 @@ class Ref(NamedTuple):
             self.subsubsection, self.subsubsubsection
         )
 
+    def __str__(self) -> str:
+        return '-'.join(str(i) for i in self if i >= 0)
+
+    @classmethod
+    def from_frag(cls, frag: str) -> Self:
+        parts = list(map(int, frag.split('-')))
+        parts[len(parts)-5:] = [-1] * (5 - len(parts))
+        return cls(*parts)
+
 class AmendmentOp(Enum):
     INSERT = 'insert'
     DELETE = 'delete'
@@ -105,9 +114,9 @@ class Amendment(Model):
     # the section reference for the ORIGINAL section.
     # INSERT ops insert *after* this section
     # REPLACE/DELETE ops replace/delete this section
-    ref: Mapped[Ref] = composite(Ref, *Ref._fields)
+    ref: Mapped[str] = mapped_column(unique=False)
     # technically redundant, but useful
-    lineno: Mapped[int] = mapped_column(unique=True)
+    lineno: Mapped[int] = mapped_column(unique=False)
     op: Mapped[AmendmentOp] = mapped_column(unique=False)
     # None for DELETE ops
     content: Mapped[list[Section] | None] = mapped_column(PickleType, unique=False)
@@ -117,7 +126,7 @@ class Amendment(Model):
         cls, proposal: Proposal, ref: Ref, lineno: int,
         op: AmendmentOp, section: list[Section] | None
     ) -> Self:
-        self = cls(proposal.id, ref, lineno, op, section)
+        self = cls(proposal.id, str(ref), lineno, op, section)
         with xaction() as s:
             s.add(self)
         return self
