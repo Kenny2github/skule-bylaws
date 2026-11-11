@@ -3,13 +3,17 @@ from contextlib import contextmanager
 from datetime import date
 from typing import Self
 
-from werkzeug.exceptions import Forbidden
-from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.orm import Mapped, MappedAsDataclass, mapped_column
+from werkzeug.exceptions import Forbidden, NotFound
+from flask_sqlalchemy_lite import SQLAlchemy
+from sqlalchemy import select
+from sqlalchemy.orm import (
+    DeclarativeBase, Mapped, MappedAsDataclass,
+    mapped_column
+)
 
 from .app import app
 
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DB_URI']
+app.config['SQLALCHEMY_ENGINES'] = {'default': os.environ['DB_URI']}
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
@@ -23,7 +27,12 @@ def xaction():
         db.session.rollback()
         raise
 
-class Proposal(db.Model, MappedAsDataclass):
+class Model(DeclarativeBase, MappedAsDataclass):
+    pass
+
+class Proposal(Model):
+    __tablename__ = 'proposals'
+
     id: Mapped[int] = mapped_column(primary_key=True, init=False)
     summary: Mapped[str] = mapped_column(unique=False)
     adopted: Mapped[date | None] = mapped_column(default=None, unique=False)
@@ -40,8 +49,11 @@ class Proposal(db.Model, MappedAsDataclass):
         return self
 
     @classmethod
-    def get(cls, id: int) -> Self:
-        return db.get_or_404(cls, id)
+    def get_or_404(cls, id: int) -> Self:
+        self = db.session.get(cls, id)
+        if self is None:
+            raise NotFound()
+        return self
 
     def delete(self) -> None:
         with xaction() as s:
@@ -49,7 +61,7 @@ class Proposal(db.Model, MappedAsDataclass):
 
     @classmethod
     def _base_query(cls):
-        return db.select(cls).order_by(cls.adopted.desc().nulls_first())
+        return select(cls).order_by(cls.adopted.desc().nulls_first())
     @classmethod
     def _exec(cls, query) -> list[Self]:
         return list(db.session.execute(query).scalars())
@@ -62,7 +74,9 @@ class Proposal(db.Model, MappedAsDataclass):
     def since(cls, before: date, limit: int = 20) -> list[Self]:
         return cls._exec(cls._base_query().where(cls.adopted > before).limit(limit))
 
-class AllowedUser(db.Model, MappedAsDataclass):
+class AllowedUser(Model):
+    __tablename__ = 'allowed_users'
+
     email: Mapped[str] = mapped_column(primary_key=True)
 
     @classmethod
@@ -74,8 +88,8 @@ class AllowedUser(db.Model, MappedAsDataclass):
 
     @classmethod
     def has_or_403(cls, email: str) -> None:
-        if db.get(cls, email) is None:
+        if db.session.get(cls, email) is None:
             raise Forbidden('Not on allowed users list')
 
 with app.app_context():
-    db.create_all()
+    Model.metadata.create_all(db.engine)
