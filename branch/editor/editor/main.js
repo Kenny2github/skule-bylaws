@@ -23,4 +23,45 @@ async function parseMarkdown(md) {
 	return parsed;
 }
 
+function appendProposal(proposal) {
+	const pending = document.getElementById('pending');
+	const passed = document.getElementById('passed');
+	const row = document.createElement('tr');
+	const td = document.createElement('td');
+	td.innerText = proposal.summary;
+	row.appendChild(td);
+	if (proposal.adopted === null) {
+		pending.appendChild(row);
+	} else {
+		const td2 = document.createElement('td');
+		td2.innerText = proposal.adopted;
+		row.appendChild(td2);
+		passed.appendChild(row);
+	}
+}
+
+async function fetchProposals() {
+	const resp = await fetch('/api/proposals');
+	if (!resp.ok) throw resp;
+	for (const proposal of await resp.json()) {
+		appendProposal(proposal);
+	}
+}
+
+async function newProposal() {
+	const summary = prompt('Please provide a brief summary of your new proposal (e.g. "Update responsibilities of UTEK Director"). You can change this later.');
+	if (!summary) return;
+	if (summary.length > 512) {
+		alert('Summary too long (max 512 characters); try again');
+		return;
+	}
+	const resp = await fetch('/api/proposals', {
+		method: 'PUT',
+		body: summary,
+		headers: { 'Content-Type': 'text/plain' },
+	});
+	if (!resp.ok) throw resp;
+	appendProposal(await resp.json());
+}
+
 getDisplayName();
