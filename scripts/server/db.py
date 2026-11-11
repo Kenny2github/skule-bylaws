@@ -1,16 +1,19 @@
+from enum import Enum
 import os
 from contextlib import contextmanager
 from datetime import date
 import subprocess
-from typing import Self
+from typing import NamedTuple, Self
 
 from werkzeug.exceptions import Forbidden, NotFound
 from flask_sqlalchemy_lite import SQLAlchemy
-from sqlalchemy import select
+from sqlalchemy import ForeignKey, PickleType, select
 from sqlalchemy.orm import (
     DeclarativeBase, Mapped, MappedAsDataclass,
-    mapped_column
+    mapped_column, composite
 )
+
+from mds_to_html import Section
 
 from .app import app
 
@@ -75,6 +78,60 @@ class Proposal(Model):
     @classmethod
     def since(cls, before: date, limit: int = 20) -> list[Self]:
         return cls._exec(cls._base_query().where(cls.adopted > before).limit(limit))
+
+class Ref(NamedTuple):
+    chapter: int
+    section: int
+    subsection: int
+    subsubsection: int
+    subsubsubsection: int
+
+    def __composite_values__(self):
+        return (
+            self.chapter, self.section, self.subsection,
+            self.subsubsection, self.subsubsubsection
+        )
+
+class AmendmentOp(Enum):
+    INSERT = 'insert'
+    DELETE = 'delete'
+    REPLACE = 'replace'
+
+class Amendment(Model):
+    __tablename__ = 'amendments'
+
+    id: Mapped[int] = mapped_column(primary_key=True, init=False)
+    proposal: Mapped[int] = mapped_column(ForeignKey(Proposal.id))
+    # the section reference for the ORIGINAL section.
+    # INSERT ops insert *after* this section
+    # REPLACE/DELETE ops replace/delete this section
+    ref: Mapped[Ref] = composite(Ref, *Ref._fields)
+    # technically redundant, but useful
+    lineno: Mapped[int] = mapped_column(unique=True)
+    op: Mapped[AmendmentOp] = mapped_column(unique=False)
+    # None for DELETE ops
+    content: Mapped[list[Section] | None] = mapped_column(PickleType, unique=False)
+
+    @classmethod
+    def add(
+        cls, proposal: Proposal, ref: Ref, lineno: int,
+        op: AmendmentOp, section: list[Section] | None
+    ) -> Self:
+        self = cls(proposal.id, ref, lineno, op, section)
+        with xaction() as s:
+            s.add(self)
+        return self
+
+    @classmethod
+    def get_all(cls, proposal: Proposal) -> list[Self]:
+        return list(db.session.execute(
+            select(cls).order_by(cls.lineno.asc())
+            .where(cls.proposal == proposal.id)
+        ).scalars())
+
+    def delete(self) -> None:
+        with xaction() as s:
+            s.delete(self)
 
 class AllowedUser(Model):
     __tablename__ = 'allowed_users'

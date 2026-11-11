@@ -56,6 +56,7 @@ def crossref(s: str) -> str:
 class Section(TypedDict):
     title: str
     md: str
+    lineno: int
     body: list[Section]
 
 def clean_html(line: str) -> str:
@@ -135,7 +136,7 @@ def process_body_line(lineno: int, line: str, stack: list[list[Section]], indent
         nonlocal stack, line, md
         stack[-1].append({
             'title': parse_lines(md) if len(stack) > 2 else parse_line(line),
-            'md': md.strip(), 'body': []
+            'md': md.strip(), 'lineno': lineno, 'body': []
         })
     def push():
         nonlocal stack
