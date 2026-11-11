@@ -1,5 +1,8 @@
 import sys
+from dotenv import load_dotenv
 sys.path.append('scripts')
+load_dotenv()
+
 from .app import app
 from . import auth
 from . import parse
