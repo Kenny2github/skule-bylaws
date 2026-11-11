@@ -111,6 +111,7 @@ class Amendment(Model):
 
     id: Mapped[int] = mapped_column(primary_key=True, init=False)
     proposal: Mapped[int] = mapped_column(ForeignKey(Proposal.id))
+    path: Mapped[str] = mapped_column(unique=False)
     # the section reference for the ORIGINAL section.
     # INSERT ops insert *after* this section
     # REPLACE/DELETE ops replace/delete this section
@@ -123,10 +124,10 @@ class Amendment(Model):
 
     @classmethod
     def add(
-        cls, proposal: Proposal, ref: Ref, lineno: int,
+        cls, proposal: Proposal, path: str, ref: Ref, lineno: int,
         op: AmendmentOp, section: list[Section] | None
     ) -> Self:
-        self = cls(proposal.id, str(ref), lineno, op, section)
+        self = cls(proposal.id, path, str(ref), lineno, op, section)
         with xaction() as s:
             s.add(self)
         return self
@@ -134,8 +135,13 @@ class Amendment(Model):
     @classmethod
     def get_all(cls, proposal: Proposal) -> list[Self]:
         return list(db.session.execute(
-            select(cls).order_by(cls.lineno.asc())
-            .where(cls.proposal == proposal.id)
+            select(cls).where(cls.proposal == proposal.id)
+        ).scalars())
+    @classmethod
+    def get_for_file(cls, proposal: Proposal, path: str) -> list[Self]:
+        return list(db.session.execute(
+            select(cls).where(cls.proposal == proposal.id, cls.path == path)
+            .order_by(cls.lineno.desc())
         ).scalars())
 
     def delete(self) -> None:
