@@ -30,7 +30,7 @@ function appendProposal(proposal) {
 	const td = document.createElement('td');
 	const a = document.createElement('a');
 	a.innerText = proposal.summary;
-	a.href = '?proposal=' . encodeURIComponent(proposal.id);
+	a.href = '?proposal=' + encodeURIComponent(proposal.id);
 	td.appendChild(a);
 	row.appendChild(td);
 	if (proposal.adopted === null) {
