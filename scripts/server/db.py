@@ -60,6 +60,26 @@ class Proposal(Model):
             raise NotFound()
         return self
 
+    def user_update(self, summary: str | None = None) -> None:
+        with xaction():
+            if summary:
+                self.summary = summary
+
+    def update(
+        self, summary: str | None = None,
+        base_ref: str | None = None,
+        # NOTE: although `adopted` is nullable, it should never be
+        # updated from non-null to null. Thus this default is fine.
+        adopted: date | None = None,
+    ) -> None:
+        with xaction():
+            if summary:
+                self.summary = summary
+            if base_ref:
+                self.base_ref = base_ref
+            if adopted:
+                self.adopted = adopted
+
     def delete(self) -> None:
         with xaction() as s:
             s.delete(self)

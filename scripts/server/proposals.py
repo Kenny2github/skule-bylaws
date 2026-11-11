@@ -1,4 +1,7 @@
-from werkzeug.exceptions import BadRequest, UnsupportedMediaType, RequestEntityTooLarge
+from werkzeug.exceptions import (
+    BadRequest, Forbidden, UnsupportedMediaType,
+    RequestEntityTooLarge, UnprocessableEntity
+)
 from flask import Blueprint, request, jsonify
 
 from .db import Proposal
@@ -26,4 +29,16 @@ def new_proposal():
         raise RequestEntityTooLarge('max 512')
     summary = request.data.decode('utf8')
     proposal = Proposal.add(summary)
+    return jsonify(proposal)
+
+@bp.route('/proposals/<int:id>', methods=['PATCH'])
+def update_proposal(id: int):
+    updates = request.json
+    if not isinstance(updates, dict):
+        raise UnprocessableEntity(f'{type(updates)!r}')
+    proposal = Proposal.get_or_404(id)
+    try:
+        proposal.update(**updates)
+    except TypeError as exc:
+        raise Forbidden(str(exc)) from None
     return jsonify(proposal)
