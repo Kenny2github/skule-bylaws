@@ -1,6 +1,7 @@
 import os
 from contextlib import contextmanager
 from datetime import date
+import subprocess
 from typing import Self
 
 from werkzeug.exceptions import Forbidden, NotFound
@@ -35,15 +36,16 @@ class Proposal(Model):
 
     id: Mapped[int] = mapped_column(primary_key=True, init=False)
     summary: Mapped[str] = mapped_column(unique=False)
+    base_ref: Mapped[str] = mapped_column(unique=False)
     adopted: Mapped[date | None] = mapped_column(default=None, unique=False)
-
-    @property
-    def git_ref(self) -> str:
-        return f'proposal_{self.id}'
 
     @classmethod
     def add(cls, summary: str) -> Self:
-        self = cls(summary=summary)
+        content = subprocess.check_output(
+            ['git', 'rev-parse', 'master'],
+            stderr=subprocess.STDOUT, encoding='utf8'
+        )
+        self = cls(summary=summary, base_ref=content.strip())
         with xaction() as s:
             s.add(self)
         return self
