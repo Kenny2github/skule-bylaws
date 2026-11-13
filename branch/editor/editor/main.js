@@ -67,4 +67,28 @@ async function newProposal() {
 	appendProposal(await resp.json());
 }
 
-getDisplayName();
+async function parseFile(path) {
+	const resp = await fetch(`/api/master/${path}`);
+	if (!resp.ok) throw resp;
+	const { meta, html } = await resp.json();
+	document.body.innerHTML = `
+		<h1 class="cover-page">
+			${meta.title}<br/>${meta.subtitle}
+			<br/>University of Toronto Engineering Society
+		</h1>
+		${html}
+	`;
+}
+
+async function main() {
+	await getDisplayName();
+	const query = new URLSearchParams(window.location.search);
+	if (query.has('proposal')) {
+		proposalId = +query.get('proposal');
+		if (query.has('file')) {
+			await parseFile(query.get('file'));
+		}
+	}
+}
+
+main();
