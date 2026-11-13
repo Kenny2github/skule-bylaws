@@ -46,9 +46,10 @@ jinja_env = jinja2.Environment(
     keep_trailing_newline=True,
     autoescape=True,
 )
+text_template = jinja_env.get_template('text.jinja2')
+
 def parse_chapters(metadata: dict[str, str], chapters: list[Section]):
-    template = jinja_env.get_template('text.jinja2')
-    return template.render(**metadata, chapters=chapters)
+    return text_template.render(**metadata, chapters=chapters)
 
 @bp.route('/parse/<string:ref>/<path:path>')
 def parse_file(ref: str, path: str):
