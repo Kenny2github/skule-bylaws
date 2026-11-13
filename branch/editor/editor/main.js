@@ -12,6 +12,9 @@ async function getDisplayName() {
 	return displayName;
 };
 
+/**
+ * @param {string} md
+ */
 async function parseMarkdown(md) {
 	const resp = await fetch('/api/parse', {
 		method: 'POST',
@@ -39,10 +42,49 @@ async function newProposal() {
 	await hydrate();
 }
 
+/**
+ * @param {HTMLSpanElement} span
+ */
+function getSelectedPosition(span) {
+	const selection = window.getSelection();
+	if (selection.rangeCount === 0) return 0;
+	const range = selection.getRangeAt(0);
+	const preCaretRange = range.cloneRange();
+	preCaretRange.selectNodeContents(span);
+	preCaretRange.setEnd(range.endContainer, range.endOffset);
+	return preCaretRange.toString().length;
+}
+
+/**
+ * @param {HTMLSpanElement} span
+ */
+async function onSpanClick(span) {
+	const position = getSelectedPosition(span);
+	const textarea = document.createElement('textarea');
+	textarea.value = span.parentElement.dataset.md;
+	textarea.addEventListener('blur', () => onTextareaBlur(textarea));
+	span.replaceWith(textarea);
+	textarea.focus();
+	textarea.setSelectionRange(position, position);
+}
+/**
+ * @param {HTMLTextAreaElement} textarea
+ */
+async function onTextareaBlur(textarea) {
+	const html = await parseMarkdown(textarea.value);
+	textarea.parentElement.dataset.md = textarea.value;
+	const span = document.createElement('span');
+	span.className = 'title';
+	span.innerHTML = html;
+	span.addEventListener('click', () => onSpanClick(span));
+	textarea.replaceWith(span);
+}
+
 async function hydrate() {
 	const resp = await fetch('/api/editor' + window.location.search);
 	if (!resp.ok) throw resp;
 	document.body.innerHTML = await resp.text();
+	document.querySelectorAll('span.title').forEach(e => e.addEventListener('click', () => onSpanClick(e)));
 }
 
 async function main() {
