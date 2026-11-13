@@ -5,7 +5,7 @@ import subprocess
 
 import jinja2
 from werkzeug.exceptions import UnsupportedMediaType, Forbidden, NotFound
-from flask import Blueprint, request
+from flask import Blueprint, jsonify, request
 
 from mds_to_html import Section, get_data, parse_lines
 
@@ -53,4 +53,7 @@ def parse_chapters(metadata: dict[str, str], chapters: list[Section]):
 def parse_file(ref: str, path: str):
     validate_path(ref, path)
     metadata, chapters = get_chapters(ref, path)
-    return parse_chapters(metadata, chapters)
+    return jsonify(
+        meta=metadata,
+        html=parse_chapters(metadata, chapters)
+    )
