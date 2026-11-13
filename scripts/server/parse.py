@@ -44,6 +44,7 @@ jinja_env = jinja2.Environment(
     trim_blocks=True,
     lstrip_blocks=True,
     keep_trailing_newline=True,
+    autoescape=True,
 )
 def parse_chapters(metadata: dict[str, str], chapters: list[Section]):
     template = jinja_env.get_template('text.jinja2')

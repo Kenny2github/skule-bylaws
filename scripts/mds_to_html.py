@@ -217,6 +217,7 @@ def render(metadata: dict[str, str], chapters: list) -> str:
         trim_blocks=True,
         lstrip_blocks=True,
         keep_trailing_newline=True,
+        autoescape=True,
     )
     template = env.get_template('template.jinja2')
     return template.render(**metadata, chapters=chapters)

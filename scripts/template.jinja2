@@ -55,7 +55,7 @@
 	</div>
 	<section class="contents">
 	{% for chapter in chapters %}
-		<span></span> <a href="#{{ loop.index0 }}">{{ chapter.title }}</a> <span></span>
+		<span></span> <a href="#{{ loop.index0 }}">{{ chapter.title | safe }}</a> <span></span>
 	{% endfor %}
 	</section>
 	<hr class="contents" />
