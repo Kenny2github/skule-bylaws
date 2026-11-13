@@ -1,0 +1,11 @@
+<h1 class="cover-page">
+	Bylaw Amendment Proposal #{{ proposal.id }}
+	<br/>{{ proposal.summary }}
+	<br/>University of Toronto Engineering Society
+</h1>
+<hr class="contents" />
+<ul>
+{% for filename, amended in files.items() %}
+	<li><a href="?proposal={{ proposal.id }}&file={{ filename | urlencode }}">{{ filename }}</a>{{ ' (Amended)' if amended else '' }}</li>
+{% endfor %}
+</ul>

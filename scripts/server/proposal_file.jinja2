@@ -1,0 +1,18 @@
+<h1 class="cover-page">
+	Bylaw Amendment Proposal #{{ proposal.id }}
+	<br/>{{ proposal.summary }}
+</h1>
+<hr/>
+<h1>
+	<br/>{{ title }}
+	<br/>{{ subtitle }}
+	<br/>University of Toronto Engineering Society
+</h1>
+<p class="screen-only cover-page">Last Revision: {{ revdate }}</p>
+<section class="contents">
+{% for chapter in chapters %}
+	<span></span> <a href="#{{ loop.index0 }}">{{ chapter.title | safe }}</a> <span></span>
+{% endfor %}
+</section>
+<hr class="contents" />
+{% include 'text.jinja2' %}

@@ -1,0 +1,26 @@
+<h1 class="cover-page">
+	EngSoc Bylaws
+	<br/>Editor
+	<br/>University of Toronto Engineering Society
+</h1>
+<hr class="contents" />
+<h1>Pending changes</h1>
+<table class="edit-list">
+	<thead><tr><th>Summary</th></tr></thead>
+	<tbody id="pending">
+	{% for proposal in pending %}
+		<tr><td><a href="?proposal={{ proposal.id }}">{{ proposal.summary }}</a></td></tr>
+	{% endfor %}
+	</tbody>
+</table>
+<script type="text/javascript">fetchProposals();</script>
+<p><a href="javascript:newProposal()">Create a new proposal</a></p>
+<h1>Passed changes</h1>
+<table class="edit-list">
+	<thead><tr><th>Summary</th><th>Passed</th></tr></thead>
+	<tbody id="passed">
+	{% for proposal in passed %}
+		<tr><td><a href="?proposal={{ proposal.id }}">{{ proposal.summary }}</a></td><td>{{ proposal.adopted }}</td></tr>
+	{% endfor %}
+	</tbody>
+</table>

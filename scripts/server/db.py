@@ -163,6 +163,11 @@ class Amendment(Model):
             select(cls).where(cls.proposal == proposal.id, cls.path == path)
             .order_by(cls.lineno.desc())
         ).scalars())
+    @classmethod
+    def get_paths(cls, proposal: Proposal) -> list[str]:
+        return list(db.session.execute(
+            select(cls.path).where(cls.proposal == proposal.id)
+        ).scalars())
 
     def delete(self) -> None:
         with xaction() as s:
