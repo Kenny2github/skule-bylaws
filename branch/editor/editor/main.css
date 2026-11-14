@@ -13,6 +13,9 @@ h1 textarea {
 h2 textarea {
 	width: calc(100% - 60px - 1rem);
 }
+li textarea {
+	width: calc(100% - 1rem);
+}
 .add-section {
 	color: gray;
 	visibility: hidden;
@@ -22,8 +25,20 @@ h2 textarea {
 }
 .wrap-add .add-section {
 	position: relative;
-	left: 1rem;
+	left: .5rem;
 }
 h1 > .add-section {
 	margin-left: .5rem;
+}
+.arrows {
+	position: absolute;
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+}
+.arrows > span {
+	position: relative;
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
 }

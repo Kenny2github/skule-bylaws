@@ -81,10 +81,11 @@ async function onTextareaBlur(textarea) {
 }
 
 /**
- * @param {HTMLDivElement} div
+ * @param {HTMLSpanElement} span
+ * @param {"before" | "after" | "inside"} direction
  */
-function onAddSectionClick(div) {
-	console.log('TODO: add section at ' + div.dataset.at);
+function onAddSectionClick(span, direction) {
+	console.log(`TODO: add section ${direction} ${span.dataset.at}`);
 }
 
 async function hydrate() {
@@ -92,7 +93,22 @@ async function hydrate() {
 	if (!resp.ok) throw resp;
 	document.body.innerHTML = await resp.text();
 	document.querySelectorAll('span.title').forEach(e => e.addEventListener('click', () => onSpanClick(e)));
-	document.querySelectorAll('div.add-section').forEach(e => e.addEventListener('click', () => onAddSectionClick(e)));
+	document.querySelectorAll('.add-section').forEach(e => {
+		const container = document.createElement('span');
+		container.className = 'arrows';
+		const before = document.createElement('span');
+		const after = document.createElement('span');
+		const inside = document.createElement('span');
+		before.style.bottom = after.style.top = inside.style.left = '1rem';
+		before.innerText = '↑';
+		before.addEventListener('click', () => onAddSectionClick(e, 'before'));
+		after.innerText = '↓';
+		after.addEventListener('click', () => onAddSectionClick(e, 'after'));
+		inside.innerText = '→';
+		inside.addEventListener('click', () => onAddSectionClick(e, 'inside'));
+		container.append(before, after, inside);
+		e.append(container);
+	});
 }
 
 async function main() {
