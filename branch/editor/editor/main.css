@@ -21,3 +21,17 @@ span.title {
 	display: inline-block;
 	vertical-align: top;
 }
+.add-section {
+	color: gray;
+	display: none;
+}
+h1:hover + .add-section,
+h2:hover + .add-section,
+ol:hover + .add-section,
+ol:hover > .add-section,
+li:hover + .add-section {
+	display: block;
+}
+ol .add-section {
+	margin-left: 1rem;
+}

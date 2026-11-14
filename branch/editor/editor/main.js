@@ -58,7 +58,7 @@ function getSelectedPosition(span) {
 /**
  * @param {HTMLSpanElement} span
  */
-async function onSpanClick(span) {
+function onSpanClick(span) {
 	const position = getSelectedPosition(span);
 	const textarea = document.createElement('textarea');
 	textarea.value = span.parentElement.dataset.md;
@@ -80,11 +80,19 @@ async function onTextareaBlur(textarea) {
 	textarea.replaceWith(span);
 }
 
+/**
+ * @param {HTMLDivElement} div
+ */
+function onAddSectionClick(div) {
+	console.log('TODO: add section at ' + div.dataset.at);
+}
+
 async function hydrate() {
 	const resp = await fetch('/api/editor' + window.location.search);
 	if (!resp.ok) throw resp;
 	document.body.innerHTML = await resp.text();
 	document.querySelectorAll('span.title').forEach(e => e.addEventListener('click', () => onSpanClick(e)));
+	document.querySelectorAll('div.add-section').forEach(e => e.addEventListener('click', () => onAddSectionClick(e)));
 }
 
 async function main() {
