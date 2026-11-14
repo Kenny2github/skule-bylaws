@@ -30,6 +30,11 @@ li textarea {
 h1 > .add-section {
 	margin-left: .5rem;
 }
+h1:hover > .add-section,
+h2:hover > .wrap-add .add-section,
+ol li:hover > .wrap-add .add-section {
+	visibility: visible;
+}
 .arrows {
 	position: absolute;
 	display: inline-block;
