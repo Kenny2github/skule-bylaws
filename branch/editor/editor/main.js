@@ -82,7 +82,7 @@ async function onTextareaBlur(textarea) {
 
 /**
  * @param {HTMLSpanElement} span
- * @param {"before" | "after" | "inside"} direction
+ * @param {"before" | "after" | "inside" | "remove"} direction
  */
 function onAddSectionClick(span, direction) {
 	console.log(`TODO: add section ${direction} ${span.dataset.at}`);
@@ -96,10 +96,10 @@ async function hydrate() {
 	document.querySelectorAll('.add-section').forEach(e => {
 		const container = document.createElement('span');
 		container.className = 'arrows';
-		const before = document.createElement('button');
-		const after = document.createElement('button');
-		const inside = document.createElement('button');
-		const remove = document.createElement('button');
+		const before = document.createElement('span');
+		const after = document.createElement('span');
+		const inside = document.createElement('span');
+		const remove = document.createElement('span');
 		before.innerText = '⬆️';
 		before.addEventListener('click', () => onAddSectionClick(e, 'before'));
 		after.innerText = '⬇️';
@@ -107,6 +107,7 @@ async function hydrate() {
 		inside.innerText = '➡️';
 		inside.addEventListener('click', () => onAddSectionClick(e, 'inside'));
 		remove.innerText = '🗑️';
+		remove.addEventListener('click', () => onAddSectionClick(e, 'remove'));
 		container.append(before, after, inside, remove);
 		e.append(container);
 	});

@@ -8,13 +8,13 @@ textarea {
 	vertical-align: top;
 }
 h1 textarea {
-	width: calc(100% - 155px - 2rem);
+	width: calc(100% - 155px - 1rem);
 }
 h2 textarea {
-	width: calc(100% - 60px - 2rem);
+	width: calc(100% - 60px - 1rem);
 }
 li textarea {
-	width: calc(100% - 2rem);
+	width: calc(100% - 1rem);
 }
 .add-section {
 	color: gray;
@@ -39,12 +39,12 @@ ol li:hover:not(:has(ol:hover)) > .wrap-add .add-section {
 	position: absolute;
 	display: inline-block;
 	vertical-align: top;
-	width: 2rem;
-	height: 2rem;
 }
-.arrows > button {
+.arrows > span {
 	position: relative;
 	display: inline-block;
-	width: 1rem;
-	height: 1rem;
+}
+textarea + .add-section,
+textarea + .wrap-add .add-section {
+	display: none;
 }
