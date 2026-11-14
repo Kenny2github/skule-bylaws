@@ -2,22 +2,49 @@
 	display: initial;
 }
 textarea {
-	width: 100%;
+	display: inline-block;
 	resize: vertical;
 	min-height: 1em;
 	vertical-align: top;
 }
-h1[data-md], h2[data-md] {
-	display: flex;
-	flex-direction: row;
+h1 textarea {
+	width: calc(100% - 155px - 1rem);
 }
-h1[data-md] {
-	justify-content: center;
+h2 textarea {
+	width: calc(100% - 60px - 1rem);
 }
-h1[data-md]::before {
-	white-space: pre;
+li textarea {
+	width: calc(100% - 1rem);
 }
-span.title {
+.add-section {
+	color: gray;
+	visibility: hidden;
+}
+.wrap-add {
+	position: absolute;
+}
+.wrap-add .add-section {
+	position: relative;
+	left: .5rem;
+}
+h1 > .add-section {
+	margin-left: .5rem;
+}
+h1:hover > .add-section,
+h2:hover > .wrap-add .add-section,
+ol li:hover:not(:has(ol:hover)) > .wrap-add .add-section {
+	visibility: visible;
+}
+.arrows {
+	position: absolute;
 	display: inline-block;
 	vertical-align: top;
+}
+.arrows > span {
+	position: relative;
+	display: inline-block;
+}
+textarea + .add-section,
+textarea + .wrap-add .add-section {
+	display: none;
 }

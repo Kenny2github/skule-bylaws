@@ -58,7 +58,7 @@ function getSelectedPosition(span) {
 /**
  * @param {HTMLSpanElement} span
  */
-async function onSpanClick(span) {
+function onSpanClick(span) {
 	const position = getSelectedPosition(span);
 	const textarea = document.createElement('textarea');
 	textarea.value = span.parentElement.dataset.md;
@@ -80,11 +80,37 @@ async function onTextareaBlur(textarea) {
 	textarea.replaceWith(span);
 }
 
+/**
+ * @param {HTMLSpanElement} span
+ * @param {"before" | "after" | "inside" | "remove"} direction
+ */
+function onAddSectionClick(span, direction) {
+	console.log(`TODO: add section ${direction} ${span.dataset.at}`);
+}
+
 async function hydrate() {
 	const resp = await fetch('/api/editor' + window.location.search);
 	if (!resp.ok) throw resp;
 	document.body.innerHTML = await resp.text();
 	document.querySelectorAll('span.title').forEach(e => e.addEventListener('click', () => onSpanClick(e)));
+	document.querySelectorAll('.add-section').forEach(e => {
+		const container = document.createElement('span');
+		container.className = 'arrows';
+		const before = document.createElement('span');
+		const after = document.createElement('span');
+		const inside = document.createElement('span');
+		const remove = document.createElement('span');
+		before.innerText = '⬆️';
+		before.addEventListener('click', () => onAddSectionClick(e, 'before'));
+		after.innerText = '⬇️';
+		after.addEventListener('click', () => onAddSectionClick(e, 'after'));
+		inside.innerText = '➡️';
+		inside.addEventListener('click', () => onAddSectionClick(e, 'inside'));
+		remove.innerText = '🗑️';
+		remove.addEventListener('click', () => onAddSectionClick(e, 'remove'));
+		container.append(before, after, inside, remove);
+		e.append(container);
+	});
 }
 
 async function main() {

@@ -3,6 +3,9 @@
 	<h1 id="{{ c }}" data-md="{{ chapter.md }}">
 		<span class="title">{{ chapter.title | safe }}</span>
 		<a title="Permalink to this chapter" href="#{{ c }}">#</a>
+		{% if proposal %}
+		<span class="add-section" data-at="{{ c }}"></span>
+		{% endif %}
 	</h1>
 	{% for section in chapter.body %}
 		{% set s = loop.index0 %}
@@ -10,6 +13,9 @@
 			<span class="find-handle">{{ c }}.{{ s }}</span>
 			<span class="permalink"><a title="Permalink to this section" href="#{{ c }}-{{ s }}">#</a></span>
 			<span class="title">{{ section.title | safe }}</span>
+			{% if proposal %}
+			<span class="wrap-add"><span class="add-section" data-at="{{ c }}-{{ s }}"></span></span>
+			{% endif %}
 		</h2>
 		<ol>
 		{% for subsection in section.body %}
@@ -18,6 +24,9 @@
 				<span class="find-handle">{{ c }}.{{ s }}.{{ ss + 1 }}</span>
 				<span class="permalink"><a title="Permalink to this section" href="#{{ c }}-{{ s }}-{{ ss }}">#</a></span>
 				<span class="title">{{ subsection.title | safe }}</span>
+				{% if proposal %}
+				<span class="wrap-add"><span class="add-section" data-at="{{ c }}-{{ s }}-{{ ss }}"></span></span>
+				{% endif %}
 				{% if subsection.body %}
 				<ol>
 				{% for subsubsection in subsection.body %}
@@ -26,6 +35,9 @@
 						<span class="find-handle">{{ c }}.{{ s }}.{{ ss + 1 }}.{{ 'abcdefghijklmnopqrstuvwxyz'[sss] }}</span>
 						<span class="permalink"><a title="Permalink to this section" href="#{{ c }}-{{ s }}-{{ ss }}-{{ sss }}">#</a></span>
 						<span class="title">{{ subsubsection.title | safe }}</span>
+						{% if proposal %}
+						<span class="wrap-add"><span class="add-section" data-at="{{ c }}-{{ s }}-{{ ss }}-{{ sss }}"></span></span>
+						{% endif %}
 						{% if subsubsection.body %}
 						<ol>
 						{% for subsubsubsection in subsubsection.body %}
@@ -41,6 +53,9 @@
 								][ssss] }}</span>
 								<span class="permalink"><a title="Permalink to this section" href="#{{ c }}-{{ s }}-{{ ss }}-{{ sss }}-{{ ssss }}">#</a></span>
 								<span class="title">{{ subsubsubsection.title | safe }}</span>
+								{% if proposal %}
+								<span class="wrap-add"><span class="add-section" data-at="{{ c }}-{{ s }}-{{ ss }}-{{ sss }}-{{ ssss }}"></span></span>
+								{% endif %}
 							</li>
 							{% endfor %}
 						</ol>
