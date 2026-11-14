@@ -99,12 +99,14 @@ async function hydrate() {
 		const before = document.createElement('span');
 		const after = document.createElement('span');
 		const inside = document.createElement('span');
-		before.style.bottom = after.style.top = inside.style.left = '1rem';
 		before.innerText = '↑';
+		before.className = 'before';
 		before.addEventListener('click', () => onAddSectionClick(e, 'before'));
 		after.innerText = '↓';
+		after.className = 'after';
 		after.addEventListener('click', () => onAddSectionClick(e, 'after'));
 		inside.innerText = '→';
+		inside.className = 'inside';
 		inside.addEventListener('click', () => onAddSectionClick(e, 'inside'));
 		container.append(before, after, inside);
 		e.append(container);

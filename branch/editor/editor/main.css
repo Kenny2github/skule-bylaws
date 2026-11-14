@@ -8,13 +8,13 @@ textarea {
 	vertical-align: top;
 }
 h1 textarea {
-	width: calc(100% - 155px - 1rem);
+	width: calc(100% - 155px - 3rem);
 }
 h2 textarea {
-	width: calc(100% - 60px - 1rem);
+	width: calc(100% - 60px - 3rem);
 }
 li textarea {
-	width: calc(100% - 1rem);
+	width: calc(100% - 3rem);
 }
 .add-section {
 	color: gray;
@@ -38,7 +38,7 @@ ol li:hover > .wrap-add .add-section {
 .arrows {
 	position: absolute;
 	display: inline-block;
-	width: 1rem;
+	width: 3rem;
 	height: 1rem;
 }
 .arrows > span {
@@ -46,4 +46,14 @@ ol li:hover > .wrap-add .add-section {
 	display: inline-block;
 	width: 1rem;
 	height: 1rem;
+}
+.arrows > .before {
+	bottom: .5rem;
+}
+.arrows > .after {
+	top: .5rem;
+	left: -1rem;
+}
+.arrows > .inside {
+	left: -1rem;
 }
