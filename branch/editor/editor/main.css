@@ -8,13 +8,13 @@ textarea {
 	vertical-align: top;
 }
 h1 textarea {
-	width: calc(100% - 155px - 3rem);
+	width: calc(100% - 155px - 2rem);
 }
 h2 textarea {
-	width: calc(100% - 60px - 3rem);
+	width: calc(100% - 60px - 2rem);
 }
 li textarea {
-	width: calc(100% - 3rem);
+	width: calc(100% - 2rem);
 }
 .add-section {
 	color: gray;
@@ -32,28 +32,19 @@ h1 > .add-section {
 }
 h1:hover > .add-section,
 h2:hover > .wrap-add .add-section,
-ol li:hover > .wrap-add .add-section {
+ol li:hover:not(:has(ol:hover)) > .wrap-add .add-section {
 	visibility: visible;
 }
 .arrows {
 	position: absolute;
 	display: inline-block;
-	width: 3rem;
-	height: 1rem;
+	vertical-align: top;
+	width: 2rem;
+	height: 2rem;
 }
-.arrows > span {
+.arrows > button {
 	position: relative;
 	display: inline-block;
 	width: 1rem;
 	height: 1rem;
-}
-.arrows > .before {
-	bottom: .5rem;
-}
-.arrows > .after {
-	top: .5rem;
-	left: -1rem;
-}
-.arrows > .inside {
-	left: -1rem;
 }

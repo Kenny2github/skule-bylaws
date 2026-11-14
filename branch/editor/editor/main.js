@@ -96,19 +96,18 @@ async function hydrate() {
 	document.querySelectorAll('.add-section').forEach(e => {
 		const container = document.createElement('span');
 		container.className = 'arrows';
-		const before = document.createElement('span');
-		const after = document.createElement('span');
-		const inside = document.createElement('span');
-		before.innerText = '↑';
-		before.className = 'before';
+		const before = document.createElement('button');
+		const after = document.createElement('button');
+		const inside = document.createElement('button');
+		const remove = document.createElement('button');
+		before.innerText = '⬆️';
 		before.addEventListener('click', () => onAddSectionClick(e, 'before'));
-		after.innerText = '↓';
-		after.className = 'after';
+		after.innerText = '⬇️';
 		after.addEventListener('click', () => onAddSectionClick(e, 'after'));
-		inside.innerText = '→';
-		inside.className = 'inside';
+		inside.innerText = '➡️';
 		inside.addEventListener('click', () => onAddSectionClick(e, 'inside'));
-		container.append(before, after, inside);
+		remove.innerText = '🗑️';
+		container.append(before, after, inside, remove);
 		e.append(container);
 	});
 }
